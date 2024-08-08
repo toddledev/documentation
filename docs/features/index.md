@@ -1,30 +1,79 @@
-# Toddle Features
+---
+title: "Overview: Features (50-60 characters)"
+slug: "features-overview"
+description: "A comprehensive guide to Features in Toddle (150-160 characters)"
+category: "Features"
+date: "2024-08-06"
+author: "John Doe"
+contributors: ["Jane Smith", "Bob Johnson"]
+---
+
+# Features Overview
+
+## Introduction
 
 Welcome to the Features section of Toddle documentation. Here you'll find detailed information about all the capabilities that make Toddle powerful and flexible.
 
-## Core Features
+> [!NOTE]
+> This is an example of a note. Use notes to provide additional context or helpful information that's not critical to understanding the main content.
 
-- [Feature 1]: Brief description
-- [Feature 2]: Brief description
-- [Feature 3]: Brief description
+## In This Section
 
-## Advanced Features
+Here's what you'll find in the Features documentation:
 
-- [Advanced Feature 1]: Brief description
-- [Advanced Feature 2]: Brief description
+1. **[Core Features](#core-features)**
+   Brief description of the core features and their importance.
 
-## Integrations
+2. **[Advanced Features](#advanced-features)**
+   Explanation of advanced features and their relevance.
 
-- [Integration 1]: Brief description
-- [Integration 2]: Brief description
+3. **[Integrations](#integrations)**
+   Overview of available integrations and their benefits.
 
-## Coming Soon
+4. **[Coming Soon](#coming-soon)**
+   Information about upcoming features and developments.
 
-We're always working on improving Toddle. Here are some features we're currently developing:
+> [!IMPORTANT]
+> This is an example of an important message. Use this to highlight crucial information that users should be aware of.
 
-- [Upcoming Feature 1]
-- [Upcoming Feature 2]
+## Key Concepts
 
-For the most up-to-date information on our feature roadmap, check out our [public roadmap](https://discord.com/channels/972416966683926538/1155815532336005153).
+Highlight 2-3 key concepts that are central to understanding this section:
 
-If you have any questions about our features or would like to request a new feature, please [contact our support team](mailto:support@toddle.dev) or visit our [community discord](https://discord.com/invite/svBKYZf3UR).
+- **Concept 1**: Brief explanation
+- **Concept 2**: Brief explanation
+- **Concept 3**: Brief explanation
+
+> [!WARNING]
+> This is an example of a warning. Use warnings to alert users about potential pitfalls, dangerous actions, or important precautions.
+
+## Getting Started
+
+If applicable, provide a quick start guide or steps to get users started with this section's features:
+
+1. First step (with link to detailed article if necessary)
+2. Second step (with link to detailed article if necessary)
+3. Third step (with link to detailed article if necessary)
+
+## Common Use Cases
+
+List and briefly describe 2-3 common use cases for the features or concepts in this section:
+
+1. **Use Case 1**: Short description and link to relevant detailed article
+2. **Use Case 2**: Short description and link to relevant detailed article
+3. **Use Case 3**: Short description and link to relevant detailed article
+
+## Related Sections
+
+- [Getting Started](/getting-started)
+- [API Reference](/api-reference)
+- [Troubleshooting](/troubleshooting)
+
+## Further Resources
+
+- Link to relevant external resources, if any
+- Link to video tutorials or webinars, if available
+
+---
+
+Last updated: 2024-08-06

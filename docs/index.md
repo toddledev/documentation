@@ -11,8 +11,6 @@ Toddle is a powerful visual programming platform designed to revolutionize how s
 - [Getting Started](/getting-started): Begin your journey with Toddle
 - [Features](/features): Explore Toddle's capabilities
 - [Open Source](/open-source): Learn about our transition to open-source
-- [Troubleshooting](/troubleshooting): Solutions to common issues
-- [Developer Guide](/developer-guide): Resources for developers working with Toddle
 
 ## Exciting News: Toddle is Going Open-Source!
 
