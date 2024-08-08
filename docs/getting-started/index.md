@@ -65,9 +65,9 @@ List and briefly describe 2-3 common use cases for the features or concepts in t
 
 ## Related Sections
 
-- [Features](/features)
-- [API Reference](/api-reference)
-- [Troubleshooting](/troubleshooting)
+- [Features](../features/index.md)
+- [API Reference](../api-reference/index.md)
+- [Troubleshooting](../troubleshooting/index.md)
 
 ## Further Resources
 

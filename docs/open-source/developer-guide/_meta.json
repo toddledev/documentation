@@ -1,6 +1,5 @@
 {
-  "index": "Developer Guide Overview",
-  "getting-started": "Getting Started for Developers",
-  "architecture": "Toddle Architecture",
+  "index": "Open Source Overview",
+  "developer-guide": "Developer Guide",
   "contributing": "Contributing to Toddle"
 }

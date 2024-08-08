@@ -65,9 +65,9 @@ List and briefly describe 2-3 common use cases for the features or concepts in t
 
 ## Related Sections
 
-- [Getting Started](/getting-started)
-- [Features](/features)
-- [API Reference](/api-reference)
+- [Getting Started](../getting-started/index.md)
+- [Features](../features/index.md)
+- [API Reference](../api-reference/index.md)
 
 ## Further Resources
 

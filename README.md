@@ -26,7 +26,7 @@ We welcome contributions from our community! If you'd like to contribute to the 
 
 ## Feedback
 
-If you have any feedback or suggestions for improving our documentation, please [open an issue](https://github.com/toddle/documentation/issues/new) in this repository.
+If you have any feedback or suggestions for improving our documentation, please [open an issue](https://github.com/toddledev/documentation/issues/new) in this repository.
 
 ## License
 

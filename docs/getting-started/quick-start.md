@@ -29,10 +29,10 @@ This guide will help you get up and running with Toddle in just a few minutes.
 
 Congratulations! You've completed the quick start guide. Here are some suggestions for what to do next:
 
-- Explore more [advanced features](/features)
-- Check out our [tutorials and guides](/tutorials)
+- Explore more [advanced features](../features/index.md)
+- Check out our [tutorials and guides](../tutorials/index.md)
 - Join our [community discord](https://discord.com/invite/svBKYZf3UR) to connect with other users
 
-If you have any questions or run into any issues, don't hesitate to check our [Troubleshooting](/troubleshooting) guide or [contact support](mailto:andreas@toddle.dev).
+If you have any questions or run into any issues, don't hesitate to check our [Troubleshooting](../troubleshooting/index.md) guide or [contact support](mailto:andreas@toddle.dev).
 
 Happy Toddling!
