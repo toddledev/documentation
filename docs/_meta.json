@@ -2,8 +2,9 @@
   "nav": [
     {
       "title": "Home",
-      "slug": "index",
+      "slug": "",
       "link": "/"
+      "children": []
     },
     {
       "title": "Getting Started",
