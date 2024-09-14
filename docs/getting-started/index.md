@@ -65,9 +65,9 @@ List and briefly describe 2-3 common use cases for the features or concepts in t
 
 ## Related Sections
 
-- [Features](../features/index.md)
-- [API Reference](../api-reference/index.md)
-- [Troubleshooting](../troubleshooting/index.md)
+- [Getting Started](/getting-started): Begin your journey with Toddle
+- [Features](/features): Explore Toddle's capabilities
+- [Open Source](/open-source): Learn about our transition to open-source
 
 ## Further Resources
 

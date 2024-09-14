@@ -1,6 +1,46 @@
 {
-  "index": "Home",
-  "getting-started": "Getting Started",
-  "features": "Features",
-  "open-source": "Open Source"
+  "nav": [
+    {
+      "title": "Home",
+      "slug": "index",
+      "link": "/"
+    },
+    {
+      "title": "Getting Started",
+      "slug": "getting-started",
+      "link": "/getting-started",
+      "children": [
+        {
+          "title": "Quick Start Guide",
+          "slug": "quick-start",
+          "link": "/getting-started/quick-start"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "slug": "features",
+      "link": "/features",
+      "children": []
+    },
+    {
+      "title": "Open Source",
+      "slug": "open-source",
+      "link": "/open-source",
+      "children": [
+        {
+          "title": "Developer Guide",
+          "slug": "developer-guide",
+          "link": "/open-source/developer-guide",
+          "children": [
+            {
+              "title": "Contributing",
+              "slug": "contributing",
+              "link": "/open-source/developer-guide/contributing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
