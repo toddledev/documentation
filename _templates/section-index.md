@@ -14,7 +14,7 @@ contributors: ["Jane Smith", "Bob Johnson"]
 
 Brief introduction to this section of the documentation. Explain what users will find in this section and why it's important.
 
-> [!NOTE]
+> #### Note
 > This is an example of a note. Use notes to provide additional context or helpful information that's not critical to understanding the main content.
 
 ## In This Section
@@ -27,7 +27,7 @@ Here's what you'll find in the [Section Name] documentation:
 2. **[Topic 2 Title](https://docs.toddle.dev/section-name/topic-2-slug)**
    Concise explanation of this topic's content and its relevance to users.
 
-> [!IMPORTANT]
+> #### Important
 > This is an example of an important message. Use this to highlight crucial information that users should be aware of.
 
 3. **[Topic 3 Title](https://docs.toddle.dev/section-name/topic-3-slug)**
@@ -44,7 +44,7 @@ Highlight 2-3 key concepts that are central to understanding this section:
 - **Concept 2**: Brief explanation
 - **Concept 3**: Brief explanation
 
-> [!WARNING]
+> #### Warning
 > This is an example of a warning. Use warnings to alert users about potential pitfalls, dangerous actions, or important precautions.
 
 ## Getting Started

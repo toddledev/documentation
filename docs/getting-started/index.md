@@ -14,7 +14,7 @@ contributors: ["Toddle Team", "Chris Laupama"]
 
 Welcome to Toddle! This section will guide you through the essential steps to begin your journey with our powerful web application builder. Whether you're a seasoned developer or new to web development, Toddle provides an intuitive platform to bring your ideas to life quickly and efficiently.
 
-> [!NOTE]
+> #### Note
 > Toddle is designed to be user-friendly, but it's packed with powerful features. Take your time to explore each step, and don't hesitate to experiment!
 
 ## In This Section
@@ -27,7 +27,7 @@ Here's what you'll find in the Getting Started documentation:
 2. **[Creating a Project](https://docs.toddle.dev/getting-started/creating-a-project)**
    Learn how to set up your first Toddle project and understand the project structure.
 
-> [!IMPORTANT]
+> #### Important
 > Understanding the project structure is crucial for efficiently managing your Toddle applications as they grow in complexity.
 
 3. **[The Toddle Editor](https://docs.toddle.dev/getting-started/toddle-editor)**
@@ -47,7 +47,7 @@ To get the most out of Toddle, familiarize yourself with these key concepts:
 - **Components**: Reusable building blocks that make up your application's interface and functionality.
 - **Workflows**: Visual representations of your application's logic and data flow.
 
-> [!WARNING]
+> #### Warning
 > While Toddle makes web development accessible, it's important to understand basic web concepts like HTML, CSS, and JavaScript to fully leverage its capabilities.
 
 ## Getting Started

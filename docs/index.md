@@ -14,7 +14,7 @@ contributors: ["Toddle Team", "Chris Laupama"]
 
 Welcome to the official documentation for Toddle! Here you'll find comprehensive guides and documentation to help you start working with Toddle as quickly as possible, as well as support if you get stuck. Let's dive in and explore how Toddle can revolutionize your web development process.
 
-> [!NOTE]
+> #### Note
 > Toddle is constantly evolving. Make sure to check back regularly for the latest updates and features!
 
 ## What is Toddle?
@@ -26,7 +26,7 @@ Toddle is a powerful visual programming platform designed to revolutionize how s
 - Collaborate with team members in real-time
 - Deploy your applications with ease
 
-> [!IMPORTANT]
+> #### Important
 > Toddle is going open-source! This exciting move will empower our community and revolutionize how we build software for the web. [Learn more about Toddle's journey to open-source](https://toddle.dev/blog/toddle-is-soon-open-source)
 
 ## Main Sections
@@ -51,7 +51,7 @@ Our documentation is organized into the following main sections:
 6. **[Deployment and Production](/deployment-and-production)**
    Get your Toddle app ready for the world with our deployment and production guides.
 
-> [!WARNING]
+> #### Warning
 > While Toddle makes web development accessible, it's important to understand basic web concepts to fully leverage its capabilities.
 
 ## Quick Start
