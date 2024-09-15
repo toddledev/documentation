@@ -3,19 +3,7 @@
     {
       "title": "Home",
       "slug": "",
-      "link": "/",
-      "children": [
-        {
-          "title": "Test 1",
-          "slug": "quick-start",
-          "link": "/getting-started/quick-start"
-        },
-        {
-          "title": "Test 2",
-          "slug": "quick-start",
-          "link": "/getting-started/quick-start"
-        }
-      ]
+      "link": "/"
     },
     {
       "title": "Getting Started",
@@ -26,33 +14,58 @@
           "title": "Quick Start Guide",
           "slug": "quick-start",
           "link": "/getting-started/quick-start"
+        },
+        {
+          "title": "Creating a Project",
+          "slug": "creating-a-project",
+          "link": "/getting-started/creating-a-project"
+        },
+        {
+          "title": "The Toddle Editor",
+          "slug": "toddle-editor",
+          "link": "/getting-started/toddle-editor"
+        },
+        {
+          "title": "Edit Your Application",
+          "slug": "edit-application",
+          "link": "/getting-started/edit-application"
+        },
+        {
+          "title": "Preview and Publish",
+          "slug": "preview-and-publish",
+          "link": "/getting-started/preview-and-publish"
         }
       ]
     },
     {
-      "title": "Features",
-      "slug": "features",
-      "link": "/features",
+      "title": "Core Concepts",
+      "slug": "core-concepts",
+      "link": "/core-concepts",
       "children": []
     },
     {
-      "title": "Open Source",
-      "slug": "open-source",
-      "link": "/open-source",
-      "children": [
-        {
-          "title": "Developer Guide",
-          "slug": "developer-guide",
-          "link": "/open-source/developer-guide",
-          "children": [
-            {
-              "title": "Contributing",
-              "slug": "contributing",
-              "link": "/open-source/developer-guide/contributing"
-            }
-          ]
-        }
-      ]
+      "title": "Data Integration",
+      "slug": "data-integration",
+      "link": "/data-integration",
+      "children": []
+    },
+    {
+      "title": "Interactivity and Logic",
+      "slug": "interactivity-and-logic",
+      "link": "/interactivity-and-logic",
+      "children": []
+    },
+    {
+      "title": "Extending Toddle",
+      "slug": "extending-toddle",
+      "link": "/extending-toddle",
+      "children": []
+    },
+    {
+      "title": "Deployment and Production",
+      "slug": "deployment-and-production",
+      "link": "/deployment-and-production",
+      "children": []
     }
   ]
 }
