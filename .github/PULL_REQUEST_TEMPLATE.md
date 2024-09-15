@@ -21,7 +21,7 @@ Please delete options that are not relevant.
 - [ ] My changes generate no new warnings
 - [ ] I have checked my changes and corrected any misspellings
 - [ ] I have updated any necessary cross-references or links
-- [ ] I have updated the relevant \_meta.json files if I've added new pages or modified the structure
+- [ ] I have updated the \_meta.json file if I've added new pages or modified the structure
 - [ ] I have ensured that my new or updated content is correctly referenced in the parent \_meta.json file
 
 ## Additional context
@@ -30,7 +30,7 @@ Add any other context or screenshots about the pull request here.
 
 ## \_meta.json changes (if applicable)
 
-If you've made changes to any \_meta.json files, please provide a brief description of the changes here:
+If you've made changes to any \_meta.json file, please provide a brief description of the changes here:
 
 ```json
 // Example of _meta.json changes
