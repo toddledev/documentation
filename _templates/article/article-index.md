@@ -22,25 +22,19 @@ Content for subsection...
 
 ## Callouts
 
-We can use HTML comments to create callout-style blocks:
+We can use markdown-based callouts for different types of information:
 
-<!-- INFO -->
+> #### Note
+>
+> This is an informational callout. Use it for general notes and information.
 
-**Note:** This is an informational callout. Use it for general notes and information.
+> #### Warning
+>
+> This is a warning callout. Use it to warn users about potential issues or important considerations.
 
-<!-- /INFO -->
-
-<!-- WARNING -->
-
-**Warning:** This is a warning callout. Use it to warn users about potential issues or important considerations.
-
-<!-- /WARNING -->
-
-<!-- ERROR -->
-
-**Error:** This is an error callout. Use it to highlight critical issues or errors that users must avoid.
-
-<!-- /ERROR -->
+> #### Error
+>
+> This is an error callout. Use it to highlight critical issues or errors that users must avoid.
 
 ## Examples
 

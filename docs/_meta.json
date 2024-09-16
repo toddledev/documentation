@@ -1,6 +1,71 @@
 {
-  "index": "Home",
-  "getting-started": "Getting Started",
-  "features": "Features",
-  "open-source": "Open Source"
+  "nav": [
+    {
+      "title": "Home",
+      "slug": "",
+      "link": "/"
+    },
+    {
+      "title": "Getting Started",
+      "slug": "getting-started",
+      "link": "/getting-started",
+      "children": [
+        {
+          "title": "Quick Start Guide",
+          "slug": "quick-start",
+          "link": "/getting-started/quick-start-guide"
+        },
+        {
+          "title": "Creating a Project",
+          "slug": "creating-a-project",
+          "link": "/getting-started/creating-a-project"
+        },
+        {
+          "title": "The Toddle Editor",
+          "slug": "toddle-editor",
+          "link": "/getting-started/toddle-editor"
+        },
+        {
+          "title": "Edit Your Application",
+          "slug": "edit-application",
+          "link": "/getting-started/edit-application"
+        },
+        {
+          "title": "Preview and Publish",
+          "slug": "preview-and-publish",
+          "link": "/getting-started/preview-and-publish"
+        }
+      ]
+    },
+    {
+      "title": "Core Concepts",
+      "slug": "core-concepts",
+      "link": "/core-concepts",
+      "children": []
+    },
+    {
+      "title": "Data Integration",
+      "slug": "data-integration",
+      "link": "/data-integration",
+      "children": []
+    },
+    {
+      "title": "Interactivity and Logic",
+      "slug": "interactivity-and-logic",
+      "link": "/interactivity-and-logic",
+      "children": []
+    },
+    {
+      "title": "Extending Toddle",
+      "slug": "extending-toddle",
+      "link": "/extending-toddle",
+      "children": []
+    },
+    {
+      "title": "Deployment and Production",
+      "slug": "deployment-and-production",
+      "link": "/deployment-and-production",
+      "children": []
+    }
+  ]
 }
