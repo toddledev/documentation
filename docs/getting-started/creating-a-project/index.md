@@ -65,3 +65,58 @@ Now that you've created your project, you're ready to start building! Here are s
 ---
 
 Last updated: 2023-06-15
+
+
+
+
+
+
+# Documentation | Creating a project | Getting started
+Stop scrolling. Start building.
+-------------------------------
+
+toddle is a visual web app builder that rivals custom code — but accessible to your entire team!
+
+[Try toddle — it's free!](https://toddle.dev/signup)
+
+[![The two toddle Co-Founders Andreas and Kasper](https://toddle.dev/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/toddle:toddle_co-founders_1/720)
+
+Chat with @team-toddle
+----------------------
+
+](https://discord.gg/svBKYZf3UR "Chat with @team-toddle")[![CEO and Co-Founder of toddle Andreas Møller](https://toddle.dev/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/toddle:co-founder_andreas_2/720)
+
+Video call our CEO
+------------------
+
+](https://toddle.dev/callourceo "Video call our CEO")[
+
+Hello, toddle!
+
+Get in touch!
+-------------
+
+](https://toddle.dev/contact "Write us!")
+
+### Product
+
+[Pricing](https://toddle.dev/pricing "Pricing") [Packages](https://toddle.dev/packages "Packages") [T&Cs](https://toddle.dev/terms "Terms and conditions") [Privacy Policy](https://toddle.dev/privacy-policy "Privacy policy")
+
+### Company
+
+[Press kit](https://toddle.dev/press-kit/ "Press kit") [Contact  
+](https://toddle.dev/contact "Contact")[Become partner](https://toddle.dev/partner-program "Become partner")
+
+### Resources
+
+[Documentation](https://toddle.dev/docs "Documentation") [Academy](https://toddle.dev/academy "Academy") [Integrations](https://toddle.dev/integrations "Integrations") [Blog](https://toddle.dev/blog "Blog") [Founder stories](https://toddle.dev/founder-stories "Founder Stories") [Hire experts](https://toddle.dev/partners "Hire experts")
+
+### Community
+
+[Discord](https://discord.com/invite/svBKYZf3UR "Discord") [LinkedIn](https://www.linkedin.com/company/toddledev "Linkedin") [X](https://x.com/toddledev "X") [YouTube](https://youtube.com/@toddledev "YouTube")
+
+Server-side rendered Installable PWAs Connect to any database As performant as code toddle is built in toddle undefined undefined undefined undefined undefined
+
+undefined Style tokens Export as web components No feature limits Connec to any API Extend with code undefined undefined undefined undefined
+
+© Copyright 2024 toddle. All rights reserved.
