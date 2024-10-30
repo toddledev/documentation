@@ -1,11 +1,3 @@
----
-title: "Create an app in toddle"
-slug: "create-project"
-description: "Learn how to create a new app in toddle and understand the project structure."
-category: "Getting Started"
-date: "2023-06-15"
----
-
 # Create an app in toddle
 
 This guide will teach you how to create a new app in toddle and help you understand the project structure.
