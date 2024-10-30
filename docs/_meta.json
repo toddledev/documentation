@@ -6,57 +6,57 @@
       "link": "/"
     },
     {
-      "title": "Getting Started",
-      "slug": "getting-started",
-      "link": "/getting-started",
+      "title": "Get started",
+      "slug": "get-started",
+      "link": "/get-started",
       "children": [
         {
-          "title": "Quick Start Guide",
+          "title": "Quick start guide",
           "slug": "quick-start",
           "link": "/getting-started/quick-start-guide"
         },
         {
-          "title": "Creating a Project",
-          "slug": "creating-a-project",
-          "link": "/getting-started/creating-a-project"
+          "title": "Create a project",
+          "slug": "create-a-project",
+          "link": "/get-started/create-a-project"
         },
         {
-          "title": "The Toddle Editor",
-          "slug": "toddle-editor",
-          "link": "/getting-started/toddle-editor"
+          "title": "The toddle editor",
+          "slug": "the-toddle-editor",
+          "link": "/get-started/the-toddle-editor"
         },
         {
-          "title": "Edit Your Application",
+          "title": "Edit your app",
           "slug": "edit-application",
-          "link": "/getting-started/edit-application"
+          "link": "/get-started/edit-your-app"
         },
         {
-          "title": "Preview and Publish",
+          "title": "Preview and publish",
           "slug": "preview-and-publish",
-          "link": "/getting-started/preview-and-publish"
+          "link": "/get-started/preview-and-publish"
         }
       ]
     },
     {
-      "title": "Core Concepts",
+      "title": "Core concepts",
       "slug": "core-concepts",
       "link": "/core-concepts",
       "children": []
     },
     {
-      "title": "Data Integration",
+      "title": "Data integration",
       "slug": "data-integration",
       "link": "/data-integration",
       "children": []
     },
     {
-      "title": "Interactivity and Logic",
+      "title": "Interactivity and logic",
       "slug": "interactivity-and-logic",
       "link": "/interactivity-and-logic",
       "children": []
     },
     {
-      "title": "Extending Toddle",
+      "title": "Extend toddle",
       "slug": "extending-toddle",
       "link": "/extending-toddle",
       "children": []
