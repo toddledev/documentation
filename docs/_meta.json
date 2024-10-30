@@ -8,17 +8,17 @@
     {
       "title": "Get started",
       "slug": "get-started",
-      "link": "/get-started",
+      "link": "/get-started/index",
       "children": [
         {
           "title": "Quick start guide",
           "slug": "quick-start",
-          "link": "/getting-started/quick-start-guide"
+          "link": "/get-started/quick-start-guide"
         },
         {
-          "title": "Create a project",
-          "slug": "create-a-project",
-          "link": "/get-started/create-a-project"
+          "title": "Create an app in toddle",
+          "slug": "create-an-app-in-toddle",
+          "link": "/get-started/create-an-app-in-toddle"
         },
         {
           "title": "The toddle editor",
