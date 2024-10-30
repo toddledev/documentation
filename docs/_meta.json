@@ -8,63 +8,63 @@
     {
       "title": "Get started",
       "slug": "get-started",
-      "link": "docs/get-started/index",
+      "link": "/docs/get-started/index",
       "children": [
         {
           "title": "Quick start guide",
           "slug": "quick-start",
-          "link": "docs/get-started/quick-start-guide"
+          "link": "/docs/get-started/quick-start-guide"
         },
         {
           "title": "Create an app in toddle",
           "slug": "create-an-app-in-toddle",
-          "link": "docs/get-started/create-an-app-in-toddle"
+          "link": "/docs/get-started/create-an-app-in-toddle"
         },
         {
           "title": "The toddle editor",
           "slug": "the-toddle-editor",
-          "link": "docs/get-started/the-toddle-editor"
+          "link": "/docs/get-started/the-toddle-editor"
         },
         {
           "title": "Edit your app",
           "slug": "edit-application",
-          "link": "docs/get-started/edit-your-app"
+          "link": "/docs/get-started/edit-your-app"
         },
         {
           "title": "Preview and publish",
           "slug": "preview-and-publish",
-          "link": "docs/get-started/preview-and-publish"
+          "link": "/docs/get-started/preview-and-publish"
         }
       ]
     },
     {
       "title": "Core concepts",
       "slug": "core-concepts",
-      "link": "docs/core-concepts",
+      "link": "/docs/core-concepts",
       "children": []
     },
     {
       "title": "Data integration",
       "slug": "data-integration",
-      "link": "docs/data-integration",
+      "link": "/docs/data-integration",
       "children": []
     },
     {
       "title": "Interactivity and logic",
       "slug": "interactivity-and-logic",
-      "link": "docs/interactivity-and-logic",
+      "link": "/docs/interactivity-and-logic",
       "children": []
     },
     {
       "title": "Extend toddle",
       "slug": "extending-toddle",
-      "link": "docs/extending-toddle",
+      "link": "/docs/extending-toddle",
       "children": []
     },
     {
       "title": "Deployment and Production",
       "slug": "deployment-and-production",
-      "link": "docs/deployment-and-production",
+      "link": "/docs/deployment-and-production",
       "children": []
     }
   ]
