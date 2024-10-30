@@ -1,13 +1,3 @@
----
-title: "Quick Start Guide: Build Your First Toddle App"
-slug: "quick-start"
-description: "Get started with Toddle in minutes: Create, edit, and publish your first web application"
-category: "Getting Started"
-date: "2023-06-15"
-author: "Toddle Team"
-contributors: ["Toddle Team", "Chris Laupama"]
----
-
 # Quick Start Guide: Build Your First Toddle App
 
 Brief introduction to the quick start process.
