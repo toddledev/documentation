@@ -1,30 +1,16 @@
----
-title: "Getting Started with Toddle: Your First Steps"
-slug: "getting-started"
-description: "Begin your journey with Toddle: Learn to create, edit, and publish web applications in minutes"
-category: "Getting Started"
-date: "2023-06-15"
-author: "Toddle Team"
-contributors: ["Toddle Team", "Chris Laupama"]
----
+# Get started with toddle
 
-# Getting Started with Toddle
-
-## Introduction
-
-Welcome to Toddle! This section will guide you through the essential steps to begin your journey with our powerful web application builder. Whether you're a seasoned developer or new to web development, Toddle provides an intuitive platform to bring your ideas to life quickly and efficiently.
+You are about to learn a new web framework. As with many other frameworks it will bring you many benefits and help you do things faster and better, but most notably in a new and different way. It takes time to learn new things, and toddle is no different. This section will guide you through the essential steps to begin your journey with the visual web framework. Whether you're a seasoned developer or new to web development, you'll find resources to help you hone the new tool in your web development toolkit.
 
 > #### Note
-> Toddle is designed to be user-friendly, but it's packed with powerful features. Take your time to explore each step, and don't hesitate to experiment!
+> While toddle is designed to be user-friendly, it's packed with powerful features and may seem daunting. Take your time to explore each step, and don't hesitate to experiment!
 
-## In This Section
+## In this section you'll find:
 
-Here's what you'll find in the Getting Started documentation:
+1. **[A quick start guide](https://docs.toddle.dev/get-started/quick-start)**
+   Get up and running with toddle in just a few minutes. Perfect for those who want to dive right in!
 
-1. **[Quick Start Guide](https://docs.toddle.dev/getting-started/quick-start)**
-   Get up and running with Toddle in just a few minutes. Perfect for those who want to dive right in!
-
-2. **[Creating a Project](https://docs.toddle.dev/getting-started/creating-a-project)**
+2. **[Create a Project](https://docs.toddle.dev/getting-started/creating-a-project)**
    Learn how to set up your first Toddle project and understand the project structure.
 
 > #### Important
