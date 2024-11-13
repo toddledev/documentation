@@ -103,71 +103,73 @@
           "title": "The style panel",
           "slug": "the-style-panel",
           "link": "/docs/build-in-toddle/the-style-panel"
-        },
-        {
-          "title": "Style variables",
-          "slug": "style-variables",
-          "link": "/docs/build-in-toddle/style-variables"
-        },
-        {
-          "title": "Conditional styling",
-          "slug": "conditional-styling",
-          "link": "/docs/build-in-toddle/conditional-styling"
-        },
-        {
-          "title": "The CSS editor",
-          "slug": "the-css-editor",
-          "link": "/docs/build-in-toddle/the-css-editor"
-        },
-        {
-          "title": "Size",
-          "slug": "size",
-          "link": "/docs/build-in-toddle/size"
-        },
-        {
-          "title": "Placement",
-          "slug": "placement",
-          "link": "/docs/build-in-toddle/the-style-panel"
-        },
-        {
-          "title": "Layout",
-          "slug": "layout",
-          "link": "/docs/build-in-toddle/style-variables"
-        },
-        {
-          "title": "Background",
-          "slug": "background",
-          "link": "/docs/build-in-toddle/background"
-        },
-        {
-          "title": "Border",
-          "slug": "border",
-          "link": "/docs/build-in-toddle/border"
-        },
-        {
-          "title": "Outline",
-          "slug": "outline",
-          "link": "/docs/build-in-toddle/outline"
-        },
-        {
-          "title": "Shadow",
-          "slug": "shadow",
-          "link": "/docs/build-in-toddle/shadow"
-        },
-        {
-          "title": "Transform",
-          "slug": "transform",
-          "link": "/docs/build-in-toddle/transform"
-        },
-        {
-          "title": "Effects",
-          "slug": "effects",
-          "link": "/docs/build-in-toddle/effects"
-        },
-        {
-          "title": "Transition",
-          "slug": "transition",
-          "link": "/docs/build-in-toddle/transition"
+          "children": [
+            {
+              "title": "Style variables",
+              "slug": "style-variables",
+              "link": "/docs/build-in-toddle/style-variables"
+            },
+            {
+              "title": "Conditional styling",
+              "slug": "conditional-styling",
+              "link": "/docs/build-in-toddle/conditional-styling"
+            },
+            {
+              "title": "The CSS editor",
+              "slug": "the-css-editor",
+              "link": "/docs/build-in-toddle/the-css-editor"
+            },
+            {
+              "title": "Size",
+              "slug": "size",
+              "link": "/docs/build-in-toddle/size"
+            },
+            {
+              "title": "Placement",
+              "slug": "placement",
+              "link": "/docs/build-in-toddle/the-style-panel"
+            },
+            {
+              "title": "Layout",
+              "slug": "layout",
+              "link": "/docs/build-in-toddle/style-variables"
+            },
+            {
+              "title": "Background",
+              "slug": "background",
+              "link": "/docs/build-in-toddle/background"
+            },
+            {
+              "title": "Border",
+              "slug": "border",
+              "link": "/docs/build-in-toddle/border"
+            },
+            {
+              "title": "Outline",
+              "slug": "outline",
+              "link": "/docs/build-in-toddle/outline"
+            },
+            {
+              "title": "Shadow",
+              "slug": "shadow",
+              "link": "/docs/build-in-toddle/shadow"
+            },
+            {
+              "title": "Transform",
+              "slug": "transform",
+              "link": "/docs/build-in-toddle/transform"
+            },
+            {
+              "title": "Effects",
+              "slug": "effects",
+              "link": "/docs/build-in-toddle/effects"
+            },
+            {
+              "title": "Transition",
+              "slug": "transition",
+              "link": "/docs/build-in-toddle/transition"
+            }
+          ]
         },
         {
           "title": "Create a component",
