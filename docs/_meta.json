@@ -12,7 +12,7 @@
       "children": [
         {
           "title": "Quick start guide",
-          "slug": "quick-start",
+          "slug": "quick-start-guide",
           "link": "/docs/get-started/quick-start-guide"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
           "title": "Edit your app",
-          "slug": "edit-application",
+          "slug": "edit-your-app",
           "link": "/docs/get-started/edit-your-app"
         },
         {
