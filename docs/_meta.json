@@ -1,12 +1,7 @@
 {
   "nav": [
     {
-      "title": "DOCUMENTATION",
-      "slug": "",
-      "link": "/"
-    },
-    {
-      "title": "GET STARTED",
+      "title": "Get started",
       "slug": "get-started",
       "link": "/docs/get-started/index",
       "children": [
@@ -48,7 +43,7 @@
       ]
     },
     {
-      "title": "THE TODDLE EDITOR",
+      "title": "The toddle editor",
       "slug": "the-toddle-editor",
       "link": "/docs/the-toddle-editor",
       "children": [
@@ -80,7 +75,7 @@
       ]
     },
     {
-      "title": "BUILD IN TODDLE",
+      "title": "Build in toddle",
       "slug": "build-in-toddle",
       "link": "/docs/build-in-toddle",
       "children": [
@@ -202,7 +197,7 @@
       ]
     },
     {
-      "title": "CORE CONCEPTS",
+      "title": "Core concepts",
       "slug": "core-concepts",
       "link": "/docs/core-concepts",
       "children": []
