@@ -25,8 +25,16 @@ Here is how to get started:
 - Click **Publish** to deploy the application.  
 - Share the live link for others to access.
 
+Congratulations! You just published your first web application.
+
 Toddle is a complex tool that gives you the flexibility of React and the performance of the best performing web frameworks. It's a professional tool and as with everything good, it takes time to learn. You can significantly shorten the time to learn by heading to the [toddle academy](https://toddle.dev/academy) or follow some of the many live build sessions from the [YouTube channel](https://www.youtube.com/@toddledev).
 
 The absolute fastest way to learn toddle is to watch the video series [The first week in toddle](https://toddle.dev/academy/the-first-week-in-toddle?video=UWFBhHtU2Eo)
+
+## Next Steps
+
+- Explore the [Toddle Editor](/the-toddle-editor) in depth
+- Learn about [Components](/core-concepts/components) for reusable elements
+- Learn how to [Integrate data](/integrate-data/set-up-an-api-call) to add dynamic content
 
 Happy building!
