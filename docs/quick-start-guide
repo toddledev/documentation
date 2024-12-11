@@ -1,0 +1,32 @@
+# Quick Start Guide for Toddle.dev
+You are about to learn a new programming language, and while that may seem overwhelming, it's not. 
+Toddle is built on the web platform and adheres to the same standards. That means if you know HTML, CSS, and JavaScript, you already know toddle. 
+The average time to learn toddle ranges between 2 hours for a software developer and 2 months for someone with no technical background. 
+
+Here is how to get started: 
+
+## 1. Sign Up & Log In  
+- Visit [toddle.dev/signup](https://toddle.dev/signup).  
+- Create an account and log in to access the platform.
+
+## 2. Create a New Project  
+- From the dashboard, click **New Project**.  
+- Choose a template or start with a blank canvas.
+
+## 3. Build Your App  
+- Use the **Visual Editor** to create pages, components and design your app.  
+- You can also add logic, fetch data, and create interactions.
+
+## 4. Preview Your App  
+- Click the **Preview** button in the bottom bar.  
+- Test the app live and share the preview URL.
+
+## 5. Publish Your App  
+- Click **Publish** to deploy the application.  
+- Share the live link for others to access.
+
+Toddle is a complex tool that gives you the flexibility of React and the performance of the best performing web frameworks. It's a professional tool and as with everything good, it takes time to learn. You can significantly shorten the time to learn by heading to the [toddle academy](https://toddle.dev/academy) or follow some of the many live build sessions from the [YouTube channel](https://www.youtube.com/@toddledev).
+
+The absolute fastest way to learn toddle is to watch the video series [The first week in toddle](https://toddle.dev/academy/the-first-week-in-toddle?video=UWFBhHtU2Eo)
+
+Happy building!
