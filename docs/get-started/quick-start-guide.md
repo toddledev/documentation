@@ -1,6 +1,9 @@
-# Quick Start Guide: Build Your First Toddle App
+# Quick Start Guide for Toddle.dev
+You are about to learn a new programming language, and while that may seem overwhelming, it's not. 
+Toddle is built on the web platform and adheres to the same standards. That means if you know HTML, CSS, and JavaScript, you already know toddle. 
+The average time to learn toddle ranges between 2 hours for a software developer and 2 months for someone with no technical background. 
 
-Brief introduction to the quick start process.
+Here is how to get started: 
 
 ## Step 1: Sign Up and Create a Project
 
@@ -41,18 +44,16 @@ Take a moment to explore the Toddle editor:
 2. Add a description of your changes.
 3. Click "Publish" to make your app live.
 
-<!-- INFO -->
+**Note:** Congratulations! You just published your first toddle app. From here, you can continue to add more elements, styling, and functionality to build out your application.
 
-**Note:** Congratulations! You've just created and published your first Toddle app. From here, you can continue to add more elements, styling, and functionality to build out your application.
+Toddle is a complex tool that gives you the flexibility of React and the performance of the best fastest web frameworks. It's a professional tool and as with everything good, it takes time to learn. You can significantly shorten the time to learn by heading to the [toddle academy](https://toddle.dev/academy) or follow some of the many live build sessions from the [YouTube channel](https://www.youtube.com/@toddledev).
 
-<!-- /INFO -->
+The absolute fastest way to learn toddle is to watch the video series [The first week in toddle](https://toddle.dev/academy/the-first-week-in-toddle?video=UWFBhHtU2Eo)
 
 ## Next Steps
 
-- Explore the [Toddle Editor](/getting-started/toddle-editor) in depth
+- Explore the [Toddle Editor](/the-toddle-editor) in depth
 - Learn about [Components](/core-concepts/components) for reusable elements
-- Dive into [Data Management](/core-concepts/data-management) to add dynamic content
+- Learn how to [Integrate data](/integrate-data/set-up-an-api-call) to add dynamic content
 
----
-
-Last updated: 2023-06-15
+Happy building!
