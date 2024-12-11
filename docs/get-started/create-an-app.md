@@ -1,4 +1,4 @@
-# Create an app in toddle
+# Create an app
 
 This guide will teach you how to create a new app in toddle and help you understand the project structure.
 
