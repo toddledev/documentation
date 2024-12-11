@@ -15,4 +15,4 @@ Head over to the ![Academy]([https?](https://toddle.dev/academy/the-first-week-i
 - Video 4: [Build a Blackjack game](https://toddle.dev/academy/the-first-week-in-toddle?video=Zf-doUAPlb0) (1h15m)
 - Video 5: [Build a dashboard](https://toddle.dev/academy/the-first-week-in-toddle?video=TC5aPHoNwEk) (57m)
 
-  Happy building!
+Happy building!
