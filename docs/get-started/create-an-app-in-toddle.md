@@ -5,6 +5,7 @@ This guide will teach you how to create a new app in toddle and help you underst
 ## Create a new app
 
 1. Log in to your toddle account at [toddle.dev](https://toddle.dev/login).
+
 When logged in, you'll see all your projects and two buttons at the top, "New app" and "New package." Click the button that says "New app."
 ![Create a new app](https://github.com/user-attachments/assets/3a29142d-48e2-4b7b-8885-ceb1eec66b54)
 
