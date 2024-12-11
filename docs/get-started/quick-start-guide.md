@@ -1,4 +1,4 @@
-# Quick Start Guide for Toddle.dev
+# Quick Start Guide
 You are about to learn a new programming language, and while that may seem overwhelming, it's not. 
 Toddle is built on the web platform and adheres to the same standards. That means if you know HTML, CSS, and JavaScript, you already know toddle. 
 The average time to learn toddle ranges between 2 hours for a software developer and 2 months for someone with no technical background. 
