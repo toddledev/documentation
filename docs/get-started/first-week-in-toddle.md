@@ -16,3 +16,8 @@ Head over to the [Academy]([https?](https://toddle.dev/academy/the-first-week-in
 - Video 5: [Build a dashboard](https://toddle.dev/academy/the-first-week-in-toddle?video=TC5aPHoNwEk) (57m)
 
 Happy building!
+
+
+
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/dQw4w9WgXcQ)](https://youtu.be/dQw4w9WgXcQ)
