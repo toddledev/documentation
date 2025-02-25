@@ -227,3 +227,20 @@ Subscript: H~2~O
 ### Mark (highlight)
 
 ==highlighted text==
+
+# Custom
+
+::: tip
+Directus (_duh REKT iss_) is Latin for: _laid straight, arranged in lines_.\
+The broadest goal of our platform is to present data in a simple, orderly, and intuitive way.
+:::
+
+::: dev
+Directus (_duh REKT iss_) is Latin for: _laid straight, arranged in lines_.\
+The broadest goal of our platform is to present data in a simple, orderly, and intuitive way.
+:::
+
+::: warning
+Directus (_duh REKT iss_) is Latin for: _laid straight, arranged in lines_.\
+The broadest goal of our platform is to present data in a simple, orderly, and intuitive way.
+:::
