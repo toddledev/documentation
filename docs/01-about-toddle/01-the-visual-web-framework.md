@@ -231,12 +231,15 @@ Subscript: H~2~O
 # Custom
 
 ::: dev
-This is basically a pure JavaScript function without any fuzz
+This is basically a pure JavaScript function without any fuzz:::
+:::
 
 ::: tip
 Directus (_duh REKT iss_) is Latin for: _laid straight, arranged in lines_.\
 The broadest goal of our platform is to present data in a simple, orderly, and intuitive way.
+:::
 
 ::: warning
 Directus (_duh REKT iss_) is Latin for: _laid straight, arranged in lines_.\
 The broadest goal of our platform is to present data in a simple, orderly, and intuitive way.
+:::
