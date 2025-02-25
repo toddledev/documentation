@@ -93,7 +93,7 @@ https://www.example.com or <https://www.example.com>
 
 Here's an example image link:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](./editor.png "Logo Title Text 1")
 
 Reference-style image:
 ![alt text][logo]
