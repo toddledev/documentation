@@ -6,6 +6,10 @@ Traditional dev is time-consuming.
 
 This is just a tip that can include more context. It supports **most** styling options like [links](https://www.example.com).
 
+::: warning
+Here's a different callout.
+:::
+
 ## Development with Toddle
 Development with toddle is nice.
 
