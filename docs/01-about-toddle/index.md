@@ -4,18 +4,18 @@ It is hard to define what exactly toddle is. It is a versatile platform, an edit
 ## Traditional Development
 Traditional dev is time-consuming.
 
-This is just a tip that can include more context. It supports **most** styling options like [links](https://www.example.com).
+This is just a tip that *emphasized words* can include more context. It supports **most** styling options like [links](https://www.example.com). This sentence has `inline code` in it.
 
 ::: dev
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information. This sentence has `inline code` in it.
 :::
 
 ::: tip
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information. This sentence has `inline code` in it.
 :::
 
 ::: warning
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+Here's a different callout. _Emphasized words_ The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
 :::
 
 ::: danger
