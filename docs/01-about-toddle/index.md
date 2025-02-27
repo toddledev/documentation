@@ -7,7 +7,9 @@ Traditional dev is time-consuming.
 This is just a tip that can include more context. It supports **most** styling options like [links](https://www.example.com).
 
 ::: warning
-Here's a different callout.
+Here's a different callout. The callout can also contain [links](https://toodle.dev) or even:
+
+## A heading
 :::
 
 ## Development with Toddle
