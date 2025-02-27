@@ -6,10 +6,20 @@ Traditional dev is time-consuming.
 
 This is just a tip that can include more context. It supports **most** styling options like [links](https://www.example.com).
 
-::: warning
-Here's a different callout. The callout can also contain [links](https://toodle.dev) or even:
+::: dev
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+:::
 
-## A heading
+::: tip
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+:::
+
+::: warning
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+:::
+
+::: danger
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
 :::
 
 ## Development with Toddle
