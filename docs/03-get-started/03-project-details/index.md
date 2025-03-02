@@ -39,7 +39,7 @@ To create a new branch:
 1. Click the `Create branch` button
 2. Enter a name for the branch
 
-![Create](create-branch.webp)
+![Create new branch](create-branch.webp)
 
 The branch is created and you are automatically redirected to the editor to start working.
 
