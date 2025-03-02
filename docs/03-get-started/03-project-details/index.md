@@ -48,7 +48,7 @@ The Version History section provides an overview of all commits made to the proj
 
 The commit labeled `Live version` represents the current deployed version of your project. It corresponds to the main branch.
 
-::: Rollback
+::: danger
 You can roll back to any previous commit if needed. Be cautious when rolling back, as this action cannot be undone.
 :::
 
