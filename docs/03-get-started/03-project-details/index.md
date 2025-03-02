@@ -39,10 +39,7 @@ If the branch is not based on the latest main branch, you will also see any conf
 ### Create a New Branch
 To create a new branch:
 1. Click the `Create branch` button
-2. Second point
-   1. testing a
-   2. testing b
-3. Enter a name for the branch
+2. Enter a name for the branch
 
 The branch is created and you are automatically redirected to the editor to start working.
 
