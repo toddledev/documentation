@@ -1,6 +1,9 @@
 # Project Details
 The Project Details page provides all the essential information about your app or package. Here, you can manage your project’s settings, versioning, track changes and collaborate efficiently.
 
+![Test image](create-branch.webp)
+![Test image large](create-branch-large.webp)
+
 ## Settings
 The settings section allows you to manage all configurations for your project.
 
@@ -38,8 +41,6 @@ If the branch is not based on the latest main branch, you will also see any conf
 To create a new branch:
 1. Click the `Create branch` button
 2. Enter a name for the branch
-
-![Create new branch](create-branch.webp)
 
 The branch is created and you are automatically redirected to the editor to start working.
 
