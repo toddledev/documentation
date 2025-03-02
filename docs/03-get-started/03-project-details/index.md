@@ -12,10 +12,10 @@ Available Settings
 - **Invite Members**: Add members from your organization to collaborate on the project.
 - **Clone Project**: Create a duplicate of the project in any of your organizations.
 - **Additional Actions**:
-    - for apps: 
+    - for **apps**: 
         - Change your app to **public**, where anyone can view it, or **private** with restricted access.
         - Delete your app.
-    - for packages:
+    - for **packages**:
         - Delete your package. This action is only possible before your package is launched.
 - **Edit Details**:
     - Set a logo: Upload a custom logo for your project.
@@ -39,12 +39,15 @@ If the branch is not based on the latest main branch, you will also see any conf
 ### Create a New Branch
 To create a new branch:
 1. Click the `Create branch` button
-2. Enter a name for the branch
+2. Second point
+   1. testing a
+   2. testing b
+3. Enter a name for the branch
 
 The branch is created and you are automatically redirected to the editor to start working.
 
 ## Version History
-The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be referenced or restored when necessary.
+The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be rolled back when necessary.
 
 The commit labeled `Live version` represents the current deployed version of your project. It corresponds to the main branch.
 
