@@ -12,10 +12,10 @@ Available Settings
 - **Invite Members**: Add members from your organization to collaborate on the project.
 - **Clone Project**: Create a duplicate of the project in any of your organizations.
 - **Additional Actions**:
-    - App: 
+    - for apps: 
         - Change your app to **public**, where anyone can view it, or **private** with restricted access.
         - Delete your app.
-    - Package:
+    - for packages:
         - Delete your package. This action is only possible before your package is launched.
 - **Edit Details**:
     - Set a logo: Upload a custom logo for your project.
@@ -47,11 +47,6 @@ The branch is created and you are automatically redirected to the editor to star
 The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be referenced or restored when necessary.
 
 The commit labeled `Live version` represents the current deployed version of your project. It corresponds to the main branch.
-
-::: danger
-You can roll back to any previous commit if needed. Be cautious when rolling back, as this action cannot be undone.
-:::
-
 
 ## Members
 The members section lists all project members. If needed, you can remove a member from the project, except for the project owner.
