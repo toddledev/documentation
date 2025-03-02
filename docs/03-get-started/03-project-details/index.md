@@ -9,7 +9,7 @@ Available Settings
 - **Live preview**: Access the live preview of your project.
 - **Invite Members**: Add members from your organization to collaborate on the project.
 - **Clone Project**: Create a duplicate of the project in any of your organizations.
-- :**Additional Actions**:
+- **Additional Actions**:
     - App: 
         - Change your app to **public**, where anyone can view it, or **private** with restricted access.
         - Delete your app.
