@@ -2,7 +2,6 @@
 The Project Details page provides all the essential information about your app or package. Here, you can manage your project’s settings, versioning, track changes and collaborate efficiently.
 
 ![Test image](test-image.webp)
-![Test image large](test-image-large.webp)
 
 ## Settings
 The settings section allows you to manage all configurations for your project.
