@@ -1,4 +1,14 @@
-# Getting Started with toddle
+---
+title: Get started with toddle
+description: toddle docs
+date: 2025-03-02
+updated: 2025-03-02
+author: Franz Baur
+tags: 
+  - Get Started
+---
+
+# Get Started with toddle
 Whether you are creating a fully-fledged application or managing reusable components, Toddle offers a flexible and intuitive development environment.
 
 ## Projects in toddle - Apps and Packages

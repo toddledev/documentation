@@ -1,11 +1,11 @@
 ---
-title: The editor - overview
+title: How to use contexts?
 description: toddle docs
 date: 2025-03-03
 updated: 2025-03-03
 author: Franz Baur
 tags: 
-  - editor
+  - Context
 ---
 
-# The Editor - Overview
+# How to use contexts?

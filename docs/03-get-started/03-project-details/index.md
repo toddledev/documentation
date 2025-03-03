@@ -5,8 +5,8 @@ date: 2025-03-02
 updated: 2025-03-02
 author: Franz Baur
 tags: 
-  - project details
-  - project settings
+  - Project Details
+  - Project Settings
 ---
 
 # Project Details

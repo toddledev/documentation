@@ -1,11 +1,11 @@
 ---
-title: The editor - overview
+title: When to Create a Component
 description: toddle docs
 date: 2025-03-03
 updated: 2025-03-03
 author: Franz Baur
 tags: 
-  - editor
+  - Component
 ---
 
-# The Editor - Overview
+# When to Create a Component

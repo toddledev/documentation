@@ -1,11 +1,12 @@
 ---
-title: The editor - overview
+title: Components
 description: toddle docs
 date: 2025-03-03
 updated: 2025-03-03
 author: Franz Baur
 tags: 
-  - editor
+  - Building Block
+  - Component
 ---
 
-# The Editor - Overview
+# Components

@@ -1,5 +1,5 @@
 ---
-title: The editor - overview
+title: The Project Sidebar
 description: toddle docs
 date: 2025-03-03
 updated: 2025-03-03
@@ -8,4 +8,4 @@ tags:
   - editor
 ---
 
-# The Editor - Overview
+# The Project Sidebar
