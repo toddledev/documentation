@@ -10,7 +10,7 @@ tags:
 ---
 
 # Project Details
-The Project Details page provides all the essential information about your app or package. Here, you can manage your project’s settings, versioning, track changes and collaborate efficiently.
+The project details page provides all essential information about your app or package. Here, you can manage settings, branches, track changes and invite collaborators.
 
 ## Settings
 The settings section allows you to manage all configurations for your project.
@@ -18,7 +18,7 @@ The settings section allows you to manage all configurations for your project.
 ![Project Settings](project-settings.webp)
 
 Available Settings
-1. **Edit Your Domain**: customize the domain for your project.
+1. **Add Domain**: customize the domain for your project (only on paid plan).
 2. **Live preview**: Access the live preview of your project.
 3. **Invite Members**: Add members from your organization to collaborate on the project.
 4. **Clone Project**: Create a duplicate of the project in any of your organizations.
@@ -27,19 +27,18 @@ Available Settings
         - Change your app to **public**, where anyone can view it, or **private** with restricted access.
         - Delete your app.
     - for **packages**:
-        - Delete your package. This action is only possible before your package is launched.
-6. **Set a Logo**: Upload a custom logo for your project.
-7. **Edit Details**: Modify project information such as project ID, name and description.
+        - Delete your package. This is only possible before launch.
+6. **Set a Logo**: Upload a custom project logo.
+7. **Edit Details**: Modify the project ID, name and description.
 
 ## Branches
-Using branches ensures a smooth and organized development process while keeping the main project stable. They allow you to control versioning in your project.
+Using branches ensures a smooth and organized development process while keeping the main project stable.
 
 Every project has a **main** branch, which is `read-only`. This branch reflects the current state in the editor but cannot be modified directly.
 
-To make changes, you need to create a new branch. This ensures that development remains structured and allows for easy version control.
+To make changes, you need to create a new branch.
 
 ### Create a New Branch
-To create a new branch:
 1. Click the `Create branch` button
 2. Enter a name for the branch and confirm
 
@@ -48,12 +47,12 @@ To create a new branch:
 The branch is created and you are automatically redirected to the editor to start working.
 
 ### All Branches
-You can see all branches of your project, including information about who created each one.
+You can see all branches of your project, including who created them and when.
 
-For each branch you have following actions:
-- **Edit**: Opens the branch in the editor, where you can work on your project.
-- **View changes**: Provides an overview of all modifications in the branch. If the branch is not based on the latest main branch, you will also see any conflicts caused by outdated components or actions. This helps you resolve conflicts before syncing with the current main branch.
-- **Preview**: Opens the live version of the branch
+For each branch you have the following actions:
+- **Edit**: Opens the branch in the editor to make changes.
+- **View changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.
+- **Preview**: Opens the live version of the branch.
 
 ## Version History
 The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be rolled back when necessary.
