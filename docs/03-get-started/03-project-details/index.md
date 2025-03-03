@@ -17,18 +17,24 @@ The Project Details page provides all the essential information about your app o
 ## Settings
 The settings section allows you to manage all configurations for your project.
 
+![Project Settings](project-settings.webp)
+
 Available Settings
-- **Edit Your Domain**: customize the domain for your project.
-- **Live preview**: Access the live preview of your project.
-- **Invite Members**: Add members from your organization to collaborate on the project.
-- **Clone Project**: Create a duplicate of the project in any of your organizations.
-- **Additional Actions**:
+1. **Edit Your Domain**: customize the domain for your project.
+2. **Live preview**: Access the live preview of your project.
+3. **Invite Members**: Add members from your organization to collaborate on the project.
+4. **Clone Project**: Create a duplicate of the project in any of your organizations.
+5. **Additional Actions**:
     - for **apps**: 
         - Change your app to **public**, where anyone can view it, or **private** with restricted access.
         - Delete your app.
     - for **packages**:
-        - Delete your package. This action is only possible before your package is launched.
-- **Edit Details**:
+        - Delete your package. 
+        ::: info
+        This action is only possible before your package is launched.
+        :::
+6. **AddImage**:
+7. **Edit Details**:
     - Set a logo: Upload a custom logo for your project.
     - Modify Project Information: Edit details such as project ID, name and description.
 
@@ -39,18 +45,22 @@ Every project has a **main** branch, which is `read-only`. This branch reflects 
 
 To make changes, you need to create a new branch. This ensures that development remains structured and allows for easy version control.
 
+### Create a New Branch
+To create a new branch:
+1. Click the `Create branch` button
+2. Enter a name for the branch and confirm
+
+![Create New Branch](create-new-branch.webp)
+
+The branch is created and you are automatically redirected to the editor to start working.
+
+### All Branches
 You can see all branches of your project, including information about who created each one.
 
 For each branch you have following actions:
 - **Edit**: Opens the branch in the editor, where you can work on your project.
 - **View changes**: Provides an overview of all modifications in the branch. If the branch is not based on the latest main branch, you will also see any conflicts caused by outdated components or actions. This helps you resolve conflicts before syncing with the current main branch.
-
-### Create a New Branch
-To create a new branch:
-1. Click the `Create branch` button
-2. Enter a name for the branch
-
-The branch is created and you are automatically redirected to the editor to start working.
+- **Preview**: Opens the live version of the branch
 
 ## Version History
 The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be rolled back when necessary.
