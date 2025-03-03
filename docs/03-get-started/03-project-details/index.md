@@ -27,10 +27,7 @@ Available Settings
         - Change your app to **public**, where anyone can view it, or **private** with restricted access.
         - Delete your app.
     - for **packages**:
-        - Delete your package. 
-        ::: info
-        This action is only possible before your package is launched.
-        :::
+        - Delete your package. This action is only possible before your package is launched.
 6. **AddImage**:
 7. **Edit Details**:
     - Set a logo: Upload a custom logo for your project.
