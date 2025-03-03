@@ -18,7 +18,7 @@ The settings section allows you to manage all configurations for your project.
 ![Project Settings](project-settings.webp)
 
 Available Settings
-1. **Add Domain**: customize the domain for your project (only on paid plan).
+1. **Add Domain**: customize the domain for your project (available only on a paid plan).
 2. **Live preview**: Access the live preview of your project.
 3. **Invite Members**: Add members from your organization to collaborate on the project.
 4. **Clone Project**: Create a duplicate of the project in any of your organizations.
