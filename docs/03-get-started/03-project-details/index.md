@@ -28,10 +28,8 @@ Available Settings
         - Delete your app.
     - for **packages**:
         - Delete your package. This action is only possible before your package is launched.
-6. **AddImage**:
-7. **Edit Details**:
-    - Set a logo: Upload a custom logo for your project.
-    - Modify Project Information: Edit details such as project ID, name and description.
+6. **Set a Logo**: Upload a custom logo for your project.
+7. **Edit Details**: Modify project information such as project ID, name and description.
 
 ## Branches
 Using branches ensures a smooth and organized development process while keeping the main project stable. They allow you to control versioning in your project.
