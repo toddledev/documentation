@@ -1,3 +1,14 @@
+---
+title: Manage your toddle project – settings, branches & version control
+description: Learn how to manage your toddle project. Configure settings, collaborate on branches with team members and track changes in version history.
+date: 2025-03-02
+updated: 2025-03-02
+author: Franz Baur
+tags: 
+  - project details
+  - project settings
+---
+
 # Project Details
 The Project Details page provides all the essential information about your app or package. Here, you can manage your project’s settings, versioning, track changes and collaborate efficiently.
 
@@ -32,9 +43,7 @@ You can see all branches of your project, including information about who create
 
 For each branch you have following actions:
 - **Edit**: Opens the branch in the editor, where you can work on your project.
-- **View changes**: Provides an overview of all modifications in the branch. 
-
-If the branch is not based on the latest main branch, you will also see any conflicts caused by outdated components or actions. This helps you resolve conflicts before syncing with the current main branch.
+- **View changes**: Provides an overview of all modifications in the branch. If the branch is not based on the latest main branch, you will also see any conflicts caused by outdated components or actions. This helps you resolve conflicts before syncing with the current main branch.
 
 ### Create a New Branch
 To create a new branch:
@@ -50,7 +59,3 @@ The commit labeled `Live version` represents the current deployed version of you
 
 ## Members
 The members section lists all project members. If needed, you can remove a member from the project, except for the project owner.
-
-
-# Collaboration in toddle
-For more details about how to collaborate with a dev team in toddle, please see following video.
