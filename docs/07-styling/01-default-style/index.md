@@ -23,7 +23,7 @@ All elements in toddle use `display: flex` by default, offering greater flexibil
 Any custom styles you apply to elements will always override toddle's reset styles. However, when working with external web components that include their own styles, you may need to opt out of toddle’s default reset stylesheet for compatibility.
 
 ::: tip
-**Excluding from Reset Styles** By adding the attribute `data-unset-toddle-styles` the element will be ejected from the toddle reset stylesheet entirely.
+**Excluding from Reset Styles**: By adding the attribute `data-unset-toddle-styles` the element will be ejected from the toddle reset stylesheet entirely.
 :::
 
 # Excluding from Reset Styles
