@@ -25,6 +25,3 @@ Any custom styles you apply to elements will always override toddle's reset styl
 ::: tip
 **Excluding from Reset Styles**: By adding the attribute `data-unset-toddle-styles` the element will be ejected from the toddle reset stylesheet entirely.
 :::
-
-# Excluding from Reset Styles
-By adding the attribute `data-unset-toddle-styles` the element will be ejected from the toddle reset stylesheet entirely.
