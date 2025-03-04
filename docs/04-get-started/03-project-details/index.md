@@ -17,6 +17,8 @@ The settings section allows you to manage all configurations for your project.
 
 ![Project Settings](project-settings.webp)
 
+![New Screenshot](settings.webp)
+
 Available Settings
 1. **Add Domain**: customize the domain for your project (available only on a paid plan).
 2. **Live preview**: Access the live preview of your project.
