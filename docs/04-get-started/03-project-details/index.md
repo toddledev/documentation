@@ -1,12 +1,6 @@
 ---
 title: Manage your toddle project – settings, branches & version control
 description: Learn how to manage your toddle project. Configure settings, collaborate on branches with team members and track changes in version history.
-date: 2025-03-02
-updated: 2025-03-02
-author: Franz Baur
-tags: 
-  - Project Details
-  - Project Settings
 ---
 
 # Project Details
@@ -16,8 +10,6 @@ The project details page provides all essential information about your app or pa
 The settings section allows you to manage all configurations for your project.
 
 ![Project Settings](project-settings.webp)
-
-![New Screenshot](settings.webp)
 
 Available Settings
 1. **Add Domain**: customize the domain for your project (available only on a paid plan).
