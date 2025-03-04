@@ -1,9 +1,9 @@
 ---
-title: Default Style
+title: Default Styles
 description: toddle docs
 ---
 
-# Default Style
+# Default Styles
 As default styles, a reset stylesheet is applied to elements to ensure consistency across different browsers. 
 
 Browsers often have their own default styles, which can vary significantly and cause inconsistencies in how web pages are rendered. By neutralizing these defaults, the reset stylesheet creates a clean baseline, ensuring your project looks consistent across all browsers.
