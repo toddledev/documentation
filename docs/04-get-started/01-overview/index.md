@@ -1,11 +1,6 @@
 ---
 title: Get started with toddle
 description: toddle docs
-date: 2025-03-02
-updated: 2025-03-02
-author: Franz Baur
-tags: 
-  - Get Started
 ---
 
 # Get Started with toddle
