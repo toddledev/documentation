@@ -38,6 +38,8 @@ To make changes, you need to create a new branch.
 
 ![Create New Branch](create-new-branch.webp)
 
+![Test Image](test.webp)
+
 The branch is created and you are automatically redirected to the editor to start working.
 
 ## All Branches
