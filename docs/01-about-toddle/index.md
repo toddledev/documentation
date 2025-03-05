@@ -27,6 +27,10 @@ Here's a different callout. _Emphasized words_ The callout can also contain [lin
 Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
 :::
 
+::: example
+Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
+:::
+
 ## Development with Toddle
 Development with toddle is nice.
 
