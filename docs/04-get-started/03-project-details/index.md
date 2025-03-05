@@ -1,5 +1,5 @@
 ---
-title: Project Details - Manage your toddle project
+title: Project Details - Manage your toddle Project
 description: Learn how to manage your toddle project. Configure settings, collaborate on branches with team members and track changes in version history.
 ---
 
@@ -13,7 +13,7 @@ The settings section allows you to manage all configurations for your project.
 
 Available Settings
 1. **Add Domain**: customize the domain for your project (available only on a paid plan).
-2. **Live preview**: Access the live preview of your project.
+2. **Live Preview**: Access the live preview of your project.
 3. **Invite Members**: Add members from your organization to collaborate on the project.
 4. **Clone Project**: Create a duplicate of the project in any of your organizations.
 5. **Additional Actions**:
@@ -47,8 +47,9 @@ You can see all branches of your project, including who created them and when.
 
 For each branch you have the following actions:
 - **Edit**: Opens the branch in the editor to make changes.
-- **View changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.
+- **View Changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.
 - **Preview**: Opens the live version of the branch.
+- **Delete Branch**: Deletes selected branch.
 
 # Version History
 The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be rolled back when necessary.
