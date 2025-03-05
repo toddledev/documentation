@@ -10,7 +10,7 @@ Creating a new project in Toddle is simple and quick. Whether you are starting a
 In the dashboard view, you will find the **Start Building** section. Click `Create App` or `Create Package` to begin the creation process for the corresponding project type.
 
 ## Create a Project from the Organization View
-In the organization view, navigate to the top right of the project listing container. You will find buttons to create an app or a package. Click on the relevant button to start the process.
+In the organization view, at the top right of the project list, you will find buttons to create an app or a package. Click on the relevant button to start the process.
 
 # Create an App
 To create an app, follow these steps:
