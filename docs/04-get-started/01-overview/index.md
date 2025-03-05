@@ -4,7 +4,13 @@ description:
 ---
 
 # Get Started with toddle
-Whether you are creating a fully-fledged application or managing reusable components, toddle offers a flexible and intuitive development environment.
+Toddle provides a flexible and intuitive development environment for building applications.
+
+# Dashboard
+The toddle dashboard includes the key sections:
+- **Start Building**: Quick action to start a new project or solve challenges to explore toddle features
+- **Recent Activity**: Quick access to your most recently edited projects
+- **All Projects**: View and manage projects from all organizations you belong to
 
 # Projects in toddle
 A project in toddle can be either an app or a package.
