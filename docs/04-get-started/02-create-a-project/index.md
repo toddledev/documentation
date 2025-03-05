@@ -1,6 +1,6 @@
 ---
-title: Create a New Project
-description: toddle docs
+title:
+description: 
 ---
 
 # Create a Project
