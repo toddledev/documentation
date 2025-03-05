@@ -1,5 +1,5 @@
 ---
-title: Manage your toddle project – settings, branches & version control
+title: Project Details - Manage your toddle project
 description: Learn how to manage your toddle project. Configure settings, collaborate on branches with team members and track changes in version history.
 ---
 
