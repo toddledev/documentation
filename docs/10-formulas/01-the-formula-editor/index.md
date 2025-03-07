@@ -11,5 +11,5 @@ componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-a
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-array-formulas
 height: 19rem
 
-Check out how array formlas work in toddle. **Spoiler:** It is just like in JavaScript.
+Check out how array formulas work in toddle. **Spoiler:** It is just like in JavaScript.
 @@@
