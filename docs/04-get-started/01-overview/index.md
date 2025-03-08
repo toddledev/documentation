@@ -25,5 +25,5 @@ Packages are modular, self-contained collections of components or functions that
 It's not possible to use packages in packages.
 :::
 
-# Explore toddle Through Challenges
+# Explore toddle through challenges
 To get hands-on with Toddle's features, try solving the challenges available on your dashboard. These guided exercises will introduce you to key concepts and help you become familiar with the platform.
