@@ -11,7 +11,7 @@ Toddle provides a flexible and intuitive development environment for building ap
 ![Dashboard|16/9](dashboard.webp)
 
 The toddle dashboard includes the key sections:
-1. **Start Building**: Quick action to start a new project or solve challenges to explore toddle features
+1. **Start Building**: Quick action to start a [new project](/get-started/create-a-project) or solve challenges to explore toddle features
 2. **Recent Activity**: Quick access to your most recently edited projects
 3. **All Projects**: View and manage projects from all of your organizations
 
