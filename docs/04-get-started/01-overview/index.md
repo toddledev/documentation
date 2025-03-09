@@ -18,7 +18,7 @@ The toddle dashboard includes the key sections:
 # Projects in toddle
 A project in toddle can be either an **app** or a **package**.
 ## Apps
-These are full applications that can be used for web development, including websites, web apps and more. Since toddle is built on standard HTML, CSS and JavaScript, you can create anything from simple pages to complex interactive experiences.
+These projects are full applications used for web development, including web apps, websites and more. Since toddle is built on standard HTML, CSS and JavaScript, you can create anything from simple pages to complex interactive experiences.
 
 See here for [creating an app](/get-started/create-a-project#create-an-app).
 ## Packages
