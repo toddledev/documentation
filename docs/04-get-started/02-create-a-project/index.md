@@ -26,7 +26,9 @@ In the organization view, at the top right of the project list, you will find th
 After selecting the template, you will be directed to the editor to start working.
 
 # Create a package
-To create a package, follow these steps:
+
+![Create package|16/9](create-a-package.webp)
+
 1. **Choose organization**: The organization is pre-selected based on your account settings.
 2. **Select an emoji**: Choose an emoji to represent your package.
 3. **Enter name**: Type in the desired name for your package.
