@@ -37,6 +37,6 @@ When creating a project you can choose between two options:
 - **Public**: Your project will be visible and clonable via a link, but others cannot edit it.
 - **Private**: Your project is only visible within your organization, with customizable access and roles for different users.
 
-::: tip
+::: info
 It's currently not possible to make packages private.
 :::
