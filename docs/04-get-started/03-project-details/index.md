@@ -58,5 +58,7 @@ The Version History section provides an overview of all commits made to the proj
 
 The commit labeled `Live version` represents the current deployed version of your project. It corresponds to the main branch.
 
+![Version History|16/9](version-history.webp)
+
 # Members
 The members section lists all project members. If needed, you can remove a member from the project, except for the project owner.
