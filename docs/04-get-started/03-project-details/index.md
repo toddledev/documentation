@@ -44,11 +44,14 @@ The branch is created and you are automatically redirected to the editor to star
 ## All branches
 You can see all branches of your project, including who created them and when.
 
+![Branch Actions|16/9](branch-actions.webp)
+
 For each branch you have the following actions:
-- **Edit**: Opens the branch in the editor to make changes.
-- **View changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.
-- **Preview**: Opens the live version of the branch.
-- **Delete branch**: Deletes selected branch.
+1. **Edit**: Opens the branch in the editor to make changes.
+2. **Additional**:
+    - **View changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.
+    - **Preview**: Opens the live version of the branch.
+    - **Delete branch**: Deletes selected branch.
 
 # Version history
 The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that previous states can be rolled back when necessary.
