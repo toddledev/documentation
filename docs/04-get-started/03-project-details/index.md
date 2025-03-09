@@ -33,12 +33,11 @@ Every project has a **main** branch, which is `read-only`. This branch reflects 
 To make changes, you need to create a new branch.
 
 ## Create a new branch
-1. Click the `Create branch` button
-2. Enter a name for the branch and confirm
 
 ![Create New Branch|16/9](create-new-branch.webp)
 
-![Test Image|16/9](test.webp)
+1. Click the `Create branch` button
+2. Enter a name for the branch and confirm
 
 The branch is created and you are automatically redirected to the editor to start working.
 
