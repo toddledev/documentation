@@ -13,7 +13,9 @@ In the dashboard view, you will find the **Start Building** section. Click `Crea
 In the organization view, at the top right of the project list, you will find the buttons to create an app or a package. Click on the relevant button to start the process.
 
 # Create an app
-To create an app, follow these steps:
+
+![Create app|16/9](create-an-app.webp)
+
 1. **Select organization**: The organization is pre-selected based on your account settings.
 2. **Choose visibility**: Decide who can see your app and select public or private. (Note: Private apps require a paid plan)
 3. **Choose a template**:
