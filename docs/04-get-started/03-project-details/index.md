@@ -28,7 +28,7 @@ Available settings
 # Branches
 Using branches ensures a smooth and organized development process while keeping the main project stable.
 
-Every project has a **main** branch, which is `read-only`. This branch reflects the current state in the editor but cannot be modified directly.
+Every project has a `main` branch, which is `read-only`. This branch reflects the current state in the editor but cannot be modified directly.
 
 To make changes, you need to create a new branch.
 
