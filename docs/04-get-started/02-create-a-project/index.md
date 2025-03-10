@@ -4,7 +4,7 @@ description:
 ---
 
 # Create a project
-Creating a new project in Toddle is simple and quick. Whether you are starting an app or a package, follow the steps below to get started.
+Creating a new project in toddle is simple and quick. Whether you are building an app or a package, follow the steps below to get started.
 
 ## Create a project from the dashboard
 In the dashboard view, you will find the **Start Building** section. Click `Create app` or `Create package` to begin the creation process for the corresponding project type.
@@ -13,20 +13,17 @@ In the dashboard view, you will find the **Start Building** section. Click `Crea
 In the organization view, at the top right of the project list, you will find the buttons to create an app or a package. Click on the relevant button to start the process.
 
 # Create an app
-
 ![Create app|16/9](create-an-app.webp)
 
 1. **Select organization**: The organization is pre-selected based on your account settings.
-2. **Choose visibility**: Decide who can see your app and select public or private. (Note: Private apps require a paid plan)
+2. **Choose visibility**: Decide who should be able to see your app and select `public` or `private`.
 3. **Choose a template**:
-   - Blank Template: Start with a fresh, empty app.
-   - Toddle Template: Choose from available toddle templates.
-   - Community Template: Pick from community-contributed templates.
+   - Built in templates: Choose from available toddle templates.
+   - Community template: Pick from community-contributed templates.
 
 After selecting the template, you will be directed to the editor to start working.
 
 # Create a package
-
 ![Create package|16/9](create-a-package.webp)
 
 1. **Choose organization**: The organization is pre-selected based on your account settings.
@@ -42,5 +39,5 @@ When creating a project you can choose between two options:
 - **Private**: Your project is only visible within your organization, with customizable access and roles for different users.
 
 ::: info
-It's currently not possible to make packages private.
+Private apps require a paid plan and it is currently not possible to make packages private.
 :::
