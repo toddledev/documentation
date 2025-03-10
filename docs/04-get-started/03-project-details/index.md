@@ -11,8 +11,7 @@ The settings section allows you to manage all configurations for your project.
 
 ![Project settings|16/9](project-settings.webp)
 
-Available settings
-1. **Add domain**: customize the domain for your project (available only on a paid plan).
+1. **Add domain**: Customize the domain for your project (available on paid plans).
 2. **Live preview**: Access the live preview of your project.
 3. **Invite members**: Add members from your organization to collaborate on the project.
 4. **Clone project**: Create a duplicate of the project in any of your organizations.
@@ -33,7 +32,6 @@ Every project has a `main` branch, which is `read-only`. This branch reflects th
 To make changes, you need to create a new branch.
 
 ## Create a new branch
-
 ![Create new branch|16/9](create-new-branch.webp)
 
 1. Click the `Create branch` button
@@ -47,6 +45,7 @@ You can see all branches of your project, including who created them and when.
 ![Branch actions|16/9](branch-actions.webp)
 
 For each branch you have the following actions:
+
 1. **Edit**: Opens the branch in the editor to make changes.
 2. **Additional**:
     - **View changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.

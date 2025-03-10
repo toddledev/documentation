@@ -16,9 +16,9 @@ In the organization view, at the top right of the project list, you will find th
 ![Create app|16/9](create-an-app.webp)
 
 1. **Select organization**: The organization is pre-selected based on your account settings.
-2. **Choose visibility**: Decide who should be able to see your app and select `public` or `private`.
+2. **Choose visibility**: Decide who should be able to see your app and select **public** or **private**.
 3. **Choose a template**:
-   - Built in templates: Choose from available toddle templates.
+   - Built-in templates: Choose from available toddle templates.
    - Community template: Pick from community-contributed templates.
 
 After selecting the template, you will be directed to the editor to start working.
