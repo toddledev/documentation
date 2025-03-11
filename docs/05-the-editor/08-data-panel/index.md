@@ -1,6 +1,7 @@
 ---
-title: The Data Panel
-description: toddle docs
+title: Data panel
+description:
 ---
 
-# The Data Panel
+# Data panel
+This is the data panel
