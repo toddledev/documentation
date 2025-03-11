@@ -21,7 +21,3 @@ The canvas is the central workspace in the toddle editor where you visually cons
 ::: info
 All links in the canvas open in a new tab to maintain editor synchronization. To test links as they'll work in your final application, use the preview functionality.
 :::
-
-::: tip
-When testing interactive features, use preview mode for a more accurate representation of how your application will behave.
-:::
