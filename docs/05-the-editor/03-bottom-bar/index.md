@@ -6,7 +6,9 @@ description:
 # Bottom bar
 The bottom bar provides quick access to frequently used actions and tools in the toddle editor.
 
--- bottom bar image--
+::: warning
+missing bottom bar image
+:::
 
 # Core functions
 - **AI assistance**: Get help with your project through the "Ask AI" button
@@ -27,7 +29,9 @@ When testing interactive features, use preview mode for a more accurate represen
 # Branch management
 When you click the `View changes` button, you can see all modifications made in your current branch.
 
---view changes image--
+::: warning
+missing view changes image
+:::
 
 From this view, you can
 - Navigate back to project or branch for editing 

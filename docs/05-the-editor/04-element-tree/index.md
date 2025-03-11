@@ -7,7 +7,7 @@ description:
 The element tree provides a structural overview of your project, displaying all elements in your page or component hierarchically. It enables efficient navigation, selection and organization of your project's building blocks.
 
 ::: warning
-element tree image
+missing element tree image
 :::
 
 ## Navigation and selection
@@ -28,7 +28,7 @@ Hold the `Alt` key while dropping a dragged element to copy it instead of moving
 Right-clicking an element opens a context menu with several actions:
 
 ::: warning
-context menu image
+missing context menu image
 :::
 
 - **Add element**: Opens the element catalog
@@ -43,15 +43,15 @@ Add new element by
 - selecting `Add element` from the context menu
 - clicking the `+` button in the sidebar header
 - using the hotkey `E` 
+
 to quickly open the element catalog.
 
 ## Element catalog
 ::: warning
-element catalog image
+missing element catalog image
 :::
 
-The element catalog provides a comprehensive collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project.
-The catalog allows you to:
+The element catalog provides a comprehensive collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
 - Browse different element types grouped by functionality
 - Search for specific elements and components
 - View components from installed packages
