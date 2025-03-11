@@ -6,8 +6,6 @@ description:
 # The editor
 The editor is the main workspace for building your toddle applications and packages. It provides a comprehensive interface with the tools needed to design, develop and test your projects.
 
-# Editor interface
-
 "editor image"
 
 The editor workspace consists of four main sections:
