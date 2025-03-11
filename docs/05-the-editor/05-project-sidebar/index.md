@@ -35,9 +35,3 @@ Each section can be expanded or collapsed and includes a `+` button to create ne
 ::: info
 Settings are only available with a paid plan.
 :::
-
-# Additional navigation
-Use the icon buttons on the left sidebar to switch between:
-- Project sidebar
-- [Packages](/the-editor/packages)
-- [Issue panel](/the-editor/issue-panel)
