@@ -27,7 +27,7 @@ The editor's intuitive layout enables efficient application development through 
 ## Left panel
 Click the toddle logo in the top left corner to navigate back to project details, organization members, projects or the dashboard.
 
-The element tree appears by default in the left panel. Use the icon buttons on the left sidebar to switch between:
+The [element tree](/the-editor/element-tree) appears by default in the left panel. Use the icon buttons on the left sidebar to switch between:
 - [Project sidebar](/the-editor/project-sidebar)
 - [Packages](/the-editor/packages)
 - [Issue panel](/the-editor/issue-panel)

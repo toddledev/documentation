@@ -11,7 +11,7 @@ missing project sidebar image
 :::
 
 ::: info
-Open the sidebar with `Cmd/Ctrl+K` and close it with `Escape`.
+Open the project sidebar with `Cmd/Ctrl+K` and close it with `Escape`.
 :::
 
 # Project structure
