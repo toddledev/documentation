@@ -19,9 +19,9 @@ These shortcuts work anywhere in the editor:
 
 ## Element panel shortcuts
 When an element or component is selected in the canvas or element tree:
-- `S` - Switch to the [styling tab](the-editor/element-panel#styling) in the element panel
-- `A` - Switch to the [attributes tab](the-editor/element-panel#attributes) in the element panel
-- `E` - Switch to the [events tab](the-editor/element-panel#events) in the element panel
+- `S` - Switch to the [styling tab](/the-editor/element-panel#styling) in the element panel
+- `A` - Switch to the [attributes tab](/the-editor/element-panel#attributes) in the element panel
+- `E` - Switch to the [events tab](/the-editor/element-panel#events) in the element panel
 
 ## Element tree shortcuts
 - Hold `Alt` while dropping a dragged element - Copy the element instead of moving it
