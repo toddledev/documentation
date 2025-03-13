@@ -1,9 +1,9 @@
 ---
-title: Issue panel
+title: Issues panel
 description:
 ---
 
-# Issue panel
+# Issues panel
 The issue panel helps you identify and resolve problems within your toddle project. It provides a comprehensive overview of all issues, allowing you to maintain code quality and improve project stability.
 
 ::: warning

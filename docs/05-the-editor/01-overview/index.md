@@ -17,7 +17,7 @@ The editor workspace consists of four main sections:
     - **[Element tree](/the-editor/element-tree)**: A hierarchical view of the element structure of your page or component
     - **[Project sidebar](/the-editor/project-sidebar)**: Access to project files, resources and settings
     - **[Packages](/the-editor/packages)**: Browse, install and manage external packages in your project
-    - **[Issue panel](/the-editor/issue-panel)**: Identify and resolve project issues
+    - **[Issues panel](/the-editor/issues-panel)**: Identify and resolve project issues
 4. **Right panel**: Context-sensitive panel that shows
     - **[Data panel](/the-editor/data-panel)**: Configure logic, interfaces and behavior of pages and components
     - **[Element panel](/the-editor/element-panel)**: Specific settings and configuration of selected element
@@ -30,7 +30,7 @@ Click the toddle logo in the top left corner to navigate back to project details
 The [element tree](/the-editor/element-tree) appears by default in the left panel. Use the icon buttons on the left sidebar to switch between:
 - [Project sidebar](/the-editor/project-sidebar)
 - [Packages](/the-editor/packages)
-- [Issue panel](/the-editor/issue-panel)
+- [Issues panel](/the-editor/issues-panel)
 
 Click on the background or press `Escape` to return to the element tree view from any other panel.
 

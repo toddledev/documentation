@@ -1,6 +1,6 @@
 ---
-title: The Element Panel
-description: toddle docs
+title: Element panel
+description:
 ---
 
-# The Element Panel
+# Element panel
