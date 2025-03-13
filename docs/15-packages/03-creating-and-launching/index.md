@@ -41,7 +41,7 @@ Once your package is ready:
 2. Click the `Launch package` button
 3. Confirm the launch
 
-::: danger
+::: info
 Launching a package makes it public and available to everyone. This action cannot be undone.
 :::
 

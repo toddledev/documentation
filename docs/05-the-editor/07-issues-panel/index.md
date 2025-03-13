@@ -33,7 +33,7 @@ Each issue includes:
 Click on an issue to navigate directly to its location in your project.
 
 ::: info
-Issues are also indicated with corresponding icons in the data panel next to affected items, helping you quickly locate problem areas.
+Issues are also indicated with corresponding icons next to affected items, helping you quickly locate problem areas.
 :::
 
 # Finding specific issues
