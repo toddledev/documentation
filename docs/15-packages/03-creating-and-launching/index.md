@@ -1,9 +1,9 @@
 ---
-title: Creating packages
+title: Creating and launching packages
 description:
 ---
 
-# Creating launching packages
+# Creating and launching packages
 Packages are collections of components, formulas, and actions that can be shared across toddle projects. The package repository grows with the community as anyone can build and share functionality.
 
 # Creating a package
@@ -31,7 +31,7 @@ The main page of the package serves as both documentation and demonstration:
 - Document the properties and events of exported components
 - Explain how to use the exported components, actions and formulas
 
-# Launching your package
+# Launching a package
 ::: warning
 missing image for package details with launch button
 :::
