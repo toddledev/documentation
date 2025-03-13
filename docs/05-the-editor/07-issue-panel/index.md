@@ -38,7 +38,7 @@ Issues are also indicated with corresponding icons in the data panel next to aff
 
 # Finding specific issues
 ## Search functionality
-Use the search bar to quickly find issues containing specific text.
+Use the search bar to quickly find specific issues.
 
 ## Filtering options
 Narrow down the displayed issues using filters for:
