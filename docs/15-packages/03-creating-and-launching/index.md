@@ -14,8 +14,8 @@ To create a package:
 
 ## Exporting elements
 Only exported elements will be available to users who install your package:
-- **Components**: Check "Export this component" in the "Package" section of the [data panel](/the-editor/data-panel)
-- **Actions**: Check "Export this action" for global actions
+- **Components**: Check `Export this component` in the package section of the [data panel](/the-editor/data-panel)
+- **Actions**: Check `Export this action` for global actions
 - **Formulas**: Check "Export this formula" for global formulas
 
 Non-exported elements remain internal to your package, useful for organization, documentation or supporting exported functionality.
