@@ -1,16 +1,42 @@
 ---
-title: How to manage packages
+title: Managing packages
 description:
 ---
 
-# How to manage packages
-
-
-
-::: tip
-Create a new branch before updating packages to safely test compatibility applied to the published version.
-:::
+# Managing packages
+Once you've found packages that enhance your project, you can easily install, update, and manage them.
 
 ::: warning
-When updating a package while in the main branch, changes are immediately applied to the published version. 
+missing installed package view image -> which packages like confetti?
+:::
+
+# Installing packages
+Add a package to your project by:
+- Clicking the install button next to a package in the left panel
+- Using the install button in the top-right corner of the package details page
+
+Once installed, package's components, actions, and formulas become available throughout your project:
+- **Components** appear in the element catalog under `Components`
+- **Actions** become available in workflows and events
+- **Formulas** can be used anywhere formulas are supported
+
+# Managing installed packages
+The `Installed` tab in the packages panel shows all packages currently used in your project.
+
+## Updating packages
+When updates are available for an installed package, an update icon appears next to it. Click this icon to install the latest version.
+
+::: warning
+Updating a package while in the main branch immediately applies changes to your published project. This may cause unexpected behavior or break your live version.
+:::
+
+::: tip
+Always create a new branch before updating packages. This allows you to test your application with the updated package and resolve any issues before publishing.
+:::
+
+## Uninstalling packages
+Uninstall a package by clicking the trash icon next to it in the packages list or on the package details page.
+
+::: info
+Removing a package will remove access to its components, actions and formulas. Any instances already used in your project will need to be replaced.
 :::

@@ -48,7 +48,7 @@ Subscribe to formulas and workflows exposed by parent components to access funct
 ## Lifecycle
 Control what happens at specific moments in your component or page lifecycle:
 - On load: Actions that execute when the page or component is initially loaded
-- On attribute change: Actions that run when URL parameters (for pages=) or attributes (for components) are modified
+- On attribute change: Actions that run when URL parameters (for pages) or attributes (for components) are modified
 
 ## Dependents
 View all components that rely on the current component to track usage throughout your project and assess the impact of potential changes.
