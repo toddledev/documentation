@@ -21,8 +21,8 @@ Regularly check the issue panel during development to catch and fix issues early
 The issue panel is split into two distinct views:
 - **Current component/page**: Displays issues specific to the component or page you're currently editing
 - **Project overview**: Provides a complete list of all issues across your entire project. Issues are bundled by component or page with:
-    - Expandable sections with a complete list of issues for each component/page
-    - A badge indicating the number of issues in each section
+    - Expandable sections with a complete list of issues
+    - A badge indicating the number of issues
 
 # Issue details
 Each issue includes:
