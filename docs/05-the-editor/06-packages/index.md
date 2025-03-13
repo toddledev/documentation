@@ -19,4 +19,4 @@ The packages panel organizes available packages in three tabs:
 Use the search bar to find specific packages by name or functionality.
 
 # Managing packages
-Once you've found packages of interest, you can add them to your project and maintain them as needed. For detailed instructions on managing packages in your project, see the [packages](/packages/overview) page.
+Once you've found packages of interest, you can add them to your project and maintain them as needed. For detailed instructions on handling packages in your project, see the [packages](/packages/overview) page and the [guide on managing packages](/packages/how-to-manage).
