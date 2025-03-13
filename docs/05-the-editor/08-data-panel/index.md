@@ -28,10 +28,10 @@ These attributes are the attributes of your exported web component.
 :::
 
 ## Variables
-Store and manage state within your page or component. Variables can be initialized with default values, updated through actions or workflows, and used in formulas to display dynamic content.
+Store and manage state within your page or component. Variables can be initialized with default values, updated through actions or workflows, and used in formulas, e.g. to display dynamic content.
 
 ## APIs
-Connect your application to external services and data sources by defining endpoints, configuring request parameters, and handling responses.
+Connect your application to external services and data sources by defining endpoints, configuring request parameters and handling responses.
 
 ## Events
 Enable components to communicate with parent elements through custom events that can be triggered by internal actions and pass data upward.
@@ -40,7 +40,7 @@ Enable components to communicate with parent elements through custom events that
 Create reusable calculations and data transformations using toddle's formula syntax to access data from variables, formulas and API responses.
 
 ## Workflows
-Build multi-step processes to handle complex interactions by combining actions in sequence with conditional logic.
+Build multi-step processes to handle complex interactions by combining workflows and actions in sequence with conditional logic.
 
 ## Contexts
 Subscribe to formulas and workflows exposed by parent components to access functionality while maintaining clean separation of concerns.
@@ -48,7 +48,7 @@ Subscribe to formulas and workflows exposed by parent components to access funct
 ## Lifecycle
 Control what happens at specific moments in your component or page lifecycle:
 - On load: Actions that execute when the page or component is initially loaded
-- On attribute change: Actions that run when URL parameters or attributes are modified
+- On attribute change: Actions that run when URL parameters (for pages=) or attributes (for components) are modified
 
 ## Dependents
 View all components that rely on the current component to track usage throughout your project and assess the impact of potential changes.
