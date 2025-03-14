@@ -35,7 +35,7 @@ Each section can be expanded or collapsed and includes a `+` button to create ne
 # Project settings
 At the bottom of the panel you will find following settings for your project:
 - **Favicon**: Upload a [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon) for your project - available at `https://yourproject.toddle.site/favicon.ico`
-- **Robots.txt**: Target a custom [robots.txt](https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt) document (with a URL) - available at "https://yourproject.toddle.site/robots.txt"
+- **Robots.txt**: Target a custom [robots.txt](https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt) document (with a URL) - available at `https://yourproject.toddle.site/robots.txt`
 - **Sitemap.xml**: Target a custom [sitemap.xml](https://en.wikipedia.org/wiki/Sitemaps) document (with a URL) - available at `https://yourproject.toddle.site/sitemap.xml`
 - **App Manifest**: Target a custom [manifest](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest) JSON file (with a URL) - available at `https://yourproject.toddle.site/manifest.json`
 - **Service Worker**: Target a custom [service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) file (with a URL) - available at `https://yourproject.toddle.site/serviceWorker.js`

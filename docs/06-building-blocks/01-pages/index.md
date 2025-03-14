@@ -13,39 +13,41 @@ Pages are foundational building blocks in toddle applications, representing dist
 - Instead, pages have a special **Page** section in the data panel for configuration
 
 # Page configuration
-To configure a page, select it in the element tree or click on it in the Page section of the data panel.
+To configure a page, select it in the [project sidebar](/the-editor/project-sidebar) and click on it in the **Page** section of the [data panel](/the-editor/data-panel).
 
 ::: warning
 missing pages configuration image
 :::
 
 ## URL structure
-At the top of the page configuration panel, you'll see a URL preview showing how your page's URL will appear, including domain, path segments, and query parameters.
+At the top of the page configuration panel, you will see a URL preview showing how your page's URL will appear, including domain, path segments and query parameters.
 
 The URL configuration is divided into two main sections:
 ### Path
-- Add path segments by clicking the "Add path" button
-- For each path segment, provide a name (e.g., `test-path`)
-- Set a test value for development purposes
-- Enable the "Param" checkbox to make a segment dynamic
-- Remove segments using the minus button
+- Add path segments by clicking the `Add path` button
+- For each path segment, provide a name
+- Enable the `Param` checkbox to make a path dynamic
+- Set a test value for development purposes 
+- Remove paths using the `-` button
 ### Query
-- Add query parameters by clicking the "Add query" button
-- Name your parameters (e.g., `test-query-parameter`)
-- Set test values for development
-- Enable "Set to null" option when appropriate
-- Remove parameters using the minus button
+- Add query parameters by clicking the `Add query` button
+- Name your parameters
+- Set a test value for development
+- Enable `Set to null` option when appropriate
+- Remove parameters using the `-` button
 
 ::: info
-If you're not familiar with URL structure, we recommend reading our [blog post about URLs](https://toddle.dev/blog/urls-how-do-they-really-work).
+If you are not familiar with URL structure, check out the [blog post about URLs](https://toddle.dev/blog/urls-how-do-they-really-work).
 :::
 
 ## Meta
 Each page in your application should have unique metadata to improve user experience and search engine visibility:
-- **Title**: Appears in browser tabs and search results (with character count indicator)
+- **Title**: Appears in browser tabs and search results
 - **Language**: Specify the language of your page content
-- **Description**: Provides additional context for search engines and social media shares (with character count indicator)
+- **Description**: Provides additional context for search engines and social media shares
 - **Add meta**: Add additional specialized metadata as needed
+
+Make sure your titles and descriptions are concise and clearly describe the page content.
 
 You can bind any metadata value to formulas by clicking the formula button next to each field.
 
@@ -53,21 +55,19 @@ You can bind any metadata value to formulas by clicking the formula button next 
 Custom meta tags are only rendered for applications on a paid plan.
 :::
 
-Make sure your titles and descriptions are concise and clearly describe the page content.
-
 # Dynamic pages
 Dynamic pages display content based on data received from APIs or URL parameters, rather than being hardcoded.
 
 ## Path parameters
 To create a dynamic page:
-1. Set a path segment as a parameter in the URL configuration
+1. Set a path as a parameter in the URL configuration
 2. The parameter becomes available in the formula editor throughout the page
 3. Set a test value to simulate different parameter values in the editor
 
 For example, a blog page might use `/blog/:slug` where `:slug` is a parameter that determines which article to display.
 
 ::: info
-toddle prioritizes static pages over dynamic ones when multiple pages match the current URL.
+toddle prioritizes **static** pages over **dynamic** ones when multiple pages match the current URL.
 :::
 
 ## Query parameters
