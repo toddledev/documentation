@@ -105,17 +105,6 @@ Examples better suited for variables:
 - Confirmation dialog states
 - Authentication tokens
 
-## Custom 404 pages
-If a user navigates to a URL that doesn't match any page in your application, toddle shows a default 404 (page not found) page.
-To create a custom 404 page:
-1. Add a new page
-2. Name it "404"
-3. Design the page as you want it to appear when users encounter invalid URLs
-
-::: info
-Custom 404 pages and proper 404 handling are only available on paid plans.
-:::
-
 ## Head assets
 Sometimes you need to add external resources to your page, such as third-party scripts or custom fonts.
 
@@ -131,4 +120,15 @@ Be extremely cautious when adding external scripts. Only add scripts from truste
 
 ::: tip
 When adding custom fonts or other resources, consider the impact on page load time. Each additional asset increases loading time and may affect user experience.
+:::
+
+## Custom 404 pages
+If a user navigates to a URL that doesn't match any page in your application, toddle shows a default 404 (page not found) page.
+To create a custom 404 page:
+1. Add a new page
+2. Name it "404"
+3. Design the page as you want it to appear when users encounter invalid URLs
+
+::: info
+Custom 404 pages and proper 404 handling are only available on paid plans.
 :::

@@ -9,7 +9,9 @@ testing
 # Pages
 Pages are fundamental building blocks in toddle applications that represent distinct views with unique URLs. Unlike components, pages are designed to function as standalone views that users can navigate to and share.
 
-(IMAGE: Overview of a page in the toddle editor showing the canvas and data panel)
+::: warning
+missing pages image
+:::
 
 # Understanding pages
 Pages in toddle are similar to components but serve a different purpose in your application architecture. They provide entry points to your application through unique URLs.
@@ -53,15 +55,6 @@ Custom meta tags are only rendered for applications on a paid plan.
 :::
 
 Keep titles and descriptions concise and descriptive to help users understand what content to expect.
-
-## Custom 404 page
-When a user attempts to access a non-existent URL in your app, toddle displays a default 404 (page not found) page. You can create a custom 404 page by:
-1. Adding a new page to your project
-2. Naming it "404"
-
-::: info
-Custom 404 pages and proper 404 handling are only available on paid plans.
-:::
 
 # Dynamic pages
 Dynamic pages receive content from external sources rather than having static content defined directly in toddle.
@@ -135,4 +128,13 @@ Be cautious when adding external scripts. You're granting these scripts access t
 
 ::: tip
 While adding assets can extend functionality, each additional resource increases page load time. Be mindful of performance impacts.
+:::
+
+# Custom 404 page
+When a user attempts to access a non-existent URL in your app, toddle displays a default 404 (page not found) page. You can create a custom 404 page by:
+1. Adding a new page to your project
+2. Naming it "404"
+
+::: info
+Custom 404 pages and proper 404 handling are only available on paid plans.
 :::
