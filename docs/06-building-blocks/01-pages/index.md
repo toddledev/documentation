@@ -73,6 +73,15 @@ When adding custom fonts or other resources, consider the impact on page load ti
 :::
 
 
+# Static pages
+Static pages contain content defined directly within toddle that remains consistent unless you publish updates. They:
+- Have fixed content created directly in the toddle editor
+- Display the same information to all users
+- Use predetermined URLs without variable path segments
+- Don't require API calls to render content
+
+Static pages are the default page type in toddle, ideal for content that doesn't need to change based on user input or external data.
+
 # Dynamic pages
 Dynamic pages display content based on data received from APIs or URL parameters rather than having static content defined directly in toddle. They use URL parameters to determine what content to display:
 -  **Path parameters**: Define variable segments in your URL path
