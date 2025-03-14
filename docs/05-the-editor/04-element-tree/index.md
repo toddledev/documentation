@@ -42,7 +42,7 @@ missing context menu image
 Add new element by
 - selecting `Add element` from the context menu
 - clicking the `+` button in the sidebar header
-- using the hotkey `E` 
+- using the hotkey `I` 
 
 to quickly open the element catalog.
 

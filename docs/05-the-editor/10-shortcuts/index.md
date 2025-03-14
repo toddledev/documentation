@@ -23,6 +23,21 @@ When an element or component is selected in the canvas or element tree:
 - `A` - Switch to the [attributes tab](/the-editor/element-panel#attributes) in the element panel
 - `E` - Switch to the [events tab](/the-editor/element-panel#events) in the element panel
 
+## Element tree and canvas shortcuts
+- Hold `Alt` while dropping a dragged element in the element tree - Copy the element instead of moving it
+- Hold `Alt` while dragging an element in the canvas - Drag a duplicate of the selected element/component instead of moving the original
+- Hold `Alt` while hovering over elements in the canvas - Display distances (in px) between the selected element and other elements or the parent element
+
+## Element editing shortcuts
+- `Cmd/Ctrl + C` - Copy selected element/component
+- `Cmd/Ctrl + V` - Paste element/component
+- `Cmd/Ctrl + D` - Duplicate selected element/component
+- `Cmd/Ctrl + X` - Cut selected element/component
+
+## Common operations
+- `Cmd/Ctrl + Z` - Undo last action
+- `Cmd/Ctrl + Shift + Z` - Redo last action
+
 ## Element tree shortcuts
 - Hold `Alt` while dropping a dragged element - Copy the element instead of moving it
 
