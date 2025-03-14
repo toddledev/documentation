@@ -77,6 +77,10 @@ Dynamic pages display content based on data received from APIs or URL parameters
 -  **Path parameters**: Define variable segments in your URL path
 -  **Query parameters**: Add optional parameters after the `?` in the URL
 
+::: warning
+missing image for setting path and query parameters
+:::
+
 ## Path parameters
 To create a dynamic page:
 1. Set a path as a parameter in the URL configuration
