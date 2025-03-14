@@ -16,7 +16,7 @@ In toddle, elements exist in a hierarchical structure. Each element (except for 
 # Types of elements
 There are three distinct types of elements that you can add to your pages and components:
 - **[HTML elements](#html-elements)**
-- **[Test elements](#text-elements)**
+- **[Text elements](#text-elements)**
 - **[Components](#components)**
 
 ## HTML elements
