@@ -38,8 +38,6 @@ When an element or component is selected in the canvas or element tree:
 - `Cmd/Ctrl + Z` - Undo last action
 - `Cmd/Ctrl + Shift + Z` - Redo last action
 
-## Element tree shortcuts
-- Hold `Alt` while dropping a dragged element - Copy the element instead of moving it
 
 ::: tip
 Learning keyboard shortcuts can significantly improve your workflow efficiency when building applications in toddle.
