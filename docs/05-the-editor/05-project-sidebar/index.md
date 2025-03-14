@@ -14,7 +14,7 @@ missing project sidebar image
 Open the project sidebar with `Cmd/Ctrl+K` and close it with `Escape`.
 :::
 
-# Project structure
+# Structure
 ## Search
 Find files quickly by typing in the search field at the top of the sidebar.
 
@@ -31,6 +31,14 @@ Each section can be expanded or collapsed and includes a `+` button to create ne
 - **Media**: Upload and manage images and other media files for your project.
 - **Themes**: Configure design tokens including colors, spacing, typography and z-index values.
 - **Settings**: Manage project configurations including favicon, robots.txt, sitemap, app manifest and service worker.
+
+# Project settings
+At the bottom of the panel you will find following settings for your project:
+- **Favicon**: Upload a [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon) for your project - available at https://yourproject.toddle.site/favicon.ico
+- **Robots.txt**: Target a custom [robots.txt](https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt) document (with a URL) - available at https://yourproject.toddle.site/robots.txt
+- **Sitemap.xml**: Target a custom [sitemap.xml](https://en.wikipedia.org/wiki/Sitemaps) document (with a URL) - available at https://yourproject.toddle.site/sitemap.xml
+- **App Manifest**: Target a custom [manifest](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest) JSON file (with a URL) - available at https://yourproject.toddle.site/manifest.json
+- **Service Worker**: Target a custom [service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) file (with a URL) - available at https://yourproject.toddle.site/serviceWorker.js
 
 ::: info
 Settings are only available with a paid plan.
