@@ -1,6 +1,6 @@
 ---
 title: Theme
-description: toddle docs
+description:
 ---
 
 # Theme
