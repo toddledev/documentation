@@ -72,10 +72,9 @@ Be extremely cautious when adding external scripts. Only add scripts from truste
 When adding custom fonts or other resources, consider the impact on page load time. Each additional asset increases loading time and may affect user experience.
 :::
 
-
 # Static pages
 Static pages contain content defined directly within toddle that remains consistent unless you publish updates. They:
-- Have fixed content created directly in the toddle editor
+- Have fixed content created directly in the editor
 - Display the same information to all users
 - Use predetermined URLs without variable path segments
 - Don't require API calls to render content
