@@ -98,16 +98,15 @@ Examples of data appropriate for URL parameters:
 Examples better suited for variables:
 - Form input values
 - Confirmation dialog states
-- Authentication tokens
 
 # Head assets
 Sometimes you need to add external resources to your page, such as third-party scripts or custom fonts.
 
 In the URL panel under "Head assets", you can:
-1. Choose the resource type from the dropdown (script, link, or style)
+1. Choose the resource type from the dropdown (script, link or style)
 2. Provide content or reference external resources
 3. Set additional attributes for the resource
-4. Add multiple resources by clicking "Add external resource"
+4. Add multiple resources by clicking `Add external resource`
 
 ::: warning
 Be extremely cautious when adding external scripts. Only add scripts from trusted sources as they will have full access to your page data.
@@ -121,7 +120,7 @@ When adding custom fonts or other resources, consider the impact on page load ti
 If a user navigates to a URL that doesn't match any page in your application, toddle shows a default 404 (page not found) page.
 To create a custom 404 page:
 1. Add a new page
-2. Name it "404"
+2. Name it `404`
 3. Design the page as you want it to appear when users encounter invalid URLs
 
 ::: info
