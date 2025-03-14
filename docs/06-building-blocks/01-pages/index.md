@@ -72,6 +72,7 @@ Be extremely cautious when adding external scripts. Only add scripts from truste
 When adding custom fonts or other resources, consider the impact on page load time. Each additional asset increases loading time and may affect user experience.
 :::
 
+
 # Dynamic pages
 Dynamic pages display content based on data received from APIs or URL parameters rather than having static content defined directly in toddle. They use URL parameters to determine what content to display:
 -  **Path parameters**: Define variable segments in your URL path
@@ -113,12 +114,12 @@ When you create URL parameters, specific actions become available in the workflo
 - **URL parameters**: Use when data should persist through page reloads and be shareable via links
 - **Variables**: Use for temporary state or sensitive information not appropriate for URLs
 
-Examples of data appropriate for URL parameters:
+Examples of data appropriate for **URL parameters**:
 - Active tab selection
 - Selected item in a list
 - Visibility state of important UI elements
 
-Examples better suited for variables:
+Examples better suited for **variables**:
 - Form input values
 - Confirmation dialog states
 
