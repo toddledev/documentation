@@ -6,6 +6,10 @@ description:
 # Components
 Components are one of toddle's most powerful features, allowing you to create reusable, customizable building blocks for your application.
 
+::: warning
+missing components image
+:::
+
 Components in toddle:
 - Can be configured using attributes, contexts and CSS variables, similar to HTML elements
 - Can emit events to communicate with parent elements
