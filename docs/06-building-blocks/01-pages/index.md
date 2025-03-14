@@ -55,6 +55,23 @@ You can bind any metadata value to formulas by clicking the formula button next 
 Custom meta tags are only rendered for applications on a paid plan.
 :::
 
+## Head assets
+Sometimes you need to add external resources to your page, such as third-party scripts or custom fonts.
+
+In the URL panel under **Head assets**, you can:
+1. Choose the resource type from the dropdown (script, link or style)
+2. Provide content or reference external resources
+3. Set additional attributes for the resource
+4. Add multiple resources by clicking `Add external resource`
+
+::: warning
+Be extremely cautious when adding external scripts. Only add scripts from trusted sources as they will have full access to your page data.
+:::
+
+::: tip
+When adding custom fonts or other resources, consider the impact on page load time. Each additional asset increases loading time and may affect user experience.
+:::
+
 # Dynamic pages
 Dynamic pages display content based on data received from APIs or URL parameters rather than having static content defined directly in toddle. They use URL parameters to determine what content to display:
 -  **Path parameters**: Define variable segments in your URL path
@@ -101,24 +118,7 @@ Examples better suited for variables:
 - Form input values
 - Confirmation dialog states
 
-# Head assets
-Sometimes you need to add external resources to your page, such as third-party scripts or custom fonts.
-
-In the URL panel under **Head assets**, you can:
-1. Choose the resource type from the dropdown (script, link or style)
-2. Provide content or reference external resources
-3. Set additional attributes for the resource
-4. Add multiple resources by clicking `Add external resource`
-
-::: warning
-Be extremely cautious when adding external scripts. Only add scripts from trusted sources as they will have full access to your page data.
-:::
-
-::: tip
-When adding custom fonts or other resources, consider the impact on page load time. Each additional asset increases loading time and may affect user experience.
-:::
-
-# Custom 404 pages
+# Custom 404 page
 If a user navigates to a URL that doesn't match any page in your application, toddle shows a default 404 (page not found) page.
 To create a custom 404 page:
 1. Add a new page
