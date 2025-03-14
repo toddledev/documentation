@@ -36,11 +36,11 @@ The URL configuration is divided into two main sections:
 - Enable `Set to null` option when appropriate
 - Remove parameters using the `-` button
 
-::: info
+::: tip
 If you are not familiar with URL structure, check out the [blog post about URLs](https://toddle.dev/blog/urls-how-do-they-really-work).
 :::
 
-## Meta
+## Metadata
 Each page in your application should have unique metadata to improve user experience and search engine visibility:
 - **Title**: Appears in browser tabs and search results
 - **Language**: Specify the language of your page content
@@ -56,7 +56,9 @@ Custom meta tags are only rendered for applications on a paid plan.
 :::
 
 # Dynamic pages
-Dynamic pages display content based on data received from APIs or URL parameters, rather than being hardcoded.
+Dynamic pages display content based on data received from APIs or URL parameters rather than having static content defined directly in toddle. They use URL parameters to determine what content to display:
+-  **Path parameters**: Define variable segments in your URL path
+-  **Query parameters**: Add optional parameters after the `?` in the URL
 
 ## Path parameters
 To create a dynamic page:
@@ -76,12 +78,12 @@ In addition to path parameters, you can define query parameters to pass addition
 - They don't trigger browser navigation history when changed
 - They're useful for optional settings or filters
 
-## Using parameters in workflows
-When you create URL parameters, special actions become available in your workflow editor:
-- Update parameter values without triggering full page reloads
-- Access parameter values in formulas and conditions
+## Working with URL parameters
+When you create URL parameters, specific actions become available in the workflow editor:
+- Update path parameters to change the URL without reloading the page
+- Update query parameters to modify the current state
 
-# When to use different parameter types
+# When to use URL parameters
 ## Path vs. query parameters
 - **Path parameters**: Use for essential page identification that affects navigation history
 - **Query parameters**: Use for optional filters or settings that don't represent distinct navigation states
@@ -93,7 +95,7 @@ When you create URL parameters, special actions become available in your workflo
 Examples of data appropriate for URL parameters:
 - Active tab selection
 - Selected item in a list
-- Whether to show an edit modal
+- Visibility state of important UI elements
 
 Examples better suited for variables:
 - Form input values
@@ -102,7 +104,7 @@ Examples better suited for variables:
 # Head assets
 Sometimes you need to add external resources to your page, such as third-party scripts or custom fonts.
 
-In the URL panel under "Head assets", you can:
+In the URL panel under **Head assets**, you can:
 1. Choose the resource type from the dropdown (script, link or style)
 2. Provide content or reference external resources
 3. Set additional attributes for the resource
