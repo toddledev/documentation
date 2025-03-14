@@ -11,9 +11,9 @@ missing element panel image
 :::
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three primary tabs:
-1. **Styling**: Configure visual appearance and layout for the element and its children
-2. **Attributes**: Set HTML attributes and formulas for advanced behaviors
-3. **Events**: Define workflows triggered by user interactions with the element
+1. **[Styling](#styling)**: Configure visual appearance and layout for the element and its children
+2. **[Attributes](#attributes)**: Set HTML attributes and formulas for advanced behaviors
+3. **[Events](#events)**: Define workflows triggered by user interactions with the element
 
 # Styling
 The styling tab allows you to control the visual appearance of elements and components.
