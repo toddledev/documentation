@@ -47,7 +47,7 @@ Launching a package makes it public and available to everyone. This action canno
 
 The only way to remove a launched package is to delete it entirely.
 
-# Updating launched packages
+# Updating a launched package
 Packages can be updated after launch:
 - Make improvements to your components, actions or formulas
 - Add new functionality or fix bugs
