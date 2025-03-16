@@ -6,11 +6,10 @@ description:
 # The editor
 The editor is the main workspace for building your toddle applications and packages. It provides a comprehensive interface with the tools needed to design, develop and test your projects.
 
-::: warning
-missing editor image
-:::
+![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&rightpanel=events&canvas-width=800&canvas-height=800}
 
 The editor workspace consists of four main sections:
+
 1. **[Canvas](/the-editor/canvas)**: The central workspace where you visually build and interact with your application.
 2. **[Bottom bar](/the-editor/bottom-bar)**: Editor controls with testing, previewing and AI assistance
 3. **Left panel**: Context-sensitive panel that displays
@@ -22,7 +21,7 @@ The editor workspace consists of four main sections:
     - **[Data panel](/the-editor/data-panel)**: Configure logic, interfaces and behavior of pages and components
     - **[Element panel](/the-editor/element-panel)**: Specific settings and configuration of selected element
 
-The editor's intuitive layout enables efficient application development through seamless access to all necessary tools and resources.
+The editor's layout enables efficient application development through easy access to all necessary tools and resources.
 
 ## Left panel
 Click the toddle logo in the top left corner to navigate back to project details, organization members, projects or the dashboard.
