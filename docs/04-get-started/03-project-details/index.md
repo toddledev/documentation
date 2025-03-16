@@ -34,7 +34,7 @@ To make changes, you need to create a new branch.
 ## Create a new branch
 ![Create new branch|16/9](create-new-branch.webp)
 
-1. Click the `Create branch` button
+1. Click the [kbd]Create branch[kbd] button
 2. Enter a name for the branch and confirm
 
 The branch is created and you are automatically redirected to the editor to start working.

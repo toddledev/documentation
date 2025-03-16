@@ -14,9 +14,9 @@ To create a package:
 
 ## Exporting elements
 Only exported elements will be available to users who install your package:
-- **Components**: Check `Export this component` in the package section of the [data panel](/the-editor/data-panel)
-- **Actions**: Check `Export this action` for global actions
-- **Formulas**: Check "Export this formula" for global formulas
+- **Components**: Check [kbd]Export this component[kbd] in the package section of the [data panel](/the-editor/data-panel)
+- **Actions**: Check [kbd]Export this action[kbd] for global actions
+- **Formulas**: Check [kbd]Export this formula[kbd] for global formulas
 
 Non-exported elements remain internal to your package, useful for organization, documentation or supporting exported functionality.
 
@@ -38,7 +38,7 @@ missing image for package details with launch button
 
 Once your package is ready:
 1. Go to the project details page
-2. Click the `Launch package` button
+2. Click the [kbd]Launch[kbd] button
 3. Confirm the launch
 
 ::: info

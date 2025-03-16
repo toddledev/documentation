@@ -24,17 +24,17 @@ At the top of the page configuration panel, you will see a URL preview showing h
 
 The URL configuration is divided into two main sections:
 ### Path
-- Add path segments by clicking the `Add path` button
+- Add path segments by clicking the [kbd]Add path[kbd] button
 - For each path segment, provide a name
-- Enable the `Param` checkbox to make a path dynamic
+- Enable the [kbd]Param[kbd] checkbox to make a path dynamic
 - Set a test value for development purposes 
-- Remove paths using the `-` button
+- Remove paths using the [kbd]-[kbd] button
 ### Query
-- Add query parameters by clicking the `Add query` button
+- Add query parameters by clicking the [kbd]Add query[kbd] button
 - Name your parameters
 - Set a test value for development
-- Enable `Set to null` option when appropriate
-- Remove parameters using the `-` button
+- Enable [kbd]Set to null[kbd] option when appropriate
+- Remove parameters using the [kbd]-[kbd] button
 
 ::: tip
 If you are not familiar with URL structure, check out the [blog post about URLs](https://toddle.dev/blog/urls-how-do-they-really-work).
@@ -62,7 +62,7 @@ In the URL panel under **Head assets**, you can:
 1. Choose the resource type from the dropdown (script, link or style)
 2. Provide content or reference external resources
 3. Set additional attributes for the resource
-4. Add multiple resources by clicking `Add external resource`
+4. Add multiple resources by clicking [kbd]Add external resource[kbd]
 
 ::: warning
 Be extremely cautious when adding external scripts. Only add scripts from trusted sources as they will have full access to your page data.

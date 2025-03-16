@@ -7,7 +7,7 @@ description: toddle docs
 Packages extend your toddle projects with reusable components and functionality. They help you save development time and maintain consistency across projects.
 
 ::: warning
-missing packages overview image -> which package, confetti?
+missing packages overview image
 :::
 
 # Browsing packages
@@ -28,7 +28,7 @@ Click on any package to view its detailed information page, that includes:
 
 You can give a star to packages you find useful by clicking the star icon next to the install button. Stars contribute to the package's ranking in the Popular tab. 
 
-Additionally, you can clone any package by clicking the `clone` button, which creates a copy of the package in your account that you can modify.
+Additionally, you can clone any package by clicking the [kbd]clone[kbd] button, which creates a copy of the package in your account that you can modify.
 
 # Package accessibility
 All packages in toddle are public, meaning:

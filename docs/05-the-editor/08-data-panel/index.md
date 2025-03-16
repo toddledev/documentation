@@ -11,7 +11,7 @@ missing data panel image
 :::
 
 ::: info
-The data panel is only visible when no element is selected. Press `Escape` or click on the background outside the canvas to deselect.
+The data panel is only visible when no element is selected. Press [kbd]Escape[kbd] or click on the background outside the canvas to deselect.
 :::
 
 # Data sections

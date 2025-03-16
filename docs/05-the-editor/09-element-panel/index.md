@@ -70,7 +70,7 @@ missing attributes tab image
 - Changing the tag allows you to modify the element's behavior while preserving its contents and styling
 
 ## Attributes
-- Add attributes to the element by clicking the `+` button and entering a name
+- Add attributes to the element by clicking the [kbd]+[kbd] button and entering a name
 - Define attribute values directly or bind them to variables or formulas for dynamic content
 - Some element tags have predefined attributes (e.g. `type` for input elements)
 - For components, you can only set the attributes that have been specifically defined for that component

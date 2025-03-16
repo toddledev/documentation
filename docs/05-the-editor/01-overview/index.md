@@ -32,7 +32,7 @@ The [element tree](/the-editor/element-tree) appears by default in the left pane
 - [Packages](/the-editor/packages)
 - [Issues panel](/the-editor/issues-panel)
 
-Click on the background or press `Escape` to return to the element tree view from any other panel.
+Click on the background or press [kbd]Escape[kbd] to return to the element tree view from any other panel.
 
 ## Right panel
 The right panel displays different content based on your selection:

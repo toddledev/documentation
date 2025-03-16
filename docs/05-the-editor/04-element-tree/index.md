@@ -21,7 +21,7 @@ HTML element names cannot be modified.
 :::
 
 ::: tip
-Hold the `Alt` key while dropping a dragged element to copy it instead of moving it.
+Hold the [kbd]Alt[kbd] key while dropping a dragged element to copy it instead of moving it.
 :::
 
 ## Context menu
@@ -40,9 +40,9 @@ missing context menu image
 
 # Adding elements
 Add new element by
-- selecting `Add element` from the context menu
-- clicking the `+` button in the sidebar header
-- using the hotkey `I` 
+- selecting [kbd]Add element[kbd] from the context menu
+- clicking the [kbd]+[kbd] button in the sidebar header
+- using the hotkey [kbd]I[kbd] 
 
 to quickly open the element catalog.
 

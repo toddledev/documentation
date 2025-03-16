@@ -19,7 +19,7 @@ missing bottom bar image
 - **View changes**: See all modifications made in the current branch
 
 ::: info
-The `Export as web component` button is only available when editing components, not pages.
+The [kbd]Export as web component[kbd] button is only available when editing components, not pages.
 :::
 
 ::: tip
@@ -27,7 +27,7 @@ When testing interactive features, use preview mode for a more accurate represen
 :::
 
 # Branch management
-When you click the `View changes` button, you can see all modifications made in your current branch.
+When you click the [kbd]View changes[kbd] button, you can see all modifications made in your current branch.
 
 ::: warning
 missing view changes image

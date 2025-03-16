@@ -11,7 +11,7 @@ missing project sidebar image
 :::
 
 ::: info
-Open the project sidebar with `Cmd/Ctrl+K` and close it with `Escape`.
+Open the project sidebar with [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd] and close it with [kbd]Escape[kbd].
 :::
 
 # Structure
@@ -22,7 +22,7 @@ Find files quickly by typing in the search field at the top of the sidebar.
 Displays files you have recently accessed for quick navigation between components, pages and other files.
 
 ## Content sections
-Each section can be expanded or collapsed and includes a `+` button to create new items (except for themes and settings):
+Each section can be expanded or collapsed and includes a [kbd]+[kbd] button to create new items (except for themes and settings):
 - **Pages**: View and manage all [pages](/building-blocks/pages) in your project.
 - **Components**: Access all reusable [components](/building-blocks/components) in your project.
 - **Services**: Configure API connections to external services like Xano, Supabase or any OpenAPI service.
