@@ -39,5 +39,5 @@ At the bottom of the panel you will find following settings for your project:
 - **Service Worker**: Target a custom [service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) file (with a URL) - available at `https://yourproject.toddle.site/serviceWorker.js`
 
 ::: info
-Settings are only available with a paid plan.
+Project settings are only available with a paid plan.
 :::
