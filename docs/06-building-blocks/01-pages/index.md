@@ -15,9 +15,7 @@ Pages are foundational building blocks in toddle applications, representing dist
 # Page configuration
 To configure a page, select it in the [project sidebar](/the-editor/project-sidebar) and click on it in the **Page** section of the [data panel](/the-editor/data-panel).
 
-::: warning
-missing pages configuration image
-:::
+![Page configuration|16/9](page-configuration.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?selection=route&rightpanel=style&canvas-width=800&canvas-height=800}
 
 ## URL structure
 At the top of the page configuration panel, you will see a URL preview showing how your page's URL will appear, including domain, path segments and query parameters.
@@ -86,9 +84,7 @@ Dynamic pages display content based on data received from APIs or URL parameters
 -  **Path parameters**: Define variable segments in your URL path
 -  **Query parameters**: Add optional parameters after the `?` in the URL
 
-::: warning
-missing image for setting path and query parameters
-:::
+![Path parameter|16/9](set-path-parameter.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?selection=route&rightpanel=style&canvas-width=800&canvas-height=800}
 
 ## Path parameters
 To create a dynamic page:
