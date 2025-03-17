@@ -22,6 +22,10 @@ The styling tab allows you to control the visual appearance of elements and comp
 missing styling tab image
 :::
 
+1. Set [style variables](#style-variables)
+2. Define [style](#style) variants
+3. Set [CSS properties](#css-properties) for selected style variant
+
 ## Style variables
 Style variables provide a way to store and reuse values throughout your styles.
 - Create and manage CSS style variables that can be referenced in your styles

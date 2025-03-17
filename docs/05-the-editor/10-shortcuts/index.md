@@ -6,10 +6,6 @@ description:
 # Shortcuts
 Keyboard shortcuts in toddle help you work faster and more efficiently by providing quick access to common actions and tools.
 
-::: warning
-missing shortcuts image
-:::
-
 ## Editor shortcuts
 These shortcuts work anywhere in the editor:
 - [kbd]T[kbd] - Toggle test mode
