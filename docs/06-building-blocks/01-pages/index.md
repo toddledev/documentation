@@ -88,9 +88,8 @@ Dynamic pages display content based on data received from APIs or URL parameters
 
 ## Path parameters
 To create a dynamic page:
-1. Set a path as a parameter in the URL configuration
-2. The parameter becomes available in the formula editor throughout the page
-3. Set a test value to simulate different parameter values in the editor
+1. Set a path as a parameter in the URL configuration. The parameter becomes available in the formula editor throughout the page
+2. Set a test value to simulate different parameter values in the editor
 
 For example, a blog page might use `/blog/:slug` where `:slug` is a parameter that determines which article to display.
 
