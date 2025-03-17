@@ -36,10 +36,9 @@ The main page of the package serves as both documentation and demonstration:
 missing image for package details with launch button
 :::
 
-Once your package is ready:
-1. Go to the project details page
-2. Click the [kbd]Launch[kbd] button
-3. Confirm the launch
+Once your package is ready, go to the project details page:
+1. Click the [kbd]Launch[kbd] button
+2. Confirm the launch
 
 ::: info
 Launching a package makes it public and available to everyone. This action cannot be undone.

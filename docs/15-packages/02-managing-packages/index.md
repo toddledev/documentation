@@ -6,14 +6,14 @@ description:
 # Managing packages
 Once you've found packages that enhance your project, you can easily install, update, and manage them.
 
+# Installing packages
 ::: warning
 missing installed package view image -> which packages like confetti?
 :::
 
-# Installing packages
 Add a package to your project by:
-- Clicking the install button next to a package in the left panel
-- Using the install button in the top-right corner of the package details page
+1. Clicking the install button next to a package in the left panel or
+2. Using the install button in the top-right corner of the package details page
 
 Once installed, package's components, actions, and formulas become available throughout your project:
 - **Components** appear in the element catalog under `Components`
@@ -23,8 +23,12 @@ Once installed, package's components, actions, and formulas become available thr
 # Managing installed packages
 The `Installed` tab in the packages panel shows all packages currently used in your project.
 
+::: warning
+image for updating packages
+:::
+
 ## Updating packages
-When updates are available for an installed package, an update icon appears next to it. Click this icon to install the latest version.
+When an installed package has updates available, a green update icon appears next to it. Click this icon to install the latest version.
 
 ::: warning
 Updating a package while in the main branch immediately applies changes to your published project. This may cause unexpected behavior or break your live version.

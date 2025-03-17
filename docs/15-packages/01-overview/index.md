@@ -1,6 +1,6 @@
 ---
-title: Packages - Overview
-description: toddle docs
+title: Packages
+description:
 ---
 
 # Packages
@@ -11,7 +11,7 @@ missing packages overview image
 :::
 
 # Browsing packages
-The packages panel organizes available packages into three tabs:
+You can find the [kbd]packages[kbd] button in the [left sidebar](/the-editor/overview#left-panel). The packages panel organizes available packages into three tabs:
 - **Popular**: Most frequently installed packages
 - **Newest**: Recently published packages
 - **Installed**: Packages currently used in your project
@@ -26,7 +26,7 @@ Click on any package to view its detailed information page, that includes:
 - Details about available attributes, events and configurations
 - Implementation examples and use cases
 
-You can give a star to packages you find useful by clicking the star icon next to the install button. Stars contribute to the package's ranking in the Popular tab. 
+You can give a star to packages you find useful by clicking the star icon next to the [kbd]install[kbd] button. Stars contribute to the package's ranking in the Popular tab. 
 
 Additionally, you can clone any package by clicking the [kbd]clone[kbd] button, which creates a copy of the package in your account that you can modify.
 
