@@ -6,9 +6,7 @@ description:
 # Packages
 Packages extend your toddle projects with reusable components and functionality. They help you save development time and maintain consistency across projects.
 
-::: warning
-missing packages overview image
-:::
+![Package overview|16/9](packages.webp)
 
 # Browsing packages
 You can find the [kbd]packages[kbd] button in the [left sidebar](/the-editor/overview#left-panel). The packages panel organizes available packages into three tabs:

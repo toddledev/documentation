@@ -7,9 +7,7 @@ description:
 Once you have found packages that enhance your project, you can easily install, update, and manage them.
 
 # Installing packages
-::: warning
-missing installed package view image -> which packages like confetti?
-:::
+![Install a package|16/9](install-a-package.webp)
 
 Add a package to your project by:
 1. Clicking the install button next to a package in the left panel or
@@ -23,9 +21,7 @@ Once installed, package's components, actions, and formulas become available thr
 # Managing installed packages
 The `Installed` tab in the packages panel shows all packages currently used in your project.
 
-::: warning
-image for updating packages
-:::
+![Installed packages|16/9](update-a-package.webp)
 
 ## Updating packages
 When an installed package has updates available, a green update icon appears next to it. Click this icon to install the latest version.

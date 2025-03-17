@@ -32,9 +32,7 @@ The main page of the package serves as both documentation and demonstration:
 - Explain how to use the exported components, actions and formulas
 
 # Launching a package
-::: warning
-missing image for package details with launch button
-:::
+![Launch a package|16/9](launch-a-package.webp)
 
 Once your package is ready, go to the project details page:
 1. Click the [kbd]Launch[kbd] button
