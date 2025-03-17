@@ -6,9 +6,7 @@ description:
 # Element tree
 The element tree provides a structural overview of your project, displaying all elements in your page or component hierarchically. It enables efficient navigation, selection and organization of your project's building blocks.
 
-::: warning
-missing element tree image
-:::
+![Element tree|16/9](element-tree.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
 
 ## Navigation and selection
 - Elements are named according to their HTML tag or component name
@@ -17,7 +15,7 @@ missing element tree image
 - Drag elements to reorder them within the structure
 
 ::: info
-HTML element names cannot be modified.
+HTML element names cannot be modified, e.g. `div`.
 :::
 
 ::: tip
@@ -27,9 +25,7 @@ Hold the [kbd]Alt[kbd] key while dropping a dragged element to copy it instead o
 ## Context menu
 Right-clicking an element opens a context menu with several actions:
 
-::: warning
-missing context menu image
-:::
+![Element context menu|16/9](element-context-menu.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
 - **Add element**: Opens the element catalog
 - **Wrap in element**: Place the element inside a new parent element
@@ -47,9 +43,7 @@ Add new element by
 to quickly open the element catalog.
 
 ## Element catalog
-::: warning
-missing element catalog image
-:::
+![Element catalog|16/9](element-catalog.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&rightpanel=style&canvas-width=800&canvas-height=800&elementCatalog=true}
 
 The element catalog provides a comprehensive collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
 - Browse different element types grouped by functionality
