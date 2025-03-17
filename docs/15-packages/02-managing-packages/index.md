@@ -1,12 +1,12 @@
 ---
-title: Managing packages
+title: Manage packages
 description:
 ---
 
-# Managing packages
+# Manage packages
 Once you have found packages that enhance your project, you can easily install, update, and manage them.
 
-# Installing packages
+# Install a package
 ![Install a package|16/9](install-a-package.webp)
 
 Add a package to your project by:
@@ -18,12 +18,12 @@ Once installed, package's components, actions, and formulas become available thr
 - **Actions** become available in workflows and events
 - **Formulas** can be used anywhere formulas are supported
 
-# Managing installed packages
+# Manage installed packages
 The `Installed` tab in the packages panel shows all packages currently used in your project.
 
 ![Installed packages|16/9](update-a-package.webp)
 
-## Updating packages
+## Update a package
 When an installed package has updates available, a green update icon appears next to it. Click this icon to install the latest version.
 
 ::: warning
@@ -34,7 +34,7 @@ Updating a package while in the main branch immediately applies changes to your 
 Always create a new branch before updating packages. This allows you to test your application with the updated package and resolve any issues before publishing.
 :::
 
-## Uninstalling packages
+## Uninstall a package
 Uninstall a package by clicking the trash icon next to it in the packages list or on the package details page.
 
 ::: info
