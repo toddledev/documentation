@@ -6,9 +6,7 @@ description:
 # Element panel
 The element panel appears in the right side of the editor when an element is selected. It provides detailed control over the appearance, attributes and interactivity of the selected element.
 
-::: warning
-missing element panel image
-:::
+![Element panel|16/9](element-panel.webp){}
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three primary tabs:
 1. **[Styling](#styling)**: Configure visual appearance and layout for the element and its children
@@ -18,9 +16,7 @@ When you select an element in the canvas or element tree, the element panel disp
 # Styling
 The styling tab allows you to control the visual appearance of elements and components.
 
-::: warning
-missing styling tab image
-:::
+![Styling|16/9](element-panel-styling.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
 1. Set [style variables](#style-variables)
 2. Define [style](#style) variants
@@ -65,9 +61,7 @@ This view is particularly useful for developers comfortable with writing CSS dir
 # Attributes
 The attributes tab allows you to configure HTML tags, attributes, classes and special behaviors like conditional display and repetition for the selected element.
 
-::: warning
-missing attributes tab image
-:::
+![Attributes|16/9](element-panel-attributes.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&canvas-width=800&canvas-height=800&rightpanel=attributes&selection=nodes.root}
 
 ## Element tag
 - Select the HTML tag for your element (not available for components)
@@ -96,9 +90,7 @@ See the [show hide function](/formulas/show-hide-function) page and [repeat func
 # Events
 The events tab enables you to define interactive behaviors that respond to user actions, creating dynamic and responsive interfaces.
 
-::: warning
-missing events tab image
-:::
+![Events|16/9](element-panel-events.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&selection=nodes.root&rightpanel=events&canvas-width=800&canvas-height=800}
 
 - Events are categorized into logical groups (click, keyboard, form, input, touch, etc.) for easier navigation
 - Events with assigned workflows or actions are highlighted and appear in the **Active** section at the top
