@@ -25,27 +25,19 @@ The settings section allows you to manage all configurations for your project.
 7. **Edit details**: Modify the project ID, name and description.
 
 # Branches
-Using branches ensures a smooth and organized development process while keeping the main project stable.
+Branches allow you to work on new features or fixes without affecting the main version of your project. 
 
-Every project has a `main` branch, which is `read-only`. This branch reflects the current state in the editor but cannot be modified directly.
+Every project has a `main` branch that represents the current live version, which is `read-only`. You cannot edit the main branch directly. Instead, you [create new branches](/get-started/branches-and-publishing#create-a-new-branch) for making changes.
 
-To make changes, you need to create a new branch.
+::: info
+For detailed information on working with branches, see the [Branches and publishing](/get-started/branches-and-publishing) page.
+:::
 
-## Create a new branch
-![Create new branch|16/9](create-new-branch.webp)
-
-1. Click the [kbd]Create branch[kbd] button
-2. Enter a name for the branch and confirm
-
-The branch is created and you are automatically redirected to the editor to start working.
-
-## All branches
-You can see all branches of your project, including who created them and when.
+For a clear overview, you can see all branches of your project, including who created them and when.
 
 ![Branch actions|16/9](branch-actions.webp)
 
 For each branch you have the following actions:
-
 1. **Edit**: Opens the branch in the editor to make changes.
 2. **Additional**:
     - **View changes**: See an overview of all modifications in the branch. If the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch.
@@ -61,3 +53,7 @@ The commit labeled `Live version` represents the current deployed version of you
 
 # Members
 The members section lists all project members. If needed, you can remove a member from the project, except for the project owner.
+
+
+
+
