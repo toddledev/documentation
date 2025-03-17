@@ -6,9 +6,7 @@ description:
 # Packages
 Packages extend your project with reusable components and functionality created by the toddle community. They save development time by providing pre-built solutions you can incorporate into your apps.
 
-::: warning
-missing packages sidebar image
-:::
+![Packages|16/9](packages.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&rightpanel=style&canvas-width=800&canvas-height=800}
 
 # Finding packages
 The packages panel organizes available packages in three tabs:
