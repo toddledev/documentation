@@ -76,7 +76,7 @@ Before publishing, your branch must be up-to-date with the latest changes in the
 - Once synchronized, you can [publish your changes](#publish-changes)
 
 ## Resolve merge conflicts
-![Merge conflict|16/9](merge-conflict.webp)
+![Merge conflict|16/9](merge-conflicts.webp)
 
 Merge conflicts occur when two branches have made different changes to the same section of code. When this happens:
 1. toddle will identify and highlight the conflicting changes
