@@ -4,7 +4,7 @@ description:
 ---
 
 # Managing packages
-Once you've found packages that enhance your project, you can easily install, update, and manage them.
+Once you have found packages that enhance your project, you can easily install, update, and manage them.
 
 # Installing packages
 ::: warning
