@@ -9,9 +9,9 @@ The element panel appears in the right side of the editor when an element is sel
 ![Element panel|16/9](element-panel.webp){}
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three primary tabs:
-1. **[Styling](#styling)**: Configure visual appearance and layout for the element and its children
-2. **[Attributes](#attributes)**: Set HTML attributes and formulas for advanced behaviors
-3. **[Events](#events)**: Define workflows triggered by user interactions with the element
+1. **[Styling](#styling-tab)**: Configure visual appearance and layout for the element and its children
+2. **[Attributes](#attributes-tab)**: Set HTML attributes and formulas for advanced behaviors
+3. **[Events](#events-tab)**: Define workflows triggered by user interactions with the element
 
 # Styling tab
 The styling tab allows you to control the visual appearance of elements and components.
