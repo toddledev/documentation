@@ -21,6 +21,7 @@ The styling tab allows you to control the visual appearance of elements and comp
 1. Set [style variables](#style-variables)
 2. Define [style](#style) variants
 3. Set [CSS properties](#css-properties) for selected style variant
+4. Use the [CSS editor](#css-editor) to configure styles with code
 
 ## Style variables
 Style variables provide a way to store and reuse values throughout your styles.
