@@ -13,7 +13,7 @@ When you select an element in the canvas or element tree, the element panel disp
 2. **[Attributes](#attributes)**: Set HTML attributes and formulas for advanced behaviors
 3. **[Events](#events)**: Define workflows triggered by user interactions with the element
 
-# Styling
+# Styling tab
 The styling tab allows you to control the visual appearance of elements and components.
 
 ![Styling|16/9](element-panel-styling.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
@@ -58,7 +58,7 @@ missing css editor image
 
 This view is particularly useful for developers comfortable with writing CSS directly or for making multiple property changes efficiently.
 
-# Attributes
+# Attributes tab
 The attributes tab allows you to configure HTML tags, attributes, classes and special behaviors like conditional display and repetition for the selected element.
 
 ![Attributes|16/9](element-panel-attributes.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&canvas-width=800&canvas-height=800&rightpanel=attributes&selection=nodes.root}
@@ -87,7 +87,7 @@ The attributes tab allows you to configure HTML tags, attributes, classes and sp
 See the [show hide function](/formulas/show-hide-function) page and [repeat function](/formulas/repeat-function) page for more details.
 :::
 
-# Events
+# Events tab
 The events tab enables you to define interactive behaviors that respond to user actions, creating dynamic and responsive interfaces.
 
 ![Events|16/9](element-panel-events.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&selection=nodes.root&rightpanel=events&canvas-width=800&canvas-height=800}
