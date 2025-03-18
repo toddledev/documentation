@@ -48,9 +48,7 @@ The CSS properties section provides a user-friendly interface to set styling pro
 - Copy styles or switch to the CSS editor view using buttons at the bottom of the panel
 
 ## CSS Editor
-::: warning
-missing css editor image
-:::
+![CSS editor|16/9](element-panel-css-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card-container?leftpanel=design&selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
 - The CSS editor provides a code view that replaces the CSS properties section
 - Edit styles directly using CSS syntax
