@@ -33,7 +33,7 @@ After selecting the template, you will be directed to the editor to start workin
 
 After confirming the details, the package will be created and you will be taken to the editor to start working on it.
 
-For detailed instructions on creating and launching packages, see the [how to create a package](/packages/how-to-create) page.
+For detailed instructions see the [creating and launching packages](/packages/creating-and launching) page.
 
 # Visibility options
 When creating a project you can choose between two options:
