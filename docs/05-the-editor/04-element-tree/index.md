@@ -27,12 +27,12 @@ Right-clicking an element opens a context menu with several actions:
 
 ![Element context menu|16/9](element-context-menu.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
-- **Add element**: Opens the element catalog
-- **Wrap in element**: Place the element inside a new parent element
-- **Extract as component**: Convert the element into a reusable component
-- **Show/hide**: Set a formula to control element visibility
-- **Repeat**: Apply a formula to create multiple instances from an array
-- **Standard operations**: Duplicate, cut, copy, paste and delete
+1. **Add element**: Opens the element catalog
+2. **Wrap in element**: Place the element inside a new parent element
+3. **Extract as component**: Convert the element into a reusable component
+4. **Show/hide**: Set a formula to control element visibility
+5. **Repeat**: Apply a formula to create multiple instances from an array
+6. **Standard operations**: Duplicate, cut, copy, paste and delete
 
 # Adding elements
 Add new element by
