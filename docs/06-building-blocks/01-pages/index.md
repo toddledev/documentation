@@ -50,7 +50,7 @@ Make sure your titles and descriptions are concise and clearly describe the page
 You can bind any metadata value to formulas by clicking the formula button next to each field.
 
 ::: info
-Custom meta tags are only rendered for applications on a paid plan.
+Custom `og:*` meta tags are only rendered for applications on a paid plan.
 :::
 
 ## Head assets
@@ -135,4 +135,5 @@ To create a custom 404 page:
 
 ::: info
 Custom 404 pages and proper 404 handling are only available on paid plans.
+Projects in free organizations will show the default 404 page of toddle.
 :::

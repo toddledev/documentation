@@ -42,7 +42,7 @@ Once your package is ready, go to the project details page:
 Launching a package makes it public and available to everyone. This action cannot be undone.
 :::
 
-The only way to remove a launched package is to delete it entirely.
+After launching, you can only remove a package by deleting the entire project. However, if a package is deleted, any projects that previously installed it will continue to function normally.
 
 # Updating a launched package
 Packages can be updated after launch:
