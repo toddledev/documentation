@@ -135,5 +135,6 @@ To create a custom 404 page:
 
 ::: info
 Custom 404 pages and proper 404 handling are only available on paid plans.
-Projects in free organizations will show the default 404 page of toddle.
 :::
+
+Projects in organizations on free plans will display toddle's standard 404 page.
