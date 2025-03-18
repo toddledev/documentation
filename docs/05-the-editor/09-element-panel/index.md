@@ -6,7 +6,7 @@ description:
 # Element panel
 The element panel appears in the right side of the editor when an element is selected. It provides detailed control over the appearance, attributes and interactivity of the selected element.
 
-![Element panel|16/9](element-panel.webp){}
+![Element panel|16/9](element-panel.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three primary tabs:
 1. **[Styling](#styling-tab)**: Configure visual appearance and layout for the element and its children
