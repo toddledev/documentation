@@ -7,7 +7,7 @@ description:
 Creating a new project in toddle is simple and quick. Whether you are building an app or a package, follow the steps below to get started.
 
 ## Create a project from the dashboard
-In the dashboard view, you will find the **Start Building** section. Click `Create app` or `Create package` to begin the creation process for the corresponding project type.
+In the dashboard view, you will find the **Start Building** section. Click [kbd]Create app[kbd] or [kbd]Create package[kbd] to begin the creation process for the corresponding project type.
 
 ## Create a project from the organization view
 In the organization view, at the top right of the project list, you will find the buttons to create an app or a package. Click on the relevant button to start the process.
@@ -33,7 +33,7 @@ After selecting the template, you will be directed to the editor to start workin
 
 After confirming the details, the package will be created and you will be taken to the editor to start working on it.
 
-For detailed instructions see the [creating and launching packages](/packages/creating-and launching) page.
+For detailed instructions see the [creating and launching packages](/packages/creating-and-launching) page.
 
 # Visibility options
 When creating a project you can choose between two options:
