@@ -18,10 +18,10 @@ The data panel is only visible when no element is selected. Press [kbd]Escape[kb
 Pages and components have several data sections that provide essential functionality.
 
 ## Page
-This section appears only for pages, not for components. Configure how your page appears in browsers and search results by setting the URL, title, description, and other metadata.
+This section appears **only for pages**, not for components. Configure how your page appears in browsers and search results by setting the URL, title, description, and other metadata.
 
 ## Attributes
-This section appears only for components, not for pages. Define the interface for your component by creating attributes that can be set when using the component. You can set test values to preview how the component behaves in the editor.
+This section appears **only for components**, not for pages. Define the interface for your component by creating attributes that can be set when using the component. You can set test values to preview how the component behaves in the editor.
 
 ::: info
 These attributes are the attributes of your exported web component.
