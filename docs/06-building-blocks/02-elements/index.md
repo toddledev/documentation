@@ -7,7 +7,7 @@ description:
 # Elements
 Elements are the fundamental building blocks that make up the interface of your page or component in toddle. They create the structure, content, and interactive parts of your application that users see and interact with.
 
-![Elements|16/9](elements.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&selection=nodes.root&rightpanel=attributes&canvas-width=800&canvas-height=800}
+![Elements|16/9](elements.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=attributes&canvas-width=800&canvas-height=800}
 
 In toddle, elements exist in a hierarchical structure. Each element (except for the root element) has a parent element, and many elements can contain children elements. This parent-child relationship creates what we call an element tree, with ancestor elements containing descendant elements.
 

@@ -6,7 +6,7 @@ description:
 # Components
 Components are one of toddle's most powerful features, allowing you to create reusable, customizable building blocks for your application.
 
-![Component|16/9](component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&rightpanel=style&canvas-width=800&canvas-height=800}
+![Component|16/9](component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?rightpanel=style&canvas-width=800&canvas-height=800}
 
 Components in toddle:
 - Can be configured using attributes, contexts and CSS variables, similar to HTML elements

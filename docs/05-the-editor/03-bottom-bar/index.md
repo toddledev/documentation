@@ -6,7 +6,7 @@ description:
 # Bottom bar
 The bottom bar provides quick access to frequently used actions and tools in the toddle editor.
 
-![Bottom bar|16/9](bottom-bar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&rightpanel=style&canvas-width=800&canvas-height=800}
+![Bottom bar|16/9](bottom-bar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800}
 
 1. **AI assistance**: Get help with your project through the "Ask AI" button
 2. **Undo/Redo**: Revert or restore recent changes

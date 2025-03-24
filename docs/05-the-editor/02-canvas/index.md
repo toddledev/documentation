@@ -6,7 +6,7 @@ description:
 # Canvas
 The canvas is the central workspace in the toddle editor where you visually construct and interact with your application.
 
-![Canvas|16/9](canvas.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?mode=test&leftpanel=design&rightpanel=events&canvas-width=1077.6&canvas-height=800}
+![Canvas|16/9](canvas.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=events&canvas-width=1077.6&canvas-height=800&mode=test}
 
 # Interacting with elements
 - **Highlighting**: In edit mode, hover your cursor over elements to highlight them

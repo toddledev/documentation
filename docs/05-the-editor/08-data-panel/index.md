@@ -6,9 +6,9 @@ description:
 # Data panel
 The data panel is the central hub for managing all data aspects of your pages and components in toddle. It allows you to define variables, connect to APIs, create formulas, and establish workflows that power your application's functionality.
 
-![Data panel page|16/9](data-panel-page.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&rightpanel=style&canvas-width=800&canvas-height=800}
+![Data panel page|16/9](data-panel-page.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800}
 
-![Data panel component|16/9](data-panel-component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?leftpanel=design&rightpanel=style&canvas-width=800&canvas-height=800}
+![Data panel component|16/9](data-panel-component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&rightpanel=style}
 
 ::: info
 The data panel is only visible when no element is selected. Press [kbd]Escape[kbd] or click on the background outside the canvas to deselect.

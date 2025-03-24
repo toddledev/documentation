@@ -6,7 +6,7 @@ description:
 # Project sidebar
 The project sidebar provides access to all files and resources in your toddle project. Access it by clicking the folder icon on the left side of the editor.
 
-![Project sidebar|16/9](project-sidebar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&rightpanel=style&canvas-width=800&canvas-height=800}
+![Project sidebar|16/9](project-sidebar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Files}
 
 ::: info
 Open the project sidebar with [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd] and close it with [kbd]Escape[kbd].
