@@ -6,7 +6,7 @@ description:
 # The editor
 The editor is the main workspace for building your toddle applications and packages. It provides a comprehensive interface with the tools needed to design, develop and test your projects.
 
-![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?leftpanel=design&rightpanel=events&canvas-width=800&canvas-height=800}
+![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
 The editor workspace consists of four main sections:
 
