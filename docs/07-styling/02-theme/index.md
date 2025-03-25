@@ -46,7 +46,7 @@ Define a consistent type scale for your application:
 # Font weights
 Establish consistent typography weights throughout your interface:
 - Define font weight variables (e.g., `regular`, `bold`)
-- Assign numeric values (typically 400, 500, 700, etc.)
+- Assign numeric values (typically `400`, `500`, `700`, etc.)
 
 The numeric values correspond to standard font weight definitions, with `400` typically representing regular text and `700` representing **bold** text.
 
