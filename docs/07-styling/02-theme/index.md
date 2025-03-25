@@ -32,11 +32,7 @@ The fonts section allows you to select and manage typography for your project:
 Once added, these fonts become available in the font dropdown menu in the [styling panel](/the-editor/element-panel#styling-tab).
 
 ## Add custom font
-For fonts not available natively in toddle, you can add them manually:
-1. In your [page configuration](/building-blocks/pages), navigate to the [**Head Assets**](/building-blocks/pages#head-assets) section
-2. Choose `link` as the resource type
-3. Add required attributes and the font URL from Google Fonts or another provider
-4. The font will now be available on this page
+For fonts not available natively in toddle, you can add them manually in your [page configuration](/building-blocks/pages). Navigate to the [**Head assets**](/building-blocks/pages#head-assets) section to set up custom fonts.
 
 ::: info
 Fonts added this way will only be available on the specific page where you add them. To use custom fonts across your entire project, add them to each page that requires them.
