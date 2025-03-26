@@ -120,12 +120,19 @@ This cascade behavior allows for complex styling scenarios, but requires underst
 Create layouts that adapt to different screen sizes using media query conditions.
 
 When adding a new style variant, you can set media query conditions:
-- Set viewport width or height above or below specific values
+- Set `viewport width` or `viewport height` above or below specific values
 - Define different layouts optimized for various screen sizes
 - Combine media queries with other conditions for complex responsive behavior
 
 # Styling components
 Components can be styled from the outside, allowing for customization of specific instances without affecting others.
+
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-styling.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-styling?selection=nodes.Zf_Z95z6EgF0JllYRmuM8&rightpanel=style&canvas-width=800&canvas-height=800
+
+Component instances can be styled individually without affecting others. This demonstrates customized background and border colors with a hover state on one card, while the standard version remains unchanged.
+@@@
 
 ## How component styling works
 When you style a component instance:
@@ -146,7 +153,7 @@ When styling component instances, keep these important limitations in mind:
 ## Conditional styles on components
 To apply conditional styling to a component instance:
 1. Select the component in the canvas or element tree
-2. Use the [kbd]Add style[kbd] button in the styling tab
+2. Add a style in the [styling tab](/the-editor/element-panel#styling-tab)
 3. Choose from available pseudo-classes, media queries and pseudo-elements
 4. If the component has classes on its root element, these will appear in the **Class** selection dropdown
 
