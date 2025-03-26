@@ -21,7 +21,7 @@ The UI panel provides a user-friendly interface for applying styles without need
 
 ## Styling with the CSS editor
 
-![CSS editor|16/9](css-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
+![CSS editor|16/9](css-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card-container?rightpanel=style&canvas-width=800&selection=nodes.root&canvas-height=800}
 
 For those who prefer working directly with CSS code:
 - Access the [CSS editor](/the-editor/element-panel#css-editor) by clicking the [kbd]{ }[kbd] button at the bottom of the [styling panel](/the-editor/element-panel#styling-tab)
