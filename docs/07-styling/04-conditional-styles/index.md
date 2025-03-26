@@ -23,7 +23,7 @@ Hover over or tap the card to see the style change by setting the `:hover` pseud
 
 In the **Style** section of the styling tab panel, you can create additional style variants that apply only when specific conditions are met:
 - Pseudo-classes (`:hover`, `:active`, `:focus`, etc.)
-- Classes defined in the attributes tab
+- [Classes](#class-based-styles) defined in the [attributes tab](/the-editor/element-panel#attributes-tab)
 - Media queries for different screen sizes
 - [Starting style](https://developer.mozilla.org/en-US/docs/Web/CSS/@starting-style)
 - Pseudo-elements (`::before`, `::after`, etc.)
@@ -32,18 +32,15 @@ In the **Style** section of the styling tab panel, you can create additional sty
 While editing in the canvas, conditional styles will always be visible on the selected element for preview purposes, even if the condition is not currently met.
 :::
 
-### Pseudo-classes and elements
-The styling system supports standard CSS pseudo-classes and pseudo-elements.
-
 ### Pseudo-classes
-Pseudo-classes target elements in specific states, such as `:hover`, `:focus`, `:checked`, or `:disabled`.
+The styling system supports standard CSS pseudo-classes. Pseudo-classes target elements in specific states, such as `:hover`, `:focus`, `:checked`, or `:disabled`.
 
 ::: info
 For a complete list of available pseudo-classes, see the [MDN documentation on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
 :::
 
 ### Pseudo-elements
-Pseudo-elements style specific parts of an element that don't appear in the element tree, such as `::before`, `::after`, or `::placeholder`.
+In addition to pseudo-classes, the styling system includes support for standard CSS pseudo-elements, which allow you to style specific parts of an element that don't appear in the element tree, such as `::before`, `::after`, or `::placeholder`.
 
 ::: info
 For more information on pseudo-elements, refer to the [MDN documentation on pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
