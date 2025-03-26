@@ -60,8 +60,8 @@ height: 18rem
 Click to select and unselect the card.
 @@@
 
-1. Add a class name in the **Classes** section of the attributes tab
-2. Create a new style variant in the styling tab by selecting that class name
+1. Add a class name in the **Classes** section of the [attributes tab](/the-editor/element-panel#attributes-tab)
+2. Create a new style variant in the [styling tab](/the-editor/element-panel#styling-tab) by selecting that class name
 3. Define the styles that should apply when the class is present
 
 Classes can be conditionally applied using formulas, variables, or attributes. If the condition evaluates to a truthy value, the class and its associated styles will be applied.
