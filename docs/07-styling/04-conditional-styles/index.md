@@ -7,7 +7,7 @@ description:
 Conditional styling allows you to create specific variations of an element's appearance that only apply in certain circumstances. This approach enables dynamic interfaces that respond to user interactions, screen sizes, and application states.
 
 There are several methods to apply conditional styles in toddle:
-- [Style variants](#style-variants) via pseudo-classes, media-queries
+- [Style variants](#style-variants) via pseudo-classes, pseudo-elements, and media-queries
 - Style variants via [classes](#class-based-styles)
 - [Style variables](#style-variables)
 
