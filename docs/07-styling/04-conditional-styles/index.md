@@ -14,8 +14,8 @@ There are several methods to apply conditional styles in toddle:
 ## Style variants
 
 @@@ example
-componentUrl: 
-editorUrl: 
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-variants.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-variants?canvas-width=800&rightpanel=style&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
 height: 20rem
 
 Hover over or tap the card to see the style change.
