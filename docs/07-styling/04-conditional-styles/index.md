@@ -90,8 +90,8 @@ This approach is particularly useful for complex conditional styling that depend
 # Cascade and precedence
 
 @@@ example
-componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?canvas-width=800&rightpanel=style&mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-cascade.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-cascade?canvas-width=800&rightpanel=style&mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
 height: 18rem
 
 This example demonstrates how style order affects the cascade behavior when multiple style variants are applied.
