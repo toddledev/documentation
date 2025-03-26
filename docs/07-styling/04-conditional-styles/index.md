@@ -158,9 +158,4 @@ To apply conditional styling to a component instance:
 3. Choose from available pseudo-classes, media queries and pseudo-elements
 4. If the component has classes on its root element, these will appear in the **Class** selection dropdown
 
-## Alternative approaches
-If you need to style multiple component instances in the same way, there are some possible alternative approaches:
-- Add a class property to the component that can be toggled
-- Create a variant of the component for different style needs
-
-These are just examples of more maintainable solutions than styling individual instances when consistent styling across multiple component uses is needed.
+For consistent styling across multiple components, consider adding toggleable classes or creating component variants rather than styling individual instances, providing more maintainable solutions.
