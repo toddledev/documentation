@@ -53,9 +53,9 @@ For more information on pseudo-elements, refer to the [MDN documentation on pseu
 Add classes to elements through the attributes tab and then create conditional styles for those classes.
 
 @@@ example
-componentUrl: 
-editorUrl: 
-height: 20rem
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?canvas-width=800&rightpanel=style&mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
+height: 18rem
 
 Click to select and unselect the card.
 @@@
@@ -88,6 +88,15 @@ Create style variables with dynamic values by binding them to formulas, attribut
 This approach is particularly useful for complex conditional styling that depends on application state or user data.
 
 # Cascade and precedence
+
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?canvas-width=800&rightpanel=style&mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
+height: 18rem
+
+This example demonstrates how style order affects the cascade behavior when multiple style variants are applied.
+@@@
+
 Styles in toddle follow CSS cascade rules, which determine which styles take precedence when multiple styles apply to the same element:
 - When multiple style variants apply to an element, all their properties cascade together
 - The order of style variants in the style panel matters - **later styles override earlier ones**
