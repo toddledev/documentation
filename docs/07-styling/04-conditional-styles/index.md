@@ -130,6 +130,7 @@ Components can be styled from the outside, allowing for customization of specifi
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-styling.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-styling?selection=nodes.Zf_Z95z6EgF0JllYRmuM8&rightpanel=style&canvas-width=800&canvas-height=800
+height: 30rem
 
 Component instances can be styled individually without affecting others. This demonstrates customized background and border colors with a hover state on one card, while the standard version remains unchanged.
 @@@
