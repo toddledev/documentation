@@ -6,9 +6,10 @@ description:
 # Styles and layout
 The styling and layout system is based on CSS, presenting familiar properties in an intuitive UI panel. This approach lets you style elements visually without writing code while preserving traditional CSS flexibility. For more precise control, the CSS editor is available.
 
+## Styling with the UI panel
+
 ![Styling panel|16/9](styling-panel.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
-## Styling with the UI panel
 The UI panel provides a user-friendly interface for applying styles without needing to write CSS directly:
 - Properties are logically grouped by categories (**Size**, **Layout**, **Text**, etc.)
 - Appropriate controls for each property (color pickers, dropdowns, etc.)
@@ -19,6 +20,9 @@ The UI panel provides a user-friendly interface for applying styles without need
 - No CSS coding required, but possible in the **Advanced** section at the bottom
 
 ## Styling with the CSS editor
+
+![CSS editor|16/9](css-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
+
 For those who prefer working directly with CSS code:
 - Access the [CSS editor](/the-editor/element-panel#css-editor) by clicking the [kbd]{ }[kbd] button at the bottom of the [styling panel](/the-editor/element-panel#styling-tab)
 - Write traditional CSS syntax for complete control over styling
