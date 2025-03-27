@@ -19,6 +19,10 @@ Components in toddle are self-contained, reusable elements that encapsulate stru
 
 Each component has its own structure, data model, and behavior, making them highly reusable across your project. This encapsulation of both UI and logic creates building blocks that can be combined to create increasingly complex applications.
 
+::: info
+Components combine HTML structure, CSS styling, and JavaScript behavior into reusable parts.
+:::
+
 # Benefits of using components
 Breaking your application into components provides several advantages:
 - **Reusability**: Build functionality once and use it many times
@@ -27,6 +31,10 @@ Breaking your application into components provides several advantages:
 - **Consistency**: Ensure UI elements look and behave the same throughout your application
 - **Collaboration**: Different team members can work on different components simultaneously
 - **Testing**: Components can be tested in isolation
+
+::: tip
+A well-designed component library can accelerate development and ensure scalability and maintainability as projects grow through component reuse.
+:::
 
 # Component structure and anatomy
 A component in toddle can consist of:
@@ -41,12 +49,16 @@ A component in toddle can consist of:
 - **Contexts**: Communication with ancestors without intermediaries
 
 ## Data encapsulation
-Components in toddle encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. Initially, this can seem unnecessarily restrictive, but it is a critical property that lets you reason about your application as the number of components grows.
+Components in toddle encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. At first, this isolation may seem limiting, but it's an essential design principle that helps maintain order as your application grows in complexity.
 
 This encapsulation ensures that components:
 - Have clear boundaries and responsibilities
 - Can be modified internally without affecting other parts of the application
 - Are easier to understand, as their behavior depends only on their own code and inputs
+
+::: info
+Each component is like a "black box" that hides its implementation details while exposing a clear interface.
+:::
 
 ## Component composition
 Components are composable, meaning they can be combined together to form more complex components, which can then be composed into full applications. This composition model allows you to:
