@@ -1,6 +1,6 @@
 ---
-title: Export a Component
-description: toddle docs
+title: Export a component
+description:
 ---
 
-# Export a Component
+# Export a component
