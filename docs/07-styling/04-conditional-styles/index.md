@@ -79,14 +79,14 @@ This approach maintains clean separation and prevents unintended style conflicts
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-variables.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-variables?canvas-width=800&rightpanel=style&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-variables?rightpanel=style&canvas-width=800&selection=nodes.RXXxhmSNTU21VntB7mKuh.style-variables.0.formula&canvas-height=800
 height: 18rem
 
 Style variables create dynamic styling based on state. Click the card to toggle its selected state, which dynamically changes the border, background, and text colors.
 @@@
 
 Create style variables with dynamic values by binding them to formulas, attributes, or variables:
-1. Define a style variable in the **Style variables** section
+1. Define a style variable in the [**Style variables** section](/the-editor/element-panel#styling-tab)
 2. Use the formula editor to create conditional logic
 3. Reference the variable in your CSS properties
 
