@@ -79,7 +79,7 @@ If the extracted elements depend on variables or formulas from the original comp
 :::
 
 # Component creation workflow
-When creating components, follow these steps for best results:
+When creating components, follow these steps for optimal results:
 1. **Plan the component interface**: Determine what attributes and events the component will need
 2. **Build the element structure**: Create the HTML structure that makes up your component
 3. **Style the component**: Apply CSS to make the component visually appealing
