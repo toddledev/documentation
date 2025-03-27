@@ -46,7 +46,7 @@ Follow the single-responsibility principle: each component should do one thing w
 
 # Create a component
 There are two primary ways to create components in toddle:
-- [Create from scratch](#cerate-from-scratch)
+- [Create from scratch](#create-from-scratch)
 - [Extract existing elements](#extract-existing-elements)
 
 ## Create from scratch
