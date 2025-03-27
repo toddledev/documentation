@@ -51,7 +51,7 @@ Add classes to elements through the attributes tab and then create conditional s
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?canvas-width=800&rightpanel=style&mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-width=800&rightpanel=attributes&canvas-height=800
 height: 18rem
 
 Click to select and unselect the card.
@@ -96,10 +96,10 @@ This approach is particularly useful for complex conditional styling that depend
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-cascade.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-cascade?canvas-width=800&rightpanel=style&mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
-height: 28rem
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-cascade?rightpanel=style&canvas-width=800&selection=nodes.725KDMmepSbJecZCQqInN&canvas-height=800
+height: 19rem
 
-This example demonstrates how style order affects the cascade behavior when multiple style variants are applied.
+This example demonstrates how style order affects cascade behavior with multiple variants. In the first card, selected overrides hover effects since selected comes later in the cascade. In the second card, hover effects remain visible when selected because hover comes after selected in the cascade.
 @@@
 
 Styles in toddle follow CSS cascade rules, which determine which styles take precedence when multiple styles apply to the same element:
@@ -129,8 +129,8 @@ Components can be styled from the outside, allowing for customization of specifi
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-styling.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-styling?selection=nodes.Zf_Z95z6EgF0JllYRmuM8&rightpanel=style&canvas-width=800&canvas-height=800
-height: 30rem
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-styling?rightpanel=style&canvas-width=800&selection=nodes.mkJ0CrlLDvzUaWYSW_B8Q&canvas-height=800
+height: 23rem
 
 Component instances can be styled individually without affecting others. This demonstrates customized background and border colors with a hover state on one card, while the standard version remains unchanged.
 @@@
