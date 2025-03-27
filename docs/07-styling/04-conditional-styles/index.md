@@ -124,7 +124,7 @@ When adding a new style variant, you can set media query conditions:
 - Define different layouts optimized for various screen sizes
 - Combine media queries with other conditions for complex responsive behavior
 
-# Styling components
+# Component style overrides
 Components can be styled from the outside, allowing for customization of specific instances without affecting others.
 
 @@@ example
