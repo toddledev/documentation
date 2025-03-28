@@ -1,9 +1,9 @@
 ---
-title: Pages
+title: Page fundamentals
 description:
 ---
 
-# Pages
+# Page fundamentals
 Pages are foundational building blocks in toddle applications, representing distinct screens with unique URLs. They allow users to navigate through your application and share links to specific content.
 
 **Pages** in toddle are essentially specialized components with additional URL-related capabilities:
