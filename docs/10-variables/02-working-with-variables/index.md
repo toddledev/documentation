@@ -87,11 +87,3 @@ This is a shortcut that automatically sets up:
 ::: danger
 image or example for input binding???
 :::
-
-# Good practices
-To use variables effectively:
-- Give variables descriptive names that indicate their purpose
-- Limit the number of variables to what's necessary
-- Use variables to represent the minimal state needed
-
-Following these practices helps maintain clean, predictable component behavior as your application grows.
