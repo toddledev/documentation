@@ -46,7 +46,7 @@ A component in toddle can consist of:
 - **Events**: The interface for communicating out from the component
 - **Formulas**: Calculations and data transformations
 - **Workflows**: Internal logic and behavior
-- **Contexts**: Communication with ancestors without intermediaries
+- **Contexts**: Communication with ancestors and descendants without intermediaries
 
 ## Data encapsulation
 Components in toddle encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. At first, this isolation may seem limiting, but it's an essential design principle that helps maintain order as your application grows in complexity.

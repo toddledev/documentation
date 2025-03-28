@@ -25,11 +25,16 @@ This combination of URL handling and component-like functionality makes pages th
 
 # Page structure
 A page in toddle can consist of several key elements:
-- **URL configuration**: Path segments and query parameters that define the page's address
-- **Metadata**: Title, description, SEO information, and custom head assets
 - **Element tree**: The hierarchy of elements and components that create the page's interface
-- **Data and logic**: Variables, APIs, formulas and workflows for functionality
-- **Contexts**: Communication channels that allow the page to provide data to descendant components
+- **Page configuration**
+    - **URL configuration**: Path segments and query parameters that define the page's address
+    - **Metadata**: Title, description, language settings, and social sharing information
+    - **Head assets**: Custom scripts, styles and other resources added to the page's `head`
+- [**Variables**](/variables/overview): Internal state and data management
+- **APIs**: Connections to external services and data sources
+- **Formulas**: Calculations and data transformations
+- **Workflows**: Internal logic and behavior triggered by events
+- **Contexts**: Communication channels to provide data to descendant components
 
 These elements work together to create a complete, addressable screen in your application.
 
