@@ -6,7 +6,6 @@ description:
 # Variables
 Variables provide a way to store temporary data within components and pages. They enable interactive behavior and dynamic content by maintaining state during a user's session while offering fast data access in toddle.
 
-## Understanding variables
 Variables in toddle are containers for temporary data that:
 - Store values that can change during user interaction
 - Persist only while the component or page is mounted
@@ -14,6 +13,7 @@ Variables in toddle are containers for temporary data that:
 - Are scoped to the component or page where they're defined
 - Provide optimal performance for state management
 
+## Using variables
 Variables can be used throughout the component or page:
 - **In formulas**: Reference variables directly by name
 - **In workflows**: Use variables in conditions and actions
