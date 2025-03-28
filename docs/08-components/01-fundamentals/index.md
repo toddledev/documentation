@@ -41,7 +41,7 @@ A component in toddle can consist of:
 - **Root element**: The top-level container element
 - **Element tree**: The hierarchy of elements that make up the component
 - **Attributes**: The interface for passing data into the component
-- **Variables**: Internal state management
+- **[Variables](/variables/overview)**: Internal state and data management
 - **APIs**: Connections to external services and data sources
 - **Events**: The interface for communicating out from the component
 - **Formulas**: Calculations and data transformations
