@@ -6,9 +6,7 @@ description:
 # Pages
 Pages are the foundation of any toddle application, representing distinct screens that users navigate to via unique URLs.
 
-::: danger
-missing image of a page -> editor overview image
-:::
+![Page|16/9](page.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
 Pages in toddle:
 - Have their own URLs, allowing direct navigation and bookmarking
