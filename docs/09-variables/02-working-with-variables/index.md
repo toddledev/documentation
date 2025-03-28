@@ -40,7 +40,20 @@ image or example???
 :::
 
 # Binding variables
+Variables can be connected to element properties through binding, allowing them to dynamically control the appearance and behavior of your components.
 
+To bind a variable:
+1. Select the element in the element tree
+2. Find the property you want to bind
+3. Click the `fx` button next to the property
+4. In the formula editor, select your variable from the available options
+5. Add any additional logic if needed (transformations, conditions, etc.)
+
+Variables can be bound to various aspects of elements:
+- Attribute values (text, src, href, etc.)
+- Classes (see [conditional styling](/styling/conditional-styling#class-based-styles))
+- [Show/hide functionality](/formulas/the-formula-editor) (with boolean conditions)
+- [Repeat formulas](/formulas/repeat-formulas) (using arrays to generate multiple elements)
 
 ## Input field binding
 For `input` elements, toddle provides a convenient shortcut to create two-way binding with variables:
