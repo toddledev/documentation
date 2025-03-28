@@ -4,6 +4,8 @@ description:
 ---
 
 # Working with variables
+Variables enable dynamic and interactive components by managing state throughout your application. This page covers the practical aspects of creating and working with variables in toddle.
+
 Variables can be used throughout the component or page:
 - **In formulas**: Reference variables directly by name
 - **In workflows**: Use variables in conditions and actions
@@ -19,7 +21,24 @@ To create a variable:
 1. Open the [data panel](/the-editor/data-panel) with no element selected
 2. In the **Variables** section, click the [kbd]+[kbd] button
 3. Enter a name for your variable
-4. Set an initial value (can be a static value or formula)
+4. Set an [initial value](#initial-value) (can be a static value or formula)
+
+## Initial value
+When creating a variable, its default initial value is `null`. You can either keep this default or specify a different initial value:
+- **Static values**: You can directly enter text, numbers, booleans, JSON objects etc.
+- **Formula-based values**: Click the `fx` button to open the formula editor and create a dynamic initial value
+
+The initial value serves several important purposes:
+- Provides a starting state for your component
+- Determines the implicit data type of the variable
+- Ensures the variable has a known value before any user interaction
+
+For example, initializing with:
+- `0` creates a numeric variable
+- `""` (empty string) creates a text variable
+- `[]` creates an array variable
+- `{}` creates an object variable
+- `null` is the default and can be used when the actual value will be set later
 
 ::: info
 When using a formula to set the initial value, you can reference attributes but not API data. This is because API data won't be available when the variable initializes.
