@@ -14,7 +14,7 @@ To export a component from toddle:
 1. Open the component you want to export in the editor
 2. In the [bottom bar](/the-editor/bottom-bar), click the [kbd]Export as web component[kbd] icon button
 3. Set the default attributes
-4. Copy the HTML code snippet for this web-component
+4. Copy the HTML code snippet for this web component
 
 ::: tip
 For production use, always export your component from the `main` branch.
@@ -27,6 +27,10 @@ Components in toddle are built on the **Web Component API**, which means:
 
 ::: info
 Web Components enable custom, reusable HTML elements. See the [MDN Web Components documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) for details.
+:::
+
+::: warning
+Proxied API requests will not work for embedded web components. They will only work for applications hosted by toddle.
 :::
 
 # Component naming requirements
