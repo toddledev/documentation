@@ -39,7 +39,7 @@ A well-designed component library can accelerate development and ensure scalabil
 # Component structure and anatomy
 A component in toddle can consist of:
 - **Root element**: The top-level container element
-- **Element tree**: The hierarchy of elements that make up the component
+- [**Element tree**](/the-editor/element-tree): The hierarchy of elements that make up the component
 - **Attributes**: The interface for passing data into the component
 - [**Variables**](/variables/overview): Internal state and data management
 - **APIs**: Connections to external services and data sources
@@ -57,7 +57,7 @@ This encapsulation ensures that components:
 - Are easier to understand, as their behavior depends only on their own code and inputs
 
 ::: info
-Each component is like a "black box" that hides its implementation details while exposing a clear interface.
+Each component is like a `black box` that hides its implementation details while exposing a clear interface.
 :::
 
 ## Component composition
