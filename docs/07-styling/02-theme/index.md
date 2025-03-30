@@ -16,8 +16,6 @@ Create and organize color palettes for your application in the theme's color sec
 - Define color variables with their specific values
 - Group defined colors
 
-This systematic approach to color management ensures visual consistency and makes it easier to update your design system as needed.
-
 ## Spacing
 Spacing variables help maintain consistent layout measurements throughout your application:
 - Create dimension-related variables as needed

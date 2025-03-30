@@ -10,7 +10,7 @@ The element panel appears in the right side of the editor when an element is sel
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three primary tabs:
 1. **[Styling](#styling-tab)**: Configure visual appearance and layout for the element and its children
-2. **[Attributes](#attributes-tab)**: Set HTML attributes and formulas for advanced behaviors
+2. **[Attributes](#attributes-tab)**: Set HTML or component attributes for advanced behaviors
 3. **[Events](#events-tab)**: Define workflows triggered by user interactions with the element
 
 # Styling tab
@@ -21,7 +21,7 @@ The styling tab allows you to control the visual appearance of elements and comp
 1. Set [style variables](#style-variables)
 2. Define [style](#style) variants
 3. Set [CSS properties](#css-properties) for selected style variant
-4. Use the [CSS editor](#css-editor) to configure styles with code
+4. Use the [CSS editor](#css-editor) to configure styles with CSS code
 
 ## Style variables
 Style variables provide a way to store and reuse values throughout your styles.
@@ -37,7 +37,7 @@ The style section manages different visual variants of your element.
 - Create variants using defined classes (set in the attributes tab)
 - Set up responsive styles with media queries for different screen sizes
 - Combine classes, pseudo-classes and media queries for complex style variants
-- When styling a component instance, you can select and style a component's class from the outside
+- When styling a component instance, you can select and style a component's class from the outside (see [component style overrides](/styling/conditional-styles#component-style-overrides))
 
 ## CSS properties
 The CSS properties section provides a user-friendly interface to set styling properties.
@@ -75,7 +75,7 @@ The attributes tab allows you to configure HTML tags, attributes, classes and sp
 
 ## Classes
 - Add CSS classes to elements by entering a name and pressing enter
-- Bind classes to conditions to apply them dynamically
+- Bind classes to conditions to apply them dynamically via the `fx` button
 - Classes added here can be targeted in the styling tab as a style variant
 - Classes cannot be added directly to components
 
@@ -97,3 +97,7 @@ The events tab enables you to define interactive behaviors that respond to user 
 - Bind workflows, global actions, or trigger component events to any available event
 
 For a complete list of available HTML element events, refer to the mdn documentation's [event reference](https://developer.mozilla.org/en-US/docs/Web/Events) on HTML element events.
+
+::: tip
+If you cannot find a standard JavaScript event, you can add it under the `Other` section.
+:::

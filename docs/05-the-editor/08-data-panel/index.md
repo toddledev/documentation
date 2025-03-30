@@ -24,7 +24,7 @@ This section appears **only for pages**, not for components. Configure how your 
 This section appears **only for components**, not for pages. Define the interface for your component by creating attributes that can be set when using the component. You can set test values to preview how the component behaves in the editor.
 
 ::: info
-These attributes are the attributes of your exported web component.
+These attributes are also the attributes of your exported web component.
 :::
 
 ## Variables
@@ -37,7 +37,7 @@ Connect your application to external services and data sources by defining endpo
 Enable components to communicate with parent elements through custom events that can be triggered by internal actions and pass data upward.
 
 ## Formulas
-Create reusable calculations and data transformations using toddle's formula syntax to access data from variables, formulas and API responses.
+Create reusable calculations and data transformations using toddle's formula syntax to access data from variables, formulas, other formulas, contexts and API responses.
 
 ## Workflows
 Build multi-step processes to handle complex interactions by combining workflows and actions in sequence with conditional logic.
@@ -47,7 +47,7 @@ Subscribe to formulas and workflows exposed by parent components to access funct
 
 ## Lifecycle
 Control what happens at specific moments in your component or page lifecycle:
-- On load: Actions that execute when the page or component is initially loaded
+- On load: Actions that execute when the page or component is initially loaded or mounted to the DOM
 - On attribute change: Actions that run when URL parameters (for pages) or attributes (for components) are modified
 
 ## Dependents

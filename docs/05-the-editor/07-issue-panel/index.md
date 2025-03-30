@@ -1,12 +1,16 @@
 ---
-title: Issues panel
+title: Issue panel
 description:
 ---
 
 # Issues panel
-The issue panel helps you identify and resolve problems within your toddle project. It provides a comprehensive overview of all issues, allowing you to maintain code quality and improve project stability.
+The issue panel helps you identify and resolve problems within your toddle project. It provides an overview of all issues, allowing you to maintain code quality and improve project stability.
 
 ![Issues panel|16/9](issues-panel.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Problems}
+
+::: info
+The issue panel is basically like a code linter for traditionally coded apps.
+:::
 
 # Accessing the issue panel
 Access the issue panel by clicking the issue icon in the left sidebar of the editor.

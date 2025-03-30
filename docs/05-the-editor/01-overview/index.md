@@ -4,7 +4,7 @@ description:
 ---
 
 # The editor
-The editor is the main workspace for building your toddle applications and packages. It provides a comprehensive interface with the tools needed to design, develop and test your projects.
+The editor is the main workspace for building your toddle applications and packages. It provides an interface with the tools needed to design, develop and test your projects.
 
 ![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
@@ -19,9 +19,7 @@ The editor workspace consists of four main sections:
     - **[Issues panel](/the-editor/issues-panel)**: Identify and resolve project issues
 4. **Right panel**: Context-sensitive panel that shows
     - **[Data panel](/the-editor/data-panel)**: Configure logic, interfaces and behavior of pages and components
-    - **[Element panel](/the-editor/element-panel)**: Specific settings and configuration of selected element
-
-The editor's layout enables efficient application development through easy access to all necessary tools and resources.
+    - **[Element panel](/the-editor/element-panel)**: Specific settings and configuration of the selected element
 
 ## Left panel
 Click the toddle logo in the top left corner to navigate back to project details, organization members, projects or the dashboard.
@@ -35,5 +33,5 @@ Click on the background or press [kbd]Escape[kbd] to return to the element tree 
 
 ## Right panel
 The right panel displays different content based on your selection:
-- [Data panel](/the-editor/data-panel): Shown by default when no element is selected
+- [Data panel](/the-editor/data-panel): Displayed by default when no element is selected
 - [Element panel](/the-editor/element-panel): Appears when an element is selected, with tabs for styling, attributes and events

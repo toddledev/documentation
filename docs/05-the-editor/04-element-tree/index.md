@@ -15,7 +15,7 @@ The element tree provides a structural overview of your project, displaying all 
 - Drag elements to reorder them within the structure
 
 ::: info
-HTML element names cannot be modified, e.g. `div`.
+HTML element names always correspond to their real HTML tag.
 :::
 
 ::: tip
@@ -23,7 +23,7 @@ Hold the [kbd]Alt[kbd] key while dropping a dragged element to copy it instead o
 :::
 
 ## Context menu
-Right-clicking an element opens a context menu with several actions:
+Right-clicking an element opens a context menu with several actions.
 
 ![Element context menu|16/9](element-context-menu.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&selection=nodes.tf08THxvDvD2p9w3y5zhh&rightpanel=style}
 
@@ -45,9 +45,9 @@ to quickly open the element catalog.
 ## Element catalog
 ![Element catalog|16/9](element-catalog.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&elementCatalog=true}
 
-The element catalog provides a comprehensive collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
+The element catalog provides a collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
 - Browse different element types grouped by functionality
 - Search for specific elements and components
 - View components from installed packages
 
-Select the needed element to add it to your project. The element will be added as a child of the currently selected element or as the first child of the root element if no element is selected.
+Select an element to add it to your project. The element will be added as a child of the currently selected element or as the first child of the root element if no element is selected.

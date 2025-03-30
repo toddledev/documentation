@@ -8,7 +8,7 @@ The bottom bar provides quick access to frequently used actions and tools in the
 
 ![Bottom bar|16/9](bottom-bar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800}
 
-1. **AI assistance**: Get help with your project through the "Ask AI" button
+1. **AI assistance**: Get help with through the "Ask AI" button
 2. **Undo/Redo**: Revert or restore recent changes
 3. **Zoom controls**: Adjust and view the current zoom level
 4. **Test mode**: Toggle between editing and testing your application

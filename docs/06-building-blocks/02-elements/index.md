@@ -5,11 +5,11 @@ description:
 
 
 # Elements
-Elements are the fundamental building blocks that make up the interface of your page or component in toddle. They create the structure, content, and interactive parts of your application that users see and interact with.
+Elements are the basic building blocks that make up the interface of your page or component in toddle. They create the structure, content, and interactive parts of your application that users see and interact with.
 
 ![Elements|16/9](elements.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=attributes&canvas-width=800&canvas-height=800}
 
-In toddle, elements exist in a hierarchical structure. Each element (except for the root element) has a parent element, and many elements can contain children elements. This parent-child relationship creates what we call an element tree, with ancestor elements containing descendant elements.
+In toddle, like in HTML, elements exist in a hierarchical structure. Each element (except for the root element) has a parent element, and many elements can contain children elements. This parent-child relationship creates what we call an element tree, with ancestor elements containing descendant elements.
 
 # Types of elements
 There are three distinct types of elements that you can add to your pages and components:
@@ -26,13 +26,7 @@ HTML elements are differentiated by their names or `tags`, each with specific me
 - Tags such as `<h1>`, `<header>`, and `<li>` have semantic meaning that communicates the content's purpose
 
 ::: info
-toddle deliberately uses standard HTML elements to ensure your application renders consistently across browsers, remains SEO-friendly and maintains accessibility standards. For comprehensive information about HTML elements, visit the [HTML Elements reference on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-:::
-
-Heading elements (`<h1>` through `<h6>`) create a hierarchical structure for your content, benefiting both search engine indexing and screen reader accessibility.
-
-::: tip
-Use headings in a hierarchical manner, starting with `<h1>` for the most important heading, and using `<h2>`, `<h3>`, etc. for subsections.
+toddle deliberately uses standard HTML elements to ensure your application renders consistently across browsers, remains SEO-friendly and maintains accessibility standards. For comprehensive information about HTML elements, visit the [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) reference on MDN.
 :::
 
 ### HTML element attributes
@@ -73,7 +67,7 @@ Technically, a text element in toddle corresponds to a DOM text node rather than
 ## Components
 Components are reusable custom elements that encapsulate their own structure, styling and behavior. They can be configured through attributes, styled with CSS variables and emit events to communicate with parent elements.
 
-For more information, see the [components description](/building-blocks/components) in building blocks and the [Components](/components/working-with-components) pages of the documentation.
+For more information, see the [components description](/building-blocks/components) in building blocks and the [Components](/components/fundamentals) pages of the documentation.
 
 
 # Element limitations

@@ -36,7 +36,7 @@ While editing in the canvas, conditional styles will always be visible on the se
 The styling system supports standard CSS pseudo-classes. Pseudo-classes target elements in specific states, such as `:hover`, `:focus`, `:checked`, or `:disabled`.
 
 ::: info
-For a complete list of available pseudo-classes, see the [MDN documentation on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
+For a complete list of pseudo-classes, see the [MDN documentation on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
 :::
 
 ### Pseudo-elements
@@ -71,7 +71,7 @@ Class-based styling is only available for HTML elements, not for components.
 Unlike some other tools, classes in toddle are scoped to the element where they're defined:
 - Styles added to a class only apply to the specific element where they're created
 - Classes are not automatically shared between elements
-- For reusable styles across multiple elements, consider creating a component instead
+- For reusable styles across multiple elements, create components instead
 
 This approach maintains clean separation and prevents unintended style conflicts in your application.
 
@@ -86,7 +86,7 @@ Style variables create dynamic styling based on state. Click the card to toggle 
 @@@
 
 Create style variables with dynamic values by binding them to formulas, attributes, or variables:
-1. Define a style variable in the [**Style variables** section](/the-editor/element-panel#styling-tab)
+1. Define a style variable in the [Style variables](/the-editor/element-panel#styling-tab) section
 2. Use the formula editor to create conditional logic
 3. Reference the variable in your CSS properties
 
@@ -140,7 +140,7 @@ When you style a component instance:
 - Styles are applied only to that specific instance, not to the other instances of the component
 - Only the root element of the component can be styled from outside
     - Elements deeper in the component tree are not affected
-    - If a component has e.g. a slot as its root element, it cannot be styled from the outside
+    - If a component has a slot as its root element, it cannot be styled from the outside
 
 This approach allows you to customize individual component instances when needed, while maintaining the component's encapsulation.
 

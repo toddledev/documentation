@@ -11,9 +11,9 @@ Pages are the foundation of any toddle application, representing distinct screen
 Pages in toddle:
 - Have their own URLs, allowing direct navigation and bookmarking
 - Define metadata for SEO, social sharing, and browser display
-- Can accept URL parameters to create dynamic content
+- Can accept URL paths and parameters to create dynamic content
 - Contain their own variables, APIs, and workflows
-- Serve as containers for components and other elements
+- Serve as containers for components and HTML elements
 - Function as the top-level entry points for user interaction
 
 Pages are essential to structured application development in toddle. They should be used to:
@@ -24,5 +24,5 @@ Pages are essential to structured application development in toddle. They should
 - Organize related functionality into coherent screens
 
 ::: info
-For more detailed information on creating and configuring pages, see the [Pages](/pages/overview) section of the documentation.
+For more detailed information on creating and configuring pages, see the [Pages](/pages/fundamentals) section of the documentation.
 :::
