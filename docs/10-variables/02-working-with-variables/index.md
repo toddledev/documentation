@@ -95,7 +95,7 @@ For `input` elements, toddle provides a convenient shortcut to create two-way bi
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-input-binding.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/f/components/example-variable-input-binding2?canvas-width=800&mode=design&selection=nodes.Aw-ypNWnj8VwAKTg5h6vf&rightpanel=attributes&canvas-height=800
-height: 4.5rem
+height: 5rem
 
 See how to bind a variable to an input field.
 @@@
