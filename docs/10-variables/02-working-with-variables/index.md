@@ -92,6 +92,10 @@ For `input` elements, toddle provides a convenient shortcut to create two-way bi
 2. In the Attributes tab, find the 'Bind to variable` dropdown
 3. Choose an existing variable or create a new one
 
+This is a shortcut that automatically sets up:
+- A binding of the variable to the input's `value` attribute
+- An event handler on the `input` event that updates the variable when the user types
+
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-input-binding.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-input-binding?canvas-width=800&mode=design&selection=nodes.Aw-ypNWnj8VwAKTg5h6vf&rightpanel=attributes&canvas-height=800
@@ -99,7 +103,3 @@ height: 5rem
 
 See how to bind a variable to an input field.
 @@@
-
-This is a shortcut that automatically sets up:
-- A binding of the variable to the input's `value` attribute
-- An event handler on the `input` event that updates the variable when the user types
