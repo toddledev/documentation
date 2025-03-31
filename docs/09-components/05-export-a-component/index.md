@@ -8,7 +8,7 @@ Components built in toddle can be exported as standard web components, allowing 
 
 ## Export as web component
 
-![Export a component|16/9](export-a-component.webp)
+![Export a component|16/9](export-a-component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&rightpanel=style&canvas-height=800}
 
 To export a component from toddle:
 1. Open the component you want to export in the editor

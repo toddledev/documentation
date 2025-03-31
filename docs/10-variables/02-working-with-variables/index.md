@@ -13,9 +13,8 @@ Variables can be used throughout the component or page:
 - **In styling**: Create dynamic styles based on variable values
 
 # Creating variables
-::: danger
-image of creating a variable
-:::
+
+![Create a variable|16/9](create-a-variable.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&rightpanel=style&canvas-height=800}
 
 To create a variable:
 1. Open the [data panel](/the-editor/data-panel) with no element selected
