@@ -17,7 +17,7 @@ The interface of a component defines how it can be configured and how it communi
 ## Defining attributes
 Attributes are the primary way to pass data into a component:
 1. Open the component and view the [data panel](/the-editor/data-panel) with no element selected
-2. In the **Attributes** section, click the [kbd]+[kbd] button
+2. In the **[Attributes](/the-editor/data-panel#attributes)** section, click the [kbd]+[kbd] button
 3. Configure the attribute:
    - **Name**: A unique name that must consist of lowercase letters, numbers, hyphens (`-`) and underscores (`_`) only
    - **Test value**: The value used in the editor, also to determine the attribute type
@@ -49,7 +49,7 @@ The test value is only used while developing your component in the editor. It ha
 ## Setting up events
 Events allow components to communicate upward to parent elements:
 1. Open the component and view the [data panel](/the-editor/data-panel) with no element selected
-2. In the **Events** section, click the [kbd]+[kbd] button
+2. In the **[Events](/the-editor/data-panel#events)** section, click the [kbd]+[kbd] button
 3. Configure the event:
    - **Name**: A descriptive name for the event
    - **Test value**: Example data that defines the event's output structure, allowing you to develop event handling in parent components without actual event triggers.
