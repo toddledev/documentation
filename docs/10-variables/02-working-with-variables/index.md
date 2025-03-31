@@ -6,12 +6,6 @@ description:
 # Working with variables
 Variables enable dynamic and interactive components by managing state throughout your application. This page covers the practical aspects of creating and working with variables in toddle.
 
-Variables can be used throughout the component or page:
-- **In formulas**: Reference variables directly by name
-- **In workflows**: Use variables in conditions and actions
-- **In elements**: Bind element properties to variables
-- **In styling**: Create dynamic styles based on variable values
-
 # Creating variables
 
 ![Create a variable|16/9](create-a-variable.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&rightpanel=style&canvas-height=800}
