@@ -80,7 +80,7 @@ Unlike HTML element events that trigger automatically on user interactions, comp
 All events defined in a component appear under the **Events** section when setting up event handlers.
 :::
 
-# Communication with contexts
+# Data flow with contexts
 In addition to attributes and events, components can communicate through contexts. Contexts provide an alternative communication channel that allows components to share data and functionality across the component tree without passing through intermediaries.
 
 ::: info
