@@ -8,7 +8,7 @@ Variables enable dynamic and interactive components by managing state throughout
 
 # Creating variables
 
-![Create a variable|16/9](create-a-variable.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&rightpanel=style&canvas-height=800}
+![Create a variable|16/9](create-a-variable.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-updating?canvas-width=800&rightpanel=style&selection=variables.isCardSelected&canvas-height=800}
 
 To create a variable:
 1. Open the [data panel](/the-editor/data-panel) with no element selected
