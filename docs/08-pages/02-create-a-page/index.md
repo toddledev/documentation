@@ -4,17 +4,11 @@ description:
 ---
 
 # Create a page
-There are two primary ways to create components in toddle:
-- [Create from scratch](#create-from-scratch)
-- [Extract existing elements](#extract-existing-elements)
 
-## Create from scratch
-::: danger
-image create a page
-:::
+![Create a page|16/9](create-a-page.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
 
-To create a new component:
+To create a new page:
 1. Open the [project sidebar](/the-editor/project-sidebar) by clicking the folder icon or using [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd]
-2. **A)** Find the "Components" section and click the [kbd]+[kbd] button next to it or
+2. **(A)** Find the "Pages" section and click the [kbd]+[kbd] button next to it or
    **(B)** Click the [kbd]+[kbd] button next to the branch name at the top of the [project sidebar](/the-editor/project-sidebar) and choose `New page` 
-3. Enter a name for your component
+3. Enter a name for your page and confirm with [kbd]Create page[kbd]

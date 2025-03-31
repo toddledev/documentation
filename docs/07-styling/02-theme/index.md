@@ -6,9 +6,7 @@ description:
 # Theme
 The theme system provides a centralized way to manage design tokens across your entire project. By defining colors, spacing, typography and other visual elements in one place, you can ensure consistent styling throughout your application.
 
-::: danger
-Theme image
-:::
+![Theme|16/9](theme.webp){https://toddle.dev/projects/docs_examples/branches/main/themes/Default?canvas-width=800&canvas-height=800&rightpanel=style}
 
 ## Colors
 Create and organize color palettes for your application in the theme's color section:
