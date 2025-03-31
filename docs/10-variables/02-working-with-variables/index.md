@@ -44,7 +44,7 @@ For API-dependent variables, set an initial value like `null` and update the var
 # Updating variables
 Variables can be updated through workflows or events:
 1. In a workflow or event add a new action by clicking the [kbd]+[kbd] button
-2. Select in "Variables" the `Set: variable` action for desired variable 
+2. Select in **Variables** the `Set: variable` action for desired variable 
 3. Specify the new value (static or formula)
 
 @@@ example
