@@ -125,7 +125,7 @@ The `On attribute change` event is always triggered when any attribute is change
 :::
 
 ## Internal state management
-Components maintain their own internal state using [variables](/variables/overview). Component [variables](/variables/overview) are:
+Components maintain their own internal state using [variables](/variables/overview). Component variables are:
 - Private to the component instance
 - Preserved as long as the component is on the page
 - Reset when the component is removed and added again
