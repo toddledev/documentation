@@ -36,7 +36,6 @@ toddle prioritizes **static** pages over **dynamic** ones when multiple pages ma
 ## Query parameters
 In addition to path parameters, you can define query parameters to pass additional information in the URL:
 - Query parameters appear after a `?` in the URL (e.g., `?preview=true`)
-- They don't trigger browser navigation history when changed
 - They're useful for optional settings or filters
 
 ## Working with URL parameters
