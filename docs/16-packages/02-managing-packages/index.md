@@ -26,10 +26,6 @@ The `Installed` tab in the packages panel shows all packages currently used in y
 ## Update a package
 When an installed package has updates available, a green update icon appears next to it. Click this icon to install the latest version.
 
-::: warning
-Updating a package while in the main branch immediately applies changes to your published project. This may cause unexpected behavior or break your live version.
-:::
-
 ::: tip
 Always create a new branch before updating packages. This allows you to test your application with the updated package and resolve any issues before publishing.
 :::
