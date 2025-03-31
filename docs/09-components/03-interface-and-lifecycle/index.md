@@ -76,6 +76,10 @@ Unlike HTML element events that trigger automatically on user interactions, comp
 2. Select in **Events** the `Trigger: event` action for desired component event to trigger
 3. Define the data payload to send with the event
 
+::: danger
+image triggering events
+:::
+
 ::: info
 All events defined in a component appear under the **Events** section when setting up event handlers.
 :::
@@ -102,6 +106,10 @@ The initialization phase is the right time to:
 - Fetch initial data from APIs
 - Perform one-time setup operations
 
+::: danger
+image on load
+:::
+
 To add initialization logic:
 1. With no element selected, view the [data panel](/the-editor/data-panel)
 2. In the **Lifecycle** section, add actions to the `On load` event
@@ -115,6 +123,10 @@ This phase is useful for:
 - Updating internal state based on new attribute values
 - Triggering recalculations or API calls
 - Updating the component's appearance
+
+::: danger
+image attribute change
+:::
 
 To add attribute change logic:
 1. With no element selected, view the [data panel](/the-editor/data-panel)
