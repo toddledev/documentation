@@ -53,9 +53,13 @@ Variables can be updated through workflows or events:
 2. Select in "Variables" the `Set: variable` action for desired variable 
 3. Specify the new value (static or formula)
 
-::: danger
-image or example???
-:::
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-updating.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/f/components/example-variable-updating?rightpanel=events&canvas-width=800&selection=nodes.RXXxhmSNTU21VntB7mKuh.events.click.actions.0.data&canvas-height=800
+height: 18rem
+
+See how clicking the card updates the `isCardSelected` variable.
+@@@
 
 # Binding variables
 Variables can be connected to element properties through binding, allowing them to dynamically control the appearance and behavior of your components.
