@@ -76,7 +76,7 @@ componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-v
 editorUrl: https://toddle.dev/projects/docs_examples/branches/f/components/example-variable-updating?canvas-width=800&rightpanel=attributes&selection=nodes.RXXxhmSNTU21VntB7mKuh.classes.selected.formula&canvas-height=800
 height: 18rem
 
-See how to bind the `isCardSelected` variable to a class for conditional styling.
+See how to bind the `isCardSelected` variable to a class for the card's conditional styling.
 @@@
 
 Variables can be bound to various aspects of elements:
@@ -92,10 +92,14 @@ For `input` elements, toddle provides a convenient shortcut to create two-way bi
 2. In the Attributes tab, find the 'Bind to variable` dropdown
 3. Choose an existing variable or create a new one
 
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-input-binding.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/f/components/example-variable-input-binding2?canvas-width=800&mode=design&selection=nodes.Aw-ypNWnj8VwAKTg5h6vf&rightpanel=attributes&canvas-height=800
+height: 4.5rem
+
+See how to bind a variable to an input field.
+@@@
+
 This is a shortcut that automatically sets up:
 - A binding of the variable to the input's `value` attribute
 - An event handler on the `input` event that updates the variable when the user types
-
-::: danger
-image or example for input binding???
-:::
