@@ -71,6 +71,14 @@ To bind a variable:
 4. In the formula editor, select your variable from the available options
 5. Add any additional logic if needed (transformations, conditions, etc.)
 
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-updating.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/f/components/example-variable-updating?canvas-width=800&rightpanel=attributes&selection=nodes.RXXxhmSNTU21VntB7mKuh.classes.selected.formula&canvas-height=800
+height: 18rem
+
+See how to bind the `isCardSelected` variable to a class for conditional styling.
+@@@
+
 Variables can be bound to various aspects of elements:
 - Attribute values (text, src, href, etc.)
 - Classes (see [conditional styling](/styling/conditional-styling#class-based-styles))
