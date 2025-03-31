@@ -84,6 +84,7 @@ Variables can be bound to various aspects of elements:
 - Classes (see [conditional styling](/styling/conditional-styling#class-based-styles))
 - [Show/hide functionality](/formulas/the-formula-editor) (with boolean conditions)
 - [Repeat formulas](/formulas/repeat-formulas) (using arrays to generate multiple elements)
+- Workflows and actions (as inputs or conditions to control logic)
 
 ## Input field binding
 For `input` elements, toddle provides a convenient shortcut to create two-way binding with variables:
