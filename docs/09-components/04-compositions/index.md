@@ -73,14 +73,14 @@ Slots are added to components like any other element using the [element catalog]
 2. Add a slot element from the element catalog
 3. Optionally add a name attribute (without a name, the slot is called `default`)
 
+::: danger
+image for slot naming
+:::
+
 ## Naming
 Slots in toddle work with a naming system:
 - **Default slot**: A slot without a name attribute that receives any unassigned content
 - **Named slot**: A slot with a name attribute that receives content specifically targeted to it
-
-::: danger
-image for slot naming
-:::
 
 When adding content to a component with slots:
 1. Select the element you want to place in a slot
