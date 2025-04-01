@@ -41,7 +41,7 @@ Creating well-structured components involves finding the right level of granular
 The ideal component size depends on your specific application needs, but aiming for focused, **single-responsibility** components generally leads to more maintainable code.
 
 ::: tip
-Follow the single-responsibility principle: each component should do one thing well, making it easier to understand, test and reuse across your application.
+Follow the **single-responsibility principle**: each component should do one thing well, making it easier to understand, test and reuse across your application.
 :::
 
 # Component creation workflow
