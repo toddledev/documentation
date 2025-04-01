@@ -133,7 +133,7 @@ To add attribute change logic:
 2. In the **Lifecycle** section add actions to the `On attribute change` event
 
 ::: info
-The `On attribute change` event is always triggered when any attribute is changed.
+The `On attribute change` event is always triggered when any attribute of the component is changed.
 :::
 
 ## Internal state management
