@@ -71,7 +71,7 @@ When exporting a component as a web component, you can use slots like any other 
 Slots are added to components like any other element using the [element catalog](/the-editor/element-tree#adding-elements):
 1. Select where you want to add the slot in your component
 2. Add a slot element from the element catalog
-3. Optionally change the name attribute (the default slot name is `default`)
+3. Optionally add a name attribute (without a name, the slot is called `default`)
 
 ## Naming
 Slots in toddle work with a naming system:
