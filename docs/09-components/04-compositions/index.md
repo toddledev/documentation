@@ -62,7 +62,7 @@ The slot element in toddle follows the web components standard. For more technic
 :::
 
 ::: tip
-When exporting a component as a web component, you can use slots like any other web component. You can insert anything, e.g. a React component, by defining the slot attribute on the element.
+When [exporting a component as a web component](/components/export-a-component), you can use slots like any other web component. You can insert anything, e.g. a React component, by defining the slot attribute on the element.
 :::
 
 ## Adding slots to components
