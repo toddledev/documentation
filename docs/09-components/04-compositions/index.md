@@ -76,7 +76,7 @@ Slots are added to components like any other element using the [element catalog]
 
 ## Naming
 Slots in toddle work with a naming system:
-- **Default slot**: A slot without a name that receives any unassigned content
+- **Default slot**: A slot without a name attribute that receives any unassigned content
 - **Named slot**: A slot with a name attribute that receives content specifically targeted to it
 
 When adding content to a component with slots:
