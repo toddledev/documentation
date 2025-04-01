@@ -18,8 +18,8 @@ height: 24rem
 The left card is built with fixed nested components and the right one with slots. Both create the same visual results but with different component architecture.
 @@@
 
-This example shows two different ways to build a card component:
-**Nested component** (left):
+This example shows two different ways to build a component:
+**Fixed nested component** (left):
 - Has predefined internal structure with built-in elements
 - Structure and content controlled by the card component itself
 - Users cannot modify the internal structure
