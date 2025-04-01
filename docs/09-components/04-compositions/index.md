@@ -51,7 +51,7 @@ When nesting components, consider the following:
 As your application grows, you'll naturally develop deeper component hierarchies. While there's no strict limit to nesting depth, it's good practice to maintain clear boundaries of responsibility between components to ensure maintainability.
 
 # Slots and content distribution
-Slots are a powerful feature in toddle that allow components to receive and display content provided when the component is used. They act as placeholders that can be filled with elements and components passed into the component from the outside.
+Slots are a powerful feature in toddle that allow components to receive and display content provided when the component is used. They act as placeholders that can be filled with content passed into the component from the outside.
 
 ## Understanding slots
 The slot element is a fundamental part of toddle's component specification:
@@ -76,12 +76,12 @@ Slots are added to components like any other element using the [element catalog]
 
 ## Naming
 Slots in toddle work with a naming system:
-- **Default slot**: A slot with the name `default` (which is automatically assigned if no name is provided)
-- **Named slot**: A slot with a custom name attribute that identifies it uniquely
+- **Default slot**: A slot without a name that receives any unassigned content
+- **Named slot**: A slot with a name attribute that receives content specifically targeted to it
 
 When adding content to a component with slots:
 1. Select the element you want to place in a slot
-2. In the [attributes tab](/the-editor/element-panel#attributes-tab), find the slot section
+2. In the [attributes tab](/the-editor/element-panel#attributes-tab), find the **Slot** section
 3. Select which slot should contain this element
 4. Elements without a specified slot are placed in the `default` slot
 
