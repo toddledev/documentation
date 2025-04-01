@@ -8,7 +8,7 @@ Component composition in toddle refers to combining components in various ways t
 
 The primary composition patterns in toddle include:
 - [**Nesting components**](#nesting-components): Adding components inside other components
-- [**Slots**](#slots-and-content-distribution): Creating placeholders that can be filled with external content
+- [**Slots**](#slots): Creating placeholders that can be filled with external content
 
 @@@ example
 componentUrl: 
