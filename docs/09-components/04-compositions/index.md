@@ -89,6 +89,11 @@ When adding content to a component with slots:
 4. Elements without a specified slot are placed in the `default` slot
 
 ## Placeholder content
+
+::: danger
+image for slot with placeholder content
+:::
+
 Slots can contain default content that appears when no content is provided. This default content:
 - Is shown when no matching content is provided
 - Gets replaced when matching content is provided
