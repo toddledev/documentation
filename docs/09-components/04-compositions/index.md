@@ -78,6 +78,10 @@ Slots in toddle work with a naming system:
 - **Default slot**: A slot without a name attribute that receives any unassigned content
 - **Named slot**: A slot with a name attribute that receives content specifically targeted to it
 
+::: danger
+image for slot naming
+:::
+
 When adding content to a component with slots:
 1. Select the element you want to place in a slot
 2. In the [attributes tab](/the-editor/element-panel#attributes-tab), find the **Slot** section
