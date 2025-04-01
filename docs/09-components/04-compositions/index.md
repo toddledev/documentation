@@ -15,20 +15,19 @@ componentUrl:
 editorUrl: 
 height: 24rem
 
-The left card is built with nested components and the right one with slots. Both create the same visual results but with different component architecture.
+The left card is built with fixed nested components and the right one with slots. Both create the same visual results but with different component architecture.
 @@@
 
 This example shows two different ways to build a card component:
 **Nested component** (left):
-- Uses fixed, nested image, text and button components
-- Each nested component has specific attributes to configure it
-- Structure and content is defined and controlled by the card component itself
+- Has predefined internal structure with built-in elements
+- Structure and content controlled by the card component itself
+- Users cannot modify the internal structure
 
-**Assembled with slots** (right):
-- Uses a slot for title, description and button components
-- Structure is defined by the card component, that the components are below the image
-- Content is controlled by the parent
-
+**Slot-based assembly** (right):
+- Provides empty placeholder areas (slots)
+- Users must manually add elements into slots
+- Different instances can contain different elements
 
 # Nesting components
 Nesting is the most basic form of component composition, where you add components inside other components:
@@ -45,7 +44,7 @@ Benefits of nesting include:
 When nesting components, consider the following:
 - **Responsibility boundaries**: Each component should have a clear, focused responsibility
 - **Data flow**: Parent components pass data down to child components through [attributes](/components/interface-and-lifecycle#defining-attributes) or [contexts](/contexts/overview)
-- **Event bubbling**: Child components send data up to parents through events
+- **Event bubbling**: Child components send data up to parents through [events](/components/interface-and-lifecycle#setting-up-events) or [contexts](/contexts/overview)
 - **Styling**: Parent components can style the root element of nested components
 
 As your application grows, you'll naturally develop deeper component hierarchies. While there's no strict limit to nesting depth, it's good practice to maintain clear boundaries of responsibility between components to ensure maintainability.
@@ -99,3 +98,22 @@ Slots can contain default content that appears when no content is provided. This
 - Gets replaced when matching content is provided
 - Helps create components that work out-of-the-box
 - Provides visual cues during development
+
+# Comparing composition approaches
+Both approaches - fixed nested components and slot-based assembly - involve nesting components within others. The key difference is in *how* and *when* this composition happens:
+- With fixed nesting, composition happens when creating the component
+- With slots, composition happens when using the component
+
+**When to use fixed nested components:**
+- You need guaranteed consistency in structure
+- The internal elements will always be the same type
+- You want to simplify usage by pre-assembling the structure
+- The component represents a complete, predefined UI element
+
+**When to use slot-based assembly:**
+- You need flexibility in what content appears
+- Different instances need different types of content
+- You want to allow completely different elements in each instance
+- You need to compose from existing components rather than building everything from scratch
+
+Many complex components combine both approaches, using fixed nested components for core functionality and slots for customizable areas.
