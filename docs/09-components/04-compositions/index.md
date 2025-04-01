@@ -86,6 +86,10 @@ When adding content to a component with slots:
 3. Select which slot should contain this element
 4. Elements without a specified slot are placed in the `default` slot
 
+::: danger
+image for slot selection???
+:::
+
 ## Placeholder content
 
 ::: danger
