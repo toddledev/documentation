@@ -19,7 +19,7 @@ The left card is built with fixed nested components and the right one with slots
 @@@
 
 This example shows two different ways to build a component:
-**Fixed nested component**:
+**Fixed nested composition**:
 - Has predefined internal structure with built-in elements
 - Structure and content controlled by the card component itself
 - Users cannot modify the internal structure
