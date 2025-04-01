@@ -50,10 +50,9 @@ When nesting components, consider the following:
 
 As your application grows, you'll naturally develop deeper component hierarchies. While there's no strict limit to nesting depth, it's good practice to maintain clear boundaries of responsibility between components to ensure maintainability.
 
-# Slots and content distribution
+# Slots
 Slots are a powerful feature in toddle that allow components to receive and display content provided when the component is used. They act as placeholders that can be filled with content passed into the component from the outside.
 
-## Understanding slots
 The slot element is a fundamental part of toddle's component specification:
 - Like many core concepts in toddle, slots build upon native web standards
 - Slots create areas in your component that can be filled with external content
