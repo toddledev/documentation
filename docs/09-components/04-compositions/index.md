@@ -22,7 +22,7 @@ This example shows two different ways to build a component:
 **Fixed nested structure**:
 - Has predefined internal structure with built-in elements
 - Structure and content controlled by the card component itself
-- Users cannot modify the internal structure
+- Developers cannot modify the structure directly when using it
 
 **Slot-based assembly**:
 - Provides empty placeholder areas (slots)

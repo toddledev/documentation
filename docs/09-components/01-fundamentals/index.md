@@ -13,7 +13,7 @@ Components in toddle are self-contained, reusable elements that encapsulate stru
 - Call APIs and process data
 - Respond to user interactions
 - Communicate with other components
-- Encapsulate logic and validation
+- Encapsulate logic
 - Implement complex functionality in isolation
 - Maintain their own internal state
 
@@ -21,6 +21,10 @@ Each component has its own structure, data model, and behavior, making them high
 
 ::: info
 Components combine HTML structure, CSS styling, and JavaScript behavior into reusable parts.
+:::
+
+::: dev
+The way components work in toddle is very similar to popular JS frameworks like React or Vue.
 :::
 
 # Benefits of using components
@@ -76,7 +80,7 @@ This communication pattern enables components to work together while maintaining
 # Working with component instances
 When you add a component to a page or another component, you're creating an instance of that component. Each instance:
 - Has its own set of attribute values
-- Can be styled independently (affecting only the root element)
+- Can be styled independently (affecting only the root element, see [component style overrides](/styling/conditional-styles#component-style-overrides))
 - Works independently of other instances of the same component
 
 Understanding how components work and how they fit into the overall structure of your application is the foundation for creating maintainable, scalable applications in toddle.

@@ -15,7 +15,7 @@ There are two primary ways to create components in toddle:
 To create a new component:
 1. Open the [project sidebar](/the-editor/project-sidebar) by clicking the folder icon or using [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd]
 2. **(A)** Find the "Components" section and click the [kbd]+[kbd] button next to it or
-   **(B)** Click the [kbd]+[kbd] button next to the branch name at the top of the [project sidebar](/the-editor/project-sidebar) and choose `New component` 
+   **(B)** Click the [kbd]+[kbd] button next to the branch name at the top of the project sidebar and choose [kbd]New component[kbd] 
 3. Enter a name for your component and confirm with [kbd]Create[kbd]
 
 ## Extract existing elements
