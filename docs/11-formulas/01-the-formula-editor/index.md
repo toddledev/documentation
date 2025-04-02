@@ -35,11 +35,6 @@ The formula editor appears when editing formulas and wherever you see an `fx` bu
 - ...
 
 In the formula editor, you can:
-- **When editing a formula**:
-    - Name your formula
-    - Add inputs with test values to use while developing the formula
-    - Expose the formula in context to make it available to child components
-    - Delete formula
 - Reference variables, attributes, and other data
 - Use built-in functions and operators
 - Compose complex logic from simpler operations
@@ -47,18 +42,6 @@ In the formula editor, you can:
 
 ### Full-screen mode
 For complex formulas, toddle provides a full-screen view of the formula editor. It offers a larger canvas, better visibility of logic and easier navigation for formulas with many operations. To expand, click the icon button in the top-right corner.
-
-## Reusable formulas
-To keep your formulas efficient and maintainable, define reusable formulas that can be referenced throughout your project. If you find yourself repeating the same formula logic in multiple places, follow these steps:
-1. Create a component-level formula in the data panel
-2. Give it a descriptive name
-3. Define its logic once
-4. Reference it wherever needed
-
-Reusable formulas provide these benefits:
-- Reduce duplication in your codebase
-- Improve maintainability (changes in one place affect all usages)
-- Enhance performance through result caching (due to their pure function nature)
 
 ## Formula foundations
 Built on the modern web platform, toddle offers many built-in formulas that closely align with similarly named JavaScript functions. Familiarity with these JavaScript concepts can help you create more effective formulas:
@@ -68,15 +51,3 @@ Built on the modern web platform, toddle offers many built-in formulas that clos
 ::: dev
 The truthy concept in toddle is similar to JavaScript but follows a more streamlined approach. Only `false`, `null` and `undefined` are treated as **falsy**, while all other values are considered **truthy**.
 :::
-
-# Common formula examples
-The formula editor supports many JavaScript-like operations, presented through toddle's visual approach. Below are some common formula examples to help you get started.
-
-## Map formula
-@@@ example
-componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-map-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?leftpanel=design&canvas-width=800&canvas-height=800&rightpanel=style&selection=formulas.2q0_dN
-height: 19rem
-
-Check out how the map formula transforms each item in an array using a specified function, with the results displayed in a new array.
-@@@
