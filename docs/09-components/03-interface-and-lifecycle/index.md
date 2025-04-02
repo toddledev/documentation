@@ -7,12 +7,12 @@ description:
 Components in toddle need clearly defined interfaces to interact with the rest of your application, and they follow a specific lifecycle as they are created, updated and removed from the page.
 
 # Component interface
+The interface of a component defines how it communicates with other parts of your application. There are three communication channels
+- [**Attributes**](#defining-attributes): Data flow into the component (input)
+- [**Events**](#setting-up-events): Data flow out to parent components (output)
+- [**Contexts**](#data-flow-with-contexts): Data flow between parent and any descendant components
 
-::: danger
-image of component with attributes and events?
-:::
-
-The interface of a component defines how it can be configured and how it communicates with other parts of your application.
+These mechanisms enable components to be configurable, reusable, and interactive.
 
 ## Defining attributes
 Attributes are the primary way to pass data into a component:
