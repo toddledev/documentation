@@ -23,7 +23,7 @@ Attributes are the primary way to pass data into a component:
    - **Test value**: The value used in the editor, also to determine the attribute type
 
 ::: danger
-image or example of attributes defining
+image of attributes defining
 :::
 
 Attributes allow you to create configurable components that can:
@@ -55,7 +55,7 @@ Events allow components to communicate upward to parent elements:
    - **Test value**: Example data that defines the event's output structure, allowing you to develop event handling in parent components without actual event triggers.
 
 ::: danger
-image or example of events
+image of events
 :::
 
 Events enable child components to send messages and data up to their parent components, complementing the downward data flow of attributes. While attributes pass data from parent to child, events pass data from child to parent.
