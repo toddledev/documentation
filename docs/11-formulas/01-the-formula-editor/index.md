@@ -28,9 +28,9 @@ A pure function always returns the same result for the same inputs and doesn't c
 
 ## Working with the formula editor
 The formula editor appears when editing formulas and wherever you see an `fx` button in the toddle interface:
-- In the attributes panel when binding values
-- In the show/hide and repeat sections
-- In the style variables panel
+- In the [attributes panel](/the-editor/element-panel#attributes-tab) when binding values
+- In the [Show](/formulas/show-hide-formula) and [Repeat](/formulas/repeat-formula) sections
+- In the [style variables](/styling/conditional-styles#style-variables) panel
 - In the data panel when defining formulas
 - ...
 

@@ -9,9 +9,9 @@ The element panel appears in the right side of the editor when an element is sel
 ![Element panel|16/9](element-panel.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three primary tabs:
-1. **[Styling](#styling-tab)**: Configure visual appearance and layout for the element and its children
-2. **[Attributes](#attributes-tab)**: Set HTML or component attributes for advanced behaviors
-3. **[Events](#events-tab)**: Define workflows triggered by user interactions with the element
+1. [Styling](#styling-tab): Configure visual appearance and layout for the element and its children
+2. [Attributes](#attributes-tab): Set HTML or component attributes for advanced behaviors
+3. [Events](#events-tab): Define workflows triggered by user interactions with the element
 
 # Styling tab
 The styling tab allows you to control the visual appearance of elements and components.
@@ -24,7 +24,7 @@ The styling tab allows you to control the visual appearance of elements and comp
 4. Use the [CSS editor](#css-editor) to configure styles with CSS code
 
 ## Style variables
-Style variables provide a way to store and reuse values throughout your styles.
+[Style variables](/styling/conditional-styles#style-variables) provide a way to store and reuse values throughout your styles.
 - Create and manage CSS style variables that can be referenced in your styles
 - Set up CSS style variables in the formula editor to create dynamic, conditional styles
 - Define the type, name and set a unit if needed (e.g. `px`)

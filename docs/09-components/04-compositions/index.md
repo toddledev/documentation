@@ -7,8 +7,8 @@ description:
 Component composition in toddle refers to combining components in various ways to create more complex interfaces. By using different composition techniques, developers can build flexible, maintainable, and reusable UI structures.
 
 The primary composition patterns in toddle include:
-- [**Nesting components**](#nesting-components): Adding components inside other components
-- [**Slots**](#slots): Creating placeholders that can be filled with external content
+- [Nesting components](#nesting-components): Adding components inside other components
+- [Slots](#slots): Creating placeholders that can be filled with external content
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-compositions.js
