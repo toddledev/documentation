@@ -37,7 +37,7 @@ Connect your application to external services and data sources by defining endpo
 Enable components to communicate with parent elements through custom events that can be triggered by internal actions and pass data upward.
 
 ## Formulas
-Create reusable calculations and data transformations using toddle's formula syntax to access data from variables, formulas, other formulas, contexts and API responses.
+Create reusable calculations and data transformations using toddle's formula syntax to access data from variables, formulas, contexts and API responses.
 
 ## Workflows
 Build multi-step processes to handle complex interactions by combining workflows and actions in sequence with conditional logic.
