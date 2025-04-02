@@ -11,9 +11,9 @@ The primary composition patterns in toddle include:
 - [**Slots**](#slots): Creating placeholders that can be filled with external content
 
 @@@ example
-componentUrl: 
-editorUrl: 
-height: 24rem
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-compositions.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-compositions?canvas-width=800&rightpanel=style&canvas-height=800
+height: 26rem
 
 The left card is built with fixed nested components and the right one with slots. Both create the same visual results but with different component architecture.
 @@@
