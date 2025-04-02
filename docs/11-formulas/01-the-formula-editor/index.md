@@ -31,7 +31,7 @@ The formula editor appears when editing formulas and wherever you see an `fx` bu
 - In the [attributes panel](/the-editor/element-panel#attributes-tab) when binding values
 - In the [Show](/formulas/show-hide-formula) and [Repeat](/formulas/repeat-formula) sections
 - In the [style variables](/styling/conditional-styles#style-variables) panel
-- In the data panel when defining formulas
+- In the [data panel](/the-editor/data-panel) when defining formulas
 - ...
 
 In the formula editor, you can:
