@@ -32,7 +32,7 @@ image to add a show/hide formula
 
 To conditionally show or hide an element:
 1. Select the element you want to control
-2. In the **Attributes** tab, click the [kbd]fx[kbd] button next to **Show**
+2. In the [attributes tab](/the-editor/element-panel#attributes-tab), click the [kbd]fx[kbd] button next to **Show**
 3. Enter a formula that evaluates to a `boolean` value. The element will only be visible when the formula evaluates to `true`
 
 # How show/hide differs from CSS display
