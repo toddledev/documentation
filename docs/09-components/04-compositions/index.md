@@ -68,7 +68,7 @@ When [exporting a component](/components/export-a-component) as a web component,
 ## Adding slots to components
 Slots are added to components like any other element using the [element catalog](/the-editor/element-tree#adding-elements):
 1. Select where you want to add the slot in your component
-2. Add a slot element from the element catalog
+2. Add a slot element from the [element catalog](/the-editor/element-tree#adding-elements)
 3. Optionally add a name attribute (without a name, the slot is called `default`)
 
 ![Add a slot element|16/9](add-a-slot-element.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
