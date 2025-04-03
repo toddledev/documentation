@@ -70,11 +70,12 @@ Unlike HTML element events that trigger automatically on user interactions, comp
 - **From a workflow**: Create or edit a workflow
 
 ### Common steps
+
+![Trigger an event|16/9](trigger-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&canvas-height=800&selection=nodes.root.events.click&rightpanel=events}
+
 1. Click the `+` button to add a new action
 2. Select in **Events** the `Trigger: event` action for desired component event to trigger
 3. Define the data payload to send with the event
-
-![Trigger an event|16/9](trigger-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&canvas-height=800&selection=nodes.root.events.click&rightpanel=events}
 
 ::: info
 All events defined in a component appear under the **Events** section when setting up event handlers.
