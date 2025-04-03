@@ -47,7 +47,3 @@ For complex formulas, toddle provides a full-screen view of the formula editor. 
 Built on the modern web platform, toddle offers many built-in formulas that closely align with similarly named JavaScript functions. Familiarity with these JavaScript concepts can help you create more effective formulas:
 - [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#array_methods_and_empty_slots) (map, filter, reduce, etc.)
 - [Object methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) (keys, values, entries, etc.)
-
-::: dev
-The truthy concept in toddle is similar to JavaScript but follows a more streamlined approach. Only `false`, `null` and `undefined` are treated as **falsy**, while all other values are considered **truthy**.
-:::
