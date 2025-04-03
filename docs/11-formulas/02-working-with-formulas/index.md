@@ -64,7 +64,7 @@ Example for nested formula
 The formula editor supports many JavaScript-like operations, presented through toddle's visual approach. Below are some common formula examples to help you get started.
 
 ## Map formula
-The `map()` method creates a new array by applying a function to each element in the original array.
+The `Map` method creates a new array by applying a function to each element in the original array.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-map-formula.js
@@ -75,14 +75,14 @@ Check out how the map formula transforms each item in an array using a specified
 @@@
 
 ## Filter formula
-The `filter()` method creates a new array with elements that pass a specific condition.
+The `Filter` method creates a new array with elements that pass a specific condition.
 
 @@@ example
-componentUrl: 
-editorUrl: 
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-filter-formula.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-filter-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
-
+See how the filter formula selects specific items from an array based on a condition, returning a new array with only the matching elements.
 @@@
 
 ## Sort formula
