@@ -71,7 +71,7 @@ componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-m
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?leftpanel=design&canvas-width=800&canvas-height=800&rightpanel=style&selection=formulas.2q0_dN
 height: 19rem
 
-Check out how the map formula transforms each item in an array using a specified function, with the results displayed in a new array.
+Check out how the `Map` formula transforms each item in an array using the `Set` function, with the results displayed in a new array.
 @@@
 
 ## Filter formula
@@ -82,7 +82,7 @@ componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-f
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-filter-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
-See how the filter formula selects specific items from an array based on a condition, returning a new array with only the matching elements.
+See how the `Filter` formula selects specific items from an array based on a condition, returning a new array with only the matching elements.
 @@@
 
 ## Sort formula
