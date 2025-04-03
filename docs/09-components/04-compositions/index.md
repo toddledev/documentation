@@ -71,36 +71,27 @@ Slots are added to components like any other element using the [element catalog]
 2. Add a slot element from the element catalog
 3. Optionally add a name attribute (without a name, the slot is called `default`)
 
-::: danger
-image for slot naming
-:::
+![Add a slot element|16/9](add-a-slot-element.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
 
 ## Naming
 Slots in toddle work with a naming system:
 - **Default slot**: A slot without a name attribute that receives any unassigned content
 - **Named slot**: A slot with a name attribute that receives content specifically targeted to it
 
+![Assign to a slot|16/9](assign-to-a-slot.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card?canvas-width=800&rightpanel=attributes&selection=nodes.47Ndqw5Wmw5WAwpiV13p8&canvas-height=800}
+
 When adding content to a component with slots:
 1. Select the element you want to place in a slot
-2. In the [attributes tab](/the-editor/element-panel#attributes-tab), find the **Slot** section
-3. Select which slot should contain this element
-4. Elements without a specified slot are placed in the `default` slot
-
-::: danger
-image for slot selection???
-:::
+2. In the [attributes tab](/the-editor/element-panel#attributes-tab), find the **Slot** section and select which slot should contain this element. Elements without a specified slot are placed in the `default` slot
 
 ## Placeholder content
-
-::: danger
-image for slot with placeholder content
-:::
-
 Slots can contain default content that appears when no content is provided. This default content:
 - Is shown when no matching content is provided
 - Gets replaced when matching content is provided
 - Helps create components that work out-of-the-box
 - Provides visual cues during development
+
+![Placeholder content|16/9](placeholder-content.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=events&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
 
 # Comparing composition approaches
 Both approaches - fixed nested components and slot-based assembly - involve nesting components within others. The key difference is in *how* and *when* this composition happens:

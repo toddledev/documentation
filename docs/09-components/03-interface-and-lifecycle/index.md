@@ -15,16 +15,15 @@ The interface of a component defines how it communicates with other parts of you
 These mechanisms enable components to be configurable, reusable, and interactive.
 
 ## Defining attributes
+
+![Define an attribute|16/9](define-an-attribute.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
+
 Attributes are the primary way to pass data into a component:
 1. Open the component and view the [data panel](/the-editor/data-panel) with no element selected
 2. In the [Attributes](/the-editor/data-panel#attributes) section, click the [kbd]+[kbd] button
 3. Configure the attribute:
    - **Name**: A unique name that must consist of lowercase letters, numbers, hyphens (`-`) and underscores (`_`) only
    - **Test value**: The value used in the editor, also to determine the attribute type
-
-::: danger
-image of attributes defining
-:::
 
 Attributes allow you to create configurable components that can:
 - Alter their behavior based on the data they are passed
@@ -47,16 +46,15 @@ The test value is only used while developing your component in the editor. It ha
 :::
 
 ## Setting up events
+
+![Set up an event|16/9](set-up-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=events.0&canvas-height=800}
+
 Events allow components to communicate upward to parent elements:
 1. Open the component and view the [data panel](/the-editor/data-panel) with no element selected
 2. In the [Events](/the-editor/data-panel#events) section, click the [kbd]+[kbd] button
 3. Configure the event:
    - **Name**: A descriptive name for the event
    - **Test value**: Example data that defines the event's output structure, allowing you to develop event handling in parent components without actual event triggers.
-
-::: danger
-image of events
-:::
 
 Events enable child components to send messages and data up to their parent components, complementing the downward data flow of attributes. While attributes pass data from parent to child, events pass data from child to parent.
 
@@ -76,9 +74,7 @@ Unlike HTML element events that trigger automatically on user interactions, comp
 2. Select in **Events** the `Trigger: event` action for desired component event to trigger
 3. Define the data payload to send with the event
 
-::: danger
-image triggering events
-:::
+![Trigger an event|16/9](trigger-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&canvas-height=800&selection=nodes.root.events.click&rightpanel=events}
 
 ::: info
 All events defined in a component appear under the **Events** section when setting up event handlers.
@@ -106,13 +102,12 @@ The initialization phase is the right time to:
 - Fetch initial data from APIs
 - Perform one-time setup operations
 
-::: danger
-image on load
-:::
+![Add initalization logic|16/9](add-initalization-logic.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onLoad&canvas-height=800}
 
 To add initialization logic:
 1. With no element selected, view the [data panel](/the-editor/data-panel)
-2. In the **Lifecycle** section, add actions to the `On load` event
+2. In the **Lifecycle** section, click on the `On load` event
+3. Add actions to the `On load` event
 
 ## Attribute changes
 After initialization, components respond to changes in their attributes:
@@ -124,13 +119,12 @@ This phase is useful for:
 - Triggering recalculations or API calls
 - Updating the component's appearance
 
-::: danger
-image attribute change
-:::
+![Add logic on attribute change|16/9](add-logic-on-attribute-change.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onAttributeChange&canvas-height=800}
 
 To add attribute change logic:
 1. With no element selected, view the [data panel](/the-editor/data-panel)
-2. In the **Lifecycle** section add actions to the `On attribute change` event
+2. In the **Lifecycle** section, click on the `On attribute change` event
+3. Add actions to the `On attribute change` event
 
 ::: info
 The `On attribute change` event is always triggered when any attribute of the component is changed.
