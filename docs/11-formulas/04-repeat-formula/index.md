@@ -34,7 +34,7 @@ To create dynamic content with the repeat formula:
 4. Set a **Repeat key**
 
 ::: info
-The output of your repeat formula must be iterable (an `Array` of items). This could be:
+The output of your repeat formula must be iterable (an `Array` of items).
 :::
 
 ## Accessing data in repeated elements
@@ -56,12 +56,6 @@ See how you can generate multiple cards using the Range formula.
 @@@
 
 # Optimizing performance with repeat key
-When working with larger data sets or frequently changing data, you can optimize performance using the repeat key formula
-
-::: danger
-image of repeat key formula
-:::
-
 To ensure efficient updates and tracking of repeated elements, add a **repeat key** formula that generates a unique identifier for each item. This key helps toddle track items efficiently, preventing re-renders and improving performance. Use a stable value like a database ID, unique property or composite key for seamless updates when data changes.
 
 ::: warning
