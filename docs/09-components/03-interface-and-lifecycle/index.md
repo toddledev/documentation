@@ -103,7 +103,7 @@ The initialization phase is the right time to:
 - Fetch initial data from APIs
 - Perform one-time setup operations
 
-![Add initalization logic|16/9](add-initalization-logic.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onLoad&canvas-height=800}
+![Add initialization logic|16/9](add-initialization-logic.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onLoad&canvas-height=800}
 
 To add initialization logic:
 1. With no element selected, view the [data panel](/the-editor/data-panel)
