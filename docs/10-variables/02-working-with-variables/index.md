@@ -75,9 +75,9 @@ See how to bind the `isCardSelected` variable to a class for the card's conditio
 
 Variables can be bound to various aspects of elements:
 - Attribute values (text, src, href, etc.)
-- Classes (see [conditional styling](/styling/conditional-styling#class-based-styles))
-- [Show/hide functionality](/formulas/the-formula-editor) (with boolean conditions)
-- [Repeat formulas](/formulas/repeat-formulas) (using arrays to generate multiple elements)
+- Classes (see [conditional styling](/styling/conditional-styles#class-based-styles))
+- [Show/hide functionality](/formulas/show-hide-formula) (with boolean conditions)
+- [Repeat formulas](/formulas/repeat-formula) (using arrays to generate multiple elements)
 - Workflows and actions (as inputs or conditions to control logic)
 
 ## Input field binding

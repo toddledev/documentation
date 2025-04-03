@@ -31,7 +31,7 @@ To create dynamic content with the repeat formula:
 1. Select the element you want to repeat
 2. In the [attributes tab](/the-editor/element-panel#attributes-tab), click the [kbd]fx[kbd] button next to **Repeat**
 3. Enter a formula that returns an `Array`. The element will be repeated for each item in the array
-4. Set a **Repeat key**
+4. Set a [Repeat key](#optimizing-performance-with-repeat-key)
 
 ::: info
 The output of your repeat formula must be iterable (an `Array` of items).

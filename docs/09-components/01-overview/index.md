@@ -48,9 +48,9 @@ A component in toddle can consist of:
 - [Variables](/variables/overview): Internal state and data management
 - **APIs**: Connections to external services and data sources
 - [Events](/components/interface-and-lifecycle#setting-up-events): The interface for communicating out from the component
-- [Formulas](/formulas/The-formula-editor): Calculations and data transformations
-- **Workflows**: Internal logic and behavior
-- **Contexts**: Communication with ancestors and descendants without intermediaries
+- [Formulas](/formulas/overview): Calculations and data transformations
+- [Workflows](/workflows/overview): Internal logic and behavior
+- [Contexts](/contexts/overview): Communication with ancestors and descendants without intermediaries
 
 ## Data encapsulation
 Components in toddle encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. At first, this isolation may seem limiting, but it's an essential design principle that helps maintain order as your application grows in complexity.
