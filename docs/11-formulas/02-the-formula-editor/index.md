@@ -44,6 +44,14 @@ Reusable formulas provide these benefits:
 - Improve maintainability (changes in one place affect all usages)
 - Enhance performance through result caching (due to their pure function nature)
 
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-reusable-formula.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-reusable-formula?rightpanel=attributes&canvas-width=829&selection=formulas.p1pYpC&canvas-height=800
+height: 26rem
+
+Discover how a reusable formula formats the box office value, ensuring consistent formatting throughout the component wherever it is used.
+@@@
+
 ### Nested formulas
 In toddle you can create nested formulas where one formula can call another:
 - Build small, focused formulas that perform specific tasks
