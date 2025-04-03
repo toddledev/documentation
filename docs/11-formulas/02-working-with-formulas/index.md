@@ -86,14 +86,14 @@ See how the filter formula selects specific items from an array based on a condi
 @@@
 
 ## Sort formula
-The `sort()` method arranges array elements in a specific order.
+The `Sort by` method arranges array elements in a specific order.
 
 @@@ example
-componentUrl: 
-editorUrl: 
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-sort-formula.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-sort-formula?canvas-width=800&rightpanel=style&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
-
+Discover how the sort formula arranges items in an array based on a specified order, returning a new sorted array.
 @@@
 
 ## Reduce formula
