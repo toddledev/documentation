@@ -93,18 +93,18 @@ componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-s
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-sort-formula?canvas-width=800&rightpanel=style&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
-Discover how the sort formula arranges items in an array based on a specified order, returning a new sorted array.
+Discover how the `Sort by` formula arranges items in an array based on a specified order, returning a new sorted array.
 @@@
 
 ## Reduce formula
-The `reduce()` method applies a function to reduce an array to a single value.
+The `Reduce` method applies a function to reduce an array to a single value.
 
 @@@ example
-componentUrl: 
-editorUrl: 
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-reduce-formula.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-reduce-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN&canvas-height=800
 height: 19rem
 
-
+See how the `Reduce` formula transforms an array into a single value by applying a function to each element.
 @@@
 
 ## Find formula
