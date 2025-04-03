@@ -14,7 +14,6 @@ height: 21rem
 See how the show/hide formula controls the visibility of the card based on the toggle button.
 @@@
 
-## How it works
 The show/hide formula controls whether an element is displayed or not:
 - It evaluates a `boolean` expression
 - If the expression is truthy, the element is shown
@@ -25,7 +24,7 @@ The show/hide formula controls whether an element is displayed or not:
 The truthy concept in toddle is similar to JavaScript but follows a more streamlined approach. Only `false`, `null` and `undefined` are treated as **falsy**, while all other values (including empty strings, zero and empty arrays) are considered **truthy**.
 :::
 
-## Adding a show/hide formula
+# Add a show/hide formula
 
 ::: danger
 image to add a show/hide formula
@@ -34,10 +33,9 @@ image to add a show/hide formula
 To conditionally show or hide an element:
 1. Select the element you want to control
 2. In the **Attributes** tab, click the [kbd]fx[kbd] button next to **Show**
-3. Enter a formula that evaluates to a `boolean` value
-4. The element will only be visible when the formula evaluates to `true`
+3. Enter a formula that evaluates to a `boolean` value. The element will only be visible when the formula evaluates to `true`
 
-## How show/hide differs from CSS display
+# How show/hide differs from CSS display
 Using toddle's show/hide formula is fundamentally different from setting CSS `display: none` or `visibility: hidden`:
 - **Show/hide formula:**
   - Completely removes the element from the DOM when hidden
@@ -48,7 +46,7 @@ Using toddle's show/hide formula is fundamentally different from setting CSS `di
   - APIs, events and workflows continue to run
   - No unmounting/remounting occurs when toggling visibility
 
-## Performance considerations
+# Performance considerations
 Because elements are unmounted and remounted when the show/hide condition changes, be aware of these performance implications:
 - **Re-initialization**: When an element is shown again, all initializations, API calls and onLoad events will run anew
 - **DOM updates**: Hiding and showing elements forces the browser to recreate DOM nodes, which can be costly for complex components
