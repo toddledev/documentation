@@ -53,11 +53,11 @@ In toddle you can create nested formulas where one formula can call another:
 By breaking down complex operations into smaller, reusable pieces, you can build sophisticated functionality while keeping each formula simple and focused on a single responsibility.
 
 @@@ example
-componentUrl: 
-editorUrl: 
-height: 20rem
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-nested-formulas.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-nested-formulas?canvas-width=800&rightpanel=style&selection=formulas.lJzgnD&canvas-height=800
+height: 26rem
 
-Example for nested formula
+Discover how this nested formula works, combining different formulas to filter 90s movies, calculate the average box office and format the result.
 @@@
 
 # Common formula examples
