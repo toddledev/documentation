@@ -108,24 +108,27 @@ See how the `Reduce` formula transforms an array into a single value by applying
 @@@
 
 ## Find formula
-The `Find` formula searches through the array of items and apply the predicate formula to each item and returns the first item where the predicate formula returns `true`.
+The `Find` formula searches through the array of items, applying the predicate formula to each item and returns the first item where the predicate formula returns `true`.
 
 @@@ example
-componentUrl: 
-editorUrl: 
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-find-formula.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-find-formula?rightpanel=style&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
-
+The `Find` formula searches an array for the first matching element and returns it.
 @@@
 
 ## Get formula
+The `Get` formula extracts a value from an object, array or string at a specified path (number, string or array), returning `null` if no value is found.
+
+The `Get` formula retrieves a value from a specific key or property in an object or array.
 
 @@@ example
-componentUrl: 
-editorUrl: 
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-get-formula.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-get-formula?canvas-width=800&rightpanel=attributes&selection=formulas.2q0_dN&canvas-height=800
 height: 19rem
 
-
+Check out how the `Get` formula extracts a value from an object, array or string at a specified path.
 @@@
 
 ## Set formula
