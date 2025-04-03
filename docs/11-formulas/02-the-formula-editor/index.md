@@ -121,8 +121,6 @@ The `Find` formula searches an array for the first matching element and returns 
 ## Get formula
 The `Get` formula extracts a value from an object, array or string at a specified path (number, string or array), returning `null` if no value is found.
 
-The `Get` formula retrieves a value from a specific key or property in an object or array.
-
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-get-formula.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-get-formula?canvas-width=800&rightpanel=attributes&selection=formulas.2q0_dN&canvas-height=800
@@ -130,14 +128,3 @@ height: 19rem
 
 Check out how the `Get` formula extracts a value from an object, array or string at a specified path.
 @@@
-
-## Set formula
-
-@@@ example
-componentUrl: 
-editorUrl: 
-height: 19rem
-
-
-@@@
-
