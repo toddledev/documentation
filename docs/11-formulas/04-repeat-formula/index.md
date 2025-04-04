@@ -21,7 +21,7 @@ The repeat formula:
 - Automatically updates when the data changes
 - Can be applied to any element or component
 
-# Using the repeat formula
+# Use the repeat formula
 
 ::: danger
 image for using repeat formula
