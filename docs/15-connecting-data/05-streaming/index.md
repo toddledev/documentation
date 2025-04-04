@@ -1,6 +1,6 @@
 ---
 title: Streaming
-description: toddle docs
+description:
 ---
 
 # Streaming

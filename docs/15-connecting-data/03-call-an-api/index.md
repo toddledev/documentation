@@ -1,6 +1,6 @@
 ---
 title: Call an API
-description: toddle docs
+description:
 ---
 
 # Call an API

@@ -1,6 +1,6 @@
 ---
 title: Authentication
-description: toddle docs
+description:
 ---
 
 # Authentication

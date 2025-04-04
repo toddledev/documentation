@@ -1,6 +1,6 @@
 ---
 title: Custom JavaScript
-description: toddle docs
+description:
 ---
 
 # Custom JavaScript

@@ -1,6 +1,6 @@
 ---
 title: Connecting Data
-description: toddle docs
+description:
 ---
 
 # Connecting Data

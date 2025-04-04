@@ -1,6 +1,6 @@
 ---
 title: How to use contexts?
-description: toddle docs
+description:
 ---
 
 # How to use contexts?

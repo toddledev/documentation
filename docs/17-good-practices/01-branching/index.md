@@ -1,6 +1,6 @@
 ---
 title: Branching
-description: toddle docs
+description:
 ---
 
 # Branching

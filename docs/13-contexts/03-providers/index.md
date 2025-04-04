@@ -1,6 +1,6 @@
 ---
 title: Context Providers
-description: toddle docs
+description:
 ---
 
 # Context Providers

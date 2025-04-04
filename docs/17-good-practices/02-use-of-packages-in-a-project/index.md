@@ -1,6 +1,6 @@
 ---
 title: Use of Packages in a Project
-description: toddle docs
+description:
 ---
 
 # How to use packages in my project
