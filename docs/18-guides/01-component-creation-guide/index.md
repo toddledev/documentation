@@ -4,7 +4,7 @@ description:
 ---
 
 # Component creation guide
-Creating well-designed components is key to building efficient, maintainable applications in toddle. This guide helps you determine when to create components and explains the process for creating them.
+Creating well-designed components is key to building efficient, maintainable applications in Nordcraft. This guide helps you determine when to create components and explains the process for creating them.
 
 # When to create components
 Knowing when to turn parts of your application into components is an important skill. Here are key situations where creating a component makes sense:

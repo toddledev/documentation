@@ -4,7 +4,7 @@ description:
 ---
 
 # Packages
-Packages extend your toddle projects with reusable components and functionality. They help you save development time and maintain consistency across projects.
+Packages extend your Nordcraft projects with reusable components and functionality. They help you save development time and maintain consistency across projects.
 
 ![Package overview|16/9](packages.webp)
 
@@ -29,7 +29,7 @@ You can give a star to packages you find useful by clicking the star icon next t
 Additionally, you can clone any package by clicking the [kbd]clone[kbd] button, which creates a copy of the package in your account that you can modify.
 
 # Package accessibility
-All packages in toddle are public, meaning:
+All packages in Nordcraft are public, meaning:
 - Everyone can browse and use any published package
 - Anyone can install packages into their projects
 - All packages can be cloned to learn from or modify
@@ -45,4 +45,4 @@ Break down your project into well-defined packages to:
 - Promote modularity and reusability
 - Make code easier to maintain
 - Share specific functionalities across projects
-- Contribute to the toddle developer community and benefit from it
+- Contribute to the Nordcraft developer community and benefit from it

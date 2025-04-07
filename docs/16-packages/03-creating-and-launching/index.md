@@ -4,7 +4,7 @@ description:
 ---
 
 # Creating and launching packages
-Packages are collections of components, formulas, and actions that can be shared across toddle projects. The package repository grows with the community as anyone can build and share functionality.
+Packages are collections of components, formulas, and actions that can be shared across Nordcraft projects. The package repository grows with the community as anyone can build and share functionality.
 
 # Creating a package
 To create a package:
@@ -56,7 +56,7 @@ Keep breaking changes to a minimum. Users rely on your package's interface remai
 :::
 
 # Recommendations for package creators
-Consider these suggestions to create packages that are useful, maintainable and beneficial to you and the toddle community.
+Consider these suggestions to create packages that are useful, maintainable and beneficial to you and the Nordcraft community.
 - Build functionality as packages rather than individual components
 - Create focused packages that solve specific problems
 - Document your package thoroughly with examples
