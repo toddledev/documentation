@@ -18,7 +18,7 @@ Using global formulas ensures consistency in your application and reduces duplic
 
 # Create a global formula
 
-![Create a global formula|16/9](Create-a-global-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/getDefaultTrue?canvas-height=800&canvas-width=800&rightpanel=attributes}
+![Create a global formula|16/9](create-a-global-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/getDefaultTrue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
 To create a global formula:
 1. Open the [project sidebar](/the-editor/project-sidebar) by clicking the folder icon or using [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd]
