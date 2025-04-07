@@ -4,7 +4,7 @@ description:
 ---
 
 # The editor
-The editor is the main workspace for building your toddle applications and packages. It provides an interface with the tools needed to design, develop and test your projects.
+The editor is the main workspace for building your Nordcraft applications and packages. It provides an interface with the tools needed to design, develop and test your projects.
 
 ![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
@@ -22,7 +22,7 @@ The editor workspace consists of four main sections:
     - **[Element panel](/the-editor/element-panel)**: Specific settings and configuration of the selected element
 
 ## Left panel
-Click the toddle logo in the top left corner to navigate back to project details, organization members, projects or the dashboard.
+Click the Nordcraft logo in the top left corner to navigate back to project details, organization members, projects or the dashboard.
 
 The [element tree](/the-editor/element-tree) appears by default in the left panel. Use the icon buttons on the left sidebar to switch between:
 - [Project sidebar](/the-editor/project-sidebar)
