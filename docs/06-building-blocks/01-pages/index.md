@@ -4,11 +4,11 @@ description:
 ---
 
 # Pages
-Pages are the foundation of any toddle application, representing distinct screens that users navigate to via unique URLs.
+Pages are the foundation of any Nordcraft application, representing distinct screens that users navigate to via unique URLs.
 
 ![Page|16/9](page.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
-Pages in toddle:
+Pages in Nordcraft:
 - Have their own URLs, allowing direct navigation and bookmarking
 - Define metadata for SEO, social sharing, and browser display
 - Can accept URL paths and parameters to create dynamic content
@@ -16,7 +16,7 @@ Pages in toddle:
 - Serve as containers for components and HTML elements
 - Function as the top-level entry points for user interaction
 
-Pages are essential to structured application development in toddle. They should be used to:
+Pages are essential to structured application development in Nordcraft. They should be used to:
 - Create distinct sections of your application
 - Implement navigation between different parts of your application
 - Configure SEO-friendly metadata for each screen

@@ -4,7 +4,7 @@ description:
 ---
 
 # Bottom bar
-The bottom bar provides quick access to frequently used actions and tools in the toddle editor.
+The bottom bar provides quick access to frequently used actions and tools in the Nordcraft editor.
 
 ![Bottom bar|16/9](bottom-bar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800}
 

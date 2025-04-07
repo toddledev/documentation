@@ -4,9 +4,9 @@ description:
 ---
 
 # Formulas
-The formula editor is where you construct business logic for your application in toddle. It provides a powerful yet accessible way to transform data, perform calculations and implement conditional logic throughout your application.
+The formula editor is where you construct business logic for your application in Nordcraft. It provides a powerful yet accessible way to transform data, perform calculations and implement conditional logic throughout your application.
 
-Formulas in toddle are expressions that:
+Formulas in Nordcraft are expressions that:
 - Perform logical operations and data transformations
 - Execute mathematical calculations
 - Filter, search, and manipulate data
@@ -27,7 +27,7 @@ A pure function always returns the same result for the same inputs and doesn't c
 image of formula editor, full-screen of map formula?
 :::
 
-The formula editor appears when editing formulas and wherever you see an `fx` button in the toddle interface:
+The formula editor appears when editing formulas and wherever you see an `fx` button in the Nordcraft interface:
 - In the [attributes panel](/the-editor/element-panel#attributes-tab) when binding values
 - In the [Show](/formulas/show-hide-formula) and [Repeat](/formulas/repeat-formula) sections
 - In the [style variables](/styling/conditional-styles#style-variables) panel
@@ -41,9 +41,9 @@ In the formula editor, you can:
 - See live preview results as you type
 
 ## Full-screen mode
-For complex formulas, toddle provides a full-screen view of the formula editor. It offers a larger canvas, better visibility of logic and easier navigation for formulas with many operations. To expand, click the icon button in the top-right corner.
+For complex formulas, Nordcraft provides a full-screen view of the formula editor. It offers a larger canvas, better visibility of logic and easier navigation for formulas with many operations. To expand, click the icon button in the top-right corner.
 
 # Formula foundations
-Built on the modern web platform, toddle offers many built-in formulas that closely align with similarly named JavaScript functions. Familiarity with these JavaScript concepts can help you create more effective formulas:
+Built on the modern web platform, Nordcraft offers many built-in formulas that closely align with similarly named JavaScript functions. Familiarity with these JavaScript concepts can help you create more effective formulas:
 - [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#array_methods_and_empty_slots) (map, filter, reduce, etc.)
 - [Object methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) (keys, values, entries, etc.)

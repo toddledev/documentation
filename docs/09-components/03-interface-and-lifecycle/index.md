@@ -4,7 +4,7 @@ description:
 ---
 
 # Interface and lifecycle
-Components in toddle need clearly defined interfaces to interact with the rest of your application, and they follow a specific lifecycle as they are created, updated and removed from the page.
+Components in Nordcraft need clearly defined interfaces to interact with the rest of your application, and they follow a specific lifecycle as they are created, updated and removed from the page.
 
 # Component interface
 The interface of a component defines how it communicates with other parts of your application. There are three communication channels

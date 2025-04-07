@@ -4,7 +4,7 @@ description:
 ---
 
 # Shortcuts
-Keyboard shortcuts in toddle help you work faster and more efficiently by providing quick access to common actions and tools.
+Keyboard shortcuts in Nordcraft help you work faster and more efficiently by providing quick access to common actions and tools.
 
 ## Editor shortcuts
 These shortcuts work anywhere in the editor:
@@ -36,5 +36,5 @@ When an element or component is selected in the canvas or element tree:
 
 
 ::: tip
-Learning keyboard shortcuts can significantly improve your workflow efficiency when building applications in toddle.
+Learning keyboard shortcuts can significantly improve your workflow efficiency when building applications in Nordcraft.
 :::

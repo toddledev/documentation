@@ -39,7 +39,7 @@ Custom code formulas extend the capabilities of standard formulas by allowing yo
 ## Custom code structure
 In the custom code editor, your formula must have an entry function with the same name as your formula. This function receives two parameters:
 - `args`: The defined input parameters passed to your formula
-- `ctx`: The context object that provides access to toddle-specific functionality
+- `ctx`: The context object that provides access to Nordcraft-specific functionality
 
 ## Custom code considerations
 When using custom code in global formulas, keep these important points in mind:

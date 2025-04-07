@@ -4,7 +4,7 @@ description:
 ---
 
 # Create a project
-Creating a new project in toddle is simple and quick. Whether you are building an app or a package, follow the steps below to get started.
+Creating a new project in Nordcraft is simple and quick. Whether you are building an app or a package, follow the steps below to get started.
 
 ## Create a project from the dashboard
 In the dashboard view, you will find the **Start Building** section. Click [kbd]Create app[kbd] or [kbd]Create package[kbd] to begin the creation process for the corresponding project type.
@@ -18,7 +18,7 @@ In the organization view, at the top right of the project list, you will find th
 1. **Select organization**: The organization is pre-selected based on your account settings.
 2. **Choose visibility**: Decide who should be able to see your app and select **public** or **private**.
 3. **Choose a template**:
-   - Built-in templates: Choose from available toddle templates.
+   - Built-in templates: Choose from available Nordcraft templates.
    - Community template: Pick from community-contributed templates.
 
 After selecting the template, you will be directed to the editor to start working.

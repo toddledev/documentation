@@ -7,16 +7,16 @@ description:
 
 
 # Static pages
-Static pages contain content defined directly within toddle that remains consistent unless you publish updates. They:
+Static pages contain content defined directly within Nordcraft that remains consistent unless you publish updates. They:
 - Have fixed content created directly in the editor
 - Display the same information to all users
 - Use predetermined URLs without variable path segments
 - Don't require API calls to render content
 
-Static pages are the default page type in toddle, ideal for content that doesn't need to change based on user input or external data.
+Static pages are the default page type in Nordcraft, ideal for content that doesn't need to change based on user input or external data.
 
 # Dynamic pages
-Dynamic pages display content based on data received from APIs or URL parameters rather than having static content defined directly in toddle. They use URL parameters to determine what content to display:
+Dynamic pages display content based on data received from APIs or URL parameters rather than having static content defined directly in Nordcraft. They use URL parameters to determine what content to display:
 -  **Path parameters**: Define variable segments in your URL path
 -  **Query parameters**: Add optional parameters after the `?` in the URL
 
@@ -30,7 +30,7 @@ To create a dynamic page:
 For example, a blog page might use `/blog/:slug` where `:slug` is a parameter that determines which article to display.
 
 ::: info
-toddle prioritizes **static** pages over **dynamic** ones when multiple pages match the current URL.
+Nordcraft prioritizes **static** pages over **dynamic** ones when multiple pages match the current URL.
 :::
 
 ## Query parameters

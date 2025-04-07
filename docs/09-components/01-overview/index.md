@@ -4,10 +4,10 @@ description:
 ---
 
 # Component fundamentals
-Components are the fundamental building blocks of applications in toddle. They let you reuse generic parts of your application and break large applications down into smaller, more manageable pieces.
+Components are the fundamental building blocks of applications in Nordcraft. They let you reuse generic parts of your application and break large applications down into smaller, more manageable pieces.
 
-# What are components in toddle
-Components in toddle are self-contained, reusable elements that encapsulate structure, styling and behavior. They function like tiny web applications on their own, with the ability to:
+# What are components in Nordcraft
+Components in Nordcraft are self-contained, reusable elements that encapsulate structure, styling and behavior. They function like tiny web applications on their own, with the ability to:
 - Render elements on a page
 - Store data in variables
 - Call APIs and process data
@@ -24,7 +24,7 @@ Components combine HTML structure, CSS styling, and JavaScript behavior into reu
 :::
 
 ::: dev
-The way components work in toddle is very similar to popular JS frameworks like React or Vue.
+The way components work in Nordcraft is very similar to popular JS frameworks like React or Vue.
 :::
 
 # Benefits of using components
@@ -41,7 +41,7 @@ A well-designed component library can accelerate development and ensure scalabil
 :::
 
 # Component structure and anatomy
-A component in toddle can consist of:
+A component in Nordcraft can consist of:
 - **Root element**: The top-level container element
 - [Element tree](/the-editor/element-tree): The hierarchy of elements that make up the component
 - [Attributes](/components/interface-and-lifecycle#defining-attributes): The interface for passing data into the component
@@ -53,7 +53,7 @@ A component in toddle can consist of:
 - [Contexts](/contexts/overview): Communication with ancestors and descendants without intermediaries
 
 ## Data encapsulation
-Components in toddle encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. At first, this isolation may seem limiting, but it's an essential design principle that helps maintain order as your application grows in complexity.
+Components in Nordcraft encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. At first, this isolation may seem limiting, but it's an essential design principle that helps maintain order as your application grows in complexity.
 
 This encapsulation ensures that components:
 - Have clear boundaries and responsibilities
@@ -83,4 +83,4 @@ When you add a component to a page or another component, you're creating an inst
 - Can be styled independently (affecting only the root element, see [component style overrides](/styling/conditional-styles#component-style-overrides))
 - Works independently of other instances of the same component
 
-Understanding how components work and how they fit into the overall structure of your application is the foundation for creating maintainable, scalable applications in toddle.
+Understanding how components work and how they fit into the overall structure of your application is the foundation for creating maintainable, scalable applications in Nordcraft.

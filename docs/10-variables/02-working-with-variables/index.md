@@ -4,7 +4,7 @@ description:
 ---
 
 # Working with variables
-Variables enable dynamic and interactive components by managing state throughout your application. This page covers the practical aspects of creating and working with variables in toddle.
+Variables enable dynamic and interactive components by managing state throughout your application. This page covers the practical aspects of creating and working with variables in Nordcraft.
 
 # Creating variables
 
@@ -81,7 +81,7 @@ Variables can be bound to various aspects of elements:
 - Workflows and actions (as inputs or conditions to control logic)
 
 ## Input field binding
-For `input` elements, toddle provides a convenient shortcut to create two-way binding with variables:
+For `input` elements, Nordcraft provides a convenient shortcut to create two-way binding with variables:
 1. Select an input element in the element tree
 2. In the Attributes tab, find the 'Bind to variable` dropdown
 3. Choose an existing variable or create a new one

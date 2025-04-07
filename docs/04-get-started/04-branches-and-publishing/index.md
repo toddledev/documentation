@@ -4,10 +4,10 @@ description:
 ---
 
 # Branches
-Branches in toddle allow you to develop new features or fix issues without affecting the live version of your project. They provide a safe environment to make and test changes before making them available to users.
+Branches in Nordcraft allow you to develop new features or fix issues without affecting the live version of your project. They provide a safe environment to make and test changes before making them available to users.
 
 # Understanding branches
-When you create a new project, toddle automatically creates a branch called `start` for you. The `main` branch represents what end users see. You cannot edit the main branch directly, but you can view it in the editor.
+When you create a new project, Nordcraft automatically creates a branch called `start` for you. The `main` branch represents what end users see. You cannot edit the main branch directly, but you can view it in the editor.
 
 Branches work like branches on a tree:
 - Your `main` branch is the trunk that users see
@@ -41,7 +41,7 @@ You can have multiple branches open at the same time, each focusing on a differe
 ## Preview a branch
 You can preview your branch to test changes before publishing:
 - Select your branch and click the [kbd]Preview[kbd] option
-- This opens a preview at `branch-project.toddle.site`
+- This opens a preview at `branch-project.Nordcraft.site`
 - Share this preview link with others for feedback
 
 ## View changes
@@ -79,7 +79,7 @@ Before publishing, your branch must be up-to-date with the latest changes in the
 ![Merge conflict|16/9](merge-conflicts.webp)
 
 Merge conflicts occur when two branches have made different changes to the same section of code. When this happens:
-1. toddle will identify and highlight the conflicting changes
+1. Nordcraft will identify and highlight the conflicting changes
 2. You will need to decide which changes to keep:
     - Reset your branch's changes to use the main branch version
     - Reset main's changes to keep your branch's version

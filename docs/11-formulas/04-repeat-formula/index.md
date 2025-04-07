@@ -56,15 +56,15 @@ See how you can generate multiple cards using the Range formula.
 @@@
 
 # Optimizing performance with repeat key
-To ensure efficient updates and tracking of repeated elements, add a **repeat key** formula that generates a unique identifier for each item. This key helps toddle track items efficiently, preventing re-renders and improving performance. Use a stable value like a database ID, unique property or composite key for seamless updates when data changes.
+To ensure efficient updates and tracking of repeated elements, add a **repeat key** formula that generates a unique identifier for each item. This key helps Nordcraft track items efficiently, preventing re-renders and improving performance. Use a stable value like a database ID, unique property or composite key for seamless updates when data changes.
 
 ::: warning
-Using the index as a key prevents toddle from making optimizations. Use a unique identifier, like a database ID or content hash. Duplicate keys disable performance optimizations.
+Using the index as a key prevents Nordcraft from making optimizations. Use a unique identifier, like a database ID or content hash. Duplicate keys disable performance optimizations.
 :::
 
 ## How repeat key improves performance
 The repeat key formula enhances performance in several ways:
-- Enables toddle to track specific items across renders
+- Enables Nordcraft to track specific items across renders
 - Allows reuse of DOM elements instead of recreating them
 - Prevents unnecessary re-rendering of unchanged items
 - Maintains element state when items change position

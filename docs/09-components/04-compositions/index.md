@@ -4,9 +4,9 @@ description:
 ---
 
 # Compositions
-Component composition in toddle refers to combining components in various ways to create more complex interfaces. By using different composition techniques, developers can build flexible, maintainable, and reusable UI structures.
+Component composition in Nordcraft refers to combining components in various ways to create more complex interfaces. By using different composition techniques, developers can build flexible, maintainable, and reusable UI structures.
 
-The primary composition patterns in toddle include:
+The primary composition patterns in Nordcraft include:
 - [Nesting components](#nesting-components): Adding components inside other components
 - [Slots](#slots): Creating placeholders that can be filled with external content
 
@@ -49,16 +49,16 @@ When nesting components, consider the following:
 As your application grows, you'll naturally develop deeper component hierarchies. While there's no strict limit to nesting depth, it's good practice to maintain clear boundaries of responsibility between components to ensure maintainability.
 
 # Slots
-Slots are a powerful feature in toddle that allow components to receive and display content provided when the component is used. They act as placeholders that can be filled with content passed into the component from the outside.
+Slots are a powerful feature in Nordcraft that allow components to receive and display content provided when the component is used. They act as placeholders that can be filled with content passed into the component from the outside.
 
-The slot element is a fundamental part of toddle's component specification:
-- Like many core concepts in toddle, slots build upon native web standards
+The slot element is a fundamental part of Nordcraft's component specification:
+- Like many core concepts in Nordcraft, slots build upon native web standards
 - Slots create areas in your component that can be filled with external content
 - They allow for flexible, composable component architectures
 - They help maintain component encapsulation while enabling customization
 
 ::: info
-The slot element in toddle follows the web components standard. For more technical details, see the [MDN documentation on the slot element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot).
+The slot element in Nordcraft follows the web components standard. For more technical details, see the [MDN documentation on the slot element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot).
 :::
 
 ::: tip
@@ -74,7 +74,7 @@ Slots are added to components like any other element using the [element catalog]
 ![Add a slot element|16/9](add-a-slot-element.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
 
 ## Naming
-Slots in toddle work with a naming system:
+Slots in Nordcraft work with a naming system:
 - **Default slot**: A slot without a name attribute that receives any unassigned content
 - **Named slot**: A slot with a name attribute that receives content specifically targeted to it
 

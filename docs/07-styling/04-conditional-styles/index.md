@@ -6,7 +6,7 @@ description:
 # Conditional styles
 Conditional styling allows you to create specific variations of an element's appearance that only apply in certain circumstances. This approach enables dynamic interfaces that respond to user interactions, screen sizes, and application states.
 
-There are several methods to apply conditional styles in toddle:
+There are several methods to apply conditional styles in Nordcraft:
 - [Style variants](#style-variants) via pseudo-classes, pseudo-elements, and media-queries
 - Style variants via [classes](#class-based-styles)
 - [Style variables](#style-variables)
@@ -67,8 +67,8 @@ Classes can be conditionally applied using formulas, variables, or attributes. I
 Class-based styling is only available for HTML elements, not for components.
 :::
 
-### Classes in toddle
-Unlike some other tools, classes in toddle are scoped to the element where they're defined:
+### Classes in Nordcraft
+Unlike some other tools, classes in Nordcraft are scoped to the element where they're defined:
 - Styles added to a class only apply to the specific element where they're created
 - Classes are not automatically shared between elements
 - For reusable styles across multiple elements, create components instead
@@ -102,7 +102,7 @@ height: 19rem
 This example demonstrates how style order affects cascade behavior with multiple variants. In the first card, selected class overrides hover effect since selected comes later in the cascade. In the second card, hover effect remains visible when selected because hover comes after selected in the cascade.
 @@@
 
-Styles in toddle follow CSS cascade rules, which determine which styles take precedence when multiple styles apply to the same element:
+Styles in Nordcraft follow CSS cascade rules, which determine which styles take precedence when multiple styles apply to the same element:
 - When multiple style variants apply to an element, all their properties cascade together
 - The order of style variants in the style panel matters - **later styles override earlier ones**
 - Specificity also plays a role, with more specific selectors taking precedence

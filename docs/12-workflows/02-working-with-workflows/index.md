@@ -4,12 +4,12 @@ description:
 ---
 
 # Create a workflow
-A workflow can be created on any event in toddle. This can be a standard JavaScript event on an element, a custom [event on a component](/components/interface-and-lifecycle/#setting-up-events) or lifecycle events like `On load` or `On attribute change`.
+A workflow can be created on any event in Nordcraft. This can be a standard JavaScript event on an element, a custom [event on a component](/components/interface-and-lifecycle/#setting-up-events) or lifecycle events like `On load` or `On attribute change`.
 
 ![Create a workflow|16/9](create-workflow-on-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&selection=nodes.root.events.onClick&rightpanel=events&canvas-height=800}
 
 To create a workflow on an event:
-1. Select the event. This can be any event in toddle
+1. Select the event. This can be any event in Nordcraft
 2. Add [nodes](#nodes) to create your logic
 
 # Reusable workflows
@@ -41,7 +41,7 @@ To create a parameter:
 3. Optionally assign a test value. This value is only valid in the editor and will not affect the production app
 
 # Nodes
-Nodes are the core of workflows. A node is an action or a piece of logic that is executed sequentially. Nodes are the visual language in toddle that you use to compose the desired logic. There are several built-in nodes like `Set variable`, `Set session cookies` or `Switch`. But you can also call custom [actions](/actions/overview) or reusable workflows. This way you can create nested workflows and individual pieces of logic that are composable.
+Nodes are the core of workflows. A node is an action or a piece of logic that is executed sequentially. Nodes are the visual language in Nordcraft that you use to compose the desired logic. There are several built-in nodes like `Set variable`, `Set session cookies` or `Switch`. But you can also call custom [actions](/actions/overview) or reusable workflows. This way you can create nested workflows and individual pieces of logic that are composable.
 
 ![Create nodes|16/9](create-workflow-node.webp)
 

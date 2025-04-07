@@ -44,9 +44,9 @@ You can easily transfer styling between elements:
 3. Select the target element where you want to apply these styles
 4. Paste the styles
 
-# Layout in toddle
+# Layout in Nordcraft
 ## Flexbox layout
-By default, toddle uses the flexbox layout algorithm:
+By default, Nordcraft uses the flexbox layout algorithm:
 - Flexbox is a powerful layout system that enables complex arrangements
 - It allows for flexible distribution of space among elements
 - Elements can be aligned and distributed along both main and cross axes
@@ -57,7 +57,7 @@ Flexbox provides useful layout features but can be complex for beginners. To lea
 :::
 
 ## Text layout
-When working with text content, toddle defaults to **Text** layout:
+When working with text content, Nordcraft defaults to **Text** layout:
 - In CSS, this is called **flow layout**
 - Text flows naturally from left to right (in left-to-right languages)
 - Words wrap to the next line when they reach the container's edge

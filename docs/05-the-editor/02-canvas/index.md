@@ -4,7 +4,7 @@ description:
 ---
 
 # Canvas
-The canvas is the central workspace in the toddle editor where you visually build and interact with your application.
+The canvas is the central workspace in the Nordcraft editor where you visually build and interact with your application.
 
 ![Canvas|16/9](canvas.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=events&canvas-width=1077.6&canvas-height=800&mode=test}
 

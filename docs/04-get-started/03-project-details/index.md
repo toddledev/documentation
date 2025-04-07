@@ -1,6 +1,6 @@
 ---
-title: Project details - Manage your toddle project
-description: Learn how to manage your toddle project. Configure settings, collaborate on branches with team members and track changes in version history.
+title: Project details - Manage your Nordcraft project
+description:
 ---
 
 # Project details

@@ -4,7 +4,7 @@ description:
 ---
 
 # Project sidebar
-The project sidebar provides access to all files and resources in your toddle project. Access it by clicking the folder icon on the left side of the editor.
+The project sidebar provides access to all files and resources in your Nordcraft project. Access it by clicking the folder icon on the left side of the editor.
 
 ![Project sidebar|16/9](project-sidebar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Files}
 

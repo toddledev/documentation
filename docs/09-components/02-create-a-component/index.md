@@ -4,7 +4,7 @@ description:
 ---
 
 # Create a component
-There are two primary ways to create components in toddle:
+There are two primary ways to create components in Nordcraft:
 - [Create from scratch](#create-from-scratch)
 - [Extract existing elements](#extract-existing-elements)
 

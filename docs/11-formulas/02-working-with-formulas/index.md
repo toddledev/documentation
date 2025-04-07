@@ -4,14 +4,14 @@ description:
 ---
 
 # Working with formulas
-Discover how to effectively work with formulas to manipulate data and streamline logic in toddle.
+Discover how to effectively work with formulas to manipulate data and streamline logic in Nordcraft.
 
 ## Create a formula 
 ::: danger
 image for create a formula
 :::
 
-To create a new formula in toddle:
+To create a new formula in Nordcraft:
 1. Navigate to the [data panel](/the-editor/data-panel) with no element selected
 2. Click the [kbd]+[kbd] button in the **Formulas** section
 3. Enter a name for your formula
@@ -53,7 +53,7 @@ Discover how a reusable formula formats the box office value, ensuring consisten
 @@@
 
 ### Nested formulas
-In toddle you can create nested formulas where one formula can call another:
+In Nordcraft you can create nested formulas where one formula can call another:
 - Build small, focused formulas that perform specific tasks
 - Combine these smaller formulas to create more complex logic
 - This modular approach makes your code more readable and easier to maintain
@@ -69,7 +69,7 @@ Discover how this nested formula works, combining different formulas to filter 9
 @@@
 
 # Common formula examples
-The formula editor supports many JavaScript-like operations, presented through toddle's visual approach. Below are some common formula examples to help you get started.
+The formula editor supports many JavaScript-like operations, presented through Nordcraft's visual approach. Below are some common formula examples to help you get started.
 
 ## Map formula
 The `Map` method creates a new array by applying a function to each element in the original array.

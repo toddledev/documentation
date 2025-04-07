@@ -28,7 +28,7 @@ The fonts section allows you to select and manage typography for your project:
 Once added, these fonts become available in the font dropdown menu in the [styling panel](/the-editor/element-panel#styling-tab).
 
 ### Add custom font
-For fonts not available natively in toddle, you can add them manually in your [page configuration](/building-blocks/pages#page-configuration). Navigate to the [**Head assets**](/building-blocks/pages#head-assets) section to set up custom fonts.
+For fonts not available natively in Nordcraft, you can add them manually in your [page configuration](/building-blocks/pages#page-configuration). Navigate to the [**Head assets**](/building-blocks/pages#head-assets) section to set up custom fonts.
 
 ::: info
 Fonts added this way will only be available on the specific page where you add them. To use custom fonts across your entire project, add them to each page that requires them.
