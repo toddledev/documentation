@@ -26,9 +26,7 @@ The truthy concept in Nordcraft is similar to JavaScript but follows a more stre
 
 # Add a show/hide formula
 
-::: danger
-image to add a show/hide formula
-:::
+![Add a show formula|16/9](add-a-show-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-show-hide-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.condition&canvas-height=800}
 
 To conditionally show or hide an element:
 1. Select the element you want to control

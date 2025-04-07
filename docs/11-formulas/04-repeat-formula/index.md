@@ -23,9 +23,7 @@ The repeat formula:
 
 # Use the repeat formula
 
-::: danger
-image for using repeat formula
-:::
+![Add a repeat formula|16/9](add-a-repeat-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800}
 
 To create dynamic content with the repeat formula:
 1. Select the element you want to repeat

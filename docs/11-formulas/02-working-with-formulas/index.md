@@ -6,10 +6,9 @@ description:
 # Working with formulas
 Discover how to effectively work with formulas to manipulate data and streamline logic in Nordcraft.
 
-## Create a formula 
-::: danger
-image for create a formula
-:::
+## Create a formula
+
+![Create a formula|16/9](create-a-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?rightpanel=style&canvas-width=800&selection=formulas.2q0_dN&canvas-height=800}
 
 To create a new formula in Nordcraft:
 1. Navigate to the [data panel](/the-editor/data-panel) with no element selected

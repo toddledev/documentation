@@ -18,16 +18,13 @@ Using global formulas ensures consistency in your application and reduces duplic
 
 # Create a global formula
 
-::: danger
-image of creating a global formula
-:::
+![Create a global formula|16/9](Create-a-global-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/getDefaultTrue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
 To create a global formula:
 1. Open the [project sidebar](/the-editor/project-sidebar) by clicking the folder icon or using [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd]
-2. Locate the **Formulas** section and click the [kbd]+[kbd] button next to it
-3. Enter a name for your formula
-4. Optionally add arguments as input parameters
-5. Define your formula logic using either
+2. Find the **Formulas** section, click the [kbd]+[kbd] button and name your formula
+3. Optionally add arguments as input parameters
+4. Define your formula logic using either
     **(A)** The formula editor, or
     **(B)** Custom JavaScript code by clicking the [kbd]Convert to custom code[kbd] button at the bottom
 
@@ -35,6 +32,8 @@ Global formulas appear in the formula selection dropdown throughout your project
 
 # Custom code formulas
 Custom code formulas extend the capabilities of standard formulas by allowing you to write JavaScript directly. This enables you to implement functionality that isn't available through the built-in formula components.
+
+![Custom code formula|16/9](global-custom-code-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/hasValue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
 ## Custom code structure
 In the custom code editor, your formula must have an entry function with the same name as your formula. This function receives two parameters:
