@@ -34,7 +34,7 @@ image workflow expose context
 The workflow can now be triggered directly by any descendant component.
 
 ::: tip
-To share a variable's value through context, create a formula that returns the variable and expose that formula in context. If you want descendants to be able to modify the variable, create a workflow that updates the variable and expose it in context.
+To share a variable's value through context, create a formula that returns the variable and expose it. For variable modification, create and expose a workflow that updates the variable.
 :::
 
 # Using contexts in components
