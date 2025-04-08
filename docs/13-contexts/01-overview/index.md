@@ -4,7 +4,7 @@ description:
 ---
 
 # Contexts
-Contexts in Nordcraft provide a way to share data and functionality between components at different levels of your application hierarchy. Unlike attributes and events which work primarily between directly connected parent and child components, contexts allow for communication between ancestor and descendant components at any level.
+Contexts in Nordcraft provide a way to share data and functionality between components at different levels of your application hierarchy. Unlike attributes and events which work between directly connected parent and child components, contexts allow for communication between ancestor and descendant components at any level.
 
 In traditional component architecture, data typically flows in two ways:
 - **Downward**: From parent to child via attributes
@@ -33,7 +33,8 @@ Contexts offer several advantages for component communication:
 
 # When to use contexts
 While contexts are powerful, they should be used strategically.
-## Good use cases for contexts
+
+## Typical use cases for contexts
 - Sharing theme data across an application
 - Providing configuration settings to deeply nested components
 - Managing form state across multiple form field components
@@ -53,6 +54,10 @@ Components that rely heavily on contexts are tightly coupled to their context pr
 - Reusing components outside their original context requires more setup
 
 However, context can also enhance reusability for component systems that are designed to work together, like a form system or a navigation system.
+
+::: info
+Contexts in Nordcraft can be optional. You can design components that behave differently depending on the context they are in.
+:::
 
 ::: tip
 Consider using a context provider component with slots to wrap other components. This pattern allows you to provide context to any components placed within the slots.

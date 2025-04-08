@@ -4,7 +4,7 @@ description:
 ---
 
 # Working with contexts
-This page covers the practical aspects of creating and using contexts in toddle applications. Contexts enable direct communication between ancestor and descendant components without going through intermediate components.
+This page covers the practical aspects of creating and using contexts in Nordcraft applications. Contexts enable direct communication between ancestor and descendant components without going through intermediate components.
 
 # Create a context provider
 To create a context provider, you need to expose either formulas or workflows from a component:
@@ -55,5 +55,5 @@ Once added, the selected formulas and workflows become available in the componen
 - Context workflows can be triggered from any workflow or event handler within the component
 
 ::: info
-When multiple ancestor components provide the same context, the nearest ancestor takes precedence.
+When multiple ancestor components provide the same context, the closest ancestor takes precedence.
 :::
