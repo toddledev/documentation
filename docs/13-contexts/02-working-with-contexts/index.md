@@ -13,7 +13,7 @@ To create a context provider, you need to expose either formulas or workflows fr
 
 ![Expose a formula|16/9](expose-a-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context?canvas-width=800&rightpanel=style&selection=formulas.rQmmU7&canvas-height=800}
 
-1. In the component's [data panel](/the-editor/data-panel) navigate to the **Formulas** section and [create a new formula](/formulas/working-with-formulas#create-a-formula) or select an existing one
+1. In the component's [data panel](/the-editor/data-panel), navigate to the **Formulas** section and [create a new formula](/formulas/working-with-formulas#create-a-formula) or select an existing one
 2. Check the [kbd]Expose in context[kbd] checkbox in the [formula-editor](/formulas/overview#the-formula-editor)
 
 The formula will now be available to all descendant components through context.
@@ -22,7 +22,7 @@ The formula will now be available to all descendant components through context.
 
 ![Expose a workflow|16/9](expose-a-workflow.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context?canvas-width=800&canvas-height=800&selection=workflows.P_Trdl&rightpanel=style}
 
-1. In the component's [data panel](/the-editor/data-panel) navigate to the **Workflows** section and [create a new workflow](/workflows/working-with-workflows) or select an existing one
+1. In the component's [data panel](/the-editor/data-panel), navigate to the **Workflows** section and [create a new workflow](/workflows/working-with-workflows) or select an existing one
 2. Check the [kbd]Expose context[kbd] checkbox next to the workflow name in the details panel
 
 The workflow can now be triggered directly by any descendant component.
