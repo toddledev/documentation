@@ -7,7 +7,7 @@ description:
 This page covers the practical aspects of creating and using contexts in Nordcraft applications. Contexts enable direct communication between ancestor and descendant components without going through intermediate components.
 
 # Create a context provider
-To create a context provider, you need to expose either formulas or workflows from a component:
+To create a context provider, you need to expose either formulas or workflows from a component.
 
 ## Expose a formula in context
 
