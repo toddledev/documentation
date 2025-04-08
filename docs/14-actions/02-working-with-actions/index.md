@@ -8,17 +8,13 @@ This page covers the practical aspects of creating and using custom actions in N
 
 ## Create an action
 
-::: danger
-image of creating a custom action
-:::
+![Create an action|16/9](create-an-action.webp){https://toddle.dev/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
 
 To create a custom action:
 1. Open the [project sidebar](/the-editor/project-sidebar) by clicking the folder icon or using [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd]
 2. Locate the **Actions** section, click the [kbd]+[kbd] button and enter a name
 3. Add a short description for your action
 4. Write your JavaScript code in the editor
-5. (Optional) Add arguments with their type
-6. (Optional) Add events with example outputs
 
 ::: info
 An action must contain a function with the same name as the action itself. This is the entry point.
@@ -32,23 +28,18 @@ The function can return a cleanup function that will be called when the componen
 
 ## Configure arguments
 
-::: danger
-image showing adding arguments to an action
-:::
+![Configure arguments|16/9](configure-arguments.webp){https://toddle.dev/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
 
 To add arguments to your action:
 1. Click the [kbd]+[kbd] button in the **Arguments** section
 2. Enter a name for the argument
 3. Select the argument type from the dropdown (`String`, `Number`, etc.)
-4. Add as many arguments as needed
 
 In your code, access these arguments through the `args` parameter, using the names you defined.
 
 ## Set up events
 
-::: danger
-image showing adding events to an action
-:::
+![Set up events|16/9](set-up-events.webp){https://toddle.dev/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
 
 To create events that your action can trigger:
 1. Click the [kbd]+[kbd] button in the **Events** section
