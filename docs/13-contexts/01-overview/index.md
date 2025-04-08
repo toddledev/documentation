@@ -13,7 +13,7 @@ In traditional component architecture, data typically flows in two ways:
 However, this approach becomes cumbersome in complex component trees where data needs to flow through multiple levels. This often leads to "attribute drilling" - passing data through intermediate components that don't need it just to reach components deeper in the tree.
 
 ::: info
-**Contexts** solve the attribute drilling problem by creating direct communication channels between components regardless of their nesting depth.
+Contexts solve the attribute drilling problem by creating direct communication channels between components regardless of their nesting depth.
 :::
 
 ## What can be shared with contexts
