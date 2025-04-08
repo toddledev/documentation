@@ -57,3 +57,14 @@ Once added, the selected formulas and workflows become available in the componen
 ::: info
 When multiple ancestor components provide the same context, the closest ancestor takes precedence.
 :::
+
+# Example
+The following example shows how to set up and use contexts with a simple counter implementation. One counter demonstrates a provider that exposes count and increment through context, while the other shows the same counter built with attribute passing for comparison.
+
+@@@ example
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-contexts.js
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-contexts?mode=design&canvas-width=808&rightpanel=attributes&canvas-height=800
+height: 11rem
+
+The left counter uses contexts to share count and increment function with descendant components. The right counter relies on attributes to pass this information down to child components.
+@@@
