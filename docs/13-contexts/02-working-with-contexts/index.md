@@ -11,25 +11,19 @@ To create a context provider, you need to expose either formulas or workflows fr
 
 ## Expose a formula in context
 
-::: danger
-image formula expose in context
-:::
+![Expose a formula|16/9](expose-a-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context?canvas-width=800&rightpanel=style&selection=formulas.rQmmU7&canvas-height=800}
 
-1. In the component navigate to the **Formulas** section in the [data panel](/the-editor/data-panel)
-3. [Create a new formula](/formulas/working-with-formulas#create-a-formula) or select an existing one
-4. Check the [kbd]Expose in context[kbd] checkbox in the [formula-editor](/formulas/overview#the-formula-editor)
+1. In the component's [data panel](/the-editor/data-panel) navigate to the **Formulas** section and [create a new formula](/formulas/working-with-formulas#create-a-formula) or select an existing one
+2. Check the [kbd]Expose in context[kbd] checkbox in the [formula-editor](/formulas/overview#the-formula-editor)
 
 The formula will now be available to all descendant components through context.
 
 ## Expose a workflow in context
 
-::: danger
-image workflow expose context
-:::
+![Expose a workflow|16/9](expose-a-workflow.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context?canvas-width=800&canvas-height=800&selection=workflows.P_Trdl&rightpanel=style}
 
-1. In the component navigate to the **Workflows** section in the [data panel](/the-editor/data-panel)
-2. [Create a new workflow](/workflows/working-with-workflows) or select an existing one
-3. Check the [kbd]Expose context[kbd] checkbox next to the workflow name in the details panel
+1. In the component's [data panel](/the-editor/data-panel) navigate to the **Workflows** section and [create a new workflow](/workflows/working-with-workflows) or select an existing one
+2. Check the [kbd]Expose context[kbd] checkbox next to the workflow name in the details panel
 
 The workflow can now be triggered directly by any descendant component.
 
@@ -40,9 +34,7 @@ To share a variable's value through context, create a formula that returns the v
 # Using contexts in components
 Components can only access contexts from ancestors in the component tree. The context provider must be higher in the hierarchy than the component using the context.
 
-::: danger
-image using context
-:::
+![Use context|16/9](use-context.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context-display?canvas-width=800&rightpanel=style&canvas-height=800}
 
 For a component to use context from an ancestor:
 1. In selected component navigate to the **Contexts** section in the [data panel](/the-editor/data-panel)
