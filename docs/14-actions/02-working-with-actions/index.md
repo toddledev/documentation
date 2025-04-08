@@ -46,7 +46,7 @@ To create events that your action can trigger:
 2. Enter a name for the event
 3. Optionally provide example output to define the data structure
 
-In your code, trigger events using the context object's `triggerActionEvent` method with the event name and data. When using the action in a workflow, you can then handle these events by adding actions to them.
+In your code, you can trigger events using the context object's `triggerActionEvent` method with the event name and data. When using the action in a workflow, you can then handle these events by adding actions to them.
 
 # Action capabilities
 When developing actions, keep these important considerations in mind:
