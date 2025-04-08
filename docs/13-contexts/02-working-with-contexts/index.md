@@ -37,10 +37,9 @@ Components can only access contexts from ancestors in the component tree. The co
 ![Use context|16/9](use-context.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context-display?canvas-width=800&rightpanel=style&canvas-height=800}
 
 For a component to use context from an ancestor:
-1. In selected component navigate to the **Contexts** section in the [data panel](/the-editor/data-panel)
-2. Click the [kbd]+[kbd] button to add a context reference
-3. Select the ancestor component that provides the context (Only components that expose context will appear in the list)
-4. Check the specific formulas and workflows you need to access
+1. In the selected component, navigate to the **Contexts** section in the [data panel](/the-editor/data-panel) and click the [kbd]+[kbd] button to add a context reference
+2. Select the ancestor component that provides the context (Only components that expose context will appear in the list)
+3. Check the specific formulas and workflows you need to access
 
 Once added, the selected formulas and workflows become available in the component:
 - Context formulas can be used in any formula editor within the component
