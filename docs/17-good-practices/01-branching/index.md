@@ -6,6 +6,10 @@ description:
 # Branching
 Effective branch management is essential for maintaining a stable application while developing new features. In Nordcraft, branches allow you to develop features in isolation without affecting your live application. Unlike traditional version control systems, Nordcraft's branching system is designed specifically for visual development, making it easier to track UI changes and collaborate with both technical and non-technical team members. Branching in Nordcraft helps you maintain development velocity while ensuring application stability. For more details on the mechanics of branching, see the [Branches and publishing](/get-started/branches-and-publishing) page.
 
+::: info
+In Nordcraft, all new branches are automatically created from the current state of `main`. This prevents complex branching structures and helps avoid severe merge conflicts, especially in larger projects and teams.
+:::
+
 ## Key takeaways
 - Create small, focused branches for specific features or fixes
 - [Publish changes](/get-started/branches-and-publishing#publish-changes) frequently to minimize conflicts and gather feedback early
@@ -14,7 +18,7 @@ Effective branch management is essential for maintaining a stable application wh
 - [Sync with main](/get-started/branches-and-publishing#sync-with-main) regularly to stay up-to-date with other team members' changes
 
 # Scope branches effectively
-The most successful branches have a clear, limited scope:
+Branches in Nordcraft should have a clear, limited scope. Since all branches start from `main`, it's important to break down larger features into smaller, manageable pieces:
 - **Single responsibility**: Each branch should focus on one feature, bug fix or improvement
 - **Limited size**: Keep branches small and focused (e.g. "add-color-picker" rather than "redesign-interface")
 - **Short lifespan**: Aim to complete and publish a branch within a single day
@@ -24,14 +28,7 @@ The most successful branches have a clear, limited scope:
 Small, focused branches are easier to review, test and publish. They also reduce the chance of conflicts when syncing with `main`.
 :::
 
-# Working with branches
-Follow these guidelines for a smooth branching workflow:
-- **Start from main**: In Nordcraft, all new branches are automatically created from the current state of `main`
-- **One person per branch**: While multiple people can work on a branch, having a single person responsible helps prevent conflicts
-- **Preview before publishing**: Always use the [preview feature](/get-started/branches-and-publishing#preview-a-branch) to test your changes thoroughly
-- **Sync frequently**: Keep your branch up-to-date with `main` to reduce merge conflicts
-
-# Publishing frequency
+# Publishing frequently
 Frequent publishing provides several benefits:
 - **Smaller changes**: Smaller, incremental changes are easier to review and test
 - **Earlier feedback**: Get feedback sooner rather than later
