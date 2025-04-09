@@ -25,7 +25,7 @@ This frontend-focused approach offers several advantages for developers and team
 
 # API layer
 The API layer acts as the communication bridge between your Nordcraft frontend and any backend system:
-- **Request/Response Protocol**: How your application communicates with backends using HTTP/HTTPS
+- **Request/Response Protocol**: How your application communicates with backends (usually HTTP/HTTPS)
 - **Data Formatting**: How information is structured throughout the request and response
 - **Endpoints**: Specific URLs that provide access to backend functionality
 - **Authentication**: Security mechanisms to protect data and verify users
