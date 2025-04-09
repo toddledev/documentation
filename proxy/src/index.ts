@@ -33,14 +33,17 @@ app.get(`content/:owner/:repository/:branch/:path{.*}?`, async (ctx) => {
   })
 })
 
-app.get(`contributors/:owner/:repository/:path{.*}?`, async (ctx) => {
+app.get(`contributors/:path{.*}?`, async (ctx) => {
   const path = ctx.req.param('path')
   const menuItems = await loadJsonFile<MenuItem[]>('./menuItems.json')
   if (!menuItems) {
     return errorResponse('Could not fetch menu items.', { status: 500 })
   }
   const file = getFilePathWithLocal({ path, menuItems })
-  const jsonFile = await loadJsonFile(file.contributorsPath)
+  const jsonFile = await loadJsonFile<{
+    contributors: Array<{ avatar: string; username: string }>
+    lastEditedAt: string
+  }>(file.contributorsPath)
   if (jsonFile) {
     return ctx.json(jsonFile, {
       headers: {
