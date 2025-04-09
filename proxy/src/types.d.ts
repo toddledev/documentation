@@ -56,10 +56,8 @@ export type GetFilePath = FetchMenuItems & {
 }
 
 export type Env = {
-  TYPESENSE_ADMIN_TOKEN: string
   TYPESENSE_SEARCH_TOKEN: string
   TYPESENSE_HOST: string
-  SEARCH_INDEX_AUTH_TOKEN: string
 }
 
 export type FetchContent = {
@@ -105,14 +103,6 @@ export type ProcessedFileFromGithub = {
   breadcrumbs: string[]
   filePath: string
   title: string
-}
-
-export type CreateSearchIndex = {
-  params: {
-    owner: string
-    repository: string
-  }
-  ctx: Context<{ Bindings: Env }>
 }
 
 export type Search = {

@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { secureHeaders } from 'hono/secure-headers'
-import { createSearchIndex, fetchContent, search } from './routes'
+import { fetchContent, search } from './routes'
 import type { Env, MenuItem } from './types'
 import { errorResponse, getFilePathWithLocal } from './utils'
 import { loadJsonFile } from './utils/jsonLoader'
@@ -52,20 +52,6 @@ app.get(`contributors/:path{.*}?`, async (ctx) => {
     })
   }
   return errorResponse('Not found', { status: 404 })
-})
-
-app.post('create-search-index', async (ctx) => {
-  const isAuthenticated =
-    ctx.req.header('Authorization') === ctx.env.SEARCH_INDEX_AUTH_TOKEN
-
-  if (!isAuthenticated) {
-    return errorResponse('Not authorized', { status: 401 })
-  }
-
-  return createSearchIndex({
-    params: { owner: 'spark-agency', repository: 'documentation' },
-    ctx,
-  })
 })
 
 app.post('search', async (ctx) => {

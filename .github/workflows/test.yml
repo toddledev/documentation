@@ -32,5 +32,17 @@ jobs:
         run: bun prettier
       - name: Typecheck
         run: bun typecheck
-      - name: Build structure
-        run: bun copyDocs
+  create_search_index:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./proxy
+    steps:
+      - name: Checkout root
+        uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+      - name: Create search index
+        run: bun run createSearchIndexDryrun

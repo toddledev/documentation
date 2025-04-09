@@ -1,9 +1,14 @@
-import { getTypesenseClient } from '../search/typesense'
-import type { CreateSearchIndex } from '../types'
-import { errorResponse, fetchPageData, json } from '../utils'
-import { fetchFileList } from '../utils/fetchFileList'
+import * as fs from 'fs'
+import { getTypesenseClient } from '../src/search/typesense'
+import {
+  errorResponse,
+  getNameFromFilename,
+  getSlugFromFilename,
+  json,
+  parseRawContent,
+} from '../src/utils'
 
-type ProcessedPage = {
+interface ProcessedPage {
   sections: any[]
   path: string
   breadcrumbs: string[]
@@ -22,7 +27,7 @@ type SearchItemSection = {
   content: string
 } & SearchItemBase
 
-type SearchItemBase = {
+interface SearchItemBase {
   id: string
   title: string
   breadcrumbs: string[]
@@ -30,33 +35,65 @@ type SearchItemBase = {
   priority: number
 }
 
-export const createSearchIndex = async ({
-  params: { owner, repository },
-  ctx,
-}: CreateSearchIndex) => {
-  try {
-    const files = await fetchFileList({ owner, repository })
+const args = process.argv.slice(2)
+const dryrun = Array.isArray(args) && args.includes('--dryrun')
 
-    const fetchPagesPromises = files.map(
-      async ({ filePath, title, ...rest }) => {
-        const page = await fetchPageData({ path: filePath, title })
+const createSearchIndex = async () => {
+  try {
+    // Read all files
+    const files = fs.readdirSync('./dist/docs', { recursive: true })
+    // const files = await fetchFileList({ owner, repository })
+
+    const allPages = (files as string[])
+      .filter((filePath) => filePath.endsWith('index.md'))
+      .map((filePath) => {
+        const path = filePath
+          .replaceAll('docs/', '')
+          .split('/')
+          .map((part) => getSlugFromFilename(part))
+          .join('/')
+
+        const breadcrumbs = path
+          .split('/')
+          .map((item) => getNameFromFilename(item))
+
+        const title = breadcrumbs[breadcrumbs.length - 1]
+
+        const page = parseRawContent({
+          text: fs.readFileSync(`./dist/docs/${filePath}`, 'utf-8'),
+          path,
+          title,
+        })
 
         const data: ProcessedPage = {
           filePath,
           title,
-          ...rest,
+          breadcrumbs,
+          path,
           sections: page?.content ?? [],
         }
 
         return data
-      },
-    )
-
-    const allPages = await Promise.all(fetchPagesPromises)
+      })
 
     const searchItems = getSearchItemsFromPages(allPages)
 
-    const client = getTypesenseClient(ctx, 'admin')
+    if (dryrun) {
+      // eslint-disable-next-line no-console
+      console.log({ searchItems })
+      return
+    }
+
+    const apiKey = process.env.TYPESENSE_ADMIN_TOKEN
+    const host = process.env.TYPESENSE_HOST
+    if (!apiKey || !host) {
+      throw new Error('TYPESENSE_ADMIN_TOKEN or TYPESENSE_HOST is not set')
+    }
+    const client = getTypesenseClient({
+      apiKey,
+      host,
+      connectionTimeoutSeconds: 5 * 60,
+    })
     try {
       // We remove all documents from the search index. The collection size is small. This should not be an issue.
       await client
@@ -136,3 +173,5 @@ const getContentFromTokens = (
 
   return content
 }
+
+await createSearchIndex()
