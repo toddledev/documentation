@@ -14,9 +14,19 @@ fs.cpSync('../docs', './dist/docs', {
   filter: (src) => !src.endsWith('.webp'),
 })
 // Read all files
-const files = fs.readdirSync('./dist/docs', { recursive: true })
+const files = (
+  fs.readdirSync('./dist/docs', { recursive: true }) as string[]
+).sort((a, b) => {
+  const aParts = a.split('/')
+  const bParts = b.split('/')
+
+  if (aParts.length === bParts.length) {
+    return a.localeCompare(b)
+  }
+  return aParts.length - bParts.length
+})
 // Create menu items structure
-const test = getMenuItemsFromRepoItems({
+const menuItems = getMenuItemsFromRepoItems({
   items: files.map((file) => ({
     path: `docs/${file as string}`,
     type: 'tree',
@@ -29,6 +39,6 @@ const test = getMenuItemsFromRepoItems({
 // Save the menu structure to a JSON file
 fs.writeFileSync(
   './dist/menuItems.json',
-  JSON.stringify(test, null, 2),
+  JSON.stringify(menuItems, null, 2),
   'utf-8',
 )
