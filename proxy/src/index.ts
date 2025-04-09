@@ -24,7 +24,7 @@ app.use(
   }),
 )
 
-// URLs like: http://localhost:8989/content/toddledev/documentation/main/the-editor/canvas
+// URLs like: http://localhost:9000/content/toddledev/documentation/main/the-editor/canvas
 app.get(`content/:owner/:repository/:branch/:path{.*}?`, async (ctx) => {
   const owner = ctx.req.param('owner')
   const repository = ctx.req.param('repository')
