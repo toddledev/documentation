@@ -63,7 +63,7 @@ When your action sets up ongoing processes like intervals or event listeners, al
 # Use an action
 Custom actions can be used just like built-in workflow actions. When [creating a workflow](/workflows/working-with-workflows), you can add your custom actions as nodes by selecting them from the **Project Actions** section. You can provide values for any arguments defined in the action and handle any events it might trigger.
 
-Here is an example of a custom action in Norcraft. It demonstrates ho the [canvas-confetti](https://github.com/catdad/canvas-confetti) library can be integrated to create a celebratory effect when triggered.
+Here is an example of a custom action in Norcraft. It demonstrates how the [canvas-confetti](https://github.com/catdad/canvas-confetti) library can be integrated to create a celebratory effect when triggered.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-action.js
