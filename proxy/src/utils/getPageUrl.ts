@@ -40,7 +40,12 @@ export const getPageUrl = ({
 export const getFilePathWithLocal = ({
   path,
   menuItems,
-}: GetPageUrl): { path: string; localPath: string; title: string } => {
+}: GetPageUrl): {
+  path: string
+  localPath: string
+  title: string
+  contributorsPath: string
+} => {
   if (!path || path === 'fallback') {
     const foundItem = menuItems.find((item) => item.type === 'file')
 
@@ -49,6 +54,7 @@ export const getFilePathWithLocal = ({
         path: foundItem.path,
         title: foundItem.name,
         localPath: foundItem.localPath,
+        contributorsPath: foundItem.contributorsPath,
       }
     } else {
       return menuItems
@@ -70,6 +76,7 @@ export const getFilePathWithLocal = ({
       path: foundItem?.path ?? '',
       localPath: foundItem?.localPath ?? '',
       title: foundItem?.name ?? '',
+      contributorsPath: foundItem?.contributorsPath ?? '',
     }
   }
 

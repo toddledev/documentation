@@ -2,13 +2,14 @@ import * as fs from 'fs'
 import { getMenuItemsFromRepoItems } from '../src/utils'
 
 // Setup
-try {
-  fs.rmdirSync('./dist', { recursive: true })
-  // eslint-disable-next-line no-empty
-} catch {}
-fs.mkdirSync('./dist')
+if (fs.existsSync('./dist/docs')) {
+  fs.rmdirSync('./dist/docs', { recursive: true })
+}
+if (!fs.existsSync('./dist')) {
+  fs.mkdirSync('./dist')
+}
 fs.mkdirSync('./dist/docs')
-// Copy over all markdown files
+// Copy over all markdown files + folders
 fs.cpSync('../docs', './dist/docs', {
   recursive: true,
   filter: (src) => !src.endsWith('.webp'),

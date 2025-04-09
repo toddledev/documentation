@@ -94,6 +94,9 @@ export const getMenuItemsFromRepoItems = ({
         name: getNameFromFilename(fileName),
         id: getSlugFromFilename(fileName),
         localPath: getLocalFilePath({ path: path + '/index.md' }),
+        contributorsPath: getLocalFilePath({
+          path: path + '/index.json',
+        }).replace('/docs/', '/contributors/'),
         path: getFilePath({
           owner,
           repository,
