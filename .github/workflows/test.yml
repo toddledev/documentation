@@ -16,31 +16,21 @@ concurrency:
 jobs:
   linting:
     runs-on: ubuntu-latest
-    # defaults:
-    #   run:
-    #     working-directory: ./proxy
+    defaults:
+      run:
+        working-directory: ./proxy
     steps:
       - name: Checkout root
         uses: actions/checkout@v4
       - name: Install bun
         uses: oven-sh/setup-bun@v1
       - name: Install dependencies
-        run: |
-          cd proxy
-          bun install --frozen-lockfile
+        run: bun install --frozen-lockfile
       - name: ESLint
-        run: |
-          cd proxy
-          bun lint
+        run: bun lint
       - name: Prettier
-        run: |
-          cd proxy
-          bun prettier
+        run: bun prettier
       - name: Typecheck
-        run: |
-          cd proxy
-          bun typecheck
+        run: bun typecheck
       - name: Build structure
-        run: |
-          cd proxy
-          bun copyDocs
+        run: bun copyDocs

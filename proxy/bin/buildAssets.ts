@@ -2,7 +2,10 @@ import * as fs from 'fs'
 import { getMenuItemsFromRepoItems } from '../src/utils'
 
 // Setup
-fs.rmdirSync('./dist', { recursive: true })
+try {
+  fs.rmdirSync('./dist', { recursive: true })
+  // eslint-disable-next-line no-empty
+} catch {}
 fs.mkdirSync('./dist')
 fs.mkdirSync('./dist/docs')
 // Copy over all markdown files
