@@ -31,11 +31,7 @@ export const fetchContent = async ({
     }
 
     const { path: pagePath, title: pageTitle } = githubUrl
-    if (
-      owner === 'toddledev' &&
-      repository === 'documentation' &&
-      branch === 'main'
-    ) {
+    if (preferLocalContent) {
       // Pull file from disk
       const file = getFilePathWithLocal({ path, menuItems })
       if (file) {
@@ -46,7 +42,15 @@ export const fetchContent = async ({
             title: pageTitle,
             text,
           })
-          return json({ ...pageData, menu: menuItems })
+          return json(
+            { ...pageData, menu: menuItems },
+            {
+              headers: {
+                'Cache-Control': `public, max-age=${5 * 60}`,
+                'X-Lookup-Method': 'local',
+              },
+            },
+          )
         }
       }
     }

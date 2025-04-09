@@ -1,4 +1,4 @@
-import Typesense from 'typesense'
+import { getTypesenseClient } from '../search/typesense'
 import type { CreateSearchIndex } from '../types'
 import { errorResponse, fetchPageData, json } from '../utils'
 import { fetchFileList } from '../utils/fetchFileList'
@@ -56,17 +56,7 @@ export const createSearchIndex = async ({
 
     const searchItems = getSearchItemsFromPages(allPages)
 
-    const client = new Typesense.Client({
-      nodes: [
-        {
-          host: '85fbtdz1lkiq6us7p-1.a1.typesense.net',
-          port: 443,
-          protocol: 'https',
-        },
-      ],
-      apiKey: ctx.env.TYPESENSE_ADMIN_TOKEN,
-      connectionTimeoutSeconds: 60 * 5,
-    })
+    const client = getTypesenseClient(ctx, 'admin')
     try {
       // We remove all documents from the search index. The collection size is small. This should not be an issue.
       await client

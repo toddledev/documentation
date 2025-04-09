@@ -1,20 +1,10 @@
 import { load } from 'cheerio'
-import Typesense from 'typesense'
+import { getTypesenseClient } from '../search/typesense'
 import type { Search } from '../types'
 import { json } from '../utils'
 
 export const search = async ({ params: { searchTerm }, ctx }: Search) => {
-  const client = new Typesense.Client({
-    nodes: [
-      {
-        host: ctx.env.TYPESENSE_HOST,
-        port: 443,
-        protocol: 'https',
-      },
-    ],
-    apiKey: ctx.env.TYPESENSE_SEARCH_TOKEN,
-    connectionTimeoutSeconds: 60,
-  })
+  const client = getTypesenseClient(ctx, 'search')
 
   const searchParameters = {
     q: searchTerm,
