@@ -16,7 +16,9 @@ app.use(secureHeaders())
 app.use(
   cors({
     origin: (o) =>
-      o.endsWith('localhost:9000') || o.endsWith('toddle_docs.toddle.site')
+      o.endsWith('localhost:9000') ||
+      o.endsWith('toddledocs2.toddle.site') ||
+      o.endsWith('docs.nordcraft.com')
         ? o
         : undefined,
   }),
