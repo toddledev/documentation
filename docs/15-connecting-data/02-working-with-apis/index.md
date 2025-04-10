@@ -24,7 +24,7 @@ To create a new API connection in Nordcraft:
 
 For beginners, the **Demo APIs** provide an excellent starting point to understand how APIs work in Nordcraft.
 
-::: tip
+::: info
 Explore our blog post on [REST APIs](https://toddle.dev/blog/rest-apis-explained) if you're new to working with APIs.
 :::
 
