@@ -63,7 +63,7 @@ For bearer token authentication:
 1. Select your API in the [data panel](/the-editor/data-panel)
 2. In the **Headers** tab of the API panel, click the [kbd]+[kbd] button to add a new header
 3. Select `Authorization` as the header name
-4. The value is set by default to output `Bearer <acces_tocken>`, using `Concatenate` and `Get Http-Only Cookie` formulas  
+4. The value is set by default to output `Bearer access_token`, using `Concatenate` and `Get Http-Only Cookie` formulas  
 
 ::: info
 API requests must be proxied through Nordcraft's Edge network for HTTP-only cookies to be included. This is enabled by default in the **Advanced** tab of your API configuration.
