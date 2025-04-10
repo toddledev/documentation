@@ -22,5 +22,5 @@ Components are fundamental to efficient development in Nordcraft. They should be
 - Ensure consistency throughout your application
 
 ::: info
-For more detailed information on creating and using components, see the [Components](/components/fundamentals) pages of the documentation.
+For more detailed information on creating and using components, see the [Components](/components/overview) pages of the documentation.
 :::
