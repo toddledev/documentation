@@ -4,7 +4,10 @@ import type { Search } from '../types'
 import { json } from '../utils'
 
 export const search = async ({ params: { searchTerm }, ctx }: Search) => {
-  const client = getTypesenseClient(ctx, 'search')
+  const client = getTypesenseClient({
+    apiKey: ctx.env.TYPESENSE_SEARCH_TOKEN,
+    host: ctx.env.TYPESENSE_HOST,
+  })
 
   const searchParameters = {
     q: searchTerm,
