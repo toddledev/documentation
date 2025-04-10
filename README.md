@@ -1,10 +1,13 @@
-# Toddle Documentation
+![Documentation deployment](https://github.com/toddledev/documentation/actions/workflows/deploy.yml/badge.svg)
+![Documentation tests](https://github.com/toddledev/documentation/actions/workflows/test.yml/badge.svg)
 
-Welcome to the official documentation for Toddle! This repository contains all the source files for our product documentation.
+# toddle Documentation
+
+Welcome to the official documentation for toddle! This repository contains all the source files for our product documentation.
 
 ## Overview
 
-This documentation covers all aspects of using Toddle, including:
+This documentation covers all aspects of using toddle, including:
 
 - Getting Started guides
 - Feature explanations
@@ -15,8 +18,8 @@ This documentation covers all aspects of using Toddle, including:
 Our documentation is organized into the following main sections:
 
 - `/docs/getting-started/`: Introduction and quick start guides
-- `/docs/features/`: Detailed explanations of Toddle's features
-- `/docs/open-source/`: Information about Toddle's transition to open-source and developer guides
+- `/docs/features/`: Detailed explanations of toddle's features
+- `/docs/open-source/`: Information about toddle's transition to open-source and developer guides
 
 For more detailed information about the documentation structure and how to contribute, please see our [Contributing Guide](CONTRIBUTING.md).
 
