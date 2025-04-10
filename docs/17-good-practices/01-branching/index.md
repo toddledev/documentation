@@ -18,7 +18,7 @@ In Nordcraft, all new branches are automatically created from the current state 
 - [Sync with main](/get-started/branches-and-publishing#sync-with-main) regularly to stay up-to-date with other team members' changes
 
 # Scope branches effectively
-Branches in Nordcraft should have a clear, limited scope. Since all branches start from `main`, it's important to break down larger features into smaller, manageable pieces:
+Branches in Nordcraft should have a clear, limited scope. Since all branches start from the `main` branch, it's important to break down larger features into smaller, manageable pieces:
 - **Single responsibility**: Each branch should focus on one feature, bug fix or improvement
 - **Limited size**: Keep branches small and focused (e.g. "add-color-picker" rather than "redesign-interface")
 - **Short lifespan**: Aim to complete and publish a branch within a single day
