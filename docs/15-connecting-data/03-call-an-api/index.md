@@ -41,7 +41,7 @@ The following example demonstrates how to implement a weather card that combines
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-call-an-api.js
-editorUrl: 
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-call-an-api?rightpanel=style&canvas-width=800&selection=apis.Weather%2520API&canvas-height=800
 height: 21rem
 
 This weather card displays the current temperature, and the `Update` button allows you to manually refresh it.
@@ -83,7 +83,7 @@ The following example demonstrates how to configure and react to an API callback
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-handle-api-callback.js
-editorUrl: 
+editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-handle-api-callback?canvas-width=800&rightpanel=events&selection=workflows.AMb8F4.actions.0.onSuccess&canvas-height=800
 height: 21rem
 
 When the weather data is successfully updated, a confetti animation is triggered as feedback.
