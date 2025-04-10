@@ -73,11 +73,15 @@ missing image ![API callback events|16/9](api-callbacks.webp)
 :::
 
 Available callbacks:
-- **On success**: For success status (2xx)
-- **On error**: For error status (4xx, 5xx)
-- **On message**: For streaming responses
+- **On success**: Triggered when the API call is successful
+- **On error**: Triggered when the API call fails
+- **On message**: Triggered when a message is received
 
 Set up callback handling in the **Events** section of the API or workflow action.
+
+::: dev
+Callback events on the API are executed just before the action-specific events.
+:::
 
 The following example demonstrates how to configure and react to an API callback event.
 
@@ -88,10 +92,6 @@ height: 21rem
 
 When the weather data is successfully updated, a confetti animation is triggered as feedback.
 @@@
-
-::: dev
-Callback events on the API are executed just before the action-specific events.
-:::
 
 # Accessing API data
 Once your API call completes, the resulting data is available for use in your application's logic and UI.
