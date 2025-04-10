@@ -33,6 +33,7 @@ type MenuItemFile = {
   id: string
   path: string
   localPath: string
+  contributorsPath: string
 }
 
 type MenuItemFolder = {

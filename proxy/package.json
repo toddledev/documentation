@@ -2,7 +2,7 @@
   "name": "docs-proxy",
   "version": "0.0.0",
   "scripts": {
-    "copyDocs": "bun bin/buildAssets.ts && bunx esbuild --bundle --outdir=dist --format=esm src/index.ts",
+    "copyDocs": "bun bin/buildAssets.ts && bun bin/buildContributors.ts && bunx esbuild --bundle --outdir=dist --format=esm src/index.ts",
     "predeploy": "bun copyDocs",
     "deploy": "wrangler deploy --no-bundle",
     "predev": "bun copyDocs",
@@ -25,7 +25,7 @@
     "prettier-plugin-organize-imports": "4.1.0",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
-    "wrangler": "4.9.0"
+    "wrangler": "4.9.1"
   },
   "dependencies": {
     "cheerio": "1.0.0",
