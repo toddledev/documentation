@@ -113,11 +113,12 @@ missing image ![Test API request|16/9](test-api-request.webp)
 :::
 
 You can test your API directly in the editor:
-1. For APIs with `Auto fetch` disabled, click the [kbd]&#9654;[kbd] / [kbd]▶[kbd] button to manually trigger the request
+1. For APIs with `Auto fetch` disabled, click the [kbd]▶[kbd] button to manually trigger the request
 2. View the response in the **Response** section at the bottom of the panel
 3. Check the status code, headers and body to ensure the API is working as expected
+4. Check the returned data to ensure the API provides the correct information
 
-The response viewer will format JSON data for easy reading.
+The response section will display the data returned from the API, including properly formatted JSON if that is the response format.
 
 # Next steps
 After setting up your API, you will want to:
