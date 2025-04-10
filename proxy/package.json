@@ -20,7 +20,7 @@
     "watch": "tsc --watch --noEmit"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250407.0",
+    "@cloudflare/workers-types": "4.20250410.0",
     "@eslint/js": "9.24.0",
     "@types/lodash": "4.17.16",
     "@types/node": "22.14.0",
