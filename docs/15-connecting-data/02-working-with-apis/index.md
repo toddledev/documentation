@@ -24,6 +24,10 @@ To create a new API connection in Nordcraft:
 
 For beginners, the **Demo APIs** provide an excellent starting point to understand how APIs work in Nordcraft.
 
+::: tip
+Explore our blog post on [REST APIs](https://toddle.dev/blog/rest-apis-explained) if you're new to working with APIs.
+:::
+
 # Configure API requests
 
 ::: danger
@@ -31,7 +35,7 @@ missing image ![API configuration panel|16/9](api-configuration.webp)
 :::
 
 After creating an API, you will see the configuration panel with several important sections:
-1. **Method**: Select the appropriate HTTP method (GET, POST, PUT, DELETE, etc.)
+1. **Method**: Select the appropriate [HTTP method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) (GET, POST, PUT, DELETE, etc.)
 2. **Name**: Give your API a descriptive name for easy reference
 3. **Configuration tabs**:
    - **Inputs**: Default values used with auto-fetch that can be overwritten when called from workflows
@@ -61,7 +65,7 @@ For a detailed explanation of URL structure, check out the [blog post about URLs
 :::
 
 ## Set request headers
-Headers provide additional information about the request that guide how the server processes the call.
+[Headers](https://developer.mozilla.org/en-US/docs/Web/API/Request/headers) provide additional information about the request that guide how the server processes the call.
 
 ::: danger
 missing image ![Set request header|16/9](set-request-header.webp)
@@ -79,7 +83,7 @@ To add a header:
 3. Provide a static value or click [kbd]fx[kbd] for dynamic values
 
 ## Configure the request body
-Define the data to send in the request body when the method supports it, such as POST, PUT or PATCH.
+Define the data to send in the request [body](https://developer.mozilla.org/en-US/docs/Web/API/Request/body) when the method supports it, such as POST, PUT or PATCH.
 
 ::: danger
 missing image ![Set request body|16/9](set-request-body.webp)
@@ -91,7 +95,7 @@ To configure the body:
 3. Use the formula editor to define the data structure
 
 ::: dev
-By default, the body will be encoded as JSON unless you specify a different format using the `Content-Type` header.
+By default, the body will be encoded as JSON unless you specify a different format using the [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Type) header.
 :::
 
 ## Auto fetch behavior
