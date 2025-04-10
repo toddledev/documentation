@@ -52,8 +52,8 @@ missing image ![Configure request URL|16/9](configure-request-url.webp)
 :::
 
 The **URL** and **Parameters** tabs allow you to construct the complete request URL by configuring:
-1. **Base URL**: The domain and protocol (e.g., `https://api.example.com`)
-2. **Path**: The specific endpoint path (e.g., `/users/profile`)
+1. **Base URL**: The domain and protocol (e.g. `https://api.example.com`)
+2. **Path**: The specific endpoint path (e.g. `/users/profile`)
 3. **Query parameters**: Key-value pairs that appear after `?` in the URL. They refine the response without changing the endpoint path. Parameters with `null` values are skipped.
 
 ::: info
@@ -79,7 +79,7 @@ To add a header:
 3. Provide a static value or click [kbd]fx[kbd] for dynamic values
 
 ## Configure the request body
-Define the data to send in the request body when the method supports it, such as `POST`, `PUT` or `PATCH`.
+Define the data to send in the request body when the method supports it, such as POST, PUT or PATCH.
 
 ::: danger
 missing image ![Set request body|16/9](set-request-body.webp)
