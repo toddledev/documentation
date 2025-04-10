@@ -42,8 +42,6 @@ const createSearchIndex = async () => {
   try {
     // Read all files
     const files = fs.readdirSync('./dist/docs', { recursive: true })
-    // const files = await fetchFileList({ owner, repository })
-
     const allPages = (files as string[])
       .filter((filePath) => filePath.endsWith('index.md'))
       .map((filePath) => {

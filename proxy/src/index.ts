@@ -40,6 +40,9 @@ app.get(`contributors/:path{.*}?`, async (ctx) => {
     return errorResponse('Could not fetch menu items.', { status: 500 })
   }
   const file = getFilePathWithLocal({ path, menuItems })
+  if (!file) {
+    return errorResponse('File not found', { status: 404 })
+  }
   const jsonFile = await loadJsonFile<{
     contributors: Array<{ avatar: string; username: string }>
     lastEditedAt: string
@@ -51,7 +54,7 @@ app.get(`contributors/:path{.*}?`, async (ctx) => {
       },
     })
   }
-  return errorResponse('Not found', { status: 404 })
+  return errorResponse('Contributors not found', { status: 404 })
 })
 
 app.post('search', async (ctx) => {
