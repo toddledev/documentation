@@ -1,0 +1,32 @@
+{
+	"name": "items",
+	"fields": [
+		{
+			"name": "type",
+			"type": "string"
+		},
+		{
+			"name": "title",
+			"type": "string"
+		},
+		{
+			"name": "priority",
+			"type": "int32"
+		},
+		{
+			"name": "breadcrumbs",
+			"type": "string[]"
+		},
+		{
+			"name": "path",
+			"type": "string"
+		},
+		{
+			"name": "content",
+			"type": "string",
+			"optional": true
+		}
+	],
+	"default_sorting_field": "priority",
+	"enable_nested_fields": true
+}

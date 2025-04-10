@@ -1,0 +1,38 @@
+{
+  "name": "docs-proxy",
+  "version": "0.0.0",
+  "scripts": {
+    "copyDocs": "bun bin/buildAssets.ts && bunx esbuild --bundle --outdir=dist --format=esm src/index.ts",
+    "predeploy": "bun copyDocs",
+    "deploy": "wrangler deploy --no-bundle",
+    "predev": "bun copyDocs",
+    "dev": "wrangler dev --no-bundle --port=9000",
+    "lint": "eslint --quiet .",
+    "prettier:write": "prettier --write  '*.{json,js}' './**/*.{js,ts}'",
+    "prettier": "prettier --check '*.{json,js}' '**/*.{js,ts}'",
+    "typecheck": "tsc --noEmit",
+    "watch": "tsc --watch --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20250407.0",
+    "@eslint/js": "9.24.0",
+    "@types/lodash": "4.17.16",
+    "@types/node": "22.14.0",
+    "@typescript-eslint/eslint-plugin": "8.29.0",
+    "@typescript-eslint/parser": "8.29.0",
+    "eslint-plugin-inclusive-language": "2.2.1",
+    "eslint": "9.24.0",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
+    "wrangler": "4.9.0"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "front-matter": "4.0.2",
+    "hono": "4.7.6",
+    "lodash": "4.17.21",
+    "marked": "15.0.8",
+    "typesense": "2.0.3"
+  }
+}
