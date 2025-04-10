@@ -47,10 +47,11 @@ const createSearchIndex = async () => {
     const allPages = (files as string[])
       .filter((filePath) => filePath.endsWith('index.md'))
       .map((filePath) => {
-        const path = filePath
-          .replaceAll('docs/', '')
-          .split('/')
-          .map((part) => getSlugFromFilename(part))
+        const pathParts = filePath.split('/')
+        const path = pathParts
+          // Remove index.md
+          .slice(0, -1)
+          .map((part) => getSlugFromFilename(part.replace('/index', '')))
           .join('/')
 
         const breadcrumbs = path
