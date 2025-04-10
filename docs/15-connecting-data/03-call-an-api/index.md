@@ -101,8 +101,8 @@ missing image ![Accessing API data|16/9](accessing-api-data.webp)
 :::
 
 Access API response in the [formula editor](/formulas/overview#the-formula-editor):
-1. In the formula editor add a new node and select the API endpoint from the **APIs** section
-2. Choose desired data you need
+1. In the formula editor, add a new node and select the API endpoint from the **APIs** section
+2. Select the data you want to use
 
 Available API response data:
 - `isLoading`: Indicates if the API call is in progress
