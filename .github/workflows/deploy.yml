@@ -39,5 +39,5 @@ jobs:
       - name: Build search index
         run: bun run createSearchIndex
         env:
-          TYPESENSE_SEARCH_TOKEN: ${{ secrets.TYPESENSE_SEARCH_TOKEN }}
+          TYPESENSE_ADMIN_TOKEN: ${{ secrets.TYPESENSE_ADMIN_TOKEN }}
           TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
