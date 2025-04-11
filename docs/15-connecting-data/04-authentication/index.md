@@ -69,13 +69,24 @@ For bearer token authentication:
 API requests must be proxied through Nordcraft's Edge network for HTTP-only cookies to be included. This is enabled by default in the **Advanced** tab of your API configuration.
 :::
 
-# Browser plugin for development
-For authentication to work correctly in the Nordcraft editor during development, you must install the Nordcraft browser extension:
-- Install [Chrome extension](https://chromewebstore.google.com/detail/toddle/hfhgjncckomifajhndceigiaiojhlllp)
-- Install [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/toddle/)
+# Authentication in the editor environment
+Working with authenticated features in the Nordcraft editor requires a specific setup to securely share authentication between preview and editor environments.
+
+Follow these steps to develop authenticated features:
+1. **Install browser extension**
+   - [Chrome extension](https://chromewebstore.google.com/detail/toddle/hfhgjncckomifajhndceigiaiojhlllp)
+   - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/toddle/)
+
+2. **Log in through preview page**
+   - Authentication must first occur in the preview environment
+   - With the extension installed, your authentication cookies are securely copied to the editor
+
+3. **Develop in the editor**
+   - Once authenticated, you can build and test protected features directly in the editor
+   - No need to log in separately for the editor environment
 
 ::: info
-The extension is only needed for development in the Nordcraft editor. Users of your published application won't need to install anything.
+The browser extension is only required for development in the Nordcraft editor. Users of your published application will not need to install anything.
 :::
 
 # Security guidelines
