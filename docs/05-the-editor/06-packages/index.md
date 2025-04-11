@@ -1,6 +1,6 @@
 ---
 title: Packages
-description:
+description: Discover Nordcraft packages to add pre-built components and functionality to your projects, browsing popular, new and installed extensions.
 ---
 
 # Packages

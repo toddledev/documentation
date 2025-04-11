@@ -1,6 +1,6 @@
 ---
-title: Variables
-description:
+title: Variables overview
+description: Implement state management with variables to store temporary data within components and pages, enabling responsive, interactive applications.
 ---
 
 # Variables

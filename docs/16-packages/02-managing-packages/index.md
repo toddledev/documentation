@@ -1,6 +1,6 @@
 ---
 title: Manage packages
-description:
+description: Install, update and remove packages from your Nordcraft project to efficiently add functionality while managing dependencies.
 ---
 
 # Manage packages

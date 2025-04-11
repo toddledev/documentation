@@ -1,6 +1,6 @@
 ---
 title: Shortcuts
-description:
+description: Speed up your Nordcraft development with keyboard commands for navigation, element selection, panel switching and common editing operations.
 ---
 
 # Shortcuts

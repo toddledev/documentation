@@ -1,6 +1,6 @@
 ---
 title: Working with formulas
-description:
+description: Build reusable formulas for data manipulation with practical examples of map, filter, sort, reduce, find and get operations in Nordcraft.
 ---
 
 # Working with formulas

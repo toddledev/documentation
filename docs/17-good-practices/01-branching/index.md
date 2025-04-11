@@ -1,6 +1,6 @@
 ---
 title: Branching
-description:
+description: Apply effective branch management with small, focused changes, frequent publishing, clear comments and conflict resolution strategies.
 ---
 
 # Branching

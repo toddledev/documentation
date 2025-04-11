@@ -1,6 +1,6 @@
 ---
 title: Advanced API features
-description:
+description: Configure advanced API behaviors with custom error definitions, redirects, server-side rendering options, proxying and response parsing.
 ---
 
 # Advanced API features

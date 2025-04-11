@@ -1,6 +1,6 @@
 ---
 title: Export a component
-description:
+description: Transform Nordcraft components into standard web components for use in external projects, with proper naming and configuration options.
 ---
 
 # Export a component

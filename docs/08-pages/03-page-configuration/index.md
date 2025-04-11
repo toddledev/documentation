@@ -1,6 +1,6 @@
 ---
 title: Page configuration
-description:
+description: Set up page URLs, metadata and external resources to control navigation paths, SEO settings and integration with third-party assets.
 ---
 
 # Page configuration

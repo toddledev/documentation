@@ -1,6 +1,6 @@
 ---
 title: Connecting data overview
-description:
+description: Connect Nordcraft frontend applications to external data sources through APIs, with clear separation between visual interfaces and backend systems.
 ---
 
 # Connecting data

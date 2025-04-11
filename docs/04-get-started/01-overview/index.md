@@ -1,6 +1,6 @@
 ---
 title: Get started with Nordcraft
-description:
+description: Learn the fundamentals of Nordcraft's dashboard, project types, and challenges to start building applications with its visual development platform.
 ---
 
 # Get started with Nordcraft

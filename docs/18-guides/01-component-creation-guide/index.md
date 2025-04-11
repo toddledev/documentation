@@ -1,6 +1,6 @@
 ---
 title: Component creation guide
-description:
+description: Determine when and how to create components by identifying reusable patterns, establishing proper boundaries and following structured workflows.
 ---
 
 # Component creation guide

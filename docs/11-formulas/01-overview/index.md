@@ -1,6 +1,6 @@
 ---
-title: Formulas
-description:
+title: Formulas overview
+description: Understand Nordcraft's formula editor to create data transformations, calculations and conditional logic with pure functions and composable operations.
 ---
 
 # Formulas

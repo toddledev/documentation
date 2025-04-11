@@ -1,6 +1,6 @@
 ---
 title: Repeat formula
-description:
+description: Generate dynamic lists, grids and repeating elements from array data with options for item access, keys and performance optimization.
 ---
 
 # Repeat formula

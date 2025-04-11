@@ -1,6 +1,6 @@
 ---
 title: Working with APIs
-description:
+description: Configure API endpoints in Nordcraft by setting methods, URLs, headers, parameters and body content for external data communication.
 ---
 
 # Working with APIs

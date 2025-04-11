@@ -1,6 +1,6 @@
 ---
 title: Elements
-description:
+description: Explore HTML elements, text nodes and components as the structural units that form the visual interface of your Nordcraft applications.
 ---
 
 

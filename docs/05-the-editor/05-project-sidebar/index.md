@@ -1,6 +1,6 @@
 ---
 title: Project sidebar
-description:
+description: Manage files through the project sidebar to access pages, components, APIs, actions, media, themes and project-wide configuration settings.
 ---
 
 # Project sidebar

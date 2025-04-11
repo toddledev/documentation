@@ -1,6 +1,6 @@
 ---
 title: Interface and lifecycle
-description:
+description: Define component interfaces with attributes and events, and control behavior at initialization, update and removal phases in the component lifecycle.
 ---
 
 # Interface and lifecycle

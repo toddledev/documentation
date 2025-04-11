@@ -1,6 +1,6 @@
 ---
 title: Element panel
-description:
+description: Customize elements with the styling, attributes and events tabs to control appearance, behavior and interactivity of selected components.
 ---
 
 # Element panel

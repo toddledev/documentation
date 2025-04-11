@@ -1,6 +1,6 @@
 ---
 title: Canvas
-description:
+description: Learn to navigate, select elements and resize the canvas workspace to build and test responsive layouts for your Nordcraft application.
 ---
 
 # Canvas

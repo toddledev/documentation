@@ -1,6 +1,6 @@
 ---
 title: Actions
-description:
+description: Extend Nordcraft with custom JavaScript actions that provide global functionality, handle asynchronous operations and integrate external libraries.
 ---
 
 # Actions

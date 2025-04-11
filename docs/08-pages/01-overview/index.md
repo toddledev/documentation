@@ -1,6 +1,6 @@
 ---
 title: Page fundamentals
-description:
+description: Explore how pages serve as application foundation with unique URLs, metadata configuration, parameter handling and component containment.
 ---
 
 # Page fundamentals

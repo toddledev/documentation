@@ -1,6 +1,6 @@
 ---
 title: Default styles
-description:
+description: Understand Nordcraft's reset stylesheet and default flexbox layout that ensure consistent rendering across browsers with minimal configuration.
 ---
 
 # Default styles

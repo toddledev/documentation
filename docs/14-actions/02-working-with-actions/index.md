@@ -1,6 +1,6 @@
 ---
 title: Working with actions
-description:
+description: Define custom JavaScript actions with arguments, events and cleanup functions to add specialized capabilities to your Nordcraft workflows.
 ---
 
 # Working with actions

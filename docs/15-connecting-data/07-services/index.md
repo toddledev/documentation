@@ -1,6 +1,6 @@
 ---
 title: Services
-description:
+description: Connect to backend providers like Supabase, Xano or OpenAPI-compliant services to automatically configure API endpoints in your Nordcraft project.
 ---
 
 # Services

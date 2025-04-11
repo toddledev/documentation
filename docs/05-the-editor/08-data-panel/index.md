@@ -1,6 +1,6 @@
 ---
 title: Data panel
-description:
+description: Configure page settings, component attributes, variables, APIs, events and logical connections in Nordcraft's central data panel.
 ---
 
 # Data panel

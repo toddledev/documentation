@@ -1,6 +1,6 @@
 ---
 title: Authentication
-description:
+description: Implement secure authentication with HTTP-only cookies, token handling and request authorization for protected resources in Nordcraft apps.
 ---
 
 # Authentication

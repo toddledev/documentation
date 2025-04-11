@@ -1,6 +1,6 @@
 ---
 title: Call an API
-description:
+description: Execute API requests with auto-fetch or workflows, configure inputs, handle response callbacks and access returned data in your components.
 ---
 
 # Call an API

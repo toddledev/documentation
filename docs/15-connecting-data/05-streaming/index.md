@@ -1,6 +1,6 @@
 ---
 title: Streaming
-description:
+description: Process progressive data delivery with server-sent events and JSON streaming to create responsive interfaces for real-time content updates.
 ---
 
 # Streaming

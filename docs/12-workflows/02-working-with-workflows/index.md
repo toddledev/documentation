@@ -1,6 +1,6 @@
 ---
 title: Working with workflows
-description:
+description: Create event-triggered and reusable workflows with parameters and sequential action nodes to implement interaction logic in your Nordcraft app.
 ---
 
 # Create a workflow

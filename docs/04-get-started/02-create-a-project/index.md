@@ -1,6 +1,6 @@
 ---
 title: Create a new project
-description: 
+description: Set up apps or packages in Nordcraft with this step-by-step guide covering organization settings, visibility options and template selection.
 ---
 
 # Create a project

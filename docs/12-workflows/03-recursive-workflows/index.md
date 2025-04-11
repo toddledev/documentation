@@ -1,6 +1,6 @@
 ---
 title: Recursive workflows
-description:
+description: Implement counting, iteration and repetitive tasks with self-calling workflows that process arrays or count through values with break conditions.
 ---
 
 # Recursive workflows

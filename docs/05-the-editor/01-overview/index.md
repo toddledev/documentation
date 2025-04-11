@@ -1,6 +1,6 @@
 ---
-title: The editor
-description:
+title: The editor overview
+description: Understand the four main sections of Nordcraft's editor interface: the canvas, bottom bar, left panel and right panel for efficient development.
 ---
 
 # The editor
