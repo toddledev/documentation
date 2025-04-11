@@ -9,7 +9,7 @@ Services in Nordcraft simplify working with APIs by automatically retrieving end
 Nordcraft supports connections to a variety of backend services:
 - **Supabase**: Open-source Postgres database with authentication and real-time capabilities
 - **Xano**: No-code database and API builder
-- **OpenAPI**: Any service using [OpenAPI Specification](https://swagger.io/resources/open-api/) (v2 and v3)
+- **OpenAPI**: Any service using [OpenAPI Specification](https://swagger.io/resources/open-api) (v2 and v3)
 
 # Add a service
 There are two ways to add a service in Nordcraft:
@@ -94,7 +94,7 @@ For services not natively supported by Nordcraft, you can add a custom service u
 Nordcraft performs a check after setup to confirm the API documentation is accessible.
 
 ::: info
-Nordcraft currently supports OpenAPI Specification versions 2 and 3.
+Nordcraft currently supports [OpenAPI Specification](https://swagger.io/resources/open-api/) versions 2 and 3.
 :::
 
 # Use a service in an API
