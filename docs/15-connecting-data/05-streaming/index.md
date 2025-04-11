@@ -34,23 +34,22 @@ JSON streaming uses the `application/stream+json` or `application/x-ndjson` cont
 When Nordcraft receives a complete JSON object, it triggers an `On message` event with the parsed object as the event data. This is provided as a [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent) where the `detail` property contains the JSON object.
 
 ::: info
-For more information about JSON streaming formats, see the [NDJSON specification](https://github.com/ndjson/ndjson-spec).
+For more information about JSON streaming formats, see the [NDJSON](https://github.com/ndjson/ndjson-spec) specification.
 :::
 
 # Handling streamed data
-To process streamed data in your application:
-
 ::: danger
 missing image ![API events tab|16/9](api-events-tab.webp)
 :::
 
+To process streamed data in your application:
 1. Navigate to the **Events** tab in your API configuration
 2. Add an `On message` event handler that processes each incoming message
 3. Access the message data through the event object
 
 The structure of the data depends on the streaming type:
-- For server-sent events, the event detail contains the event fields (`id`, `event`, `data`, `retry`)
-- For JSON streaming, the event detail contains the parsed JSON object
+- For **server-sent events**, the event detail contains the event fields (`id`, `event`, `data`, `retry`)
+- For **JSON streaming**, the event detail contains the parsed JSON object
 
 # Customize response parsing
 Nordcraft automatically determines how to parse streamed responses based on the `Content-Type` header:
@@ -75,7 +74,7 @@ User types a question → API request → AI service starts generating a respons
 
 This approach creates a more interactive experience where users don't have to wait for the complete response before seeing any output.
 
-# Best practices
+# Streaming guidelines
 When working with streaming APIs:
 - Use streaming for long-running operations where progressive updates improve user experience
 - Handle partial or incomplete data appropriately in your UI
