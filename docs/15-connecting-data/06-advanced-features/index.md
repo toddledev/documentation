@@ -1,6 +1,0 @@
----
-title: Authentication
-description:
----
-
-# Authentication
