@@ -53,7 +53,7 @@ Control what happens at specific moments in your component or page lifecycle:
 ## Dependents
 View all components that rely on the current component to track usage throughout your project and assess the impact of potential changes.
 
-# Using the data panel effectively
+# Using the data panel
 The data panel is fundamental to creating dynamic applications in toddle:
 - Define your data model using variables and APIs
 - Create formulas to transform and present your data

@@ -53,7 +53,3 @@ The commit labeled `Live version` represents the current deployed version of you
 
 # Members
 The members section lists all project members. If needed, you can remove a member from the project, except for the project owner.
-
-
-
-
