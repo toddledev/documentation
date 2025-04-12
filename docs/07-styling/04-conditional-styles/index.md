@@ -36,14 +36,14 @@ While editing in the canvas, conditional styles will always be visible on the se
 The styling system supports standard CSS pseudo-classes. Pseudo-classes target elements in specific states, such as `:hover`, `:focus`, `:checked`, or `:disabled`.
 
 ::: info
-For a complete list of pseudo-classes, see the [MDN documentation on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
+For a complete list of pseudo-classes, see the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) on pseudo-classes.
 :::
 
 ### Pseudo-elements
 In addition to pseudo-classes, the styling system includes support for standard CSS pseudo-elements, which allow you to style specific parts of an element that don't appear in the element tree, such as `::before`, `::after`, or `::placeholder`.
 
 ::: info
-For more information on pseudo-elements, refer to the [MDN documentation on pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
+For more information on pseudo-elements, refer to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) on pseudo-elements.
 :::
 
 ## Class-based styles

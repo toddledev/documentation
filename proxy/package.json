@@ -1,0 +1,44 @@
+{
+  "name": "docs-proxy",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "bunx esbuild --bundle --outdir=dist --format=esm src/index.ts",
+    "buildContributors": "bun bin/buildContributors.ts",
+    "buildDocs": "bun bin/buildAssets.ts",
+    "predeploy": "bun buildDocs && bun buildContributors && bun run build",
+    "deploy": "wrangler deploy --no-bundle",
+    "predev": "bun buildDocs && bun buildContributors && bun run build",
+    "dev": "wrangler dev --no-bundle --port=9000",
+    "precreateSearchIndex": "bun buildDocs",
+    "createSearchIndex": "bun bin/createSearchIndex.ts",
+    "precreateSearchIndexDryrun": "bun buildDocs",
+    "createSearchIndexDryrun": "bun bin/createSearchIndex.ts --dryrun",
+    "lint": "eslint --quiet .",
+    "prettier:write": "prettier --write  '*.{json,js}' './**/*.{js,ts}'",
+    "prettier": "prettier --check '*.{json,js}' '**/*.{js,ts}'",
+    "typecheck": "tsc --noEmit",
+    "watch": "tsc --watch --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20250410.0",
+    "@eslint/js": "9.24.0",
+    "@types/lodash": "4.17.16",
+    "@types/node": "22.14.0",
+    "@typescript-eslint/eslint-plugin": "8.29.1",
+    "@typescript-eslint/parser": "8.29.1",
+    "eslint-plugin-inclusive-language": "2.2.1",
+    "eslint": "9.24.0",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
+    "wrangler": "4.9.1"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "front-matter": "4.0.2",
+    "hono": "4.7.6",
+    "lodash": "4.17.21",
+    "marked": "15.0.8",
+    "typesense": "2.0.3"
+  }
+}
