@@ -16,18 +16,14 @@ There are two ways to add a service in Nordcraft:
 
 ## From the API creation flow
 
-::: danger
-missing image ![Add a service from API panel|16/9](add-a-service-api-panel.webp)
-:::
+![Add a service from API panel|16/9](add-a-service-from-api-panel.webp)
 
 1. When creating a new API, click the [kbd]Connect new[kbd] button
 2. Select the service you want to connect to from the available options
 
 ## From the project sidebar
 
-::: danger
-missing image ![Add a service from project sidebar|16/9](add-a-service-project-sidebar.webp)
-:::
+![Add a service from project sidebar|16/9](add-a-service-from-project-sidebar.webp)
 
 1. Open the [project sidebar](/the-editor/project-sidebar) by clicking the folder icon or using [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd]
 2. Navigate to the **Services** section and click the [kbd]+[kbd] button to add a new service
@@ -36,9 +32,7 @@ missing image ![Add a service from project sidebar|16/9](add-a-service-project-s
 # Configure specific services
 ## Supabase
 
-::: danger
-missing image ![Configure Supabase|16/9](edit-service-supabase.webp)
-:::
+![Configure Supabase service|16/9](configure-supabase-service.webp)
 
 To connect to Supabase:
 1. Enter a name for the service (defaults to "Supabase")
@@ -54,9 +48,7 @@ To reuse configuration values throughout your project, click the [kbd]Make Globa
 
 ## Xano
 
-::: danger
-missing image ![Configure Xano|16/9](edit-service-xano.webp)
-:::
+![Configure Xano service|16/9](configure-xano-service.webp)
 
 To connect to Xano:
 1. Enter a name for the service (defaults to "Xano")
@@ -81,11 +73,9 @@ To make your API documentation public:
 
 ## Custom service (OpenAPI)
 
-::: danger
-missing image ![Configure OpenAPI|16/9](edit-service-openapi.webp)
-:::
+![Configure custom service|16/9](configure-custom-service.webp)
 
-For services not natively supported by Nordcraft, you can add a custom service using OpenAPI specification:
+For services not natively supported by Nordcraft, you can add a custom service using **OpenAPI** specification:
 1. Enter a name for the service (defaults to "Custom")
 2. Configure the following:
    - **Base URL**: The root URL that will be applied to all paths in the service
