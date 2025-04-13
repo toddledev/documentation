@@ -57,7 +57,7 @@ missing image ![Configure request URL|16/9](configure-request-url.webp)
 The **URL** and **Parameters** tabs allow you to construct the complete request URL by configuring:
 1. **Base URL**: The domain and protocol (e.g. `https://api.example.com`)
 2. **Path**: The specific endpoint path (e.g. `/users/profile`)
-3. **Query parameters**: Key-value pairs that appear after `?` in the URL. They refine the response without changing the endpoint path. Parameters with `null` values are skipped.
+3. **Query parameters** (in **Parameters** tab): Key-value pairs that appear after `?` in the URL. They refine the response without changing the endpoint path. Parameters with `null` values are skipped.
 
 ::: info
 For a detailed explanation of URL structure, check out the [blog post about URLs](https://toddle.dev/blog/urls-how-do-they-really-work).
