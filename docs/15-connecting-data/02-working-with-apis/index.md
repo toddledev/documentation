@@ -9,14 +9,13 @@ APIs are the primary way to connect your Nordcraft application to external data 
 # Set up a new API
 
 ::: danger
-missing image ![Setting up a new API|16/9](setting-up-api.webp)
+missing image ![Add a new API|16/9](add-a-new-api.webp)
 :::
 
 To create a new API connection in Nordcraft:
 1. Select the component or page where you want to add the API
-2. With no element selected, open the [data panel](/the-editor/data-panel)
-3. Navigate to the **APIs** section and click the [kbd]+[kbd] button
-4. You will see a panel with several options:
+2. With no element selected, go to the **APIs** section of the [data panel](/the-editor/data-panel) and click the [kbd]+[kbd] button
+3. You will see a panel with several options:
    **(A)** Enter a URL directly to create a custom API
    **(B)** Choose from connected services to access predefined endpoints
    **(C)** Select from available templates to quickly set up common APIs
