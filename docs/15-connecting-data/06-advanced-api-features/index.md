@@ -4,11 +4,7 @@ description: Configure advanced API behaviors with custom error definitions, red
 ---
 
 # Advanced API features
-Nordcraft provides several advanced API features to give you fine-grained control over your API connections. These features are accessible through the **Advanced** tab in the API configuration panel.
-
-::: danger
-missing image ![Advanced API tab|16/9](advanced-api-tab.webp){}
-:::
+Nordcraft provides several advanced API features to give you fine-grained control over your API connections. The following features are accessible through the **Advanced** tab in the API configuration panel.
 
 # Error definition
 By default, Nordcraft treats API responses with status codes 400 and above as errors. However, some APIs communicate errors differently, such as [GraphQL APIs](https://graphql.org/learn/serving-over-http/#response-format) that return errors in the response body with a 200 status code.

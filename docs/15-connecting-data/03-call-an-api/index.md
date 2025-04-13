@@ -73,9 +73,9 @@ missing image ![API callback events|16/9](api-callbacks.webp)
 :::
 
 Available callbacks:
-- **On success**: Triggered when the API call is successful
-- **On error**: Triggered when the API call fails
-- **On message**: Triggered when a message is received
+1. **On success**: Triggered when the API call is successful
+2. **On error**: Triggered when the API call fails
+3. **On message**: Triggered when a message is received
 
 Set up callback handling in the **Events** section of the API or workflow action.
 
