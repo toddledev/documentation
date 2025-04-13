@@ -27,9 +27,7 @@ Explore our blog post on [REST APIs](https://toddle.dev/blog/rest-apis-explained
 
 # Configure API requests
 
-::: danger
-missing image ![API configuration panel|16/9](api-configuration.webp)
-:::
+![Configure API requests|16/9](configure-api-requests.webp)
 
 After creating an API, you will see the configuration panel with several important sections:
 1. **Method**: Select the appropriate [HTTP method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) (GET, POST, PUT, DELETE, etc.)
@@ -78,9 +76,7 @@ To add a header:
 ## Configure the request body
 Define the data to send in the request [body](https://developer.mozilla.org/en-US/docs/Web/API/Request/body) when the method supports it, such as POST, PUT or PATCH.
 
-::: danger
-missing image ![Set request body|16/9](set-request-body.webp)
-:::
+![Set a request body|16/9](set-a-request-body.webp)
 
 To configure the body:
 1. Ensure your method supports a request body
