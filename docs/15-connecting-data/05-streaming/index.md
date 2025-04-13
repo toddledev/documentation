@@ -38,9 +38,8 @@ For more information about JSON streaming formats, see the [NDJSON](https://gith
 :::
 
 # Handling streamed data
-::: danger
-missing image ![API events tab|16/9](api-events-tab.webp)
-:::
+
+![Process streamed data|16/9](process-streamed-data.webp)
 
 To process streamed data in your application:
 1. Navigate to the **Events** tab in your API configuration
@@ -56,9 +55,7 @@ Nordcraft automatically determines how to parse streamed responses based on the 
 - `text/event-stream` is parsed as server-sent events
 - `application/stream+json` or `application/x-ndjson` is parsed as JSON streaming
 
-::: danger
-missing image ![Advanced response parsing|16/9](advanced-response-parsing.webp)
-:::
+![Parse response|16/9](parse-response.webp)
 
 If your backend service doesn't set the correct header, you can override the default behavior:
 1. Go to the **Advanced** tab in your API configuration
