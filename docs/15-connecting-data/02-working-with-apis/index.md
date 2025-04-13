@@ -15,7 +15,7 @@ missing image ![Add a new API|16/9](add-a-new-api.webp)
 To create a new API connection in Nordcraft:
 1. Select the component or page where you want to add the API
 2. With no element selected, go to the **APIs** section of the [data panel](/the-editor/data-panel) and click the [kbd]+[kbd] button
-3. You will see a panel with several options:
+3. You will see the **Add new API** panel with several options:
    **(A)** Enter a URL directly to create a custom API
    **(B)** Choose from connected services to access predefined endpoints
    **(C)** Select from available templates to quickly set up common APIs
@@ -41,7 +41,7 @@ After creating an API, you will see the configuration panel with several importa
    - **URL**: Configure the base URL and path
    - **Parameters**: Configure query parameters
    - **Headers**: Set request headers for authentication, content type, etc.
-   - **Body**: Define the request body for methods that support it
+   - **Body**: Define the request body for methods that support it (this tab is only visible for supported methods)
    - **Events**: Define workflows for `On success`, `On error` and `On message` events
    - **Advanced**: Access additional configuration options
 4. **Response section**: View the latest response from the server
