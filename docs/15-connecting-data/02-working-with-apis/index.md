@@ -8,9 +8,7 @@ APIs are the primary way to connect your Nordcraft application to external data 
 
 # Set up a new API
 
-::: danger
-missing image ![Add a new API|16/9](add-a-new-api.webp)
-:::
+![Add a new API|16/9](set-up-an-api.webp)
 
 To create a new API connection in Nordcraft:
 1. Select the component or page where you want to add the API
@@ -50,9 +48,7 @@ After creating an API, you will see the configuration panel with several importa
 ## Configure the request URL
 Configure the endpoint URL to specify where your request should be sent.
 
-::: danger
-missing image ![Configure request URL|16/9](configure-request-url.webp)
-:::
+![Configure a request URL|16/9](configure-a-request-url.webp)
 
 The **URL** and **Parameters** tabs allow you to construct the complete request URL by configuring:
 1. **Base URL**: The domain and protocol (e.g. `https://api.example.com`)
@@ -66,9 +62,7 @@ For a detailed explanation of URL structure, check out the [blog post about URLs
 ## Set request headers
 [Headers](https://developer.mozilla.org/en-US/docs/Web/API/Request/headers) provide additional information about the request that guide how the server processes the call.
 
-::: danger
-missing image ![Set request header|16/9](set-request-header.webp)
-:::
+![Set a request header|16/9](set-a-request-header.webp)
 
 To add a header:
 1. In the **Headers** tab, click the [kbd]+[kbd] button
@@ -107,9 +101,7 @@ Auto fetch is especially useful for GET requests where you want to display data 
 
 ## Test API requests
 
-::: danger
-missing image ![Test API request|16/9](test-api-request.webp)
-:::
+![Test an API request|16/9](test-an-api-request.webp)
 
 You can test your API directly in the editor:
 1. For APIs with `Auto fetch` disabled, click the [kbd]▶[kbd] button to manually trigger the request
