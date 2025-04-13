@@ -11,12 +11,9 @@ There are two ways to trigger API calls:
 2. [Workflow actions](#using-workflow-actions): Manually trigger the API from workflows
 
 ## Using auto fetch
-
 Auto fetch automatically calls your API without requiring manual triggers. This is particularly useful for data that should be loaded immediately when a component appears.
 
-::: danger
-missing image ![Auto fetch configuration|16/9](auto-fetch.webp)
-:::
+![Use API auto fetch|16/9](use-auto-fetch.webp)
 
 To enable [auto fetch](/connecting-data/working-with-apis#auto-fetch-behavior):
 1. Navigate to your API in the [data panel](/the-editor/data-panel)
@@ -26,9 +23,7 @@ To enable [auto fetch](/connecting-data/working-with-apis#auto-fetch-behavior):
 ## Using workflow actions
 Workflow actions give you precise control over when APIs are called, typically in response to user interactions or other events.
 
-::: danger
-missing image ![API workflow action|16/9](api-workflow-action.webp)
-:::
+![Use API workflow action|16/9](use-api-workflow-action.webp)
 
 To call an API from a [workflow](/workflows/working-with-workflows):
 1. Create or edit a workflow for an event
@@ -50,9 +45,7 @@ This weather card displays the current temperature, and the `Update` button allo
 # API inputs
 API inputs let you customize parameters each time you call an API, giving you flexibility to reuse the same endpoint with different values depending on the context.
 
-::: danger
-missing image ![API inputs configuration|16/9](api-inputs.webp)
-:::
+![Configure API inputs|16/9](configure-api-inputs.webp)
 
 Define inputs for your API:
 1. Click [kbd]+[kbd] in the **Inputs** tab
@@ -68,9 +61,7 @@ Unlike test values which are only used during development, input values serve as
 # Handling API callbacks
 Callbacks are events triggered by API responses, letting you execute specific workflows.
 
-::: danger
-missing image ![API callback events|16/9](api-callbacks.webp)
-:::
+![Handle API callbacks|16/9](handle-api-callbacks.webp)
 
 Available callbacks:
 1. **On success**: Triggered when the API call is successful
@@ -96,9 +87,7 @@ When the weather data is successfully updated, a confetti animation is triggered
 # Accessing API data
 Once your API call completes, the resulting data is available for use in your application's logic and UI.
 
-::: danger
-missing image ![Accessing API data|16/9](accessing-api-data.webp)
-:::
+![Access API data|16/9](access-api-data.webp)
 
 Access API response in the [formula editor](/formulas/overview#the-formula-editor):
 1. In the formula editor, add a new node and select the API endpoint from the **APIs** section
