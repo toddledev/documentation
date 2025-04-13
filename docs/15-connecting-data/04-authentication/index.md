@@ -35,9 +35,7 @@ There are two approaches for storing access tokens securely in Nordcraft:
 
 ### Set HTTP-only cookie directly
 
-::: danger
-missing image ![Set Session Cookies action|16/9](set-session-cookies.webp)
-:::
+![Set HTTP-only cookie|16/9](set-http-only-cookie.webp)
 
 For login flows where users enter credentials directly in your application:
 1. Create a backend API endpoint to validate credentials and return an access token
@@ -55,9 +53,7 @@ For OAuth or third-party authentication providers that use redirects (like Supab
 ## Adding authentication to API requests
 Once you have stored an access token, you will need to include it in your API requests to authenticate the user:
 
-::: danger
-missing image ![Adding authorization header|16/9](auth-header.webp)
-:::
+![Add authorization header|16/9](add-authorization-header.webp)
 
 For bearer token authentication:
 1. Select your API in the [data panel](/the-editor/data-panel)
