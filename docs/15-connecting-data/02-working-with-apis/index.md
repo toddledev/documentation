@@ -17,10 +17,10 @@ To create a new API connection in Nordcraft:
 2. With no element selected, open the [data panel](/the-editor/data-panel)
 3. Navigate to the **APIs** section and click the [kbd]+[kbd] button
 4. You will see a panel with several options:
-   4.1 Enter a URL directly to create a custom API
-   4.2 Choose from connected services to access predefined endpoints
-   3. Select from available templates to quickly set up common APIs
-   4. Choose a Demo API
+   **(A)** Enter a URL directly to create a custom API
+   **(B)** Choose from connected services to access predefined endpoints
+   **(C)** Select from available templates to quickly set up common APIs
+   **(D)** Choose a Demo API
 
 For beginners, the **Demo APIs** provide an excellent starting point to understand how APIs work in Nordcraft.
 
