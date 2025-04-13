@@ -9,9 +9,7 @@ Nordcraft provides several advanced API features to give you fine-grained contro
 # Error definition
 By default, Nordcraft treats API responses with status codes 400 and above as errors. However, some APIs communicate errors differently, such as [GraphQL APIs](https://graphql.org/learn/serving-over-http/#response-format) that return errors in the response body with a 200 status code.
 
-::: danger
-missing image ![Error definition|16/9](error-definition.webp){}
-:::
+![Configure error definition|16/9](configure-error-definition.webp)
 
 The **Is error** formula allows you to customize what constitutes an error:
 1. Click the [kbd]fx[kbd] button to open the formula editor
@@ -30,9 +28,7 @@ Redirect rules allow your application to automatically navigate users to differe
 - Handling language or region-specific content availability
 - Managing moved or deprecated pages
 
-::: danger
-missing image ![Redirect rules|16/9](redirect-rules.webp){}
-:::
+![Configure a redirect rule|16/9](configure-a-redirect-rule.webp)
 
 To configure redirect rules:
 1. In the **Redirect rules** section, click the [kbd]+[kbd] button to add a new rule
@@ -71,9 +67,7 @@ height: 21rem
 ## Server-side rendering (SSR)
 The **Server-side fetching** toggle controls whether an API request executes during server-side rendering before sending the page to the browser.
 
-::: danger
-missing image ![Server-side fetching|16/9](server-side-fetching.webp){}
-:::
+![Enable server-side fetching|16/9](enable-server-side-fetching.webp)
 
 When enabled:
 - API data is included in the initial page HTML
@@ -91,9 +85,7 @@ If an API takes longer than a few hundred milliseconds to respond, consider disa
 ## Proxy request
 The **Proxy request** toggle determines whether API calls are routed through Nordcraft's edge network.
 
-::: danger
-missing image ![Proxy request|16/9](proxy-request.webp){}
-:::
+![Enable proxying|16/9](enable-proxying.webp)
 
 When proxying is enabled (default), your API requests pass through Nordcraft's edge network, providing several critical capabilities:
 - **Authentication security**: Enables the use of HTTP-only cookies for secure token storage
@@ -109,9 +101,7 @@ The Nordcraft proxy only processes request/response metadata like headers, never
 # Response parsing
 By default, Nordcraft automatically determines how to parse API responses based on the `Content-Type` header. In some cases, you may need to override this behavior.
 
-::: danger
-missing image ![Response parsing|16/9](response-parsing.webp){}
-:::
+![Configure response parsing|16/9](configure-response-parsing.webp)
 
 The **Parse as** dropdown allows you to select from several parsing options:
 - **Auto**: Uses the `Content-Type` header to determine the parsing method (default)
@@ -127,9 +117,7 @@ This is particularly useful when working with APIs that return incorrect or miss
 ## Debounce
 Debouncing limits how frequently an API can be called, which is useful when API requests are triggered by rapid user actions like typing.
 
-::: danger
-missing image ![Debounce|16/9](debounce.webp){}
-:::
+![Configure debounce|16/9](configure-debounce.webp)
 
 To set up debouncing:
 1. Go to the **Debounce** field
@@ -146,9 +134,7 @@ Common use cases include:
 ## Timeout
 The timeout setting allows you to specify a maximum wait time for API responses.
 
-::: danger
-missing image ![Timeout|16/9](timeout.webp){}
-:::
+![Configure timeout|16/9](configure-timeout.webp)
 
 To set a timeout:
 1. Go to the **Timeout** field
