@@ -1,6 +1,6 @@
 ---
 title: Element tree
-description:
+description: Understand the Nordcraft element tree for structural editing, element selection, context menus, and adding new elements to your project hierarchy.
 ---
 
 # Element tree

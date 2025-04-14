@@ -1,6 +1,6 @@
 ---
 title: Static and dynamic
-description:
+description: Create fixed content pages or data-driven pages using URL parameters and query strings to build flexible navigation systems in Nordcraft.
 ---
 
 # Static and dynamic

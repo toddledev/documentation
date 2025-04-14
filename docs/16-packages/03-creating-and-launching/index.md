@@ -1,6 +1,6 @@
 ---
 title: Creating and launching packages
-description:
+description: Build and publish your own packages with exported components, actions and formulas to share functionality with the Nordcraft community.
 ---
 
 # Creating and launching packages

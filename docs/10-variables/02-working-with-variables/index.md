@@ -1,6 +1,6 @@
 ---
 title: Working with variables
-description:
+description: Create, initialize, update and bind variables to elements to build dynamic interfaces that respond to user interactions and application state.
 ---
 
 # Working with variables

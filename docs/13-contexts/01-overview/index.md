@@ -1,6 +1,6 @@
 ---
-title: Contexts - Overview
-description:
+title: Contexts overview
+description: Optimize component communication with contexts to share data between distant components without passing through intermediaries in Nordcraft.
 ---
 
 # Contexts

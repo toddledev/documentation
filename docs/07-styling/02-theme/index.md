@@ -1,6 +1,6 @@
 ---
 title: Theme
-description:
+description: Create design systems with Nordcraft's theme tools for managing colors, spacing, typography, fonts, weights and z-index values centrally.
 ---
 
 # Theme

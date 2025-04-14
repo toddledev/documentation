@@ -1,6 +1,6 @@
 ---
 title: Component fundamentals
-description:
+description: Discover component architecture in Nordcraft including structure, benefits, data encapsulation and composition patterns for application design.
 ---
 
 # Component fundamentals

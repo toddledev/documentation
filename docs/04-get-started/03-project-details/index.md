@@ -1,6 +1,6 @@
 ---
 title: Project details - Manage your Nordcraft project
-description:
+description: Navigate the project details page to manage settings, domains, branches, track version history and configure team member access permissions.
 ---
 
 # Project details
@@ -53,7 +53,3 @@ The commit labeled `Live version` represents the current deployed version of you
 
 # Members
 The members section lists all project members. If needed, you can remove a member from the project, except for the project owner.
-
-
-
-

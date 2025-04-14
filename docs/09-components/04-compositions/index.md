@@ -1,6 +1,6 @@
 ---
 title: Compositions
-description:
+description: Build complex UIs by combining components through nesting and slots, creating flexible patterns for content insertion and component hierarchies.
 ---
 
 # Compositions

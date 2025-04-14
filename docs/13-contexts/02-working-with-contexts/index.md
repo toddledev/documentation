@@ -1,6 +1,6 @@
 ---
 title: Working with contexts
-description:
+description: Implement context providers and consumers to establish direct data and function sharing between ancestor and descendant components.
 ---
 
 # Working with contexts

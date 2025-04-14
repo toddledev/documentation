@@ -1,6 +1,6 @@
 ---
 title: Global formulas
-description:
+description: Create project-wide reusable calculations with standard formulas or custom JavaScript code for consistent logic across components and pages.
 ---
 
 # Global formulas

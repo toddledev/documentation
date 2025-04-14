@@ -1,6 +1,6 @@
 ---
 title: Pages
-description:
+description: Understand how pages function as application entry points with unique URLs, metadata settings and containers for elements and components.
 ---
 
 # Pages

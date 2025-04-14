@@ -1,6 +1,6 @@
 ---
 title: Issue panel
-description:
+description: Track and fix project problems with the issue panel's filtering, search and navigation tools to maintain code quality in Nordcraft projects.
 ---
 
 # Issues panel

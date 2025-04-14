@@ -1,6 +1,6 @@
 ---
 title: Styles and layout
-description:
+description: Apply styles through Nordcraft's visual interface or CSS editor, using flexbox and text layout options to arrange and present content.
 ---
 
 # Styles and layout

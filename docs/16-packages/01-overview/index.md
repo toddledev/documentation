@@ -1,6 +1,6 @@
 ---
 title: Packages
-description:
+description: Discover Nordcraft's package ecosystem to add pre-built components, formulas and actions to your projects while maintaining consistency.
 ---
 
 # Packages

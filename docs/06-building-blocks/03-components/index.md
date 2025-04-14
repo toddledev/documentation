@@ -1,6 +1,6 @@
 ---
 title: Components
-description:
+description: Learn how reusable components encapsulate structure, styling and behavior to create maintainable, consistent interfaces across your project.
 ---
 
 # Components

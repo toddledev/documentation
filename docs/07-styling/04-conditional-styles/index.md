@@ -1,6 +1,6 @@
 ---
 title: Conditional styles
-description:
+description: Implement responsive and state-dependent styling with pseudoclasses, CSS classes and style variables for dynamic user interfaces.
 ---
 
 # Conditional styles

@@ -1,6 +1,6 @@
 ---
 title: Branches and publishing a project
-description:
+description: Understand how to use branches in Nordcraft to develop features safely, test changes, resolve merge conflicts, and publish updates to live applications.
 ---
 
 # Branches

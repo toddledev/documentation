@@ -1,6 +1,6 @@
 ---
 title: Workflows overview
-description:
+description: Distinguish workflows from formulas and actions in Nordcraft as event-driven sequences that execute operations with side effects in your application.
 ---
 
 # Workflows overview

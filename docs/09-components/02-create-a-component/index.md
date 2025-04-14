@@ -1,6 +1,6 @@
 ---
 title: Create a component
-description:
+description: Learn to build components from scratch or extract them from existing elements to create reusable, consistent patterns in your Nordcraft project.
 ---
 
 # Create a component

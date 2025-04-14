@@ -1,6 +1,6 @@
 ---
 title: Show/Hide formula
-description:
+description: Control element visibility with conditional formulas that add or remove elements from the DOM based on application state or user interactions.
 ---
 
 # Show/hide formula
