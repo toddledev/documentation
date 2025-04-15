@@ -52,17 +52,6 @@ You can use the `Is Server` formula to create conditional logic based on where t
 When testing API responses in the editor, the `debug` section in `response` will show information about redirect behavior.
 :::
 
-## Redirect rule example
-A common use case is redirecting unauthenticated users to a login page. The following formula redirects users when the API returns a 401 (Unauthorized) status code:
-
-@@@ example
-componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-handle-api-callback.js
-editorUrl: 
-height: 21rem
-
-
-@@@
-
 # Fetching options
 ## Server-side rendering (SSR)
 The **Server-side fetching** toggle controls whether an API request executes during server-side rendering before sending the page to the browser.
