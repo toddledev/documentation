@@ -23,7 +23,7 @@ A pure function always returns the same result for the same inputs and doesn't c
 
 # The formula editor
 
-![Formula editor|16/9](formula-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?canvas-width=800&canvas-height=800&selection=formulas.2q0_dN&rightpanel=style}
+![Formula editor|16/9](the-formula-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?canvas-width=800&canvas-height=800&selection=formulas.2q0_dN&rightpanel=style}
 
 The formula editor appears when editing formulas and wherever you see an `fx` button in the Nordcraft interface:
 - In the [attributes panel](/the-editor/element-panel#attributes-tab) when binding values
