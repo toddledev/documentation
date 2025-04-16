@@ -1,44 +1,37 @@
 ---
 title: About Nordcraft
-description:
+description: Learn to build powerful web applications with Nordcraft through extensive documentation, step-by-step guides and practical examples. Explore components, styling, APIs and advanced features or get assistance from Nordcraft's AI.
 ---
 
 # About Nordcraft
-It is hard to define what exactly Nordcraft is. It is a versatile platform, an editor, a framework. A little backend.
+Nordcraft is an open-source Web Development Engine that unifies visual design and code in a single platform. It eliminates the traditional handoff between designers and developers, creating a seamless workflow where both can collaborate effectively.
 
-## Traditional Development
-Traditional dev is time-consuming.
+## Bridging Design and Development
+Nordcraft combines a visual editor for interface design with a powerful technical foundation built on modern web standards. This approach accelerates development without sacrificing quality or control.
 
-This is just a tip that *emphasized words* can include more context. It supports **most** styling options like [links](https://www.example.com). This sentence has `inline code` in it.
+Key capabilities include:
+- Visual editing of UI components and application logic
+- Component-based architecture familiar to React, Vue, and Svelte developers
+- Visual scripting for implementing interactive behavior
+- Branch-based development for team collaboration
 
-::: dev
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information. This sentence has `inline code` in it.
-:::
+## Technical Foundation
+Built on a lightweight 24kb runtime with a reactive architecture, Nordcraft supports both server-side and client-side rendering. The system prioritizes performance while providing developers with the tools they need for modern web applications.
 
-::: tip
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information. This sentence has `inline code` in it.
-:::
+Core technical features:
+- Signals-based reactive programming model
+- Full server-side rendering capabilities
+- Minimal DOM output for optimal performance
+- Animation engine for creating dynamic interfaces
+- Integrated version control with preview environments
 
-::: warning
-Here's a different callout. _Emphasized words_ The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
-:::
+## Complete Ecosystem
+Nordcraft provides everything needed to build and deploy web applications:
+- API integration for connecting to any backend service
+- Package system for sharing and reusing functionality
+- Templates for rapid application development and design systems
+- Asset management for handling media
+- SEO and meta tag configuration tools
+- Deployment to cloud or self-hosted infrastructure as Nordcraft is open-source
 
-::: danger
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
-:::
-
-::: info
-Here's a different callout. The callout can also contain [links](https://toodle.dev). You can place headings in here, but you really should not. A callout is for a small nugget of information.
-:::
-
-## Development with Nordcraft
-Development with Nordcraft is nice.
-
-![Nordcraft in Context](https://images.ctfassets.net/lizv2opdd3ay/6FCBNbwjzzmeRDrXTb7jcr/efecbf8c44360ebdaf677561f9fd8fbd/create_a_project.webp)
-
-Nordcraft is a very lightweight framework that bases on vanilla JavaScript. The runtime only has around 30 kb.
-
-## Comparison to No Code Tools
-No Code has more abstraction.
-
-No Code and AI tools might be garbage.
+Nordcraft gives developers the freedom to customize and extend the system to meet their specific needs without limitations.
