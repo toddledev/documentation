@@ -13,7 +13,7 @@ A typical authentication flow consists of these key steps:
 4. Client includes the token with API requests
 5. Server validates the token and grants access
 
-This approach lets you implement secure authentication while keeping sensitive verification logic on your backend server.
+This approach lets you implement secure authentication while keeping sensitive verification logic on your backend.
 
 In Nordcraft, authentication is handled through API connections, allowing you to:
 - Choose your preferred authentication system
@@ -29,7 +29,7 @@ Authentication should always be handled by your backend service. Nordcraft focus
 Access tokens represent user authorization and must be protected from unauthorized access. Store tokens in HTTP-only cookies for security:
 - Cannot be accessed by client-side JavaScript
 - Protected against cross-site scripting (XSS) attacks
-- Automatically included with requests via the Nordcraft proxy
+- Automatically available in requests via the Nordcraft proxy
 
 There are two approaches for storing access tokens securely in Nordcraft:
 
@@ -38,10 +38,13 @@ There are two approaches for storing access tokens securely in Nordcraft:
 ![Set HTTP-only cookie|16/9](set-http-only-cookie.webp)
 
 For login flows where users enter credentials directly in your application:
-1. Create a backend API endpoint to validate credentials and return an access token
-2. In your Nordcraft application, create a workflow to call this API
-3. Add the **Set Session Cookies** action to the `On success` callback event to set an HTTP-only cookie
-4. Set the returned access token and expiration time in their respective inputs
+1. Create a workflow to call your authentication endpoint
+2. Add the **Set Session Cookies** action to the `On success` callback event to set an HTTP-only cookie
+3. Set the returned access token and expiration time in their respective inputs
+
+::: warning
+If you want to execute actions after the cookies were set (e.g. redirect to your main app), make sure that those actions are executed `On success` of the `Set Sessions Cookie` action to make sure the cookies were actually set.
+:::
 
 ### Use redirect authentication
 For OAuth or third-party authentication providers that use redirects (like Supabase, Auth0 or Firebase):
@@ -59,7 +62,7 @@ For bearer token authentication:
 1. Select your API in the [data panel](/the-editor/data-panel)
 2. In the **Headers** tab of the API panel, click the [kbd]+[kbd] button to add a new header
 3. Select `Authorization` as the header name
-4. The value is set by default to output `Bearer <access_token>`, using `Concatenate` and `Get Http-Only Cookie` formulas  
+4. The value is set by default to output `Bearer {{cookies.access_token}}`, using `Concatenate` and `Get Http-Only Cookie` formulas. The value for the `access_token` will be replaced in the Nordcraft proxy with the actual token.  
 
 ::: info
 API requests must be proxied through Nordcraft's Edge network for HTTP-only cookies to be included. This is enabled by default in the **Advanced** tab of your API configuration.
@@ -74,7 +77,7 @@ Follow these steps to develop authenticated features:
    - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/toddle/)
 
 2. **Log in through preview page**
-   - Authentication must first occur in the preview environment
+   - Authentication must first occur in the preview environment. You can open the preview through the [Bottom Bar](/the-editor/bottom-bar)
    - With the extension installed, your authentication cookies are securely copied to the editor
 
 3. **Develop in the editor**
@@ -88,10 +91,9 @@ The browser extension is only required for development in the Nordcraft editor. 
 # Security guidelines
 Follow these security guidelines when implementing authentication:
 - **Short token lifetimes**: Keep access tokens short-lived (hours, not days)
-- **Use refresh tokens**: Implement refresh tokens for seamless token renewal
-- **Enforce HTTPS**: Use HTTPS for all authentication-related traffic
+- **Use refresh tokens**: Implement refresh tokens for seamless token renewal. Most BaaS providers support this out of the box
 - **Secure token storage**: Store tokens in HTTP-only, secure cookies
 - **Backend token validation**: Ensure backend validates tokens for every request
 - **Proper logout**: Clear tokens on both client and server upon logout
 - **Avoid client-side storage**: Never store sensitive data in `localStorage` or `sessionStorage`
-- **Secure redirects**: Ensure `redirect_uri` is secure and properly configured
+- **No hardcoded tokens**: Never store any hardcoded API keys or tokens in Nordcraft

@@ -15,7 +15,7 @@ To create a new API connection in Nordcraft:
 2. With no element selected, go to the **APIs** section of the [data panel](/the-editor/data-panel) and click the [kbd]+[kbd] button
 3. You will see the **Add new API** panel with several options:
    **(A)** Enter a URL directly to create a custom API
-   **(B)** Choose from connected services to access predefined endpoints
+   **(B)** Choose from connected services to access predefined endpoints (see [Services](/connecting-data/services))
    **(C)** Select from available templates to quickly set up common APIs
    **(D)** Choose a Demo API
 
@@ -71,6 +71,7 @@ To add a header:
    - `Cache-Control`: Caching directives (e.g. `no-cache`)
    - `X-Api-Key`: API key for authentication
    - `Accept-Language`: Preferred language for response
+   - Type in any value and confirm with [kbd]Enter[kbd] for other headers
 3. Provide a static value or click [kbd]fx[kbd] for dynamic values
 
 ## Configure the request body
@@ -100,7 +101,7 @@ Auto fetch is especially useful for GET requests where you want to display data 
 ![Test an API request|16/9](test-an-api-request.webp)
 
 You can test your API directly in the editor:
-1. For APIs with `Auto fetch` disabled, click the [kbd]▶[kbd] button to manually trigger the request
+1. For APIs with `Auto fetch` disabled, click the [kbd]Play[kbd] button to manually trigger the request
 2. View the response in the **Response** section at the bottom of the panel
 3. Check the status code, headers and body to ensure the API is working as expected
 4. Check the returned data to ensure the API provides the correct information
@@ -112,4 +113,4 @@ After setting up your API, you will want to:
 - [Call the API](/connecting-data/call-an-api) in response to user actions
 - [Access the API data](/connecting-data/call-an-api#accessing-api-data) in your components
 - Configure [authentication](/connecting-data/authentication) for secure data access
-- Explore [advanced features](/connecting-data/advanced-features) for specialized requirements
+- Explore [advanced features](/connecting-data/advanced-api-features) for specialized requirements
