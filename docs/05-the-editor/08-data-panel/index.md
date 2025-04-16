@@ -30,7 +30,7 @@ These attributes are also the attributes of your exported web component.
 ## Variables
 Store and manage state within your page or component. Variables can be initialized with default values, updated through actions or workflows, and used in formulas, e.g. to display dynamic content.
 
-## [APIs](/connecting-data/overview)
+## APIs
 Connect your application to external services and data sources by defining endpoints, configuring request parameters and handling responses.
 
 ## Events
