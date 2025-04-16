@@ -25,13 +25,13 @@ This frontend-focused approach offers several advantages for developers and team
 
 # API layer
 The API layer acts as the communication bridge between your Nordcraft frontend and any backend system:
-- **Request/Response Protocol**: How your application communicates with backends (usually HTTP/HTTPS)
+- **Request/Response Protocol**: How your application communicates with backends (usually HTTPS)
 - **Data Formatting**: How information is structured throughout the request and response
 - **Endpoints**: Specific URLs that provide access to backend functionality
 - **Authentication**: Security mechanisms to protect data and verify users
 - **Error Handling**: How problems are communicated back to the frontend
 
-Through Nordcraft's API capabilities, your application can perform tasks like retrieving data, saving state, authenticating users and connecting to services, while maintaining a clear separation between frontend and backend responsibilities.
+Through Nordcraft's API capabilities, your application can perform tasks like retrieving data, saving state, authenticating users and connecting to services.
 
 # Working with data in Nordcraft
 The following pages in this section cover the specific aspects of working with external data:
@@ -39,12 +39,8 @@ The following pages in this section cover the specific aspects of working with e
 - [Call an API](/connecting-data/call-an-api): Triggering requests and using data
 - [Authentication](/connecting-data/authentication): Securing data access
 - [Streaming](/connecting-data/streaming): Working with real-time data
-- [Advanced API features](/connecting-data/advanced-features): Additional configuration options
+- [Advanced API features](/connecting-data/advanced-api-features): Additional configuration options
 - [Services](/connecting-data/services): Connecting to specialized backend providers
-
-::: tip
-For best performance, consider which data should be fetched during server-side rendering (SSR) and which can be loaded after the page renders.
-:::
 
 ::: info
 For more information about the philosophy behind this separation of concerns, check out the blog post [One Size Does Not Fit All](https://toddle.dev/blog/one-size-does-not-fit-all).
