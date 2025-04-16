@@ -10,7 +10,7 @@ Nordcraft is built around several fundamental concepts that form the foundation 
 Nordcraft combines visual development with a solid code foundation. This hybrid approach means:
 - You can build visually while the system generates clean, optimized code
 - Visual changes are reflected immediately in the interface
-- Complex interactions can be implemented using visual scripting through [workflows](/workflows/overview)
+- Complex interactions can be implemented using visual development through [workflows](/workflows/overview)
 - Custom code can be added when needed for specialized functionality
 
 This approach bridges the gap between visual design tools and coding environments, eliminating many traditional handoffs. Explore [the editor](/the-editor/overview) to see how this works in practice.

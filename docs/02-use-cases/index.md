@@ -15,12 +15,12 @@ Nordcraft's component architecture and API integration capabilities make it idea
 - **Data visualization**: Create interactive charts, graphs, and visual data presentations
 - ...
 
-The visual scripting system allows complex business logic to be implemented without sacrificing maintainability.
+The visual development system allows complex business logic to be implemented without sacrificing maintainability.
 
 # E-commerce solutions
 Nordcraft can be used to build various aspects of e-commerce platforms:
-- **Product vatalogs**: Create responsive, filterable product displays
-- **Shopping varts**: Implement interactive shopping experiences
+- **Product catalogs**: Create responsive, filterable product displays
+- **Shopping carts**: Implement interactive shopping experiences
 - **Checkout flows**: Design smooth, conversion-optimized checkout processes
 - **Account management**: Build user account areas and order tracking interfaces
 

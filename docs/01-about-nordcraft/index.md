@@ -3,7 +3,7 @@ title: About Nordcraft
 description: Learn to build powerful web applications with Nordcraft through extensive documentation, step-by-step guides and practical examples. Explore components, styling, APIs and advanced features or get assistance from Nordcraft's AI.
 ---
 
-# About Nordcraft
+# About
 Nordcraft is an open-source Web Development Engine that unifies visual design and code in a single platform. It eliminates the traditional handoff between designers and developers, creating a seamless workflow where both can collaborate effectively.
 
 ## Bridging Design and Development
@@ -12,7 +12,7 @@ Nordcraft combines a visual editor for interface design with a powerful technica
 Key capabilities include:
 - Visual editing of UI components and application logic
 - Component-based architecture familiar to React, Vue, and Svelte developers
-- Visual scripting for implementing interactive behavior
+- Visual development for implementing interactive behavior
 - Branch-based development for team collaboration
 
 ## Technical Foundation
