@@ -46,7 +46,7 @@ A component in Nordcraft can consist of:
 - [Element tree](/the-editor/element-tree): The hierarchy of elements that make up the component
 - [Attributes](/components/interface-and-lifecycle#defining-attributes): The interface for passing data into the component
 - [Variables](/variables/overview): Internal state and data management
-- **APIs**: Connections to external services and data sources
+- [APIs](/connecting-data/overview): Connections to external services and data sources
 - [Events](/components/interface-and-lifecycle#setting-up-events): The interface for communicating out from the component
 - [Formulas](/formulas/overview): Calculations and data transformations
 - [Workflows](/workflows/overview): Internal logic and behavior

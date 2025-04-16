@@ -33,7 +33,7 @@ Redirect rules allow your application to automatically navigate users to differe
 To configure redirect rules:
 1. In the **Redirect rules** section, click the [kbd]+[kbd] button to add a new rule
 2. Name your rule descriptively
-3. Create a formula that evaluates to a URL or path when API response conditions are met
+3. Create a formula that evaluates to a URL or path when API response conditions are met. It needs to evaluate to `null` if the conditions are not met.
 
 Rules are evaluated in the order they appear, and the first matching rule determines the redirect destination.
 
@@ -76,7 +76,7 @@ The **Proxy request** toggle determines whether API calls are routed through Nor
 
 ![Enable proxying|16/9](enable-proxying.webp)
 
-When proxying is enabled (default), your API requests pass through Nordcraft's edge network, providing several critical capabilities:
+When proxying is enabled (default), your API requests pass through Nordcraft's edge network, providing several capabilities:
 - **Authentication security**: Enables the use of HTTP-only cookies for secure token storage
 - **CORS avoidance**: Eliminates  [cross-origin resource sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) restrictions between domains
 - **Request enhancement**: Allows Nordcraft to add headers or process responses

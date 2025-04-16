@@ -13,8 +13,8 @@ Nordcraft supports two streaming formats:
 - [Server-sent events](#server-sent-events) (SSE) 
 - [JSON streaming](#json-streaming)
 
-## Server-sent events (SSE)
-Server-sent events use the `text/event-stream` content type to establish a one-way connection where the server sends a stream of events to the client.
+## Server-sent events
+Server-sent events (SSE) use the `text/event-stream` content type to establish a one-way connection where the server sends a stream of events to the client.
 
 Each event consists of up to four fields:
 - `id`: The event identifier
@@ -76,7 +76,6 @@ When working with streaming APIs:
 - Use streaming for long-running operations where progressive updates improve user experience
 - Handle partial or incomplete data appropriately in your UI
 - Consider fallback behavior for users with unstable connections
-- Test performance with various network conditions
 - Implement appropriate error handling for interrupted streams
 
 ::: warning
