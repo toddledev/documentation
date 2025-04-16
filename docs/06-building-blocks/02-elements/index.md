@@ -54,10 +54,6 @@ Key characteristics of text elements include:
 - Their content can be bound to variables or formulas for dynamic data display
 - They can be conditionally displayed using the show/hide formula
 
-::: dev
-Technically, a text element in Nordcraft corresponds to a DOM text node rather than an HTML element with tags.
-:::
-
 ## Components
 Components are reusable custom elements that encapsulate their own structure, styling and behavior. They can be configured through attributes, styled with CSS variables and emit events to communicate with parent elements.
 
