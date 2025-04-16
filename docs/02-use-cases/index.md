@@ -8,10 +8,12 @@ Nordcraft is designed to build virtually any web application or site that you co
 
 # Web applications
 Nordcraft's component architecture and API integration capabilities make it ideal for developing sophisticated interactive web applications:
+- **SaaS products**: Build complete software-as-a-service solutions with subscription models
+- **Business tools**: Develop specialized applications for inventory, CRM or HR systems
 - **Customer portals**: Create personalized user dashboards with authentication
 - **Admin panels**: Build interfaces for content management and data administration
-- **Business tools**: Develop specialized applications for inventory, CRM, or HR systems
 - **Data visualization**: Create interactive charts, graphs, and visual data presentations
+- ...
 
 The visual scripting system allows complex business logic to be implemented without sacrificing maintainability.
 
