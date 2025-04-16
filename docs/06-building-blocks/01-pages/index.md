@@ -24,5 +24,5 @@ Pages are essential to structured application development in Nordcraft. They sho
 - Organize related functionality into coherent screens
 
 ::: info
-For more detailed information on creating and configuring pages, see the [Pages](/pages/fundamentals) section of the documentation.
+For more detailed information on creating and configuring pages, see the [Pages](/pages/overview) section of the documentation.
 :::

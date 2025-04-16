@@ -12,7 +12,7 @@ The bottom bar provides quick access to frequently used actions and tools in the
 2. **Undo/Redo**: Revert or restore recent changes
 3. **Zoom controls**: Adjust and view the current zoom level
 4. **Test mode**: Toggle between editing and testing your application
-5. **Export as web component**: Generate a web component for use in other web projects 
+5. [Export as web component](/components/export-a-component): Generate a web component for use in other web projects 
 6. **Preview**: Open the current page in a new browser tab to test
 7. **View changes**: See all modifications made in the current branch
 

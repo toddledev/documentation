@@ -84,7 +84,7 @@ The attributes tab allows you to configure HTML tags, attributes, classes and sp
 - **Repeat**: Generate multiple instances of an element based on array data, creating dynamic lists or grids
 
 ::: info
-See the [show hide function](/formulas/show-hide-function) page and [repeat function](/formulas/repeat-function) page for more details.
+See the [show hide formula](/formulas/show-hide-formula) page and [repeat formula](/formulas/repeat-formula) page for more details.
 :::
 
 # Events tab
