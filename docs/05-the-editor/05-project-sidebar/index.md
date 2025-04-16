@@ -21,13 +21,13 @@ Displays files you have recently accessed for quick navigation between component
 
 ## Content sections
 Each section can be expanded or collapsed and includes a [kbd]+[kbd] button to create new items (except for themes and settings):
-- **Pages**: View and manage all [pages](/building-blocks/pages) in your project.
-- **Components**: Access all reusable [components](/building-blocks/components) in your project.
-- **Services**: Configure API connections to external services like Xano, Supabase or any service with an OpenAPI specification.
-- **Actions**: Create and manage global [actions](/actions/general) that can be used throughout your entire project.
-- **Formulas**: Define global [formulas](/formulas/the-formula-editor) for calculations and logic that can be accessed from any page or component.
+- [Pages](/pages/overview): View and manage all pages in your project.
+- [Components](/components/overview): Access all reusable components in your project.
+- [Services](/connecting-data/services): Configure API connections to external services like Xano, Supabase or any service with an OpenAPI specification.
+- [Actions](/actions/overview): Create and manage global actions that can be used throughout your entire project.
+- [Formulas](/formulas/global-formulas): Define global formulas for calculations and logic that can be accessed from any page or component.
 - **Media**: Upload and manage images and other media files for your project.
-- **Themes**: Configure design tokens including colors, spacing, typography and z-index values.
+- [Themes](/styling/theme): Configure design tokens including colors, spacing, typography and z-index values.
 - **Settings**: Manage project configurations like favicon, robots.txt, sitemap, app manifest and service worker.
 
 # Project settings

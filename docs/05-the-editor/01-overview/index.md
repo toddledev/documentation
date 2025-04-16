@@ -10,16 +10,16 @@ The editor is the main workspace for building your Nordcraft applications and pa
 
 The editor workspace consists of four main sections:
 
-1. **[Canvas](/the-editor/canvas)**: The central workspace where you visually build and interact with your application.
-2. **[Bottom bar](/the-editor/bottom-bar)**: Editor controls with testing, previewing and AI assistance
+1. [Canvas](/the-editor/canvas): The central workspace where you visually build and interact with your application.
+2. [Bottom bar](/the-editor/bottom-bar): Editor controls with testing, previewing and AI assistance
 3. **Left panel**: Context-sensitive panel that displays
-    - **[Element tree](/the-editor/element-tree)**: A hierarchical view of the element structure of your page or component
-    - **[Project sidebar](/the-editor/project-sidebar)**: Access to project files, resources and settings
-    - **[Packages](/the-editor/packages)**: Browse, install and manage external packages in your project
-    - **[Issues panel](/the-editor/issues-panel)**: Identify and resolve project issues
+    - [Element tree](/the-editor/element-tree): A hierarchical view of the element structure of your page or component
+    - [Project sidebar](/the-editor/project-sidebar): Access to project files, resources and settings
+    - [Packages](/the-editor/packages): Browse, install and manage external packages in your project
+    - [Issues panel](/the-editor/issues-panel): Identify and resolve project issues
 4. **Right panel**: Context-sensitive panel that shows
-    - **[Data panel](/the-editor/data-panel)**: Configure logic, interfaces and behavior of pages and components
-    - **[Element panel](/the-editor/element-panel)**: Specific settings and configuration of the selected element
+    - [Data panel](/the-editor/data-panel): Configure logic, interfaces and behavior of pages and components
+    - [Element panel](/the-editor/element-panel): Specific settings and configuration of the selected element
 
 ## Left panel
 Click the Nordcraft logo in the top left corner to navigate back to project details, organization members, projects or the dashboard.

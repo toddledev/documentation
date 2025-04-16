@@ -57,7 +57,7 @@ Key characteristics of text elements include:
 ## Components
 Components are reusable custom elements that encapsulate their own structure, styling and behavior. They can be configured through attributes, styled with CSS variables and emit events to communicate with parent elements.
 
-For more information, see the [components description](/building-blocks/components) in building blocks and the [Components](/components/fundamentals) pages of the documentation.
+For more information, see the [components description](/building-blocks/components) in building blocks and the [Components](/components/overview) pages of the documentation.
 
 
 # Element limitations

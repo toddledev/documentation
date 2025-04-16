@@ -87,7 +87,7 @@ Style variables create dynamic styling based on state. Click the card to toggle 
 
 Create style variables with dynamic values by binding them to formulas, attributes, or variables:
 1. Define a style variable in the [Style variables](/the-editor/element-panel#styling-tab) section
-2. Use the [formula editor](/formulas/the-formula-editor) to create conditional logic
+2. Use the [formula editor](/formulas/overview#the-formula-editor) to create conditional logic
 3. Reference the variable in your CSS properties
 
 This approach is particularly useful for complex conditional styling that depends on application state or user data.

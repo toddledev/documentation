@@ -30,8 +30,8 @@ Right-clicking an element opens a context menu with several actions.
 1. **Add element**: Opens the element catalog
 2. **Wrap in element**: Place the element inside a new parent element
 3. **Extract as component**: Convert the element into a reusable component
-4. **Show/hide**: Set a formula to control element visibility
-5. **Repeat**: Apply a formula to create multiple instances from an array
+4. [Show/hide](/formulas/show-hide-formula): Set a formula to control element visibility
+5. [Repeat](/formulas/repeat-formula): Apply a formula to create multiple instances from an array
 6. **Standard operations**: Duplicate, cut, copy, paste and delete
 
 # Adding elements
