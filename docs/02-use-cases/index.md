@@ -1,24 +1,48 @@
 ---
-title: Use Cases
-description:
+title: Use cases
+description: Discover how Nordcraft enables professionals to build scalable web applications, e-commerce solutions, content sites and corporate websites using web standards. Explore real-world examples of what you can create with this powerful development engine.
 ---
 
-# About Nordcraft
-It is hard to define what exactly Nordcraft is. It is a versatile platform, an editor, a framework. A little backend.
+# Use cases
+Nordcraft is designed to build virtually any web application or site that you could create with standard HTML, CSS and JavaScript, as it's built entirely on web standards. From complex interactive applications to content-focused websites, Nordcraft provides the tools professionals need to create scalable and maintainable solutions.
 
-## Traditional Development
-Traditional dev is time-consuming.
+# Web applications
+Nordcraft's component architecture and API integration capabilities make it ideal for developing sophisticated interactive web applications:
+- **SaaS products**: Build complete software-as-a-service solutions with subscription models
+- **Business tools**: Develop specialized applications for inventory, CRM or HR systems
+- **Customer portals**: Create personalized user dashboards with authentication
+- **Admin panels**: Build interfaces for content management and data administration
+- **Data visualization**: Create interactive charts, graphs, and visual data presentations
+- ...
 
-This is just a tip that can include more context. It supports **most** styling options like [links](https://www.example.com).
+The visual development system allows complex business logic to be implemented without sacrificing maintainability.
 
-## Development with Nordcraft
-Development with Nordcraft is nice.
+# E-commerce solutions
+Nordcraft can be used to build various aspects of e-commerce platforms:
+- **Product catalogs**: Create responsive, filterable product displays
+- **Shopping carts**: Implement interactive shopping experiences
+- **Checkout flows**: Design smooth, conversion-optimized checkout processes
+- **Account management**: Build user account areas and order tracking interfaces
 
-![Nordcraft in Context](https://images.ctfassets.net/lizv2opdd3ay/6FCBNbwjzzmeRDrXTb7jcr/efecbf8c44360ebdaf677561f9fd8fbd/create_a_project.webp)
+Integration with payment providers and e-commerce backends is streamlined through the API connection system.
 
-Nordcraft is a very lightweight framework that bases on vanilla JavaScript. The runtime only has around 30 kb.
+# Content-driven sites
+For content-heavy websites, Nordcraft offers strong capabilities:
+- **Blogs**: Create content-focused sites with optimized reading experiences
+- **News portals**: Build media sites with various content layouts
+- **Knowledge bases**: Develop searchable documentation and help centers
+- **Educational platforms**: Create interactive learning experiences
 
-## Comparison to No Code Tools
-No Code has more abstraction.
+Server-side rendering ensures content is delivered efficiently and optimized for search engines.
 
-No Code and AI tools might be garbage.
+# Corporate websites
+Nordcraft provides all the tools needed to create professional corporate websites:
+- **Marketing sites**: Create responsive landing pages with animations and transitions
+- **Product showcases**: Build interactive product demonstrations 
+- **Company portals**: Develop internal information hubs and dashboards
+- **Multilingual sites**: Implement sites that support multiple languages and regions
+
+The visual editing capabilities combined with component reusability makes it easy to maintain brand consistency across all corporate web properties.
+
+
+These use cases represent just a sampling of what can be built with Nordcraft. As an open-source platform with a flexible architecture based on web standards, Nordcraft can be adapted to many other professional scenarios beyond those listed here.
