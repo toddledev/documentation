@@ -69,7 +69,7 @@ All headings use sentence case (only first word capitalized).
 
 ## Code and UI elements
 - Use backticks for inline code: `variable`
-- For UI buttons and keyboard shortcuts: [kbd]Button Name[kbd]
+- Use `[kbd]` For UI buttons and keyboard shortcuts: [kbd]Button Name[kbd]
 
 ## Links
 - Internal documentation links: `[Page Name](/path/to/page#section)`
