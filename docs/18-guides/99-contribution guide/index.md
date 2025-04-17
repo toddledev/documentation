@@ -110,7 +110,7 @@ Include images with an image title and aspect ratio:
 
 For screenshots that link to the Nordcraft editor (allowing readers to see it live in the editor):
 
-`![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/branches/main/...}`
+`![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/...}`
 
 Image requirements:
 - All images should be in `WebP` format
@@ -119,6 +119,7 @@ Image requirements:
   - Standard version: 800px width (e.g., `image-name.webp`)
   - Large version: 3200px width with "-large" suffix (e.g., `image-name-large.webp`)
 - Place all images in the same folder as the page's `index.md` file
+- If a link is included, ensure that it points to the `main` branch
 
 ## Examples
 For component examples, use the following format:
