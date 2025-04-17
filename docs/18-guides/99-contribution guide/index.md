@@ -174,8 +174,9 @@ Depending on the page type, consider including:
 - Including screenshots that reveal user data
 - Using inconsistent formatting or terminology
 
-
+::: info
 Following these guidelines will help ensure that the Nordcraft documentation remains consistent, clear and helpful for all users.
+:::
 
 # Contributing via GitHub
 Since the Nordcraft documentation is hosted on [GitHub](https://github.com/toddledev/documentation), you will need to follow standard Git workflows to contribute:
