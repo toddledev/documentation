@@ -209,9 +209,9 @@ To preview documentation pages while you're working on them:
 1. Add the query parameter `?mode=preview` to the URL of any documentation page
 2. A preview configuration panel will appear at the bottom of the page
 3. Enter the following information in the input fields:
-   - Repository owner (e.g., `nordcraftdev`)
-   - Repository name (e.g., `documentation`)
-   - Branch name (e.g., `main` or your feature branch)
+   - Repository owner (e.g. `nordcraftdev`)
+   - Repository name (e.g. `documentation`)
+   - Branch name (e.g. `main` or your feature branch)
 4. Click the [kbd]Update[kbd] button to load and preview the documentation from your specified source
 
 This preview feature allows you to see how your changes will look before they're published, making it easier to identify and fix formatting issues.
