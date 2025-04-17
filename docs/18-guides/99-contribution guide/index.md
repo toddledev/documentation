@@ -118,8 +118,8 @@ Image requirements:
 For component examples, use the following format:
 
 \@@@@ example
-componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-name.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-name...
+componentUrl: https://docs_examples.toddle.site/...
+editorUrl: https://toddle.dev/projects...
 height: 18rem
 
 Description of what this example demonstrates.
