@@ -46,10 +46,10 @@ description: Brief description explaining what this page covers.
 - After the frontmatter, your content should start with an H1 heading that matches the title
 
 ## Heading hierarchy
-- **H1 (#)**: Main title (should match the frontmatter title)
-- **H2 (##)**: Major sections
-- **H3 (###)**: Subsections
-- **H4 (####)**: Sub-subsections (use sparingly)
+- **H1 (#)**: Used for the main title of the page (matching the frontmatter title) and for main sections
+- **H2 (##)**: Used for subsections within the main sections
+- **H3 (###)**: Used for topics within subsections
+- **H4 (####)**: Used for detailed points within topics (use sparingly)
 
 All headings use sentence case (only first word capitalized).
 
