@@ -54,5 +54,4 @@ If you find issues or have suggestions for the documentation:
 2. Open a [new issue](https://github.com/toddledev/documentation/issues/new) describing the problem or suggestion in detail
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
+The Nordcraft documentation is licensed under [Apache License](LICENSE).
