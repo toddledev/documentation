@@ -36,13 +36,13 @@ Each documentation page needs:
 ## Frontmatter
 Each page must begin with YAML frontmatter at the very top of the file between triple dashes:
 
-`---
+---
 
 title: Page title
 
 description: Brief description explaining what this page covers.
 
----`
+---
 
 - The **title** is used for SEO metadata and should be in **Sentence case**
 - The **description** should be a brief overview (1-2 sentences) that helps with SEO
@@ -120,13 +120,15 @@ Image requirements:
 ## Examples
 For component examples, use the following format:
 
-`@@@ example
+@@@ example
+
 componentUrl: `https://docs_examples.toddle.site/.toddle/custom-element/example-name.js`
 editorUrl: `https://toddle.dev/projects/docs_examples/branches/main/components/example-name...`
 height: `18rem`
 
 Description of what this example demonstrates.
-@@@`
+
+@@@
 
 Example requirements:
 - Examples must be built in the `docs_examples` Nordcraft project first
