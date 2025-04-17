@@ -106,11 +106,11 @@ Critical warnings
 ## Images
 Include images with an image title and aspect ratio:
 
-![Image title|16/9](image-name.webp)
+`![Image title|16/9](image-name.webp)`
 
 For screenshots that link to the Nordcraft editor (allowing readers to see it live in the editor):
 
-![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
+`![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/branches/main/...}`
 
 Image requirements:
 - All images should be in `WebP` format
