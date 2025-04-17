@@ -37,16 +37,12 @@ Each documentation page needs:
 Each page must begin with YAML frontmatter at the very top of the file between triple dashes:
 
 `---
-title: Page title
-description: Brief description explaining what this page covers.
----`
 
-::: info
-`---
 title: Page title
+
 description: Brief description explaining what this page covers.
+
 ---`
-:::
 
 - The **title** is used for SEO metadata and should be in **Sentence case**
 - The **description** should be a brief overview (1-2 sentences) that helps with SEO
@@ -110,7 +106,7 @@ Include images with an image title and aspect ratio:
 
 For screenshots that link to the Nordcraft editor (allowing readers to see it live in the editor):
 
-`![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/...}`
+`![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/branches/main/...}`
 
 Image requirements:
 - All images should be in `WebP` format
@@ -124,15 +120,13 @@ Image requirements:
 ## Examples
 For component examples, use the following format:
 
-::: info
 `@@@ example
-componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-name.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-name?canvas-width=800&canvas-height=800
-height: 18rem
+componentUrl: `https://docs_examples.toddle.site/.toddle/custom-element/example-name.js`
+editorUrl: `https://toddle.dev/projects/docs_examples/branches/main/components/example-name...`
+height: `18rem`
 
 Description of what this example demonstrates.
 @@@`
-:::
 
 Example requirements:
 - Examples must be built in the `docs_examples` Nordcraft project first
