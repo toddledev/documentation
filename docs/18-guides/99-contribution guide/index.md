@@ -171,18 +171,12 @@ Depending on the page type, consider including:
 - **Common issues**: Troubleshooting guidance
 
 # Common mistakes to avoid
-1. Using unnecessary words or marketing language
-2. Including placeholder text or TODOs
-3. Embedding personal opinions or subjective assessments
-4. Creating circular references or linking to non-existent pages
-5. Including screenshots that reveal user data
-6. Using inconsistent formatting or terminology
-
-# Submission process
-1. Make sure your contribution follows all the guidelines in this document
-2. Test all links to ensure they point to valid pages
-3. Review your content for clarity, accuracy and completeness
-4. Submit your contribution according to the project's contribution workflow
+- Using unnecessary words or marketing language
+- Including placeholder text or TODOs
+- Embedding personal opinions or subjective assessments
+- Creating circular references or linking to non-existent pages
+- Including screenshots that reveal user data
+- Using inconsistent formatting or terminology
 
 
 Following these guidelines will help ensure that the Nordcraft documentation remains consistent, clear and helpful for all users.
@@ -193,7 +187,13 @@ Since the Nordcraft documentation is hosted on [GitHub](https://github.com/toddl
 2. **Clone locally**: Download your fork to your local machine
 3. **Create a branch**: Make a new branch for your contribution
 4. **Make changes**: Edit or add files following the guidelines in this document
-5. **Test your changes**: Use the [preview](#previewing-documentation) feature to verify your documentation looks correct
+5. **Test your changes**: 
+    - Use the [preview](#previewing-documentation) feature to verify your documentation looks correct
+    - Test all links to ensure they point to valid pages
+    - Review your content for clarity, accuracy, and completeness
+    - Check that images display properly and have appropriate title
+    - Verify that all examples work correctly, demonstrate the intended functionality and have working links to the editor
+    - Ensure all formatting is consistent with the documentation guidelines
 6. **Commit and push**: Save your changes and upload them to your fork
 7. **Create a pull request**: Submit your changes from your fork to the main repository
 
