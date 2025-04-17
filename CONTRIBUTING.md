@@ -3,7 +3,7 @@ We're thrilled that you're interested in contributing to Nordcraft's documentati
 
 For complete contribution guidelines, please refer to our guide in:
 
-[Contribution Guide](/18-guides/99-contribution-guide)
+[Contribution Guide](/docs/18-guides/99-contribution-guide/index.md)
 
 This guide contains all the information you need about formatting requirements, content standards and the contribution workflow process.
 
