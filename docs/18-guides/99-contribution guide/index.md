@@ -136,8 +136,8 @@ Example requirements:
 To embed YouTube videos in the documentation, use the following format:
 
 @@@ youtube
-videoId: dQw4w9WgXcQ
-title: Video title goes here
+videoId: ulZJTV3ouHs
+title: Working with the issues panel
 @@@
 
 Make sure to:
