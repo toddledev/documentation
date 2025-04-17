@@ -1,41 +1,41 @@
+# Documentation Pull Request
+
 ## Description
+Please provide a clear summary of your changes and which issue they address. Include any relevant context that would help reviewers understand your contribution.
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context.
-
-Fixes # (issue)
+Fixes # (issue number, if applicable)
 
 ## Type of change
+Please check the options that are relevant:
+- [ ] Documentation update (typo fixes, improved clarity, etc.)
+- [ ] New documentation (entirely new pages or sections)
+- [ ] Documentation restructuring (reorganizing content)
+- [ ] Example updates (new or improved examples)
+- [ ] Image updates (new or improved images)
+- [ ] Other (please describe):
 
-Please delete options that are not relevant.
+## Checklist
+Before submitting your PR, please confirm that:
+- [ ] My changes follow the formatting guidelines in the contribution guide
+- [ ] I have performed a self-review of my changes
+- [ ] I have tested all links to ensure they point to valid pages
+- [ ] I have verified that images display correctly
+- [ ] I have checked examples (if applicable) to ensure they work correctly
+- [ ] I have used consistent terminology throughout the documentation
+- [ ] I have placed content in the correct numbered folders to maintain proper ordering
+- [ ] I have checked my changes for spelling and grammatical errors
 
-- [ ] Documentation update (typo fixes, section reorganization, etc.)
-- [ ] New documentation (entirely new documents or sections)
-- [ ] Documentation removal (removing outdated content)
-- [ ] Other (please describe)
+## Directory structure changes (if applicable)
+If you've added new folders or changed the directory structure, please provide a brief description of the changes:
 
-## Checklist:
+```
+Example:
+- Added 04-get-started/05-advanced-setup/
+- Renamed 09-components/03-lifecycle/ to 09-components/03-interface-and-lifecycle/
+```
 
-- [ ] My changes follow the style guidelines of this project
-- [ ] I have performed a self-review of my own changes
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have checked my changes and corrected any misspellings
-- [ ] I have updated any necessary cross-references or links
-- [ ] I have updated the \_meta.json file if I've added new pages or modified the structure
-- [ ] I have ensured that my new or updated content is correctly referenced in the parent \_meta.json file
+## Screenshots or previews (if applicable)
+If your changes include visual elements or would benefit from a preview, please provide screenshots or a link to a preview.
 
 ## Additional context
-
-Add any other context or screenshots about the pull request here.
-
-## \_meta.json changes (if applicable)
-
-If you've made changes to any \_meta.json file, please provide a brief description of the changes here:
-
-```json
-// Example of _meta.json changes
-{
-  "new-page": "New Page Title",
-  "updated-page": "Updated Page Title"
-}
-```
+Add any other context or information about the pull request here.
