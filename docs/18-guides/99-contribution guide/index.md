@@ -125,14 +125,6 @@ height: 18rem
 Description of what this example demonstrates.
 @@@
 
-"@@@ example
-componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-name.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-name...
-height: 18rem
-
-Description of what this example demonstrates.
-@@@"
-
 Example requirements:
 - Examples must be built in the `docs_examples` Nordcraft project first
 - Each example is implemented as a separate web component
