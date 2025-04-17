@@ -124,19 +124,21 @@ Image requirements:
 ## Examples
 For component examples, use the following format:
 
-@@@ example
+::: info
+`@@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-name.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-name?canvas-width=800&canvas-height=800
 height: 18rem
 
 Description of what this example demonstrates.
-@@@
+@@@`
+:::
 
 Example requirements:
 - Examples must be built in the `docs_examples` Nordcraft project first
 - Each example is implemented as a separate web component
 - Always link to the `main` branch in the `editorUrl`
-- Set an appropriate `height` value in **rem** units
+- Set an appropriate `height` value in `rem` units
 - Add a description after the height (separated by a new line) that will be displayed within the example window
 
 # Content guidelines
