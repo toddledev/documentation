@@ -132,6 +132,18 @@ Example requirements:
 - Set an appropriate `height` value in `rem` units
 - Add a description after the height (separated by a new line) that will be displayed within the example window
 
+## YouTube videos
+To embed YouTube videos in the documentation, use the following format:
+
+@@@ youtube
+videoId: dQw4w9WgXcQ
+title: Video title goes here
+@@@
+
+Make sure to:
+- Use the correct YouTube video ID (the part after `v=` in the YouTube URL)
+- Include a descriptive title that explains what the video demonstrates
+
 # Content guidelines
 ## Branding consistency
 - Always write "Nordcraft" with a capital "N"
