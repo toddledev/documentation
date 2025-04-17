@@ -1,36 +1,57 @@
-![Documentation deployment](https://github.com/toddledev/documentation/actions/workflows/deploy.yml/badge.svg)
-![Documentation tests](https://github.com/toddledev/documentation/actions/workflows/test.yml/badge.svg)
+# Nordcraft Documentation
 
-# toddle Documentation
+This repository contains the official documentation for [Nordcraft](https://nordcraft.com), a visual web development engine for building web applications.
 
-Welcome to the official documentation for toddle! This repository contains all the source files for our product documentation.
+## Documentation Website
 
-## Overview
-
-This documentation covers all aspects of using toddle, including:
-
-- Getting Started guides
-- Feature explanations
-- Our journey to open-source
+You can find the published documentation at: [https://docs.nordcraft.com](https://docs.nordcraft.com)
 
 ## Structure
 
-Our documentation is organized into the following main sections:
+The documentation is organized into numbered sections and pages, with each page in its own folder containing an `index.md` file and related assets:
 
-- `/docs/getting-started/`: Introduction and quick start guides
-- `/docs/features/`: Detailed explanations of toddle's features
-- `/docs/open-source/`: Information about toddle's transition to open-source and developer guides
+```
+docs/
+  01-about-nordcraft/
+    index.md
+    image1.webp
+    image1-large.webp
+  02-use-cases/
+    index.md
+  ...
+  18-guides/
+    01-component-creation-guide/
+      index.md
+    99-contribution-guide/
+      index.md
+```
 
-For more detailed information about the documentation structure and how to contribute, please see our [Contributing Guide](CONTRIBUTING.md).
+The numbering system determines the order in which sections and pages appear in the navigation.
 
 ## Contributing
 
-We welcome contributions from our community! If you'd like to contribute to the documentation, please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct, the process for submitting pull requests, and an explanation of our documentation structure.
+We welcome contributions from our community! If you'd like to contribute to the documentation, please read our [Contribution Guide](/docs/18-guides/99-contribution-guide/index.md) for details on our code of conduct, the process for submitting pull requests and an explanation of our documentation structure.
+
+For quick fixes, you can click the "Edit" button on any documentation page, which will take you directly to the corresponding file in this repository.
+
+## Local Development
+
+To preview the documentation locally:
+
+1. Visit any page on the Nordcraft documentation site
+2. Add `?mode=preview` to the URL
+3. Use the configuration panel at the bottom to set:
+   - Repository owner
+   - Repository name
+   - Branch name
+4. Click "Update" to see your changes
 
 ## Feedback
 
-If you have any feedback or suggestions for improving our documentation, please [open an issue](https://github.com/toddledev/documentation/issues/new) in this repository.
+If you find issues or have suggestions for the documentation:
+
+1. Check existing [issues](https://github.com/toddledev/documentation/issues) to see if it's already been reported
+2. Open a [new issue](https://github.com/toddledev/documentation/issues/new) describing the problem or suggestion in detail
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
+The Nordcraft documentation is licensed under [Apache License](LICENSE).
