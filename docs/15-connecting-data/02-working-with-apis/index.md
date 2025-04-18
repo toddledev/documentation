@@ -33,7 +33,7 @@ After creating an API, you will see the configuration panel with several importa
 1. **Method**: Select the appropriate [HTTP method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) (GET, POST, PUT, DELETE, etc.)
 2. **Name**: Give your API a descriptive name for easy reference
 3. **Configuration tabs**:
-   - **Inputs**: Default values used with auto-fetch that can be overwritten when called from workflows
+   - **Inputs**: Default values used when fetching that can be overwritten when called from workflows
    - **URL**: Configure the base URL and path
    - **Parameters**: Configure query parameters
    - **Headers**: Set request headers for authentication, content type, etc.
@@ -94,7 +94,7 @@ The auto fetch feature automatically triggers API requests based on certain cond
 - The API will automatically refetch when any formula values used in the request change
 - This behavior can be controlled with a formula to create conditional fetching logic
 
-Auto fetch is especially useful for GET requests where you want to display data immediately and keep it updated when related parameters change. Additionally, it enables server-side rendering (SSR) of the requested data.
+Auto fetch is especially useful for GET requests where you want to display data immediately and keep it updated when related parameters change. Additionally, it enables server-side rendering (SSR) if configured in the **Advanced** tab.
 
 ## Test API requests
 

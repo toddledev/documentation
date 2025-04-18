@@ -96,4 +96,4 @@ Follow these security guidelines when implementing authentication:
 - **Backend token validation**: Ensure backend validates tokens for every request
 - **Proper logout**: Clear tokens on both client and server upon logout
 - **Avoid client-side storage**: Never store sensitive data in `localStorage` or `sessionStorage`
-- **No hardcoded tokens**: Never store any hardcoded API keys or tokens in Nordcraft
+- **No hardcoded tokens**: Never store sensitive API keys or tokens in Nordcraft. Just store keys that are safe to store in a browser.
