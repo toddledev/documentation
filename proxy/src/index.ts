@@ -21,7 +21,7 @@ app.use(
 )
 
 // URLs like: http://localhost:9000/content/toddledev/documentation/main/the-editor/canvas
-app.get(`content/:owner/:repository/:branch/:path{.*}?`, async (ctx) => {
+app.get('/content/:owner/:repository/:branch/:path{.*}?', async (ctx) => {
   const owner = ctx.req.param('owner')
   const repository = ctx.req.param('repository')
   const branch = ctx.req.param('branch')
@@ -33,7 +33,7 @@ app.get(`content/:owner/:repository/:branch/:path{.*}?`, async (ctx) => {
   })
 })
 
-app.get(`contributors/:path{.*}?`, async (ctx) => {
+app.get('/contributors/:path{.*}?', async (ctx) => {
   const path = ctx.req.param('path')
   const menuItems = await loadJsonFile<MenuItem[]>('./menuItems.json')
   if (!menuItems) {
@@ -55,6 +55,40 @@ app.get(`contributors/:path{.*}?`, async (ctx) => {
     })
   }
   return errorResponse('Contributors not found', { status: 404 })
+})
+
+app.get('/sitemap.xml', async () => {
+  const menuItems = await loadJsonFile<MenuItem[]>('./menuItems.json')
+  if (!menuItems) {
+    return errorResponse('Could not fetch menu items.', { status: 500 })
+  }
+  const sitemapItems: string[] = []
+  const addItems = (items: MenuItem[], parts: string[]) =>
+    items.forEach((item) => {
+      sitemapItems.push([...parts, item.id].join('/'))
+      if (item.type === 'folder') {
+        addItems(item.children, [...parts, item.id])
+      }
+    })
+  addItems(menuItems, [])
+  const content = `\
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${sitemapItems
+    .map((url) => {
+      return `<url>
+          <loc>https://docs.nordcraft.com/${url}</loc>
+        </url>`
+    })
+    .join('')}
+</urlset>
+`
+  return new Response(content, {
+    headers: {
+      'Content-Type': 'application/xml',
+      'Cache-Control': 'public, max-age=3600',
+    },
+  })
 })
 
 app.post('search', async (ctx) => {
