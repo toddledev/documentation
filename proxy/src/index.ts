@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: (o) =>
       o.endsWith('localhost:9000') ||
-      o.endsWith('toddledocs2.toddle.site') ||
+      o.endsWith('nordcraft_docs.toddle.site') ||
       o.endsWith('docs.nordcraft.com')
         ? o
         : undefined,
