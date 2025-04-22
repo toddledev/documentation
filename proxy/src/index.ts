@@ -65,11 +65,12 @@ app.get('/sitemap.xml', async () => {
   const sitemapItems: string[] = []
   const addItems = (items: MenuItem[], parts: string[]) =>
     items.forEach((item) => {
-      sitemapItems.push([...parts, item.id].join('/'))
       if (item.type === 'folder') {
-        addItems(item.children, [...parts, item.id])
+        addItems(item.children, [...parts, item.id]);
+      } else {
+        sitemapItems.push([...parts, item.id].join("/"));
       }
-    })
+    });
   addItems(menuItems, [])
   const content = `\
 <?xml version="1.0" encoding="UTF-8"?>
