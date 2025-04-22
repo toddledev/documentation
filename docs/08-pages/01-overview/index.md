@@ -31,7 +31,7 @@ A page in Nordcraft can consist of several key elements:
     - [Metadata](/pages/page-configuration#metadata): Title, description, language settings, and social sharing information
     - [Head assets](/pages/page-configuration#head-assets): Custom scripts, styles and other resources added to the page's `head`
 - [Variables](/variables/overview): Internal state and data management
-- **APIs**: Connections to external services and data sources
+- [APIs](/connecting-data/overview): Connections to external services and data sources
 - [Formulas](/formulas/overview): Calculations and data transformations
 - [Workflows](/workflows/overview): Internal logic and behavior triggered by events
 - [Contexts](/contexts/overview): Communication channels to provide data to descendant components

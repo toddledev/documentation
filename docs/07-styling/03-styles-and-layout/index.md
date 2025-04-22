@@ -64,5 +64,5 @@ When working with text content, Nordcraft defaults to **Text** layout:
 - This layout is optimized for reading and text-heavy content
 
 ::: info
-For more information about flow layout, see the [flow layout documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout).
+For more information about flow layout, see the [flow layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout) documentation on MDN.
 :::
