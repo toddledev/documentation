@@ -1,10 +1,5 @@
 import type { FetchMenu, MenuItem } from '../types'
-import {
-  errorResponse,
-  fetchMenuItems,
-  json,
-  preferLocalData,
-} from '../utils'
+import { errorResponse, fetchMenuItems, json, preferLocalData } from '../utils'
 import { loadJsonFile } from '../utils/jsonLoader'
 
 // URLs like: http://localhost:8989/content/nordcraftengine/documentation/main/the-editor/canvas
