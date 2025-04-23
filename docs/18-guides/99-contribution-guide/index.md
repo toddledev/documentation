@@ -11,7 +11,7 @@ The Nordcraft documentation is organized into sections and individual pages:
 - **Sections**: Main categories like "Get started," "Components," or "Styling"
 - **Pages**: Individual documents that can be either within sections or standalone (like "About" page)
 
-Each section and page corresponds to a folder in the [GitHub repository](https://github.com/toddledev/documentation):
+Each section and page corresponds to a folder in the [GitHub repository](https://github.com/nordcraftengine/documentation):
 - Sections and pages are numbered (01, 02, 03...) to determine their order in the side menu
 - The content of each page is stored in an `index.md` markdown file
 - All related images are placed in the same folder as the page's `index.md` file
@@ -186,7 +186,7 @@ Following these guidelines will help ensure that the Nordcraft documentation rem
 :::
 
 # Contributing via GitHub
-Since the Nordcraft documentation is hosted on [GitHub](https://github.com/toddledev/documentation), you will need to follow standard Git workflows to contribute:
+Since the Nordcraft documentation is hosted on [GitHub](https://github.com/nordcraftengine/documentation), you will need to follow standard Git workflows to contribute:
 1. **Fork the repository**: Create your own copy of the documentation repository
 2. **Clone locally**: Download your fork to your local machine
 3. **Create a branch**: Make a new branch for your contribution
@@ -224,7 +224,7 @@ To preview documentation pages while you're working on them:
 This preview feature allows you to see how your changes will look before they're published, making it easier to identify and fix formatting issues.
 
 # Code of conduct
-By participating in the Nordcraft documentation project, you agree to abide by the project's [Code of Conduct](https://github.com/toddledev/documentation/blob/main/CODE_OF_CONDUCT.md). This ensures a welcoming and inclusive environment for all contributors.
+By participating in the Nordcraft documentation project, you agree to abide by the project's [Code of Conduct](https://github.com/nordcraftengine/documentation/blob/main/CODE_OF_CONDUCT.md). This ensures a welcoming and inclusive environment for all contributors.
 
 # Questions and support
 If you have questions about contributing to the documentation or need assistance with your contributions:

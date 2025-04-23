@@ -11,7 +11,7 @@ import {
 import { loadJsonFile } from '../utils/jsonLoader'
 import { loadMarkdownFile } from '../utils/markdownLoader'
 
-// URLs like: http://localhost:8989/content/toddledev/documentation/main/the-editor/canvas
+// URLs like: http://localhost:8989/content/nordcraftengine/documentation/main/the-editor/canvas
 export const fetchContent = async ({
   params: { owner, repository, branch, path },
 }: FetchContent) => {
