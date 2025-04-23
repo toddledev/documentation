@@ -50,8 +50,8 @@ To preview the documentation locally:
 
 If you find issues or have suggestions for the documentation:
 
-1. Check existing [issues](https://github.com/toddledev/documentation/issues) to see if it's already been reported
-2. Open a [new issue](https://github.com/toddledev/documentation/issues/new) describing the problem or suggestion in detail
+1. Check existing [issues](https://github.com/nordcraftengine/documentation/issues) to see if it's already been reported
+2. Open a [new issue](https://github.com/nordcraftengine/documentation/issues/new) describing the problem or suggestion in detail
 
 ## License
 The Nordcraft documentation is licensed under [Apache License](LICENSE).

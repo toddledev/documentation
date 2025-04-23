@@ -27,7 +27,7 @@ for (const c of chunks) {
   await Promise.all(
     c.map(async (path) => {
       const fileContributors = await fetchContributors({
-        owner: 'toddledev',
+        owner: 'nordcraftengine',
         repository: 'documentation',
         path: `docs/${path}`,
       })
