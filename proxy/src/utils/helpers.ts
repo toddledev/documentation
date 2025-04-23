@@ -1,5 +1,5 @@
 import { kebabCase, startCase, toLower, upperFirst } from 'lodash'
-import type { GetFilePath } from '../types'
+import type { GetFilePath, PreferLocalData } from '../types'
 
 export const getFilename = (fileName: string) => {
   const fileNameWithoutExtension = fileName.split('.')[0]
@@ -28,4 +28,16 @@ export const getFilePath = ({
 
 export const getLocalFilePath = ({ path }: { path: string }) => {
   return `./${path}`
+}
+
+export const preferLocalData = ({
+  owner,
+  repository,
+  branch,
+}: PreferLocalData) => {
+  return (
+    owner === 'nordcraftengine' &&
+    repository === 'documentation' &&
+    branch === 'main'
+  )
 }
