@@ -4,7 +4,7 @@ description: Implement counting, iteration and repetitive tasks with self-callin
 ---
 
 # Recursive workflows
-There are scenarios where you need to iterate over a list of items and execute a workflow for each of those items. Or you might want to create a countdown timer. For these scenarios, you can create recursive workflows. A recursive workflow is a workflow that calls itself (conditionally). For example, for a countdown you could create a workflow that decreases a variable, waits for some time and then calls itself again until the value reaches 0.
+There are scenarios where you need to iterate over a list of items and execute a workflow for each of those items. Or you might want to create a countdown timer. For these scenarios, you can create recursive workflows. A recursive workflow is a workflow that calls itself (conditionally). For example, for a countdown you could create a workflow that decreases a variable, waits for some time and then calls itself again until the target value of 0 is reached.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-recursive-workflows.js
