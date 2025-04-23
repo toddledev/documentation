@@ -13,7 +13,6 @@ Nordcraft's component architecture and API integration capabilities make it idea
 - **Customer portals**: Create personalized user dashboards with authentication
 - **Admin panels**: Build interfaces for content management and data administration
 - **Data visualization**: Create interactive charts, graphs, and visual data presentations
-- ...
 
 The visual development system allows complex business logic to be implemented without sacrificing maintainability.
 
