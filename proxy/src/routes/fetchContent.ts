@@ -7,6 +7,7 @@ import {
   getPageUrl,
   json,
   parseRawContent,
+  preferLocalData,
 } from '../utils'
 import { loadJsonFile } from '../utils/jsonLoader'
 import { loadMarkdownFile } from '../utils/markdownLoader'
@@ -15,8 +16,8 @@ import { loadMarkdownFile } from '../utils/markdownLoader'
 export const fetchContent = async ({
   params: { owner, repository, branch, path },
 }: FetchContent) => {
-  const preferLocalContent =
-    owner === 'nordcraftengine' && repository === 'documentation' && branch === 'main'
+  const preferLocalContent = preferLocalData({ owner, repository, branch })
+
   try {
     let pageData: PageData = null
     const menuItems = preferLocalContent

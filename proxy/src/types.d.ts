@@ -65,6 +65,11 @@ export type FetchContent = {
   ctx: Context<{ Bindings: Env }>
 }
 
+export type FetchMenu = {
+  params: { owner: string; repository: string; branch: string; path?: string }
+  ctx: Context<{ Bindings: Env }>
+}
+
 export type PageInKv = {
   updatedAt: Date
   data: PageData
@@ -110,4 +115,10 @@ export type Search = {
     searchTerm: string
   }
   ctx: Context<{ Bindings: Env }>
+}
+
+export type PreferLocalData = {
+  owner: string
+  repository: string
+  branch: string
 }
