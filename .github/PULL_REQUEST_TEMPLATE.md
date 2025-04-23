@@ -1,12 +1,13 @@
 # Documentation Pull Request
 
 ## Description
-Please provide a clear summary of your changes and which issue they address. Include any relevant context that would help reviewers understand your contribution.
+<!-- Please provide a clear summary of your changes and which issue they address. Include any relevant context that would help reviewers understand your contribution. 
 
 Fixes # (issue number, if applicable)
+-->
 
 ## Type of change
-Please check the options that are relevant:
+<!-- Please check the options that are relevant by changing [ ] to [x] -->
 - [ ] Documentation update (typo fixes, improved clarity, etc.)
 - [ ] New documentation (entirely new pages or sections)
 - [ ] Documentation restructuring (reorganizing content)
@@ -15,7 +16,7 @@ Please check the options that are relevant:
 - [ ] Other (please describe):
 
 ## Checklist
-Before submitting your PR, please confirm that:
+<!-- Before submitting your PR, please confirm that: -->
 - [ ] My changes follow the formatting guidelines in the contribution guide
 - [ ] I have performed a self-review of my changes
 - [ ] I have tested all links to ensure they point to valid pages
@@ -26,16 +27,14 @@ Before submitting your PR, please confirm that:
 - [ ] I have checked my changes for spelling and grammatical errors
 
 ## Directory structure changes (if applicable)
-If you've added new folders or changed the directory structure, please provide a brief description of the changes:
-
-```
+<!-- If you've added new folders or changed the directory structure, please provide a brief description of the changes.
 Example:
 - Added 04-get-started/05-advanced-setup/
 - Renamed 09-components/03-lifecycle/ to 09-components/03-interface-and-lifecycle/
-```
+-->
 
 ## Screenshots or previews (if applicable)
-If your changes include visual elements or would benefit from a preview, please provide screenshots or a link to a preview.
+<!-- If your changes include visual elements or would benefit from a preview, please provide screenshots or a link to a preview. -->
 
 ## Additional context
-Add any other context or information about the pull request here.
+<!-- Add any other context or information about the pull request here. -->
