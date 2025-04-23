@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { secureHeaders } from 'hono/secure-headers'
-import { fetchContent, search } from './routes'
+import { fetchContent, fetchMenu, search } from './routes'
 import type { Env, MenuItem } from './types'
 import { errorResponse, getFilePathWithLocal } from './utils'
 import { loadJsonFile } from './utils/jsonLoader'
@@ -29,6 +29,18 @@ app.get('/content/:owner/:repository/:branch/:path{.*}?', async (ctx) => {
 
   return fetchContent({
     params: { owner, repository, branch, path },
+    ctx,
+  })
+})
+
+// URLs like: http://localhost:9000/menu/nordcraftengine/documentation/main/the-editor/canvas
+app.get('/menu/:owner/:repository/:branch', async (ctx) => {
+  const owner = ctx.req.param('owner')
+  const repository = ctx.req.param('repository')
+  const branch = ctx.req.param('branch')
+
+  return fetchMenu({
+    params: { owner, repository, branch },
     ctx,
   })
 })
@@ -66,11 +78,11 @@ app.get('/sitemap.xml', async () => {
   const addItems = (items: MenuItem[], parts: string[]) =>
     items.forEach((item) => {
       if (item.type === 'folder') {
-        addItems(item.children, [...parts, item.id]);
+        addItems(item.children, [...parts, item.id])
       } else {
-        sitemapItems.push([...parts, item.id].join("/"));
+        sitemapItems.push([...parts, item.id].join('/'))
       }
-    });
+    })
   addItems(menuItems, [])
   const content = `\
 <?xml version="1.0" encoding="UTF-8"?>
