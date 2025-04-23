@@ -4,7 +4,7 @@ description: Learn to build powerful web applications with Nordcraft through ext
 ---
 
 # About Nordcraft
-Nordcraft is an open-source Web Development Engine that unifies visual design and code in a single platform. It eliminates the traditional handoff between designers and developers, creating a seamless workflow where both can collaborate effectively.
+Nordcraft is an open-source Web Development Engine that unifies visual design and code in a single platform. It eliminates the traditional handoff between designers and developers, creating a seamless workflow where both collaborate effectively and neither is limited.
 
 ## Bridging design and development
 Nordcraft combines a visual editor for interface design with a powerful technical foundation built on modern web standards. This approach accelerates development without sacrificing quality or control.
