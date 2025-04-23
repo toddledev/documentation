@@ -58,6 +58,9 @@ export type GetFilePath = FetchMenuItems & {
 export type Env = {
   TYPESENSE_SEARCH_TOKEN: string
   TYPESENSE_HOST: string
+  CLICKHOUSE_HOST: string
+  CLICKHOUSE_USER: string
+  CLICKHOUSE_PASSWORD: string
 }
 
 export type FetchContent = {

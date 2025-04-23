@@ -4,6 +4,7 @@
     "": {
       "name": "docs-proxy",
       "dependencies": {
+        "@clickhouse/client-web": "1.11.1",
         "cheerio": "1.0.0",
         "front-matter": "4.0.2",
         "hono": "4.7.6",
@@ -29,6 +30,10 @@
   },
   "packages": {
     "@babel/runtime": ["@babel/runtime@7.27.0", "", { "dependencies": { "regenerator-runtime": "^0.14.0" } }, "sha512-VtPOkrdPHZsKc/clNqyi9WUA8TINkZ4cGk63UUE3u4pmB2k+ZMQRDuIOagv8UVd6j7k0T3+RRIb7beKTebNbcw=="],
+
+    "@clickhouse/client-common": ["@clickhouse/client-common@1.11.1", "", {}, "sha512-bme0le2yhDSAh13d2fxhSW5ZrNoVqZ3LTyac8jK6hNH0qkksXnjYkLS6KQalPU6NMpffxHmpI4+/Gi2MnX0NCA=="],
+
+    "@clickhouse/client-web": ["@clickhouse/client-web@1.11.1", "", { "dependencies": { "@clickhouse/client-common": "1.11.1" } }, "sha512-dRmve4Vh8tdnLo8tt77O+2Ye4FWBR9eBrJ3CsaoNS2Q6aQNwv0JbPUKIrU88ep2sg5kilmNfAXqWaJXehpYVRg=="],
 
     "@cloudflare/kv-asset-handler": ["@cloudflare/kv-asset-handler@0.4.0", "", { "dependencies": { "mime": "^3.0.0" } }, "sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA=="],
 

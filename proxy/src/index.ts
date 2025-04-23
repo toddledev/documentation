@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { secureHeaders } from 'hono/secure-headers'
+import { handleFeedback } from './clickhouse/clickhouse'
 import { fetchContent, fetchMenu, search } from './routes'
 import type { Env, MenuItem } from './types'
 import { errorResponse, getFilePathWithLocal } from './utils'
@@ -104,10 +105,12 @@ app.get('/sitemap.xml', async () => {
   })
 })
 
-app.post('search', async (ctx) => {
+app.post('/search', async (ctx) => {
   const data = (await ctx.req.json()) as { searchTerm?: string }
 
   return search({ params: { searchTerm: data.searchTerm ?? '' }, ctx })
 })
+
+app.post('/feedback', handleFeedback)
 
 export default app
