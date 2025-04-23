@@ -31,7 +31,7 @@
     "prettier-plugin-organize-imports": "4.1.0",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
-    "wrangler": "4.9.1"
+    "wrangler": "4.13.0"
   },
   "dependencies": {
     "@clickhouse/client-web": "1.11.1",
