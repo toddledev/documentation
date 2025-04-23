@@ -33,7 +33,7 @@ const menuItems = getMenuItemsFromRepoItems({
     type: 'tree',
   })),
   parentPath: 'docs',
-  owner: 'toddledev',
+  owner: 'nordcraftengine',
   repository: 'documentation',
   branch: 'main',
 })
