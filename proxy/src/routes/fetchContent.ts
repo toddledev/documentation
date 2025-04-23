@@ -44,7 +44,7 @@ export const fetchContent = async ({
             text,
           })
           return json(
-            { ...pageData, menu: menuItems },
+            { ...pageData },
             {
               headers: {
                 'Cache-Control': `public, max-age=${5 * 60}`,
@@ -58,7 +58,7 @@ export const fetchContent = async ({
 
     pageData = await fetchPageData({ path: pagePath, title: pageTitle })
 
-    return json({ ...pageData, menu: menuItems })
+    return json({ ...pageData })
   } catch (err) {
     // eslint-disable-next-line no-console
     console.log(err)
