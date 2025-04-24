@@ -28,31 +28,33 @@ export async function handleFeedback(ctx: Context<{ Bindings: Env }>) {
     ) {
       return ctx.json({ error: 'Invalid input' }, 400)
     }
-    const ip_hash = await ipHash(ctx.req.raw.headers)
-    const created_at = new Date().toISOString()
-    const clickHouseClient = createClient({
-      url: ctx.env.CLICKHOUSE_HOST,
-      username: ctx.env.CLICKHOUSE_USER,
-      password: ctx.env.CLICKHOUSE_PASSWORD,
-    })
+    const saveValueInClickhouse = async () => {
+      const ip_hash = await ipHash(ctx.req.raw.headers)
+      const created_at = new Date().toISOString()
+      const clickHouseClient = createClient({
+        url: ctx.env.CLICKHOUSE_HOST,
+        username: ctx.env.CLICKHOUSE_USER,
+        password: ctx.env.CLICKHOUSE_PASSWORD,
+      })
 
-    const result = await clickHouseClient.insert({
-      table: 'default.feedback',
-      values: {
-        path,
-        rating,
-        message,
-        created_at,
-        ip_hash,
-      },
-      format: 'JSONEachRow',
-    })
-
-    if (result.executed) {
-      return ctx.json({ success: true }, 200)
-    } else {
-      return ctx.json({ error: 'Failed to insert feedback' }, 500)
+      const result = await clickHouseClient.insert({
+        table: 'default.feedback',
+        values: {
+          path,
+          rating,
+          message,
+          created_at,
+          ip_hash,
+        },
+        format: 'JSONEachRow',
+      })
+      if (!result.executed) {
+        // eslint-disable-next-line no-console
+        console.error('Failed to insert feedback')
+      }
     }
+    ctx.executionCtx.waitUntil(saveValueInClickhouse())
+    return ctx.json({ success: true }, 200)
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Error handling feedback:', error)
