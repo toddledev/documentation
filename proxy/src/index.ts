@@ -10,7 +10,12 @@ import { loadJsonFile } from './utils/jsonLoader'
 
 const app = new Hono<{ Bindings: Env }>()
 
-app.use(secureHeaders())
+app.use(
+  secureHeaders({
+    // Allow fetching images from other domains
+    crossOriginResourcePolicy: 'cross-origin',
+  }),
+)
 
 app.use(
   cors({
