@@ -2,7 +2,7 @@ import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { secureHeaders } from 'hono/secure-headers'
 import { handleFeedback } from './clickhouse/clickhouse'
-import { fetchContent, fetchMenu, search } from './routes'
+import { fetchContent, fetchMenu, handleThumbnail, search } from './routes'
 import type { Env, MenuItem } from './types'
 import { errorResponse, getFilePathWithLocal } from './utils'
 import { loadJsonFile } from './utils/jsonLoader'
@@ -112,5 +112,7 @@ app.post('/search', async (ctx) => {
 })
 
 app.post('/feedback', handleFeedback)
+
+app.get('/video-thumbnail/:videoId', handleThumbnail)
 
 export default app
