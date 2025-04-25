@@ -5,6 +5,7 @@ import { handleFeedback } from './clickhouse/clickhouse'
 import { fetchContent, fetchMenu, handleThumbnail, search } from './routes'
 import type { Env, MenuItem } from './types'
 import { errorResponse, getFilePathWithLocal } from './utils'
+import { validOriginsSuffixes } from './utils/cors'
 import { loadJsonFile } from './utils/jsonLoader'
 
 const app = new Hono<{ Bindings: Env }>()
@@ -13,11 +14,7 @@ app.use(secureHeaders())
 app.use(
   cors({
     origin: (o) =>
-      o.endsWith('localhost:9000') ||
-      o.endsWith('nordcraft_docs.toddle.site') ||
-      o.endsWith('docs.nordcraft.com')
-        ? o
-        : undefined,
+      validOriginsSuffixes.some((origin) => o.endsWith(origin)) ? o : undefined,
   }),
 )
 
