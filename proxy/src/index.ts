@@ -12,8 +12,6 @@ const app = new Hono<{ Bindings: Env }>()
 
 app.use(secureHeaders())
 
-app.get('/video-thumbnail/:videoId', handleThumbnail)
-
 app.use(
   cors({
     origin: (o) =>
@@ -112,5 +110,7 @@ app.post('/search', async (ctx) => {
 })
 
 app.post('/feedback', handleFeedback)
+
+app.get('/video-thumbnail/:videoId', handleThumbnail)
 
 export default app
