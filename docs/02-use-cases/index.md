@@ -61,3 +61,5 @@ Visual editing capabilities combined with component reusability and [Nordcraft p
 ::: tip
 These use cases represent just a sampling of what can be built with Nordcraft. As an open-source platform with a flexible architecture based on web standards, Nordcraft can be adapted to many more professional scenarios beyond those listed here.
 :::
+
+*What will you build with Nordcraft?*
