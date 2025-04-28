@@ -54,5 +54,5 @@ The Nordcraft Web Development Engine gives you the freedom to fully customize an
 At Nordcraft, we're proud of our growing community where designers and developers are sharing their exciting projects built with Nordcraft.
 
 ::: tip
-Join the over 3000 designers and developers in the [Nordcraft Discord](https://discord.gg/nordcraft) to keep up to date with new feature releases, ask for help, suggest improvements to the Nordcraft experience, and connect with other Nordcraft designers and developers.
+Join over 3k members in the [Nordcraft Discord](https://discord.gg/nordcraft) to keep up to date with new feature releases, ask for help, suggest improvements to the Nordcraft experience, and connect with other Nordcraft designers and developers.
 :::
