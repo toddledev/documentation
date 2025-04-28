@@ -82,7 +82,9 @@ Nordcraft supports both server-side rendering (SSR) and client-side rendering (C
 - CSR enables rich interactivity after the initial page load
 - The Nordcraft Web Development Engine intelligently handles the transition between these modes
 
-This hybrid rendering approach provides the best of both worlds for performance and user experience. When [working with APIs](/connecting-data/working-with-apis), you can [configure which requests are processed during server-side rendering](/connecting-data/advanced-api-features#server-side-rendering-ssr) or whether they are processed on the client after the initial page has loaded.
+This hybrid rendering approach provides the best of both worlds for performance and user experience.
+
+When [working with APIs](/connecting-data/working-with-apis), you can [configure which requests are processed during SSR](/connecting-data/advanced-api-features#server-side-rendering-ssr) or whether they are processed on the client after the initial page has loaded.
 
 ## API integration
 
