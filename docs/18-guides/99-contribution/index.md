@@ -146,7 +146,7 @@ Click to select and unselect the card.
 
 Example requirements:
 
-- Examples must be built in the `docs_examples` Nordcraft project first
+- Examples must be built in the `docs_examples` Nordcraft project
 - Each example is implemented as a separate web component
 - Always link to the `main` branch in the `editorUrl`
 - Set an appropriate `height` value in `rem` units
