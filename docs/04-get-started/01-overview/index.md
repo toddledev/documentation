@@ -45,6 +45,6 @@ Packages in Nordcraft work similar to NPM packages. They can contain pure logic,
 
 ## Learn Nordcraft through challenges
 
-To get hands-on with Nordcraft's features, try solving the challenges available on your dashboard in the **Start building** block. These guided exercises will introduce you to key concepts of the Nordcraft Web Development Engine, and help you become familiar with the platform.
+To get hands-on with features of Nordcraft, try solving the challenges available on your dashboard in the **Start building** block. These guided exercises will introduce you to key concepts of the Nordcraft Web Development Engine, and help you become familiar with the platform.
 
 ![Challenges|16/9](challenges.webp)
