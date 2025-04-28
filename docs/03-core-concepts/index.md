@@ -16,7 +16,9 @@ Nordcraft combines visual development with a solid code foundation. This hybrid 
 - Complex interactions can be implemented using visual development through [workflows](/workflows/overview)
 - Custom code can be added when needed for specialized functionality
 
-This approach bridges the gap between visual design tools and coding environments, eliminating traditional handoffs between designers and developers, and removing the time-consuming setup processes of traditional development environments. Explore [the editor](/the-editor/overview) to see how this works in practice.
+This approach bridges the gap between visual design tools and coding environments, eliminating traditional handoffs between designers and developers, and removing the time-consuming setup processes of traditional development environments.
+
+Explore [the editor](/the-editor/overview) to see how this works in practice.
 
 ## Component-based architecture
 
