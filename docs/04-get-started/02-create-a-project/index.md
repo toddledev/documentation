@@ -1,6 +1,6 @@
 ---
 title: Create a new project in Nordcraft
-description: Set up apps or packages in Nordcraft with this step-by-step guide covering organization settings, visibility options and template selection.
+description: Create new apps and packages in Nordcraft with this step-by-step guide covering organization settings, visibility options and template selection.
 ---
 
 # Create a project
@@ -22,8 +22,8 @@ In the organization view, at the top right of the project list, you will find th
 1. **Select organization**: The organization is pre-selected based on your account settings
 2. **Choose visibility**: Decide who should be able to see your app and select **public** or **private**
 3. **Choose a template**:
-   - Built-in templates: Choose from available Nordcraft templates.
-   - Community template: Pick from community-contributed templates.
+   - Built-in templates: Choose from available Nordcraft templates
+   - Community template: Pick from community-contributed templates
 
 After selecting the template, the Nordcraft editor will open for you to start working.
 
@@ -38,15 +38,16 @@ After selecting the template, the Nordcraft editor will open for you to start wo
 
 After confirming the details, the package will be created and the Nordcraft editor will open for you to start working.
 
-For more detailed instructions on packages, see the [creating and launching packages](/packages/creating-and-launching) page.
+For more detailed instructions on packages, see the [creating and launching packages](/packages/creating-and-launching) guide.
 
 ## Visibility options
 
 When creating a project you can choose between two visibility options:
 
-- **Public**: Your project will be visible and clonable via a link, but others cannot edit it
+- **Public**: Your project will be visible and clonable via a URL, but others cannot edit it
 - **Private**: Your project is only visible within your organization, with customizable access and roles for different users
 
 ::: info
-Private apps require a paid plan and it is currently not possible to make packages private.
+Private apps require a paid plan.
+It is currently not possible to create private packages.
 :::
