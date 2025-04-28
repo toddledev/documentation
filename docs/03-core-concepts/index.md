@@ -99,4 +99,4 @@ The API interface in Nordcraft forms the bridge between your frontend and any ba
 These core concepts appear throughout the Nordcraft documentation. As you work with the platform, you will develop a deeper understanding of how these concepts interact to create a powerful web development environment.
 :::
 
-Ready to start building? Head to the [Get started](/get-started/overview) section to create your first project.
+Ready to start building? Head to the [Get started](/get-started/overview) section to learn how to create your first project.
