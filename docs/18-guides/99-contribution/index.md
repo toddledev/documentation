@@ -183,13 +183,6 @@ Make sure to:
 
 Each page should be self-contained and understandable on its own, while still connecting to the broader documentation through relevant links.
 
-### Writing style
-
-- **Clear and concise**: Use simple, direct language
-- **Formal but approachable**: Professional but not academic
-- **Action-oriented**: Focus on how to use features
-- **User-focused**: Address the reader directly ("you")
-
 ### Common sections
 
 Depending on the page type, consider including:
@@ -201,14 +194,21 @@ Depending on the page type, consider including:
 - **Best practices**: Tips for optimal usage
 - **Common issues**: Troubleshooting guidance
 
-## Common mistakes to avoid
+### Writing style
 
-- Using unnecessary words or marketing language
-- Including placeholder text or TODOs
-- Embedding personal opinions or subjective assessments
-- Creating circular references or linking to non-existent pages
-- Including screenshots that reveal user data
-- Using inconsistent formatting or terminology
+- **Clear and concise**: Use simple, direct language
+- **Formal but approachable**: Professional but not academic
+- **Action-oriented**: Focus on how to use features
+- **User-focused**: Address the reader directly ("you")
+
+Keep in mind the following when updating or adding documentation:
+
+- Do not use unnecessary words or marketing language
+- Do not include placeholder text or TODOs
+- Do not reference personal opinions or subjective assessments
+- Do not create circular references or link to non-existent pages
+- Do not include screenshots that reveal user data
+- Do not use inconsistent formatting or terminology
 
 ::: info
 Following these guidelines will help ensure that the Nordcraft documentation remains consistent, clear and helpful for all users.
