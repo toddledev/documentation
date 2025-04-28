@@ -3,7 +3,7 @@ title: Create a new project in Nordcraft
 description: Create new apps and packages in Nordcraft with this step-by-step guide covering organization settings, visibility options and template selection.
 ---
 
-# Create a project
+# Create a new project in Nordcraft
 
 A project in Nordcraft can be either an [app](/get-started/overview#apps) or a [package](/get-started/overview#packages).
 
