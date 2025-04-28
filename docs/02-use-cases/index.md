@@ -59,5 +59,5 @@ Nordcraft provides all the tools needed to create professional corporate website
 Visual editing capabilities combined with component reusability and [Nordcraft packages](/packages/overview) makes it straightforward to maintain brand consistency across all corporate web properties.
 
 ::: tip
-These use cases represent just a sampling of what can be built with Nordcraft. As an open-source platform with a flexible architecture based on web standards, Nordcraft can be adapted to many more professional scenarios beyond those listed here.
+These use cases represent just a sample of what can be built with Nordcraft. As an open-source platform with a flexible architecture based on web standards, Nordcraft can be adapted to many more professional scenarios beyond those listed here.
 :::
