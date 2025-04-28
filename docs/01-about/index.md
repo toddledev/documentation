@@ -1,6 +1,6 @@
 ---
 title: What is Nordcraft?
-description: Welcome to the Nordcraft documentation. Learn how to build powerful web applications with Nordcraft through step-by-step guides and practical examples. Explore components, styling, APIs, and advanced features, or get help from Nordcraft's AI assistant.
+description: Welcome to the Nordcraft documentation. Learn how to build powerful web applications with Nordcraft through step-by-step guides and practical examples. Explore components, styling, APIs, and advanced features.
 ---
 
 # What is Nordcraft?
