@@ -12,7 +12,7 @@ This guide helps you understand how to contribute to the Nordcraft documentation
 The Nordcraft documentation is organized into sections and individual pages:
 
 - **Sections**: Main categories like "Get started," "Components," or "Styling"
-- **Pages**: Individual documents that can be either within sections or standalone (like "About" page)
+- **Pages**: Individual documents that can be within sections or standalone (like the "About" page)
 
 Each section and page corresponds to a folder in the [GitHub repository](https://github.com/nordcraftengine/documentation):
 
@@ -35,8 +35,8 @@ Each section and page corresponds to a folder in the [GitHub repository](https:/
 Each documentation page needs:
 
 1. **YAML frontmatter** at the top of the file with:
-   - `title`: Page title in sentence case (used for SEO metadata)
-   - `description`: Brief overview of the page's content (helps with SEO)
+   - `title`: Page title in sentence case (used for the SEO title)
+   - `description`: Brief overview of the page's content (used for the SEO metadescription, keep this to under 155 characters if possible)
 
 2. **Main content** with properly structured headings and content, starting with an H1 heading that matches the title
 
@@ -62,7 +62,7 @@ description: Brief description explaining what this page covers.
 - **H3 (###)**: Used for topics within subsections
 - **H4 (####)**: Used for detailed points within topics (use sparingly)
 
-All headings use sentence case (only first word capitalized).
+When writing headings, use sentence case (use a capital letter for the first word of the heading only), except where other words require specific capitalization, such as Nordcraft or GitHub.
 
 ## Text formatting
 
@@ -70,7 +70,7 @@ All headings use sentence case (only first word capitalized).
 - Use *italics* sparingly for emphasis
 - Keep paragraphs short (3-5 sentences maximum)
 - Use present tense and active voice
-- Use American English
+- Use American English spellings
 
 ## Code and UI elements
 
@@ -222,15 +222,15 @@ Since the Nordcraft documentation is hosted on [GitHub](https://github.com/nordc
 2. **Clone locally**: Download your fork to your local machine
 3. **Create a branch**: Make a new branch for your contribution
 4. **Make changes**: Edit or add files following the guidelines in this document
-5. **Test your changes**: 
+5. **Test your changes**:
     - Use the [preview](#previewing-documentation) feature to verify your documentation looks correct
     - Test all links to ensure they point to valid pages
     - Review your content for clarity, accuracy, and completeness
     - Check that images display properly and have appropriate title
     - Verify that all examples work correctly, demonstrate the intended functionality and have working links to the editor
     - Ensure all formatting is consistent with the documentation guidelines
-6. **Commit and push**: Save your changes and upload them to your fork
-7. **Create a pull request**: Submit your changes from your fork to the main repository
+6. **Commit and push**: Save your changes and push them to your fork
+7. **Create a pull request**: Submit your changes from your fork to the main repository and complete the pull request template provided
 
 ## Pull request process
 
@@ -267,7 +267,7 @@ By participating in the Nordcraft documentation project, you agree to abide by t
 If you have questions about contributing to the documentation or need assistance with your contributions:
 
 - Open an issue in the documentation repository for discussion
-- Contact the Nordcraft team through the official channels
+- Contact the Nordcraft team in the [Nordcraft Discord](https://discord.gg/nordcraft)
 - Ask in the community forums or discussion areas
 
 The Nordcraft team is committed to helping new contributors and appreciates your efforts to improve the Nordcraft documentation.
