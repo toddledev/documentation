@@ -35,7 +35,7 @@ Each section and page corresponds to a folder in the [GitHub repository](https:/
 Each documentation page needs:
 
 1. **YAML frontmatter** at the top of the file with:
-   - `title`: Page title in sentence case (used for the SEO title)
+   - `title`: Page title in sentence case (used for the page's title)
    - `description`: Brief overview of the page's content (used for the SEO metadescription, keep this to under 155 characters if possible)
 
 2. **Main content** with properly structured headings and content, starting with an H1 heading that matches the title
