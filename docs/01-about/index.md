@@ -33,11 +33,11 @@ Core technical features:
 - Minimal DOM output for optimal performance
 - Animation engine for creating dynamic interfaces
 - Integrated version control with preview environments
-- Add your own custom code to your Nordcraft apps
+- [Add your own custom code to your Nordcraft apps](/actions/overview)
 
 ## The Nordcraft ecosystem
 
-Nordcraft provides everything you need to build, test, and deploy modern, performant web applications:
+Nordcraft provides everything you need to build and deploy modern, performant web applications:
 
 - Full API integration for connecting to any backend service
 - Package system for sharing and reusing functionality
@@ -54,5 +54,5 @@ The Nordcraft Web Development Engine gives you the freedom to fully customize an
 At Nordcraft, we're proud of our growing community where designers and developers are sharing their exciting projects built with Nordcraft.
 
 ::: tip
-Join the community [Nordcraft Discord](https://discord.gg/nordcraft) to keep up to date with new feature releases, ask for help, suggest improvements to the Nordcraft experience, and connect with other Nordcraft designers and developers.
+Join the over 3000 designers and developers in the [Nordcraft Discord](https://discord.gg/nordcraft) to keep up to date with new feature releases, ask for help, suggest improvements to the Nordcraft experience, and connect with other Nordcraft designers and developers.
 :::
