@@ -15,7 +15,7 @@ Nordcraft is for designers **and** and developers, making it an ideal platform f
 
 Nordcraft's component architecture and API integration capabilities make it ideal for developing sophisticated interactive web applications:
 
-- **SaaS products**: Build complete software-as-a-service solutions with subscription models
+- **SaaS products**: Build complete Software as a Service solutions with subscription models
 - **Business tools**: Develop specialized applications for inventory, CRM or HR systems
 - **Customer portals**: Create personalized user dashboards protected with authentication
 - **Admin panels**: Build interfaces for content management and data administration
@@ -25,23 +25,25 @@ The visual development system allows for complex business logic to be implemente
 
 ## E-commerce solutions
 
-Nordcraft can be used to build various aspects of e-commerce platforms:
+Nordcraft can be used to build various aspects of e-commerce platforms resulting in a fast, SEO-optimized experience for end-users.
 
 - **Product catalogs**: Create responsive, filterable product displays and delightful image galleries
 - **Shopping carts**: Implement interactive shopping experiences
 - **Checkout flows**: Design smooth, conversion-optimized checkout processes
 - **Account management**: Build user account areas and order tracking interfaces
+- **Structured data**: Add information about products and services to enable rich results in search engines
 
 Integration with payment providers and e-commerce backends is streamlined in Nordcraft through the API connection system.
 
 ## Content-driven sites
 
-For content-based websites, Nordcraft offers strong capabilities. Power your content sites with data from any CMS with an API.
+For content-based websites, Nordcraft offers strong capabilities. Power your content sites with data from any CMS or content source with an API.
 
 - **Blogs**: Create content-focused sites with optimized reading experiences
 - **News portals**: Build media sites with various content layouts
 - **Knowledge bases**: Develop searchable documentation and help centers
 - **Educational platforms**: Create interactive learning experiences with embedded video and articles
+- **Recipe catalogs**: Build beautiful recipe showcases and invite your readers to submit ratings and comments
 
 Server-side rendering ensures content is delivered efficiently and optimized for search engines.
 
@@ -54,6 +56,8 @@ Nordcraft provides all the tools needed to create professional corporate website
 - **Company portals**: Develop internal information hubs and dashboards
 - **Multilingual sites**: Create sites that support multiple languages and regions
 
-The visual editing capabilities combined with component reusability makes it easy to maintain brand consistency across all corporate web properties.
+Visual editing capabilities combined with component reusability and [Nordcraft packages](/packages/overview) makes it straightforward to maintain brand consistency across all corporate web properties.
 
-These use cases represent just a sampling of what can be built with Nordcraft. As an open-source platform with a flexible architecture based on web standards, Nordcraft can be adapted to many other professional scenarios beyond those listed here.
+::: tip
+These use cases represent just a sampling of what can be built with Nordcraft. As an open-source platform with a flexible architecture based on web standards, Nordcraft can be adapted to many more professional scenarios beyond those listed here.
+:::
