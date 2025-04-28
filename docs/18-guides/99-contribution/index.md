@@ -46,12 +46,10 @@ Each documentation page needs:
 
 Each page must begin with YAML frontmatter at the very top of the file between triple dashes:
 
-```yaml
----
+\----
 title: Page title
 description: Brief description explaining what this page covers.
----
-```
+\----
 
 - The **title** is used for SEO metadata and should be in **Sentence case**
 - The **description** should be a brief overview (1-2 sentences) that helps with SEO
