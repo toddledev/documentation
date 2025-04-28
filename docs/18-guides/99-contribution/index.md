@@ -206,7 +206,7 @@ Keep in mind the following when updating or adding documentation:
 - Do not use unnecessary words or marketing language
 - Do not include placeholder text or TODOs
 - Do not reference personal opinions or subjective assessments
-- Do not create circular references or link to non-existent pages
+- Do not create circular references or links to non-existent pages
 - Do not include screenshots that reveal user data
 - Do not use inconsistent formatting or terminology
 
