@@ -5,7 +5,7 @@ description: Discover how Nordcraft enables designers and developers to build sc
 
 # What can you build with Nordcraft?
 
-Using Nordcraft, you can build any web application or website that you can create with HTML, CSS and JavaScript. From complex interactive applications to content-focused websites, Nordcraft provides the tools you need as designer or developer to create beautiful, scalable and maintainable applications.
+Using the Nordcraft Web Development Engine, you can build any web application or website that you can create with HTML, CSS and JavaScript. From complex interactive applications to content-focused websites, Nordcraft provides the tools you need to create beautiful, scalable and maintainable applications.
 
 ::: info
 Nordcraft is for designers **and** and developers, making it an ideal platform for product agency teams who offer a variety of different types of client work, including web applications, e-commerce solutions, content-driven sites and corporate websites.
