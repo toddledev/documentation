@@ -5,7 +5,7 @@ description: Learn the fundamental principles that power the Nordcraft Web Devel
 
 # Nordcaft core concepts
 
-Nordcraft is built around several fundamental concepts that form the foundation of the platform. Understanding these core concepts will help you work more effectively with Nordcraft before you begin your first project.
+Nordcraft is built around several fundamental concepts that form the foundation of the Web Development Engine. Understanding these core concepts will help you work more effectively with Nordcraft before you begin your first project.
 
 ## Visual development with code foundation
 
