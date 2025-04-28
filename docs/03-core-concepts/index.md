@@ -78,8 +78,8 @@ This reactive approach ensures your interface stays in sync with underlying data
 
 Nordcraft supports both server-side rendering (SSR) and client-side rendering (CSR):
 
-- Server rendering improves initial page load speed and is essential for search engine optimization (SEO)
-- Client rendering enables rich interactivity after the initial page load
+- SSR improves initial page load speed and is essential for search engine optimization (SEO)
+- CSR enables rich interactivity after the initial page load
 - The Nordcraft Web Development Engine intelligently handles the transition between these modes
 
 This hybrid rendering approach provides the best of both worlds for performance and user experience. When [working with APIs](/connecting-data/working-with-apis), you can [configure which requests are processed during server-side rendering](/connecting-data/advanced-api-features#server-side-rendering-ssr) or whether they are processed on the client after the initial page has loaded.
@@ -96,5 +96,7 @@ External data is connected through the [API integration system](/connecting-data
 The API interface in Nordcraft forms the bridge between your frontend and any backend services. You can also connect to specialized backend providers through [services](/connecting-data/services).
 
 ::: tip
-These core concepts appear throughout the Nordcraft documentation. As you work with the platform, you will develop a deeper understanding of how these concepts interact to create a powerful web development environment. Ready to start building? Head to the [Get started](/get-started/overview) section to create your first project.
+These core concepts appear throughout the Nordcraft documentation. As you work with the platform, you will develop a deeper understanding of how these concepts interact to create a powerful web development environment.
 :::
+
+Ready to start building? Head to the [Get started](/get-started/overview) section to create your first project.
