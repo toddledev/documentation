@@ -5,7 +5,7 @@ description: Welcome to the Nordcraft documentation. Learn how to build powerful
 
 # What is Nordcraft?
 
-Nordcraft is an open-source Web Development Engine that combines visual design and full programming capabilities in a single platform. Nordcraft eliminates the traditional handoff between designers and developers, creating a seamless workflow where everyone can collaborate effectively and efficiently **without limits**.
+Nordcraft is an open-source **Web Development Engine** that combines visual design and full programming capabilities in a single platform. Nordcraft eliminates the traditional handoff between designers and developers, creating a seamless workflow where everyone can collaborate effectively and efficiently **without limits**.
 
 ::: info
 Nordcraft is for designers **and** developers, whether you're working on your next big side project, or as part of a professional product team.
