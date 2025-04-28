@@ -7,11 +7,13 @@ description: Learn the fundamentals of Nordcraft's dashboard, project types, and
 
 Nordcraft provides a flexible and intuitive development environment for building applications.
 
-# Dashboard
+## Dashboard
+
+When launching Nordcraft, you'll land on the Nordcraft dashboard.
 
 ![Dashboard|16/9](dashboard.webp)
 
-The Nordcraft dashboard includes three key sections:
+The dashboard includes three key sections:
 
 1. **Start building**: Quick action to start a [new project](/get-started/create-a-project) or solve challenges to explore Nordcraft features
 2. **Recent activity**: Quick access to your recently edited projects
@@ -23,15 +25,15 @@ A project in Nordcraft can be either an **app** or a **package**.
 
 ## Apps
 
-These projects are full applications used for web development, including web apps, websites and more. Since Nordcraft is built on standard HTML, CSS and JavaScript, you can create anything from simple pages to complex interactive experiences.
+Apps in Nordcraft are full web applications composed of pages, components and elements. Nordcraft is built on standard HTML, CSS and JavaScript, so you can create anything from simple pages to complex interactive experiences.
 
-See here for [creating an app](/get-started/create-a-project#create-an-app).
+Learn more about [creating an app](/get-started/create-a-project#create-an-app) in Nordcraft.
 
 ## Packages
 
-Packages are modular, self-contained collections of components or functions that can be used across multiple apps. They help keep your projects organized by separating reusable elements and logic. Packages are public, allowing other users to install and integrate them into their own projects.
+Packages are modular, self-contained collections of components or functions that can be used across multiple apps. Packages help keep your projects organized by separating reusable elements and logic. Packages are public, allowing other users to install and integrate them into their own projects.
 
-See here for [creating a package](/get-started/create-a-project#create-a-package).
+Learn more about [creating a package](/get-started/create-a-project#create-a-package) in Nordcraft.
 
 ::: info
 It is currently not possible to use packages in packages.
@@ -43,6 +45,6 @@ Packages in Nordcraft work similar to NPM packages. They can contain pure logic,
 
 ## Learn Nordcraft through challenges
 
-![Challenges|16/9](challenges.webp)
+To get hands-on with Nordcraft's features, try solving the challenges available on your dashboard in the **Start building** block. These guided exercises will introduce you to key concepts of the Nordcraft Web Development Engine, and help you become familiar with the platform.
 
-To get hands-on with Nordcraft's features, try solving the challenges available on your dashboard in the **Start building** block. These guided exercises will introduce you to key concepts and help you become familiar with the platform.
+![Challenges|16/9](challenges.webp)
