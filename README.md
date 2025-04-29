@@ -10,7 +10,7 @@ You can find the published documentation at: [https://docs.nordcraft.com](https:
 
 The documentation is organized into numbered sections and pages, with each page in its own folder containing an `index.md` file and related assets:
 
-```
+```text
 docs/
   01-about-nordcraft/
     index.md
@@ -54,4 +54,5 @@ If you find issues or have suggestions for the documentation:
 2. Open a [new issue](https://github.com/nordcraftengine/documentation/issues/new) describing the problem or suggestion in detail
 
 ## License
+
 The Nordcraft documentation is licensed under [Apache License](LICENSE).
