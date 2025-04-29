@@ -15,58 +15,58 @@ The data panel is the central hub for managing all data aspects of your pages an
 The data panel is only visible when no element is selected. Press [kbd]Escape[kbd] or click on the background outside the canvas to deselect.
 :::
 
-# Data sections
+## Structure
 
 Pages and components have several data sections that provide essential functionality.
 
-## Page
+### Page
 
-This section appears **only for pages**, not for components. Configure how your page appears in browsers and search results by setting the URL, title, description, and other metadata.
+This section appears **for pages only**. Configure how your page appears in browsers and search results by setting the URL, title, description, and other metadata.
 
-## Attributes
+### Attributes
 
-This section appears **only for components**, not for pages. Define the interface for your component by creating attributes that can be set when using the component. You can set test values to preview how the component behaves in the editor.
+This section appears **for components only**. Define the interface for your component by creating attributes that can be set when using the component. You can set test values to preview how the component behaves in the editor.
 
 ::: info
-These attributes are also the attributes of your exported web component.
+These attributes are also the attributes of exported web components.
 :::
 
-## Variables
+### Variables
 
-Store and manage state within your page or component. Variables can be initialized with default values, updated through actions or workflows, and used in formulas, e.g. to display dynamic content.
+Store and manage state within your page or component. Variables can be initialized with default values, updated through actions and workflows, and used in formulas, e.g. to display dynamic content.
 
-## APIs
+### APIs
 
-Connect your application to external services and data sources by defining endpoints, configuring request parameters and handling responses.
+Connect your application to external services and data sources by defining endpoints, configuring request parameters and HTTP methods, and handling responses.
 
-## Events
+### Events
 
 Enable components to communicate with parent elements through custom events that can be triggered by internal actions and pass data upward.
 
-## Formulas
+### Formulas
 
 Create reusable calculations and data transformations using Nordcraft's formula syntax to access data from variables, formulas, contexts and API responses.
 
-## Workflows
+### Workflows
 
 Build multi-step processes to handle complex interactions by combining workflows and actions in sequence with conditional logic.
 
-## Contexts
+### Contexts
 
 Subscribe to formulas and workflows exposed by parent components to access functionality while maintaining clean separation of concerns.
 
-## Lifecycle
+### Lifecycle
 
 Control what happens at specific moments in your component or page lifecycle:
 
 - On load: Actions that execute when the page or component is initially loaded or mounted to the DOM
 - On attribute change: Actions that run when URL parameters (for pages) or attributes (for components) are modified
 
-## Dependents
+### Dependents
 
 View all components that rely on the current component to track usage throughout your project and assess the impact of potential changes.
 
-# Using the data panel
+## Using the data panel
 
 The data panel is fundamental to creating dynamic applications in toddle:
 
