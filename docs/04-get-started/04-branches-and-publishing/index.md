@@ -9,7 +9,7 @@ Branches in Nordcraft allow you to develop new features or fix issues without af
 
 ## Understanding branches
 
-When you create a new project, Nordcraft automatically creates a branch called `start` for you. The `main` branch represents what end users see. You cannot edit the main branch directly, but you can view it in the editor.
+When you create a new project, Nordcraft automatically creates a branch called `start` for you. The `main` branch represents what your users see. You cannot edit the main branch directly, but you can view it in the editor.
 
 Branches work like branches on a tree:
 
@@ -43,13 +43,13 @@ Keep branches small and short-lived. A branch should contain just a single featu
 1. On the [project details](/get-started/project-details) page, click the [kbd]Create branch[kbd] button
 2. Choose a descriptive name for the branch and confirm
 
-When the branch is created you are automatically taken to the editor to start working on that new branch.
+When the branch is created, you are automatically taken to the editor to start working on that new branch.
 
 You can have multiple active branches at the same time, each focusing on a different feature or fix.
 
 ### Preview a branch
 
-You can preview your branch to test changes before publishing:
+You can preview your branch to test changes before publishing.
 
 - Select your branch and click the [kbd]Preview[kbd] option
 - This opens a preview at `branch-project.nordcraft.site`
@@ -58,7 +58,7 @@ You can preview your branch to test changes before publishing:
 
 ### View changes
 
-When working in a branch, you can view all modifications made and compare them to the state of the main branch:
+When working in a branch, you can view all modifications made and compare them to the state of the main branch.
 
 - Click the [kbd]View changes[kbd] button in the [bottom bar](/the-editor/bottom-bar) of the editor or in [project details](/get-started/project-details)
 - Review all modifications made in your current branch
