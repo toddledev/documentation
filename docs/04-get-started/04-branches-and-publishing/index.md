@@ -1,84 +1,103 @@
 ---
-title: Branches and publishing a project
-description: Understand how to use branches in Nordcraft to develop features safely, test changes, resolve merge conflicts, and publish updates to live applications.
+title: Branches and publishing in Nordcraft
+description: Learn how to use branches in Nordcraft to develop features safely, test changes, resolve merge conflicts, and publish updates to live applications.
 ---
 
-# Branches
+# Branches and publishing in Nordcraft
+
 Branches in Nordcraft allow you to develop new features or fix issues without affecting the live version of your project. They provide a safe environment to make and test changes before making them available to users.
 
-# Understanding branches
+## Understanding branches
+
 When you create a new project, Nordcraft automatically creates a branch called `start` for you. The `main` branch represents what end users see. You cannot edit the main branch directly, but you can view it in the editor.
 
 Branches work like branches on a tree:
+
 - Your `main` branch is the trunk that users see
 - New branches grow from this trunk
 - When a branch is complete, it can be merged back into the trunk
-- Once merged, the branch becomes part of the trunk
+- When a branch is merged, it becomes becomes part of the trunk
 
-# Advantages of branches
+If you're familiar with git version control, Nordcraft branches work in the same way.
+
+## Advantages of branches
+
 Using separate branches for individual features or fixes provides several benefits:
-- **Isolated development**: Work on specific features without impacting other work
-- **Easier collaboration**: Reduce coordination overhead when multiple people work on the same project
-- **Stability of live version**: The main branch remains stable with only completed and tested features
+
+- **Isolated development**: Work on specific features without impacting other work in progress
+- **Easier collaboration**: Reduce coordination overhead when multiple people work on the same project in parallel
+- **Stability of live version**: The main branch remains stable with completed and tested features only
 - **Simplified testing**: Test changes independently before publishing
-- **Reduced risk of conflicts**: Minimize conflicts from simultaneous edits to the same code
+- **Reduced risk of conflicts**: Minimize conflicts from simultaneous edits to the same project
 
 ::: tip
-Keep branches small and short-lived. A branch should contain just a single feature like "add-color-picker" or "fix-dialog-styling-issue". Try to complete each branch within a single day's work.
+Keep branches small and short-lived. A branch should contain just a single feature like `add-color-picker` or `fix-dialog-styling-issue`.
 :::
 
-# Working with branches
-## Create a new branch
+## Working with branches
+
+### Create a new branch
+
 ![Create new branch|16/9](create-new-branch.webp)
 
-1. Click the [kbd]Create branch[kbd] button on the [project details](/get-started/project-details) page
-2. Enter a name for the branch and confirm
+1. On the [project details](/get-started/project-details) page, click the [kbd]Create branch[kbd] button
+2. Choose a descriptive name for the branch and confirm
 
-The branch is created and you are automatically redirected to the editor to start working.
+When the branch is created you are automatically taken to the editor to start working on that new branch.
 
-You can have multiple branches open at the same time, each focusing on a different feature or fix.
+You can have multiple active branches at the same time, each focusing on a different feature or fix.
 
-## Preview a branch
+### Preview a branch
+
 You can preview your branch to test changes before publishing:
-- Select your branch and click the [kbd]Preview[kbd] option
-- This opens a preview at `branch-project.Nordcraft.site`
-- Share this preview link with others for feedback
 
-## View changes
-When working in a branch, you can see all modifications compared to the main branch:
+- Select your branch and click the [kbd]Preview[kbd] option
+- This opens a preview at `branch-project.nordcraft.site`
+- You can share this preview link with others for feedback
+- All changes made on a branch are automatically synced to the preview link
+
+### View changes
+
+When working in a branch, you can view all modifications made and compare them to the state of the main branch:
+
 - Click the [kbd]View changes[kbd] button in the [bottom bar](/the-editor/bottom-bar) of the editor or in [project details](/get-started/project-details)
 - Review all modifications made in your current branch
-- Identify any conflicts that need resolution before publishing
+- Identify any conflicts that need resolving before publishing
 
 ![View changes|16/9](view-changes.webp)
 
-1. Enter a comment or description for your update
-2. Publish your branch after entering in a brief comment
+1. Enter a description for your changes
+2. Publish your branch
 3. Navigate back to project details
 4. Navigate back to this branch's editor
 5. Delete your branch
 6. Reset all changes for the selected page or component
 7. Edit the selected page or component directly
 
-## Publish changes
+### Publish changes
+
 When you're ready to make your changes live:
-1. Enter a short comment or description to your update
+
+1. Enter a short description to your update (make your description *descriptive*, this will help you later in case you need to roll back)
 2. Click the [kbd]Publish branch[kbd] button
 
-Your changes will be merged into the main branch and become immediately visible to users.
+Your changes will be merged into the main branch and become visible to users immediately.
 
-## Sync with main
+### Sync with main
+
 ![Sync with main|16/9](sync-with-main.webp)
 
-Before publishing, your branch must be up-to-date with the latest changes in the main branch. If someone else has published changes since you created your branch, it will no longer be up-to-date, and you will need to sync with the main branch:
-- Click the [kbd]Sync with main[kbd] button
-- This pulls the newest version into your branch
-- Once synchronized, you can [publish your changes](#publish-changes)
+Before publishing, your branch must be up to date with the latest changes in the main branch. If someone else has published changes since you created your branch, it will no longer be up-to-date, and you will need to sync with the main branch:
 
-## Resolve merge conflicts
+1. Click the [kbd]Sync with main[kbd] button to pull the newest version of the main branch into your working branch
+2. Once synchronized, you can [publish your changes](#publish-changes)
+
+### Resolve merge conflicts
+
 ![Merge conflict|16/9](merge-conflicts.webp)
 
-Merge conflicts occur when two branches have made different changes to the same section of code. When this happens:
+Merge conflicts can occur when two branches have made changes to the same section of code. When this happens:
+
 1. Nordcraft will identify and highlight the conflicting changes
 2. You will need to decide which changes to keep:
     - Reset your branch's changes to use the main branch version
@@ -88,21 +107,23 @@ Merge conflicts occur when two branches have made different changes to the same 
 After resolving all conflicts, you can complete the [sync with main](#sync-with-main).
 
 ::: warning
-When you reset a change, that version will be discarded. Make sure you understand what each change contains before deciding.
+When you reset a change, that version will be discarded. Make sure you understand what each change contains before deciding which changes to keep.
 :::
 
 ::: tip
 If you have changes you need to preserve when resolving conflicts, consider copying those changes to a new branch (which will automatically be in sync with `main`).
 :::
 
-## Roll back changes
-If you discover serious issues after publishing and need to revert to a previous version of your project:
+### Roll back changes
+
+If you discover issues on your live project after publishing, you may need to revert to a previous version of your project. This is known as a rollback.
+
 1. Go to the [version history](/get-started/project-details#version-history) section in [project details](/get-started/project-details)
 2. Find the version you know worked correctly
 3. Click the [kbd]Rollback[kbd] button next to that version
-4. Confirm Rollback
+4. Confirm the rollback
 
-This will immediately restore your live application to the selected version state, overwriting the current version.
+This will restore your live application to the selected version state immediately, overwriting the current version.
 
 ::: warning
 Rolling back is a significant action that affects your live application. Make sure you have selected the correct version before confirming.
