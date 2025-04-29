@@ -18,7 +18,7 @@ Pages in Nordcraft:
 - Serve as containers for components and HTML elements
 - Function as the top-level entry points for user interaction
 
-Pages are essential to structured application development in Nordcraft. They should be used to:
+Pages are essential to a structured application in Nordcraft. They should be used to:
 
 - Create distinct sections of your application
 - Implement navigation between different parts of your application
