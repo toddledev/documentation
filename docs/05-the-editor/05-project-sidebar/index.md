@@ -5,40 +5,40 @@ description: Manage files through the project sidebar to access pages, component
 
 # Project sidebar
 
-The project sidebar provides access to all files and resources in your Nordcraft project. Access it by clicking the folder icon on the left side of the editor.
+The project sidebar provides access to all files and resources in your Nordcraft project. Access it by clicking the folder icon at the top left side of the editor.
 
 ![Project sidebar|16/9](project-sidebar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Files}
 
-::: info
+::: tip
 Open the project sidebar with [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd] and close it with [kbd]Escape[kbd].
 :::
 
-# Structure
+## Structure
 
-## Search
+### Search
 
-Find files quickly by typing in the search field at the top of the sidebar.
+Find files by typing in the search field at the top of the sidebar.
 
-## Recent
+### Recent
 
 Displays files you have recently accessed for quick navigation between components, pages and other files.
 
-## Content sections
+### Content sections
 
 Each section can be expanded or collapsed and includes a [kbd]+[kbd] button to create new items (except for themes and settings):
 
-- [Pages](/pages/overview): View and manage all pages in your project.
-- [Components](/components/overview): Access all reusable components in your project.
-- [Services](/connecting-data/services): Configure API connections to external services like Xano, Supabase or any service with an OpenAPI specification.
-- [Actions](/actions/overview): Create and manage global actions that can be used throughout your entire project.
-- [Formulas](/formulas/global-formulas): Define global formulas for calculations and logic that can be accessed from any page or component.
-- **Media**: Upload and manage images and other media files for your project.
-- [Themes](/styling/theme): Configure design tokens including colors, spacing, typography and z-index values.
-- **Settings**: Manage project configurations like favicon, robots.txt, sitemap, app manifest and service worker.
+- [Pages](/pages/overview): View and manage all pages in your project
+- [Components](/components/overview): Access all reusable components in your project
+- [Services](/connecting-data/services): Configure API connections to external services with an OpenAPI specification
+- [Actions](/actions/overview): Create and manage global actions that can be used throughout your entire project
+- [Formulas](/formulas/global-formulas): Define global formulas for calculations and logic that can be accessed from any page or component
+- **Media**: Upload and manage images and other media files for your project
+- [Themes](/styling/theme): Configure design tokens including colors, spacing, and typography
+- **Settings**: Manage project configurations like favicon, robots.txt, sitemap, app manifest and service worker
 
-# Project settings
+## Project settings
 
-At the bottom of the panel you will find the following settings for your project:
+At the bottom of the project sidebar, you can configure the following settings for your project:
 
 - **Favicon**: Upload a [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon) for your project - available at `/favicon.ico`
 - **Robots.txt**: Target a custom [robots.txt](https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt) document (with a URL) - available at `/robots.txt`
