@@ -1,26 +1,26 @@
 ---
-title: The editor overview
-description: Understand the four main sections of Nordcraft's editor interface - the canvas, bottom bar, left panel and right panel for efficient development.
+title: The Nordcraft editor
+description: Understand the four main sections of Nordcraft's editor interface - the canvas, bottom bar, left panel and right panel.
 ---
 
-# The editor
+# The Nordcraft editor
 
-The editor is the main workspace for building your Nordcraft applications and packages. It provides an interface with the tools needed to design, develop and test your projects.
+The Nordcraft editor is your main workspace for building Nordcraft applications and packages. It provides an interface with the tools needed to design, develop and test your projects.
 
 ![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
 The editor workspace consists of four main sections:
 
-1. [Canvas](/the-editor/canvas): The central workspace where you visually build and interact with your application.
-2. [Bottom bar](/the-editor/bottom-bar): Editor controls with testing, previewing and AI assistance
+1. [Canvas](/the-editor/canvas): The central workspace where you visually build and interact with your application
+2. [Bottom bar](/the-editor/bottom-bar): Undo/redo changes, control zoom, preview your project and get and AI assistance
 3. **Left panel**: Context-sensitive panel that displays
    - [Element tree](/the-editor/element-tree): A hierarchical view of the element structure of your page or component
    - [Project sidebar](/the-editor/project-sidebar): Access to project files, resources and settings
    - [Packages](/the-editor/packages): Browse, install and manage external packages in your project
    - [Issues panel](/the-editor/issues-panel): Identify and resolve project issues
-4. **Right panel**: Context-sensitive panel that shows
-   - [Data panel](/the-editor/data-panel): Configure logic, interfaces and behavior of pages and components
-   - [Element panel](/the-editor/element-panel): Specific settings and configuration of the selected element
+4. **Right panel**: Context-sensitive panel that displays
+   - [Data panel](/the-editor/data-panel): Configure logic and interfaces and behavior of pages and components, connect to APIs
+   - [Element panel](/the-editor/element-panel): Specific settings and configuration of the selected element, including styles
 
 ## Left panel
 
