@@ -247,14 +247,17 @@ After submitting your pull request, the Nordcraft team will review your contribu
 
 ## Formatting
 
-We use Prettier to format the documentation as well as the proxy worker.
+We use Prettier to automatically format the documentation in markdown and the proxy worker. We have included a script you can run in your terminal to auto format files to make sure your pull request gets approved.
 
-To use Prettier locally:
+::: info
+You'll need to install `bun` to run the formatting script. [Learn how to install bun for your operating system](https://bun.sh/docs/installation).
+:::
 
-1. We suggest installing the Prettier extension in your IDE and enabling formatting on save
-2. Make sure you've installed dependencies in either `docs/` or `proxy/` (`bun i` or `npm i`). See how to install `bun` [here](https://bun.sh/docs/installation)
-3. Run the following command in the terminal `bun prettier` to validate your changes
-4. Run `bun prettier:write` if you want to auto format all files
+To use Prettier on your machine, we suggest [installing the Prettier extension in your IDE](https://prettier.io/docs/editors) and enabling formatting on save.
+
+1. To install dependencies to use the script, navigate to the `docs/` or `proxy/` directory and run `bun i`.
+2. Run `bun prettier` in your terminal to validate your changes
+3. Run `bun prettier:write` in your terminal to auto format all files
 
 ## Previewing documentation
 
