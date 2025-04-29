@@ -251,8 +251,8 @@ We use Prettier to format the documentation as well as the proxy worker.
 
 To use Prettier locally:
 
-1. We suggest installing Prettier in your IDE and enabling formatting on save
-2. Make sure you've installed dependencies in either `docs/` or `proxy/`
+1. We suggest installing the Prettier extension in your IDE and enabling formatting on save
+2. Make sure you've installed dependencies in either `docs/` or `proxy/` (`bun i` or `npm i`). See how to install `bun` [here](https://bun.sh/docs/installation)
 3. Run the following command in the terminal `bun prettier` to validate your changes
 4. Run `bun prettier:write` if you want to auto format all files
 
