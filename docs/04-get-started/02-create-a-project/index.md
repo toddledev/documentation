@@ -34,7 +34,7 @@ After selecting the template, the Nordcraft editor will open for you to start wo
 1. **Choose organization**: The organization is pre-selected based on your account settings
 2. **Select an emoji**: Choose an emoji to represent your package
 3. **Enter name**: Type in the desired name for your package
-4. **Edit project id**: The id is automatically generated based on the package name, but you can edit it as needed
+4. **Edit package ID**: The package ID is automatically generated based on the package name, but you can edit it as needed
 
 After confirming the details, the package will be created and the Nordcraft editor will open for you to start working.
 

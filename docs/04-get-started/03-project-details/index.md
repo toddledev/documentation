@@ -32,21 +32,21 @@ Publishing packages is permanement. You cannot delete a **package** after it has
 
 ## Branches
 
-Branches allow you to work on new features or fixes without affecting the main version of your project. If you're familiar with git, Nordcraft branches work in the same way.
+Branches allow you to work on new features or fixes without affecting the main version of your project. If you're familiar with git version control, Nordcraft branches work in the same way.
 
-Every project has a `main` branch that represents the current live version. The `main` branch is `read-only` and you cannot edit this branch directly. Instead, [create new branches](/get-started/branches-and-publishing#create-a-new-branch) for making changes.
+Every project has a `main` branch that represents the current live version. The `main` branch is `read-only` and you cannot edit this branch directly. To make changes to your project, [create new branches](/get-started/branches-and-publishing#create-a-new-branch).
 
 ::: info
 For detailed information on working with branches, see the [Branches and publishing](/get-started/branches-and-publishing) page.
 :::
 
-When selecting a project from your Nordcraft dashboard, you can see all branches, with details about who created them and when.
+When selecting a project from your Nordcraft dashboard, you can view all active branches, with details about who created them and when.
 
 ![Branch actions|16/9](branch-actions.webp)
 
 The following actions are available for each branch:
 
-1. **Edit**: Opens the branch in the editor to make changes.
+1. **Edit**: Opens the branch in the editor to make changes
 2. **Additional**:
     - **View changes**: See an overview of all modifications in the branch; if the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch
     - **Preview**: Opens the live version of the branch
