@@ -22,7 +22,7 @@ In the organization view, at the top right of the project list, you will find th
 1. **Select organization**: The organization is pre-selected based on your account settings
 2. **Choose visibility**: Decide who should be able to see your app and select **public** or **private**
 3. **Choose a template**:
-   - Built-in templates: Choose from available Nordcraft templates
+   - Built-in templates: Choose from official Nordcraft templates
    - Community template: Pick from community-contributed templates
 
 After selecting the template, the Nordcraft editor will open for you to start working.
@@ -34,7 +34,7 @@ After selecting the template, the Nordcraft editor will open for you to start wo
 1. **Choose organization**: The organization is pre-selected based on your account settings
 2. **Select an emoji**: Choose an emoji to represent your package
 3. **Enter name**: Type in the desired name for your package
-4. **Adjust project id**: The id is automatically generated based on the package name, but you can adjust it as needed
+4. **Edit project id**: The id is automatically generated based on the package name, but you can edit it as needed
 
 After confirming the details, the package will be created and the Nordcraft editor will open for you to start working.
 

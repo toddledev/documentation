@@ -5,7 +5,7 @@ description: Learn the fundamentals of Nordcraft's dashboard, project types, and
 
 # Get started with Nordcraft
 
-Nordcraft provides a flexible and intuitive development environment for building applications.
+Nordcraft provides a flexible and intuitive development environment for building web applications and websites.
 
 ## Dashboard
 
@@ -25,7 +25,7 @@ A project in Nordcraft can be either an **app** or a **package**.
 
 ## Apps
 
-Apps in Nordcraft are full web applications composed of pages, components and elements. Nordcraft is built on standard HTML, CSS and JavaScript, so you can create anything from simple pages to complex interactive experiences.
+Apps in Nordcraft are full web applications composed of pages, components and elements. Nordcraft is built on standard HTML, CSS and JavaScript. Anything you can build for the web, you can build with Nordcraft.
 
 Learn more about [creating an app](/get-started/create-a-project#create-an-app) in Nordcraft.
 
