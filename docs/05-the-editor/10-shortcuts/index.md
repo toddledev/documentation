@@ -1,9 +1,9 @@
 ---
-title: Shortcuts
+title: Keyboard Shortcuts
 description: Speed up your Nordcraft development with keyboard commands for navigation, element selection, panel switching and common editing operations.
 ---
 
-# Shortcuts
+# Keyboard Shortcuts
 
 Keyboard shortcuts in Nordcraft help you work faster and more efficiently by providing quick access to common actions and tools.
 
@@ -36,6 +36,16 @@ When an element or component is selected in the canvas or element tree:
 - [kbd]Cmd/Ctrl[kbd] + [kbd]V[kbd] - Paste element/component
 - [kbd]Cmd/Ctrl[kbd] + [kbd]D[kbd] - Duplicate selected element/component
 - [kbd]Cmd/Ctrl[kbd] + [kbd]X[kbd] - Cut selected element/component
+
+## Canvas resizing shortcuts
+
+You can use keyboard shortcuts to quickly resize the visible canvas to a variety of different approximate screen sizes. This is useful for testing responsive designs.
+
+- [kbd]1[kbd] - small mobile device screen size
+- [kbd]2[kbd] - tablet screen size
+- [kbd]3[kbd] - small laptop screen size
+- [kbd]4[kbd] - 1080p
+- [kbd]5[kbd] - 1440p
 
 ## Common operations
 
