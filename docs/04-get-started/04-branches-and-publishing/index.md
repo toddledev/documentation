@@ -78,7 +78,7 @@ When working in a branch, you can view all modifications made and compare them t
 
 When you're ready to make your changes live:
 
-1. Enter a short description to your update (make your description *descriptive*, this will help you later in case you need to roll back)
+1. Enter a short description to your update (make your description _descriptive_, this will help you later in case you need to roll back)
 2. Click the [kbd]Publish branch[kbd] button
 
 Your changes will be merged into the main branch and become visible to users immediately.
@@ -100,8 +100,8 @@ Merge conflicts can occur when two branches have made changes to the same sectio
 
 1. Nordcraft will identify and highlight the conflicting changes
 2. You will need to decide which changes to keep:
-    - Reset your branch's changes to use the main branch version
-    - Reset main's changes to keep your branch's version
+   - Reset your branch's changes to use the main branch version
+   - Reset main's changes to keep your branch's version
 3. For each conflict, select the appropriate reset option
 
 After resolving all conflicts, you can complete the [sync with main](#sync-with-main).

@@ -18,11 +18,11 @@ The project settings section allows you to manage your project configuration.
 3. **Invite members**: Add members from your organization to collaborate on the project
 4. **Clone project**: Create a duplicate of the project in any of your organizations
 5. **Additional actions**:
-    - for **apps**:
-        - Change your app to **public**, where anyone can view it, or **private** with restricted access
-        - Delete your app
-    - for **packages**:
-        - Delete your package (only possible before launch)
+   - for **apps**:
+     - Change your app to **public**, where anyone can view it, or **private** with restricted access
+     - Delete your app
+   - for **packages**:
+     - Delete your package (only possible before launch)
 6. **Set a logo**: Upload a custom project logo
 7. **Edit details**: Modify the project ID, name and description
 
@@ -48,9 +48,9 @@ The following actions are available for each branch:
 
 1. **Edit**: Opens the branch in the editor to make changes
 2. **Additional**:
-    - **View changes**: See an overview of all modifications in the branch; if the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch
-    - **Preview**: Opens the live version of the branch
-    - **Delete branch**: Deletes selected branch
+   - **View changes**: See an overview of all modifications in the branch; if the branch is outdated, conflicts will be highlighted for resolution before syncing with the main branch
+   - **Preview**: Opens the live version of the branch
+   - **Delete branch**: Deletes selected branch
 
 ## Version history
 

@@ -1,0 +1,10 @@
+{
+  "name": "documentation",
+  "scripts": {
+    "prettier:write": "prettier --write  './**/*.md'",
+    "prettier": "prettier --check './**/*.md'"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
+}

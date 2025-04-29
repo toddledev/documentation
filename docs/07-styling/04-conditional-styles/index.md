@@ -4,9 +4,11 @@ description: Implement responsive and state-dependent styling with pseudoclasses
 ---
 
 # Conditional styles
+
 Conditional styling allows you to create specific variations of an element's appearance that only apply in certain circumstances. This approach enables dynamic interfaces that respond to user interactions, screen sizes, and application states.
 
 There are several methods to apply conditional styles in Nordcraft:
+
 - [Style variants](#style-variants) via pseudo-classes, pseudo-elements, and media-queries
 - Style variants via [classes](#class-based-styles)
 - [Style variables](#style-variables)
@@ -22,6 +24,7 @@ Hover over or tap the card to see the style change by setting the `:hover` pseud
 @@@
 
 In the **Style** section of the styling tab panel, you can create additional style variants that apply only when specific conditions are met:
+
 - Pseudo-classes (`:hover`, `:active`, `:focus`, etc.)
 - [Classes](#class-based-styles) defined in the [attributes tab](/the-editor/element-panel#attributes-tab)
 - Media queries for different screen sizes
@@ -33,6 +36,7 @@ While editing in the canvas, conditional styles will always be visible on the se
 :::
 
 ### Pseudo-classes
+
 The styling system supports standard CSS pseudo-classes. Pseudo-classes target elements in specific states, such as `:hover`, `:focus`, `:checked`, or `:disabled`.
 
 ::: info
@@ -40,6 +44,7 @@ For a complete list of pseudo-classes, see the [MDN documentation](https://devel
 :::
 
 ### Pseudo-elements
+
 In addition to pseudo-classes, the styling system includes support for standard CSS pseudo-elements, which allow you to style specific parts of an element that don't appear in the element tree, such as `::before`, `::after`, or `::placeholder`.
 
 ::: info
@@ -47,6 +52,7 @@ For more information on pseudo-elements, refer to the [MDN documentation](https:
 :::
 
 ## Class-based styles
+
 Add classes to elements through the attributes tab and then create conditional styles for those classes.
 
 @@@ example
@@ -68,7 +74,9 @@ Class-based styling is only available for HTML elements, not for components.
 :::
 
 ### Classes in Nordcraft
+
 Unlike some other tools, classes in Nordcraft are scoped to the element where they're defined:
+
 - Styles added to a class only apply to the specific element where they're created
 - Classes are not automatically shared between elements
 - For reusable styles across multiple elements, create components instead
@@ -86,6 +94,7 @@ Style variables create dynamic styling based on state. Click the card to toggle 
 @@@
 
 Create style variables with dynamic values by binding them to formulas, attributes, or variables:
+
 1. Define a style variable in the [Style variables](/the-editor/element-panel#styling-tab) section
 2. Use the [formula editor](/formulas/overview#the-formula-editor) to create conditional logic
 3. Reference the variable in your CSS properties
@@ -103,6 +112,7 @@ This example demonstrates how style order affects cascade behavior with multiple
 @@@
 
 Styles in Nordcraft follow CSS cascade rules, which determine which styles take precedence when multiple styles apply to the same element:
+
 - When multiple style variants apply to an element, all their properties cascade together
 - The order of style variants in the style panel matters - **later styles override earlier ones**
 - Specificity also plays a role, with more specific selectors taking precedence
@@ -117,14 +127,17 @@ When setting up conditional styles, pay careful attention to the order of your s
 This cascade behavior allows for complex styling scenarios, but requires understanding the order in which styles are applied.
 
 # Responsive breakpoints
+
 Create layouts that adapt to different screen sizes using media query conditions.
 
 When adding a new style variant, you can set media query conditions:
+
 - Set `viewport width` or `viewport height` above or below specific values
 - Define different layouts optimized for various screen sizes
 - Combine media queries with other conditions for complex responsive behavior
 
 # Component style overrides
+
 Components can be styled from the outside, allowing for customization of specific instances without affecting others.
 
 @@@ example
@@ -136,23 +149,29 @@ Component instances can be styled individually without affecting others. This de
 @@@
 
 ## How component styling works
+
 When you style a component instance:
+
 - Styles are applied only to that specific instance, not to the other instances of the component
 - Only the root element of the component can be styled from outside
-    - Elements deeper in the component tree are not affected
-    - If a component has a slot as its root element, it cannot be styled from the outside
+  - Elements deeper in the component tree are not affected
+  - If a component has a slot as its root element, it cannot be styled from the outside
 
 This approach allows you to customize individual component instances when needed, while maintaining the component's encapsulation.
 
 ## Component styling limitations
+
 When styling component instances, keep these important limitations in mind:
+
 - You cannot add classes directly to components in the attributes tab
 - Only classes that exist on the root element of the component can be styled from outside
 - Style variables cannot be added to components
 - You cannot style elements deeper in the component tree hierarchy
 
 ## Conditional styles on components
+
 To apply conditional styling to a component instance:
+
 1. Select the component in the canvas or element tree
 2. Add a style in the [styling tab](/the-editor/element-panel#styling-tab)
 3. Choose from available pseudo-classes, media queries and pseudo-elements
