@@ -1,6 +1,6 @@
 ---
 title: Bottom bar
-description: Utilize Nordcraft's bottom bar for AI assistance, history control, zoom functions, testing mode, preview and web component export.
+description: Use Nordcraft's bottom bar for AI assistance, history control, zoom functions, testing mode, preview and web component export.
 ---
 
 # Bottom bar
@@ -9,7 +9,7 @@ The bottom bar provides quick access to frequently used actions and tools in the
 
 ![Bottom bar|16/9](bottom-bar.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800}
 
-1. **AI assistance**: Get help with through the "Ask AI" button
+1. **AI assistance**: Get help with the "Ask AI" button
 2. **Undo/Redo**: Revert or restore recent changes
 3. **Zoom controls**: Adjust and view the current zoom level
 4. **Test mode**: Toggle between editing and testing your application
@@ -25,6 +25,6 @@ The [kbd]Export as web component[kbd] button is only available when editing comp
 When testing interactive features, use preview mode for a more accurate representation of how your application will behave.
 :::
 
-# Collaboration
+## Collaboration
 
 The user avatars displayed in the bottom bar show all users currently working in the same branch, enabling real-time collaboration awareness.
