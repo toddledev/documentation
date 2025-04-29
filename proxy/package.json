@@ -14,8 +14,6 @@
     "precreateSearchIndexDryrun": "bun buildDocs",
     "createSearchIndexDryrun": "bun bin/createSearchIndex.ts --dryrun",
     "lint": "eslint --quiet .",
-    "prettier:write": "prettier --write  '*.{json,js}' './**/*.{js,ts}'",
-    "prettier": "prettier --check '*.{json,js}' '**/*.{js,ts}'",
     "typecheck": "tsc --noEmit",
     "watch": "tsc --watch --noEmit"
   },
@@ -28,8 +26,6 @@
     "@typescript-eslint/parser": "8.31.0",
     "eslint-plugin-inclusive-language": "2.2.1",
     "eslint": "9.24.0",
-    "prettier-plugin-organize-imports": "4.1.0",
-    "prettier": "3.5.3",
     "typescript": "5.8.3",
     "wrangler": "4.9.1"
   },
