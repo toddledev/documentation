@@ -19,7 +19,7 @@ The editor workspace consists of four main areas:
    - [Packages](/the-editor/packages): Browse, install and manage external packages in your project
    - [Issues panel](/the-editor/issues-panel): Identify and resolve project issues
 4. **Right panel**: Context-sensitive panel that displays
-   - [Data panel](/the-editor/data-panel): Configure logic and interfaces and behavior of pages and components, connect to APIs
+   - [Data panel](/the-editor/data-panel): Configure logic, interfaces, and behavior of pages and components, connect to APIs
    - [Element panel](/the-editor/element-panel): Specific settings and configuration of the selected element, including styles
 
 ## Left panel
