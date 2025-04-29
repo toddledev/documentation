@@ -4,10 +4,13 @@ description: Define component interfaces with attributes and events, and control
 ---
 
 # Interface and lifecycle
+
 Components in Nordcraft need clearly defined interfaces to interact with the rest of your application, and they follow a specific lifecycle as they are created, updated and removed from the page.
 
 # Component interface
+
 The interface of a component defines how it communicates with other parts of your application. There are three communication channels
+
 - [Attributes](#defining-attributes): Data flow into the component (input)
 - [Events](#setting-up-events): Data flow out to parent components (output)
 - [Contexts](#data-flow-with-contexts): Data flow between parent and any descendant components
@@ -19,6 +22,7 @@ These mechanisms enable components to be configurable, reusable, and interactive
 ![Define an attribute|16/9](define-an-attribute.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
 
 Attributes are the primary way to pass data into a component:
+
 1. Open the component and view the [data panel](/the-editor/data-panel) with no element selected
 2. In the **Attributes** section, click the [kbd]+[kbd] button
 3. Configure the attribute:
@@ -26,12 +30,14 @@ Attributes are the primary way to pass data into a component:
    - **Test value**: The value used in the editor, also to determine the attribute type
 
 Attributes allow you to create configurable components that can:
+
 - Alter their behavior based on the data they are passed
 - Display different content or styling
 - Access data fetched by parent components
 - Be reused throughout your application with different configurations
 
 For example, a **tooltip** component might use attributes to control:
+
 - Which side the tooltip appears on (left, right, top, bottom)
 - How much delay occurs before showing the tooltip
 - What content appears inside the tooltip
@@ -50,6 +56,7 @@ The test value is only used while developing your component in the editor. It ha
 ![Set up an event|16/9](set-up-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=events.0&canvas-height=800}
 
 Events allow components to communicate upward to parent elements:
+
 1. Open the component and view the [data panel](/the-editor/data-panel) with no element selected
 2. In the **Events** section, click the [kbd]+[kbd] button
 3. Configure the event:
@@ -63,9 +70,11 @@ The test data is only used while developing your component. It helps when settin
 :::
 
 ## Triggering events
+
 Unlike HTML element events that trigger automatically on user interactions, component events must be explicitly triggered from within the component:
 
 ### Initial steps
+
 - **From an element event**: Select the triggering element (e.g., a button), go to [events tab](/the-editor/element-panel#events-tab) and find the appropriate HTML event (e.g. `click`)
 - **From a workflow**: Create or edit a workflow
 
@@ -82,6 +91,7 @@ All events defined in a component appear under the **Events** section when setti
 :::
 
 # Data flow with contexts
+
 In addition to attributes and events, components can communicate through contexts. Contexts provide an alternative communication channel that allows components to share data and functionality across the component tree without passing through intermediaries.
 
 ::: info
@@ -89,16 +99,20 @@ For detailed information on how to use contexts, see the [Contexts](/contexts/ov
 :::
 
 # Component lifecycle
+
 Components go through several phases during their existence in your application.
 
 ## Initialization
+
 When a component is first added to a page or another component:
+
 1. The component is created with its default structure
 2. Attribute values are applied
 3. Variables are initialized with their default values
 4. The `On load` event is triggered
 
 The initialization phase is the right time to:
+
 - Set up initial state based on attributes
 - Fetch initial data from APIs
 - Perform one-time setup operations
@@ -106,16 +120,20 @@ The initialization phase is the right time to:
 ![Add initialization logic|16/9](add-initialization-logic.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onLoad&canvas-height=800}
 
 To add initialization logic:
+
 1. With no element selected, view the [data panel](/the-editor/data-panel)
 2. In the **Lifecycle** section, click on the `On load` event
 3. Add actions to the `On load` event
 
 ## Attribute changes
+
 After initialization, components respond to changes in their attributes:
+
 1. When an attribute value changes, the `On attribute change` event is triggered
 2. The component updates to reflect the new attribute values
 
 This phase is useful for:
+
 - Updating internal state based on new attribute values
 - Triggering recalculations or API calls
 - Updating the component's appearance
@@ -123,6 +141,7 @@ This phase is useful for:
 ![Add logic on attribute change|16/9](add-logic-on-attribute-change.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onAttributeChange&canvas-height=800}
 
 To add attribute change logic:
+
 1. With no element selected, view the [data panel](/the-editor/data-panel)
 2. In the **Lifecycle** section, click on the `On attribute change` event
 3. Add actions to the `On attribute change` event
@@ -132,7 +151,9 @@ The `On attribute change` event is always triggered when any attribute of the co
 :::
 
 ## Internal state management
+
 Components maintain their own internal state using [variables](/variables/overview). Component variables are:
+
 - Private to the component instance
 - Preserved as long as the component is on the page
 - Reset when the component is removed and added again

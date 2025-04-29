@@ -35,6 +35,7 @@ Each section and page corresponds to a folder in the [GitHub repository](https:/
 Each documentation page needs:
 
 1. **YAML frontmatter** at the top of the file with:
+
    - `title`: Page title in sentence case (used for the page's title)
    - `description`: Brief overview of the page's content (used for the page's meta description, keep this to under 155 characters if possible)
 
@@ -67,7 +68,7 @@ When writing headings, use sentence case (use a capital letter for the first wor
 ## Text formatting
 
 - Use **bold** to emphasize important terms
-- Use *italics* sparingly for emphasis
+- Use _italics_ sparingly for emphasis
 - Keep paragraphs short (3-5 sentences maximum)
 - Use present tense and active voice
 - Use American English spellings
@@ -223,12 +224,12 @@ Since the Nordcraft documentation is hosted on [GitHub](https://github.com/nordc
 3. **Create a branch**: Make a new branch for your contribution
 4. **Make changes**: Edit or add files following the guidelines in this document
 5. **Test your changes**:
-    - Use the [preview](#previewing-documentation) feature to verify your documentation looks correct
-    - Test all links to ensure they point to valid pages
-    - Review your content for clarity, accuracy, and completeness
-    - Check that images display properly and have appropriate title
-    - Verify that all examples work correctly, demonstrate the intended functionality and have working links to the editor
-    - Ensure all formatting is consistent with the documentation guidelines
+   - Use the [preview](#previewing-documentation) feature to verify your documentation looks correct
+   - Test all links to ensure they point to valid pages
+   - Review your content for clarity, accuracy, and completeness
+   - Check that images display properly and have appropriate title
+   - Verify that all examples work correctly, demonstrate the intended functionality and have working links to the editor
+   - Ensure all formatting is consistent with the documentation guidelines
 6. **Commit and push**: Save your changes and push them to your fork
 7. **Create a pull request**: Submit your changes from your fork to the main repository and complete the pull request template provided
 

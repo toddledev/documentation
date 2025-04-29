@@ -4,14 +4,17 @@ description: Connect to backend providers like Supabase, Xano or OpenAPI-complia
 ---
 
 # Services
+
 Services in Nordcraft simplify working with APIs by automatically retrieving endpoint details from backend providers. When you create a service connection, Nordcraft pre-fills the necessary information for new APIs, reducing setup time and minimizing configuration errors.
 
 Nordcraft supports connections to a variety of backend services:
+
 - **Supabase**: Open-source Postgres database with authentication and real-time capabilities
 - **Xano**: No-code database and API builder
 - **OpenAPI**: Any service using [OpenAPI Specification](https://swagger.io/resources/open-api) (v2 and v3)
 
 # Add a service
+
 There are two ways to add a service in Nordcraft:
 
 ## From the API creation flow
@@ -30,11 +33,13 @@ There are two ways to add a service in Nordcraft:
 3. Select your desired service from the options
 
 # Configure specific services
+
 ## Supabase
 
 ![Configure Supabase service|16/9](configure-supabase-service.webp)
 
 To connect to Supabase:
+
 1. Enter a name for the service (defaults to "Supabase")
 2. Provide the following credentials:
    - **Project URL**: The URL of your Supabase project
@@ -51,10 +56,12 @@ To reuse configuration values throughout your project, click the [kbd]Make Globa
 ![Configure Xano service|16/9](configure-xano-service.webp)
 
 To connect to Xano:
+
 1. Enter a name for the service (defaults to "Xano")
 2. Provide the **Base URL** for your Xano API
 
 The Base URL can be found in your Xano workspace:
+
 - Select **API** in the left menu
 - Choose the API group you want to use
 - Click the [kbd]Copy base URL[kbd] button in the top right corner
@@ -66,6 +73,7 @@ Nordcraft currently only supports public Xano API documentation. If your API doc
 :::
 
 To make your API documentation public:
+
 1. Go to your Xano API group
 2. Click the [kbd]More options[kbd] button (three dots) in the top right
 3. Select **Settings**
@@ -76,6 +84,7 @@ To make your API documentation public:
 ![Configure custom service|16/9](configure-custom-service.webp)
 
 For services not natively supported by Nordcraft, you can add a custom service using **OpenAPI** specification:
+
 1. Enter a name for the service (defaults to "Custom")
 2. Configure the following:
    - **Base URL**: The root URL that will be applied to all paths in the service
@@ -88,7 +97,9 @@ Nordcraft currently supports [OpenAPI Specification](https://swagger.io/resource
 :::
 
 # Use a service in an API
+
 Once your services are configured, they simplify the API creation process by providing pre-defined endpoints from your backend:
+
 1. When creating a new API, you will see your connected services
 2. Choose the endpoint from the available options of your selected service
 3. Nordcraft automatically pre-fills all request details (path, headers, parameters, body)
@@ -97,7 +108,9 @@ Once your services are configured, they simplify the API creation process by pro
 This approach streamlines API creation by leveraging the schema information already defined in your backend service.
 
 # Benefits of services
+
 Connecting to services offers several advantages:
+
 - **Reduced configuration time**: Automatically populate API endpoints with correct paths and parameters
 - **Consistency**: Ensure proper formatting for requests based on the service's documentation
 - **Discovery**: Easily browse available endpoints without referring to external documentation

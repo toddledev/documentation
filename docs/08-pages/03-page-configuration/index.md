@@ -4,21 +4,27 @@ description: Set up page URLs, metadata and external resources to control naviga
 ---
 
 # Page configuration
+
 To configure a page, select it in the [project sidebar](/the-editor/project-sidebar) and click on it in the **Page** section of the [data panel](/the-editor/data-panel).
 
 ![Page configuration|16/9](page-configuration.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&selection=route&rightpanel=style}
 
 # URL structure
+
 At the top of the page configuration panel, you will see a URL preview showing how your page's URL will appear, including domain, path segments and query parameters.
 
 The URL configuration is divided into two main sections:
+
 ## Path
+
 - Add path segments by clicking the [kbd]Add path[kbd] button
 - For each path segment, provide a name
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
-- Set a test value for development purposes 
+- Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
+
 ## Query
+
 - Add query parameters by clicking the [kbd]Add query[kbd] button
 - Name your parameters
 - Set a test value for development
@@ -30,7 +36,9 @@ If you are not familiar with URL structure, check out the [blog post about URLs]
 :::
 
 # Metadata
+
 Each page in your application should have unique metadata to improve user experience and search engine visibility:
+
 - **Title**: Appears in browser tabs and search results
 - **Language**: Specify the language of your page content
 - **Description**: Provides additional context for search engines and social media shares
@@ -45,9 +53,11 @@ Custom `og:*` meta tags are only rendered for applications on a paid plan.
 :::
 
 # Head assets
+
 Sometimes you need to add external resources to your page, such as third-party scripts or custom fonts.
 
 In the URL panel under **Head assets**, you can:
+
 1. Choose the resource type from the dropdown (script, link or style)
 2. Provide content or reference external resources
 3. Set additional attributes for the resource

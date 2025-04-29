@@ -4,11 +4,13 @@ description: Understand the Nordcraft element tree for structural editing, eleme
 ---
 
 # Element tree
+
 The element tree provides a structural overview of your project, displaying all elements in your page or component hierarchically. It enables efficient navigation, selection and organization of your project's building blocks.
 
 ![Element tree|16/9](element-tree.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
 
 ## Navigation and selection
+
 - Elements are named according to their HTML tag or component name
 - Toggle visibility of child elements using the triangle icon
 - Select elements by clicking on them, just as in the canvas
@@ -23,6 +25,7 @@ Hold the [kbd]Alt[kbd] key while dropping a dragged element to copy it instead o
 :::
 
 ## Context menu
+
 Right-clicking an element opens a context menu with several actions.
 
 ![Element context menu|16/9](element-context-menu.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&selection=nodes.tf08THxvDvD2p9w3y5zhh&rightpanel=style}
@@ -35,17 +38,21 @@ Right-clicking an element opens a context menu with several actions.
 6. **Standard operations**: Duplicate, cut, copy, paste and delete
 
 # Adding elements
+
 Add new element by
+
 - selecting [kbd]Add element[kbd] from the context menu
 - clicking the [kbd]+[kbd] button in the sidebar header
-- using the hotkey [kbd]I[kbd] 
+- using the hotkey [kbd]I[kbd]
 
 to quickly open the element catalog.
 
 ## Element catalog
+
 ![Element catalog|16/9](element-catalog.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&elementCatalog=true}
 
 The element catalog provides a collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
+
 - Browse different element types grouped by functionality
 - Search for specific elements and components
 - View components from installed packages

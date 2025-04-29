@@ -4,13 +4,17 @@ description: Determine when and how to create components by identifying reusable
 ---
 
 # Component creation guide
+
 Creating well-designed components is key to building efficient, maintainable applications in Nordcraft. This guide helps you determine when to create components and explains the process for creating them.
 
 # When to create components
+
 Knowing when to turn parts of your application into components is an important skill. Here are key situations where creating a component makes sense:
 
 ## Identifying reusable patterns
+
 Create a component when you notice the same UI pattern appearing in multiple places:
+
 - Navigation bars or menus that appear on multiple pages
 - Card layouts used to display different types of content
 - Form input groups with labels and validation
@@ -19,19 +23,25 @@ Create a component when you notice the same UI pattern appearing in multiple pla
 If you find yourself copying and pasting the same group of elements, it's a strong indication that you should create a component.
 
 ## Reducing duplication
+
 Components help eliminate duplication in your codebase. Benefits include:
+
 - Changes only need to be made in one place
 - Bugs fixed in the component are fixed everywhere it's used
 - Consistent user experience throughout your application
 
 ## Encapsulating complex functionality
+
 Components excel at encapsulating complex logic and UI into manageable, self-contained units:
+
 - Interactive widgets like date pickers, sliders, or toggles
 - Data visualization elements like charts or graphs
 - Elements that manage their own state and behavior
 
 ## Component size and granularity
+
 Creating well-structured components involves finding the right level of granularity:
+
 - **Focus on purpose**: Each component should serve a clear, specific function
 - **Consistency matters**: Even simple elements like buttons benefit from being components when they appear throughout your application
 - **Watch for complexity signs**: Components with more than 15-20 elements or numerous attributes may benefit from being divided
@@ -45,7 +55,9 @@ Follow the **single-responsibility principle**: each component should do one thi
 :::
 
 # Component creation workflow
+
 When creating components, follow these steps for optimal results:
+
 1. **Plan the component interface**: Determine what attributes and events the component will need
 2. **Build the element structure**: Create the HTML structure that makes up your component
 3. **Style the component**: Apply CSS to make the component visually appealing

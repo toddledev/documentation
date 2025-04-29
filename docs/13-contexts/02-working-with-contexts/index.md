@@ -4,9 +4,11 @@ description: Implement context providers and consumers to establish direct data 
 ---
 
 # Working with contexts
+
 This page covers the practical aspects of creating and using contexts in Nordcraft applications. Contexts enable direct communication between ancestor and descendant components without going through intermediate components.
 
 # Create a context provider
+
 To create a context provider, you need to expose either formulas or workflows from a component.
 
 ## Expose a formula in context
@@ -32,16 +34,19 @@ To share a variable's value through context, create a formula that returns the v
 :::
 
 # Using contexts in components
+
 Components can only access contexts from ancestors in the component tree. The context provider must be higher in the hierarchy than the component using the context.
 
 ![Use context|16/9](use-context.webp){https://toddle.dev/projects/docs_examples/branches/main/components/counter-with-context-display?canvas-width=800&rightpanel=style&canvas-height=800}
 
 For a component to use context from an ancestor:
+
 1. In the selected component, navigate to the **Contexts** section in the [data panel](/the-editor/data-panel) and click the [kbd]+[kbd] button to add a context reference
 2. Select the ancestor component that provides the context (Only components that expose context will appear in the list)
 3. Check the specific formulas and workflows you need to access
 
 Once added, the selected formulas and workflows become available in the component:
+
 - Context formulas can be used in any formula editor within the component
 - Context workflows can be triggered from any workflow or event handler within the component
 
@@ -50,6 +55,7 @@ When multiple ancestor components provide the same context, the closest ancestor
 :::
 
 # Example
+
 The following example shows how to set up and use contexts with a simple counter implementation. One counter demonstrates a provider that exposes count and increment through context, while the other shows the same counter built with attribute passing for comparison.
 
 @@@ example
