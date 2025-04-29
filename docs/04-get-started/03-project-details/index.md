@@ -54,7 +54,7 @@ The following actions are available for each branch:
 
 ## Version history
 
-The Version History section provides an overview of all commits made to the project. This helps maintain control over project iterations and ensures that you can rollback to previous project states when necessary.
+The Version History section provides an overview of all commits (or "publishes") made to the project. This helps maintain control over project iterations and ensures that you can rollback to previous project states when necessary.
 
 The commit labeled `Live version` represents the current deployed version of your project. It corresponds to the main branch.
 
