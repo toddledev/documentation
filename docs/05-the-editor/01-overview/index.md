@@ -12,7 +12,7 @@ The Nordcraft editor is your main workspace for building Nordcraft applications 
 The editor workspace consists of four main areas:
 
 1. [Canvas](/the-editor/canvas): The central workspace where you visually build and interact with your application
-2. [Bottom bar](/the-editor/bottom-bar): Undo/redo changes, control zoom, preview your project and get and AI assistance
+2. [Bottom bar](/the-editor/bottom-bar): Undo/redo changes, switch between viewports, preview your project and get and AI assistance
 3. **Left panel**: Context-sensitive panel that displays
    - [Element tree](/the-editor/element-tree): A hierarchical view of the element structure of your page or component
    - [Project sidebar](/the-editor/project-sidebar): Access to project files, resources and settings
