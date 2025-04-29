@@ -255,7 +255,7 @@ You'll need to install `bun` to run the formatting script. [Learn how to install
 
 To use Prettier on your machine, we suggest [installing the Prettier extension in your IDE](https://prettier.io/docs/editors) and enabling formatting on save.
 
-1. To install dependencies to use the script, navigate to the `docs/` or `proxy/` directory and run `bun i`.
+1. To install dependencies to use the script, run `bun i` in the root of the repository.
 2. Run `bun prettier` in your terminal to validate your changes
 3. Run `bun prettier:write` in your terminal to auto format all files
 
