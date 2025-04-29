@@ -245,6 +245,17 @@ When submitting a pull request (PR):
 
 After submitting your pull request, the Nordcraft team will review your contribution. They may suggest changes or improvements before merging your work into the main documentation.
 
+## Formatting
+
+We use Prettier to format the documentation as well as the proxy worker.
+
+To use Prettier locally:
+
+1. We suggest installing Prettier in your IDE and enabling formatting on save
+2. Make sure you've installed dependencies in either `docs/` or `proxy/`
+3. Run the following command in the terminal `bun prettier` to validate your changes
+4. Run `bun prettier:write` if you want to auto format all files
+
 ## Previewing documentation
 
 To preview documentation pages while you're working on them:
