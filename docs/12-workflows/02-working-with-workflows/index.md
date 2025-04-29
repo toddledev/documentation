@@ -4,7 +4,7 @@ description: Create event-triggered and reusable workflows with parameters and s
 ---
 
 # Create a workflow
-A workflow can be created on any event in Nordcraft. This can be a standard JavaScript event on an element, a custom [event on a component](/components/interface-and-lifecycle/#setting-up-events) or lifecycle events like `On load` or `On attribute change`.
+A workflow can be created on any event in Nordcraft. This can be a standard JavaScript event on an element, a custom [event on a component](/components/interface-and-lifecycle#setting-up-events) or lifecycle events like `On load` or `On attribute change`.
 
 ![Create a workflow|16/9](create-workflow-on-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&selection=nodes.root.events.onClick&rightpanel=events&canvas-height=800}
 
