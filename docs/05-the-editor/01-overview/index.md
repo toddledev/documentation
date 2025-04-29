@@ -9,7 +9,7 @@ The Nordcraft editor is your main workspace for building Nordcraft applications 
 
 ![Editor overview|16/9](editor-overview.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=events}
 
-The editor workspace consists of four main sections:
+The editor workspace consists of four main areas:
 
 1. [Canvas](/the-editor/canvas): The central workspace where you visually build and interact with your application
 2. [Bottom bar](/the-editor/bottom-bar): Undo/redo changes, control zoom, preview your project and get and AI assistance
