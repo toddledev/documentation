@@ -5,19 +5,19 @@ description: Understand the Nordcraft element tree for structural editing, eleme
 
 # Element tree
 
-The element tree provides a structural overview of your project, displaying all elements in your page or component hierarchically. It enables efficient navigation, selection and organization of your project's building blocks.
+The element tree provides a structural overview of your project, displaying all elements and componenents in your page or component hierarchically.
 
 ![Element tree|16/9](element-tree.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
 
 ## Navigation and selection
 
 - Elements are named according to their HTML tag or component name
-- Toggle visibility of child elements using the triangle icon
+- Toggle visibility of child elements using the triangle icon to collapse sections
 - Select elements by clicking on them, just as in the canvas
 - Drag elements to reorder them within the structure
 
 ::: info
-HTML element names always correspond to their real HTML tag.
+HTML element names always correspond to their actual HTML element tag.
 :::
 
 ::: tip
@@ -37,15 +37,13 @@ Right-clicking an element opens a context menu with several actions.
 5. [Repeat](/formulas/repeat-formula): Apply a formula to create multiple instances from an array
 6. **Standard operations**: Duplicate, cut, copy, paste and delete
 
-# Adding elements
+## Add a new element
 
-Add new element by
+Add a new element in one of three ways:
 
-- selecting [kbd]Add element[kbd] from the context menu
-- clicking the [kbd]+[kbd] button in the sidebar header
-- using the hotkey [kbd]I[kbd]
-
-to quickly open the element catalog.
+- select [kbd]Add element[kbd] from the context menu
+- click the [kbd]+[kbd] button in the sidebar header
+- use the shortcut [kbd]I[kbd] to open the element catalog
 
 ## Element catalog
 
@@ -58,3 +56,7 @@ The element catalog provides a collection of HTML elements and components organi
 - View components from installed packages
 
 Select an element to add it to your project. The element will be added as a child of the currently selected element or as the first child of the root element if no element is selected.
+
+::: tip
+The Nordcraft element catalog contains the most commonly used HTML elements. To add an element that is not listed in the catalog, add any element, and edit its `Tag` under `Attributes` in the Right panel.
+:::
