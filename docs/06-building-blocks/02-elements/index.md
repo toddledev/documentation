@@ -80,7 +80,7 @@ For more information, see the [components description](/building-blocks/componen
 There are several important limitations to be aware of when working with elements in Nordcraft:
 
 - Text elements cannot have children
-- Some HTML elements, such as `<img>`, `<input>` and `<br>`, are self-closing and cannot contain child elements
+- Some HTML elements, such as `<img>`, `<input>` and `<br>`, are void (self-closing) and cannot contain child elements - see [void element on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Void_element)
 
 ::: info
 For detailed information about HTML element constraints and nesting elements, refer to the [HTML Elements reference on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
