@@ -26,7 +26,7 @@ Typically, workflows are used to react to events. For example, when a user click
 
 ## Sequential execution
 
-Workflows execute their nodes sequentially, but there's an important distinction between sequential execution and synchronous execution.
+Workflows execute their nodes sequentially. However, this doesn’t necessarily mean each step waits for the previous one to finish completely, which is what synchronous execution would require.
 
 ### Sequential and asynchronous execution
 
