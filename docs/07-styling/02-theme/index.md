@@ -11,7 +11,7 @@ The theme system in Nordcraft provides a centralized way to manage design tokens
 
 ## Colors
 
-Create and organize color palettes for your application in the theme's color section:
+Create and organize color palettes for your application in the color section:
 
 - Create color groups by clicking the [kbd]Add group[kbd] button
 - Define color variables with their specific values
@@ -27,7 +27,7 @@ Spacing variables help maintain consistent layout measurements throughout your a
 
 ## Fonts
 
-You can select and manage typography for your project:
+Select and manage typography for your project:
 
 - Choose from available Google fonts
 - Add new fonts by clicking the [kbd]Add font[kbd] button
