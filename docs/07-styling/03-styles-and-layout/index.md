@@ -7,7 +7,7 @@ description: Apply styles through Nordcraft's visual interface or CSS editor, us
 
 The styling and layout system in Nordcraft helps you write CSS visually, presenting the most commonly used CSS properties in the style panel. This approach lets you style elements visually without writing code while preserving traditional CSS flexibility. For more precise control, the CSS editor is also available.
 
-## Styling with the UI panel
+## Adding CSS with the style panel
 
 ![Styling panel|16/9](styling-panel.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
