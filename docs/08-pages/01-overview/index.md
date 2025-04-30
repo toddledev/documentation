@@ -1,20 +1,20 @@
 ---
 title: Page fundamentals
-description: Explore how pages serve as application foundation with unique URLs, metadata configuration, parameter handling and component containment.
+description: Explore how pages work in Nordcraft, providing unique URLs, metadata configuration, parameter handling and component containment.
 ---
 
-# Page fundamentals
+# Pages in Nordcraft
 
-Pages are the foundation of applications in Nordcraft. They represent distinct screens with unique URLs that users navigate to, creating the overall structure of your web application.
+Pages are the foundation of applications in Nordcraft, representing distinct screens with unique URLs that users navigate to.
 
-# What are pages in Nordcraft
+Pages in Nordcraft are specialized components that serve as the top-level containers for different areas of your application. They function as containers for all the content and functionality available at a specific URL. You can think of each page as being a separate document. If you're familar with other web frameworks or you have experience using HTML, pages in Nordcraft work in the same way.
 
-Pages in Nordcraft are specialized components that serve as the top-level containers for your application's screens. They function as containers for all the content and functionality available at a specific URL.
+## Page features
 
 - Each page has a unique URL path
 - Pages are top-level components in your application structure, not nested within other elements
-- Pages do not have attributes or events since they don't have parent components
-- Instead, pages have a dedicated **Page** section in the [data panel](/the-editor/data-panel)
+- Pages do not have attributes or events
+- To configure your pages, use the dedicated **Page** section in the [data panel](/the-editor/data-panel)
 
 Pages handle a variety of functions central to web applications:
 
@@ -25,28 +25,35 @@ Pages handle a variety of functions central to web applications:
 - Connecting to external data through APIs
 - Controlling user interactions and navigation flow
 
-This combination of URL handling and component-like functionality makes pages the foundation for building complete web applications in Nordcraft.
+An ecommerce site may contain the following pages:
 
-# Page structure
+- HomePage, available at `https://your-site.nordcraft.com/`
+- About, available at `https://your-site.nordcraft.com/about`
+- Products, available at `https://your-site.nordcraft.com/products`
+- Checkout, available at `https://your-site.nordcraft.com/checkout`
+- etc.
 
-A page in Nordcraft can consist of several key elements:
+When you create a new project in Nordcraft, a page named `HomePage` is created for you automatically.
 
-- [Element tree](/the-editor/element-tree): The hierarchy of elements and components that create the page's interface
+## Page structure
+
+A page in Nordcraft can have any of the following:
+
+- [Element tree](/the-editor/element-tree): The hierarchy of elements and components that create the page interface
 - [Page configuration](/pages/page-configuration)
-  - [URL configuration](/pages/page-configuration#url-structure): Path segments and query parameters that define the page's address
-  - [Metadata](/pages/page-configuration#metadata): Title, description, language settings, and social sharing information
-  - [Head assets](/pages/page-configuration#head-assets): Custom scripts, styles and other resources added to the page's `head`
+  - [URL configuration](/pages/page-configuration#url-structure): Path segments and query parameters that define the page URL on the web
+  - [Metadata](/pages/page-configuration#metadata): Title, description, language settings, and social sharing metadata
+  - [Head assets](/pages/page-configuration#head-assets): Custom scripts, styles and other resources you want to include in the page's `head` tag
 - [Variables](/variables/overview): Internal state and data management
 - [APIs](/connecting-data/overview): Connections to external services and data sources
 - [Formulas](/formulas/overview): Calculations and data transformations
 - [Workflows](/workflows/overview): Internal logic and behavior triggered by events
-- [Contexts](/contexts/overview): Communication channels to provide data to descendant components
+- [Contexts](/contexts/overview): Communication channels to provide data to child components
 
-These elements work together to create a complete, addressable screen in your application.
-
-# Custom 404 page
+## Custom 404 page
 
 If a user navigates to a URL that doesn't match any page in your application, Nordcraft shows a default 404 (page not found) page.
+
 To create a custom 404 page:
 
 1. Add a new page
