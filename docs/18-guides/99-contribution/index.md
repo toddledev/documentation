@@ -58,7 +58,7 @@ description: Brief description explaining what this page covers.
 
 ## Heading hierarchy
 
-- **H1 (#)**: Used for the main title of the page (matching the frontmatter title) and for main sections
+- **H1 (#)**: Used for the main title of the page (matching the frontmatter title), each page should have only one H1 heading
 - **H2 (##)**: Used for subsections within the main sections
 - **H3 (###)**: Used for topics within subsections
 - **H4 (####)**: Used for detailed points within topics (use sparingly)
