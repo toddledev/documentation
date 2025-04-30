@@ -7,7 +7,7 @@ description: Understand Nordcraft's reset stylesheet and default flexbox layout 
 
 In your Nordcraft projects, a **reset stylesheet** is applied to all elements by default, to ensure consistent rendering across different browsers.
 
-Browsers have their own default styles, also known as agent styles, that can vary significantly. This can cause inconsistencies in how web pages are rendered. The Nordcraft reset stylesheet creates a clean baseline on which to build upon, ensuring your project looks consistent across all browsers.
+Browsers have their own default styles, also known as user agent styles, that can vary significantly. This can cause inconsistencies in how web pages are rendered. The Nordcraft reset stylesheet creates a clean baseline on which to build upon, ensuring your project looks consistent across all browsers.
 
 ## Key benefits
 
@@ -18,7 +18,7 @@ Browsers have their own default styles, also known as agent styles, that can var
 
 ## Flexbox by default
 
-All elements in Nordcraft use `display: flex` by default, offering several advantages over traditional display types:
+All elements in Nordcraft use `display: flex` by default, offering several advantages:
 
 - Simplified alignment of elements and distribution of space
 - Easier implementation of responsive layouts
