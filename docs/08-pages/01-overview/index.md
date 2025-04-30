@@ -5,7 +5,7 @@ description: Explore how pages work in Nordcraft, providing unique URLs, metadat
 
 # Pages in Nordcraft
 
-Pages are the foundation of applications in Nordcraft. They represent distinct screens with unique URLs that users navigate to, which create the overall structure of your web application.
+Pages are the foundation of applications in Nordcraft, representing distinct screens with unique URLs that users navigate to.
 
 Pages in Nordcraft are specialized components that serve as the top-level containers for your application's screens. They function as containers for all the content and functionality available at a specific URL. You can think of each page as being a separate document. If you're familar with other web frameworks or you have experience using HTML, pages in Nordcraft work in the same way.
 
