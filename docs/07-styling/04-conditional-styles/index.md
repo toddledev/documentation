@@ -23,7 +23,7 @@ height: 18rem
 Hover or tap the card to see the style change. This is achieved by setting the `:hover` pseudo-class.
 @@@
 
-In the **Style** section of the styling tab panel, you can create additional style variants that apply only when specific conditions are met:
+In the **Style** section of the style tab panel, you can create additional style variants that apply only when specific conditions are met:
 
 - Pseudo-classes (`:hover`, `:active`, `:focus`, etc.)
 - [Classes](#class-based-styles) defined in the [attributes tab](/the-editor/element-panel#attributes-tab)
@@ -64,7 +64,7 @@ Click to select and unselect the card.
 @@@
 
 1. Add a class name in the **Classes** section of the [attributes tab](/the-editor/element-panel#attributes-tab)
-2. Create a new style variant in the [styling tab](/the-editor/element-panel#styling-tab) by selecting that class name
+2. Create a new style variant in the [style tab](/the-editor/element-panel#style-tab) by selecting that class name
 3. Define the styles that should apply when the class is applied
 
 Classes can be conditionally applied using formulas, variables, or attributes. If the condition evaluates to a truthy value, the class and its associated styles will be applied.
@@ -95,7 +95,7 @@ Style variables create dynamic styles based on state. Click the card to toggle i
 
 Create style variables with dynamic values by binding them to formulas, attributes, or variables:
 
-1. Define a style variable in the [Style variables](/the-editor/element-panel#styling-tab) section
+1. Define a style variable in the [Style variables](/the-editor/element-panel#style-tab) section
 2. Use the [formula editor](/formulas/overview#the-formula-editor) to create conditional logic
 3. Reference the variable in your CSS properties
 
@@ -162,7 +162,7 @@ This approach allows you to customize individual component instances when needed
 To apply conditional styling to a component instance:
 
 1. Select the component in the canvas or element tree
-2. Add a style in the [style tab](/the-editor/element-panel#styling-tab)
+2. Add a style in the [style tab](/the-editor/element-panel#style-tab)
 3. Choose from available pseudo-classes, media queries and pseudo-elements
 4. If the component has classes on its root element, these will appear in the **Class** selection dropdown
 

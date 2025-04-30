@@ -32,7 +32,7 @@ Select and manage typography for your project:
 - Choose from available Google fonts
 - Add new fonts by clicking the [kbd]Add font[kbd] button
 
-Once added, these fonts become available in the font dropdown menu in the [style panel](/the-editor/element-panel#styling-tab).
+Once added, these fonts become available in the font dropdown menu in the [style panel](/the-editor/element-panel#style-tab).
 
 ### Add custom fonts
 
