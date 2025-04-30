@@ -43,7 +43,7 @@ A page in Nordcraft can have any of the following:
 - [Page configuration](/pages/page-configuration)
   - [URL configuration](/pages/page-configuration#url-structure): Path segments and query parameters that define the page URL on the web
   - [Metadata](/pages/page-configuration#metadata): Title, description, language settings, and social sharing metadata
-  - [Head assets](/pages/page-configuration#head-assets): Custom scripts, styles and other resources, which Nordcraft adds to the page `head` tag
+  - [Head assets](/pages/page-configuration#head-assets): Custom scripts, styles and other resources you want to include in the page's `head` tag
 - [Variables](/variables/overview): Internal state and data management
 - [APIs](/connecting-data/overview): Connections to external services and data sources
 - [Formulas](/formulas/overview): Calculations and data transformations
