@@ -23,7 +23,7 @@ Pages handle a variety of functions central to web applications:
 - Connecting to external data through APIs
 - Controlling user interactions and navigation flow
 
-A ecommerce site may contain the following pages:
+An ecommerce site may contain the following pages:
 
 - HomePage, available at `https://your-site.nordcraft.com/`
 - About, available at `https://your-site.nordcraft.com/about`
