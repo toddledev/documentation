@@ -1,6 +1,6 @@
 ---
 title: Conditional styles
-description: Implement responsive and state-dependent styling with pseudoclasses, CSS classes and style variables for dynamic user interfaces.
+description: Implement responsive and state-dependent styling with pseudo classes, CSS classes and style variables for dynamic user interfaces.
 ---
 
 # Conditional styles
@@ -48,7 +48,7 @@ For a complete list of pseudo-classes, see the [MDN documentation on pseudo-clas
 In addition to pseudo-classes, Nordcraft includes support for standard CSS pseudo-elements, which allow you to style specific parts of an element that don't appear in the element tree, such as `::before`, `::after`, or `::placeholder`.
 
 ::: info
-For more information on pseudo-elements, refer to the [MDN documentation on pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
+For more information on pseudo-elements, see the [MDN documentation on pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
 :::
 
 ## Class-based styles
@@ -126,7 +126,7 @@ When setting up conditional styles, pay careful attention to the order of your s
 
 ## Responsive breakpoints
 
-Create layouts that adapt to different screen sizes using media queries.
+You can create layouts that adapt to different screen sizes using media queries.
 
 When adding a new style variant, you can set media query conditions:
 
@@ -170,7 +170,7 @@ For consistent styling across multiple components, consider adding toggleable cl
 
 ### Component styling limitations
 
-When styling component instances, keep these limitations in mind:
+When styling component instances, there are some limitations:
 
 - You cannot add classes directly to components in the attributes tab
 - Only classes that exist on the root element of the component can be styled from outside
