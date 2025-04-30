@@ -24,7 +24,7 @@ Typically, workflows are used to react to events. For example, when a user click
 - **Workflows** are scoped, meaning they belong to a page or a component. They can only be executed in their scope or via a [context](/contexts/overview). Workflow logic is created in Nordcraft's visual environment.
 - **Actions** are global to the project. They can be called from anywhere in your project. Also, actions are written in JavaScript and are typically used to extend Nordcraft's functionality.
 
-# Sequential execution
+## Sequential execution
 
 Workflows execute their nodes sequentially, but there's an important distinction between sequential execution and synchronous execution.
 
