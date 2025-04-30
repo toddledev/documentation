@@ -42,7 +42,7 @@ Attributes allow you to create configurable components that can:
 
 For example, a **tooltip** component might use attributes to control:
 
-- Which side of the screen the tooltip appears on (left, right, top, bottom)
+- Which side of the screen the tooltip appears (left, right, top, bottom)
 - The delay before showing the tooltip
 - What content appears inside the tooltip
 - Whether the tooltip has a close button
@@ -163,5 +163,5 @@ Components maintain their own internal state using [variables](/variables/overvi
 - Reset when the component is removed and added again
 
 ::: info
-When a component is unmounted, all its resources, including event listeners, workflows, and variable values, are automatically cleaned up. This helps prevent memory leaks in your application, which could negatively affect performance.
+When a component is unmounted, all its resources, including event listeners, workflows, and variable values, are automatically cleaned up. This helps prevent memory leaks in your application.
 :::
