@@ -53,7 +53,7 @@ For more information on pseudo-elements, see the [MDN documentation on pseudo-el
 
 ## Class-based styles
 
-You can classes to elements using the attributes tab, and then create conditional styles for those classes.
+You can add classes to elements using the attributes tab, and then create conditional styles for those classes.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
