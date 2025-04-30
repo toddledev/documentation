@@ -5,9 +5,9 @@ description: Define component interfaces with attributes and events, and control
 
 # Interface and lifecycle
 
-Components in Nordcraft need clearly defined interfaces to interact with the rest of your application, and they follow a specific lifecycle as they are created, updated and removed from the page.
+Components in Nordcraft need clearly defined interfaces to interact with the rest of your application, and they follow a specific lifecycle as they are created, updated and removed from the page. Understanding component interfaces and lifecycle helps you create components that integrate seamlessly with the rest of your application and behave predictably as your application state changes.
 
-# Component interface
+## Component interface
 
 The interface of a component defines how it communicates with other parts of your application. There are three communication channels
 
@@ -15,9 +15,13 @@ The interface of a component defines how it communicates with other parts of you
 - [Events](#setting-up-events): Data flow out to parent components (output)
 - [Contexts](#data-flow-with-contexts): Data flow between parent and any descendant components
 
-These mechanisms enable components to be configurable, reusable, and interactive.
+::: tip
 
-## Defining attributes
+- Attributes pass data from parent to child
+- Events pass data from child to parent
+:::
+
+### Defining attributes
 
 ![Define an attribute|16/9](define-an-attribute.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
 
@@ -27,7 +31,7 @@ Attributes are the primary way to pass data into a component:
 2. In the **Attributes** section, click the [kbd]+[kbd] button
 3. Configure the attribute:
    - **Name**: A unique name that must consist of lowercase letters, numbers, hyphens (`-`) and underscores (`_`) only
-   - **Test value**: The value used in the editor, also to determine the attribute type
+   - **Test value**: The value used in the editor; this test value also determines the attribute type (e.g. `Number`, `String`, `Array`, etc.)
 
 Attributes allow you to create configurable components that can:
 
@@ -38,8 +42,8 @@ Attributes allow you to create configurable components that can:
 
 For example, a **tooltip** component might use attributes to control:
 
-- Which side the tooltip appears on (left, right, top, bottom)
-- How much delay occurs before showing the tooltip
+- Which side of the screen the tooltip appears on (left, right, top, bottom)
+- The delay before showing the tooltip
 - What content appears inside the tooltip
 - Whether the tooltip has a close button
 
@@ -51,7 +55,7 @@ Attributes can be accessed inside any formula within the component.
 The test value is only used while developing your component in the editor. It has no impact on how your component will behave when used in other components or pages.
 :::
 
-## Setting up events
+### Setting up events
 
 ![Set up an event|16/9](set-up-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=events.0&canvas-height=800}
 
@@ -63,19 +67,19 @@ Events allow components to communicate upward to parent elements:
    - **Name**: A descriptive name for the event
    - **Test value**: Example data that defines the event's output structure, allowing you to develop event handling in parent components without actual event triggers.
 
-Events enable child components to send messages and data up to their parent components, complementing the downward data flow of attributes. While attributes pass data from parent to child, events pass data from child to parent.
+Events enable child components to send messages and data up to their parent components.
 
 ::: info
 The test data is only used while developing your component. It helps when setting up workflows in parent components that will handle this event, but has no impact on your application at runtime.
 :::
 
-## Triggering events
+### Triggering events
 
-Unlike HTML element events that trigger automatically on user interactions, component events must be explicitly triggered from within the component:
+Unlike HTML element events that trigger automatically on user interactions, component events must be explicitly triggered from within the component.
 
 ### Initial steps
 
-- **From an element event**: Select the triggering element (e.g., a button), go to [events tab](/the-editor/element-panel#events-tab) and find the appropriate HTML event (e.g. `click`)
+- **From an element event**: Select the triggering element (e.g. a button), go to the [events tab](/the-editor/element-panel#events-tab) and find the appropriate HTML event (e.g. `click`)
 - **From a workflow**: Create or edit a workflow
 
 ### Common steps
@@ -83,14 +87,14 @@ Unlike HTML element events that trigger automatically on user interactions, comp
 ![Trigger an event|16/9](trigger-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&canvas-height=800&selection=nodes.root.events.click&rightpanel=events}
 
 1. Click the `+` button to add a new action
-2. Select in **Events** the `Trigger: event` action for desired component event to trigger
+2. In **Events**, select the `Trigger: event` action for desired component event to trigger
 3. Define the data payload to send with the event
 
 ::: info
 All events defined in a component appear under the **Events** section when setting up event handlers.
 :::
 
-# Data flow with contexts
+## Data flow with contexts
 
 In addition to attributes and events, components can communicate through contexts. Contexts provide an alternative communication channel that allows components to share data and functionality across the component tree without passing through intermediaries.
 
@@ -98,11 +102,11 @@ In addition to attributes and events, components can communicate through context
 For detailed information on how to use contexts, see the [Contexts](/contexts/overview) page.
 :::
 
-# Component lifecycle
+## Component lifecycle
 
 Components go through several phases during their existence in your application.
 
-## Initialization
+### Initialization
 
 When a component is first added to a page or another component:
 
@@ -125,7 +129,7 @@ To add initialization logic:
 2. In the **Lifecycle** section, click on the `On load` event
 3. Add actions to the `On load` event
 
-## Attribute changes
+### Attribute changes
 
 After initialization, components respond to changes in their attributes:
 
@@ -135,7 +139,7 @@ After initialization, components respond to changes in their attributes:
 This phase is useful for:
 
 - Updating internal state based on new attribute values
-- Triggering recalculations or API calls
+- Triggering recalculations or updating data from API calls
 - Updating the component's appearance
 
 ![Add logic on attribute change|16/9](add-logic-on-attribute-change.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onAttributeChange&canvas-height=800}
@@ -150,7 +154,7 @@ To add attribute change logic:
 The `On attribute change` event is always triggered when any attribute of the component is changed.
 :::
 
-## Internal state management
+### Internal state management
 
 Components maintain their own internal state using [variables](/variables/overview). Component variables are:
 
@@ -159,7 +163,5 @@ Components maintain their own internal state using [variables](/variables/overvi
 - Reset when the component is removed and added again
 
 ::: info
-When a component is unmounted, all its resources, including event listeners, workflows, and variable values, are automatically cleaned up. This helps prevent memory leaks in your application.
+When a component is unmounted, all its resources, including event listeners, workflows, and variable values, are automatically cleaned up. This helps prevent memory leaks in your application, which could negatively affect performance.
 :::
-
-Understanding component interfaces and lifecycle helps you create components that integrate seamlessly with the rest of your application and behave predictably as your application state changes.
