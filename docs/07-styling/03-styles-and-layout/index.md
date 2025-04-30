@@ -27,7 +27,7 @@ The style panel provides an interface for applying styles without needing to wri
 
 If you prefer writing CSS:
 
-- Access the [CSS editor](/the-editor/element-panel#css-editor) by clicking the [kbd]{ }[kbd] button at the bottom of the [styling panel](/the-editor/element-panel#styling-tab)
+- Access the [CSS editor](/the-editor/element-panel#css-editor) by clicking the [kbd]{ }[kbd] button at the bottom of the [style panel](/the-editor/element-panel#styling-tab)
 - Write traditional CSS syntax for complete control over styling
 - View all defined styles and their properties in one place
 - Switch seamlessly between the style panel and CSS editor view, where your CSS will be reflected in the style panel properties
@@ -40,7 +40,7 @@ The CSS editor is particularly useful for viewing all style variants and their a
 
 You can transfer styling between elements:
 
-1. Select the element with the styling you want to copy
+1. Select the element with the styles you want to copy
 2. Click the [kbd]Copy styles[kbd] button at the bottom of the styling panel
 3. Select the target element where you want to apply these styles
 4. Paste the styles
@@ -57,7 +57,7 @@ By default, Nordcraft uses the flexbox system for layout:
 - Direction, wrapping, and spacing can be precisely controlled
 
 ::: info
-Flexbox provides useful layout features. To learn more, see Josh W Comeau's [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox).
+Flexbox provides many useful layout features. To learn more, see Josh W Comeau's [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox).
 :::
 
 ### Text layout
