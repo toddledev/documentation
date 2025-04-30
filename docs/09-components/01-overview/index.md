@@ -83,7 +83,7 @@ Components can send data to other components and pages through:
 
 - **Attributes**: Pass data down to child components
 - **Events**: Send data up to parent components
-- **Contexts**: Create direct communication channels with ancestor and descendant components, bypassing intermediaries
+- **Contexts**: Create direct communication channels with ancestor and descendant components
 
 This communication pattern enables components to work together while maintaining their independence and encapsulation.
 
