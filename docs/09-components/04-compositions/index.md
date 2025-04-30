@@ -134,4 +134,4 @@ Both nested components and slot-based assembly involve nesting components within
 - You want to allow completely different elements in each instance
 - You need to compose from existing components rather than building everything from scratch
 
-Many complex components combine both approaches, using fixed nested components for core functionality, and slots for customizable areas.
+Many complex components combine both approaches, using nested components for core functionality, and slots for customizable areas.
