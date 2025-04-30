@@ -7,7 +7,7 @@ description: Create fixed content pages or data-driven pages using URL parameter
 
 ## Static pages
 
-Static pages contain content defined added directly to the Nordcraft canvas that doesn't change unless you publish updates. They:
+Static pages contain content added directly to the Nordcraft canvas that doesn't change unless you publish updates. They:
 
 - Have fixed content created directly in the editor
 - Display the same information to all users
@@ -35,14 +35,14 @@ To create a dynamic page:
 For example, a blog page might use `/blog/:slug` where `:slug` is a parameter that determines which article to display.
 
 ::: info
-Nordcraft prioritizes **static** pages over **dynamic** ones when multiple pages match the current URL.
+Nordcraft prioritizes **static** pages over **dynamic** pages when multiple pages match the current URL.
 :::
 
 ### Query parameters
 
-In addition to path parameters, you can define query parameters to pass additional information in the URLm, which can be useful for optional settings or filters:
+In addition to path parameters, you can define query parameters to pass additional information in the URL, which can be useful for optional settings or filters:
 
-- Query parameters appear after a `?` in the URL (e.g., `?category=shirts`)
+- Query parameters appear after a `?` in the URL (e.g. `?category=shirts`)
 - Multiple parameters are separated by an `&` in the URL (e.g.`?category=shirtsue&color=blue`)
 
 ### Working with URL parameters
