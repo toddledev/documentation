@@ -9,6 +9,8 @@ Pages are the foundation of applications in Nordcraft, representing distinct scr
 
 Pages in Nordcraft are specialized components that serve as the top-level containers for different areas of your application. They function as containers for all the content and functionality available at a specific URL. You can think of each page as being a separate document. If you're familar with other web frameworks or you have experience using HTML, pages in Nordcraft work in the same way.
 
+## Page features
+
 - Each page has a unique URL path
 - Pages are top-level components in your application structure, not nested within other elements
 - Pages do not have attributes or events
