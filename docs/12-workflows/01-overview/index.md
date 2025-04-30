@@ -36,4 +36,4 @@ Workflows execute nodes in the order they appear, but some nodes (like API calls
 - However, asynchronous nodes may not complete before the next node starts executing
 - For asynchronous operations, you need to use callback events to handle their results
 
-This is why some nodes have specific callback events like "On success", "On error", or "tick" - these allow you to define what happens after an asynchronous operation completes.
+This is why some nodes have specific callback events like `On success`, `On error`, or `tick`. These callbacks allow you to define what happens after an asynchronous operation completes.
