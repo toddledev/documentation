@@ -30,7 +30,7 @@ Workflows execute their nodes sequentially, but there's an important distinction
 
 ### Sequential vs asynchronous execution
 
-Workflows execute nodes in the order they appear, but some nodes (like API calls) work asynchronously. This means:
+Workflows execute nodes in the order they appear (sequential), but some nodes (like API calls) work asynchronously. This means:
 
 - Nodes are always called in sequence (one after another)
 - However, asynchronous nodes may not complete before the next node starts executing
