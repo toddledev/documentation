@@ -1,15 +1,13 @@
 ---
 title: Component fundamentals
-description: Discover component architecture in Nordcraft including structure, benefits, data encapsulation and composition patterns for application design.
+description: Learn how components work in Nordcraft, and how using components can help you build maintanable, organized, and powerful applications.
 ---
 
-# Component fundamentals
+# Components in Nordcraft
 
-Components are the fundamental building blocks of applications in Nordcraft. They let you reuse generic parts of your application and break large applications down into smaller, more manageable pieces.
+Components are the fundamental building blocks of applications in Nordcraft. Using components, you can create reusable parts of your application and break large applications down into smaller, more manageable pieces.
 
-# What are components in Nordcraft
-
-Components in Nordcraft are self-contained, reusable elements that encapsulate structure, styling and behavior. They function like tiny web applications on their own, with the ability to:
+Components in Nordcraft are self-contained, reusable elements that encapsulate structure, styles and behavior. They function like tiny web applications on their own, with the ability to:
 
 - Render elements on a page
 - Store data in variables
@@ -17,35 +15,35 @@ Components in Nordcraft are self-contained, reusable elements that encapsulate s
 - Respond to user interactions
 - Communicate with other components
 - Encapsulate logic
-- Implement complex functionality in isolation
+- Implement functionality in isolation
 - Maintain their own internal state
 
-Each component has its own structure, data model, and behavior, making them highly reusable across your project. This encapsulation of both UI and logic creates building blocks that can be combined to create increasingly complex applications.
+Each component has its own structure, data model, and behavior. This makes components neatly reusable across your project. The encapsulation of both UI and logic creates building blocks that can be combined to create increasingly sophisticated applications.
 
 ::: info
-Components combine HTML structure, CSS styling, and JavaScript behavior into reusable parts.
+Components combine HTML structure, CSS styles, and interactive JavaScript behavior into reusable parts.
 :::
 
 ::: dev
-The way components work in Nordcraft is very similar to popular JS frameworks like React or Vue.
+Nordcraft components work in very similar ways to other JavaScript frameworks like React, Vue, and Svelte.
 :::
 
-# Benefits of using components
+## Benefits of using components
 
 Breaking your application into components provides several advantages:
 
 - **Reusability**: Build functionality once and use it many times
-- **Maintainability**: Changes to a component apply everywhere it's used
+- **Maintainability**: Changes to a component apply everywhere it is used
 - **Organization**: Divide complex applications into manageable pieces
-- **Consistency**: Ensure UI elements look and behave the same throughout your application
+- **Consistency**: Ensure UI elements look and behave the same way throughout your application
 - **Collaboration**: Different team members can work on different components simultaneously
 - **Testing**: Components can be tested in isolation
 
 ::: tip
-A well-designed component library can accelerate development and ensure scalability and maintainability as projects grow through component reuse.
+A well-designed component library can accelerate development and ensure scalability and maintainability as projects grow.
 :::
 
-# Component structure and anatomy
+## Component structure and anatomy
 
 A component in Nordcraft can consist of:
 
@@ -57,9 +55,9 @@ A component in Nordcraft can consist of:
 - [Events](/components/interface-and-lifecycle#setting-up-events): The interface for communicating out from the component
 - [Formulas](/formulas/overview): Calculations and data transformations
 - [Workflows](/workflows/overview): Internal logic and behavior
-- [Contexts](/contexts/overview): Communication with ancestors and descendants without intermediaries
+- [Contexts](/contexts/overview): Communication with ancestor and descendant components or elements
 
-## Data encapsulation
+### Data encapsulation
 
 Components in Nordcraft encapsulate their data, meaning that variables, APIs, and other internal aspects of one component are not accessible by other components. At first, this isolation may seem limiting, but it's an essential design principle that helps maintain order as your application grows in complexity.
 
@@ -73,23 +71,23 @@ This encapsulation ensures that components:
 Each component is like a `black box` that hides its implementation details while exposing a clear interface.
 :::
 
-## Component composition
+### Component composition
 
-Components are composable, meaning they can be combined together to form more complex components, which can then be composed into full applications. This composition model allows you to:
+Components are composable, meaning they can be combined together to form more complex components. This composition model allows you to:
 
 - Create a hierarchy of increasingly complex UI elements
-- Build applications from the bottom up with reusable parts
+- Build applications with reusable parts
 - Share functionality between different areas of your application
 
 Components can send data to other components and pages through:
 
 - **Attributes**: Pass data down to child components
 - **Events**: Send data up to parent components
-- **Contexts**: Create direct communication channels with ancestor/descendant components, bypassing intermediaries
+- **Contexts**: Create direct communication channels with ancestor and descendant components, bypassing intermediaries
 
 This communication pattern enables components to work together while maintaining their independence and encapsulation.
 
-# Working with component instances
+## Working with component instances
 
 When you add a component to a page or another component, you're creating an instance of that component. Each instance:
 
