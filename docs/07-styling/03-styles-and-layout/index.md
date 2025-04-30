@@ -41,7 +41,7 @@ The CSS editor is particularly useful for viewing all style variants and their a
 You can transfer styling between elements:
 
 1. Select the element with the styles you want to copy
-2. Click the [kbd]Copy styles[kbd] button at the bottom of the styling panel
+2. Click the [kbd]Copy styles[kbd] button at the bottom of the style panel
 3. Select the target element where you want to apply these styles
 4. Paste the styles
 
