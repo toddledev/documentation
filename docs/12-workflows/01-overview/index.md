@@ -28,7 +28,7 @@ Typically, workflows are used to react to events. For example, when a user click
 
 Workflows execute their nodes sequentially, but there's an important distinction between sequential execution and synchronous execution.
 
-## Sequential vs Asynchronous Execution
+### Sequential vs asynchronous execution
 
 Workflows execute nodes in the order they appear, but some nodes (like API calls) work asynchronously. This means:
 
