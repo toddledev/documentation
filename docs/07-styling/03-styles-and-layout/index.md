@@ -19,7 +19,7 @@ The style panel provides an interface for applying styles without needing to wri
   - Type any property name in the search field
   - Select the property from the search results
   - You will be navigated to that property, ready to enter a value
-- If needed, you can write CSS in the **Advanced** section at the bottom
+- If needed, you can write CSS in the **Advanced** section
 
 ## Styling with the CSS editor
 
