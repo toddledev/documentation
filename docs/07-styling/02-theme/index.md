@@ -1,6 +1,6 @@
 ---
 title: Theme
-description: Create design systems with Nordcraft's theme tools for managing colors, spacing, typography, fonts, and more across your projects.
+description: Create design systems with Nordcraft's theme tools for managing colors, spacing, typography, fonts, and more across your project.
 ---
 
 # Theme
