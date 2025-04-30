@@ -1,6 +1,6 @@
 ---
 title: Create a page
-description: Follow the steps to add new pages to your Nordcraft project using the project sidebar and simple page creation dialog for quick setup.
+description: Follow the steps to add new pages to your Nordcraft project using the project sidebar.
 ---
 
 # Create a page
