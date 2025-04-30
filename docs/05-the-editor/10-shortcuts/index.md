@@ -20,7 +20,7 @@ These shortcuts work anywhere in the editor:
 
 When an element or component is selected in the canvas or element tree:
 
-- [kbd]S[kbd] - Switch to the [styling tab](/the-editor/element-panel#styling-tab) in the element panel
+- [kbd]S[kbd] - Switch to the [style tab](/the-editor/element-panel#style-tab) in the element panel
 - [kbd]A[kbd] - Switch to the [attributes tab](/the-editor/element-panel#attributes-tab) in the element panel
 - [kbd]E[kbd] - Switch to the [events tab](/the-editor/element-panel#events-tab) in the element panel
 

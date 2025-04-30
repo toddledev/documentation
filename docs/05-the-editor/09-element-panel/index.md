@@ -11,13 +11,13 @@ The element panel appears in the right side of the editor when an element is sel
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three tabs:
 
-1. [Styling](#styling-tab): Configure visual appearance and layout for the element and its children
+1. [Styling](#style-tab): Configure visual appearance and layout for the element and its children
 2. [Attributes](#attributes-tab): Set HTML or component attributes for advanced behaviors
 3. [Events](#events-tab): Define workflows triggered by user interactions on the element
 
-## Styling tab
+## Style tab
 
-The styling tab allows you to control the visual appearance of elements and components.
+The style tab allows you to control the visual appearance of elements and components.
 
 ![Styling|16/9](element-panel-styling.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
@@ -89,7 +89,7 @@ The attributes tab allows you to configure the element HTML tag, attributes, cla
 
 - Add CSS classes to elements by entering a name and pressing enter
 - Bind classes to conditions to apply them dynamically via the `fx` button
-- Classes added here can be targeted in the styling tab as a style variant
+- Classes added here can be targeted in the style tab as a style variant
 - Classes cannot be added directly to components
 
 ### Special behaviors
