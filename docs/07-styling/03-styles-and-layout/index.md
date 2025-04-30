@@ -5,7 +5,7 @@ description: Apply styles through Nordcraft's visual interface or CSS editor, us
 
 # Styles and layout
 
-The styling and layout system in Nordcraft under the hood is CSS, presenting familiar properties in an intuitive UI panel. This approach lets you style elements visually without writing code while preserving traditional CSS flexibility. For more precise control, the CSS editor is also available.
+The styling and layout system in Nordcraft helps you write CSS visually, presenting the most commonly used CSS properties in the style panel. This approach lets you style elements visually without writing code while preserving traditional CSS flexibility. For more precise control, the CSS editor is also available.
 
 ## Styling with the UI panel
 
