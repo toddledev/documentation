@@ -19,6 +19,7 @@ The interface of a component defines how it communicates with other parts of you
 
 - Attributes pass data from parent to child
 - Events pass data from child to parent
+
 :::
 
 ### Defining attributes
