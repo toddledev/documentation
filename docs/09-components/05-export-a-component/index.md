@@ -1,6 +1,6 @@
 ---
 title: Export a component
-description: Transform Nordcraft components into standard web components for use in external projects, with proper naming and configuration options.
+description: Transform Nordcraft components into standard web components for use in external projects, with naming and configuration options.
 ---
 
 # Export a component
@@ -33,14 +33,14 @@ Web Components enable custom, reusable HTML elements. See the [MDN Web Component
 :::
 
 ::: warning
-Proxied API requests will not work for embedded web components. They will only work for applications hosted by Nordcraft.
+Proxied API requests will not work for embedded web components. They will only work for applications hosted by Nordcraft. [Learn more about proxied API requests](/connecting-data/advanced-api-features#proxy-request) in Nordcraft.
 :::
 
-# Component naming requirements
+## Component naming requirements
 
 Components in Nordcraft follow the naming restrictions of web components:
 
-- Component names must contain at least two parts separated by a hyphen `-` (e.g., "user-card" or "nav-item"). This follows web component naming conventions.
-- If a component name has only one part (e.g. "item"), Nordcraft will automatically prefix it with "Nordcraft" (resulting in "Nordcraft-item")
+- Component names must contain at least two parts separated by a hyphen `-` (e.g., `user-card` or `nav-item`); this follows web component naming conventions
+- If a component name has only one part (e.g. "item"), Nordcraft will automatically prefix it with `nordcraft` (resulting in `nordcraft-item`)
 - Component names cannot contain any special characters
 - Names are case-sensitive, but best practice is to use lowercase for compatibility

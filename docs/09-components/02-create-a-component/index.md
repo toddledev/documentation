@@ -1,11 +1,11 @@
 ---
 title: Create a component
-description: Learn to build components from scratch or extract them from existing elements to create reusable, consistent patterns in your Nordcraft project.
+description: Learn to build components from scratch or extract them from existing elements to create reusable building blocks in your Nordcraft project.
 ---
 
 # Create a component
 
-There are two primary ways to create components in Nordcraft:
+There are two ways to create components in Nordcraft:
 
 - [Create from scratch](#create-from-scratch)
 - [Extract existing elements](#extract-existing-elements)
@@ -38,5 +38,5 @@ This method automatically:
 - Preserves the original appearance and behavior
 
 ::: warning
-If the extracted elements depend on variables or formulas from the original component/page, these connections will break after extraction. You will need to rearrange these dependencies.
+If the extracted elements depend on variables or formulas from the original component or page, these connections will break after extraction. You will need to rearrange these dependencies.
 :::
