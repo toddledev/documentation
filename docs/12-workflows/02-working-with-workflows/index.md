@@ -26,7 +26,7 @@ If you have logic in your component that you need multiple times or if the logic
 
 To create a reusable workflow:
 
-1. With no element selected so that you can see the data panbel, click the [kbd]+[kbd] button in the workflows section
+1. With no element selected so that you can see the data panel, click the [kbd]+[kbd] button in the workflows section
 2. Select a name for the workflow and add optional [parameters](#parameters-and-events)
 3. Add [nodes](#nodes) to create your workflow logic
 
