@@ -27,7 +27,7 @@ The truthy concept in Nordcraft is similar to JavaScript but follows a more stre
 
 - Only `false`, `null` and `undefined` are treated as **falsy**
 - All all other values (including empty strings, zero and empty arrays) are considered **truthy**
-:::
+  :::
 
 ## Add a show/hide formula
 
@@ -54,7 +54,7 @@ Using Nordcraft's show/hide formula is different from setting CSS `display: none
 
 ## Performance considerations
 
- Given elements are unmounted and remounted when the show/hide condition changes, be aware of these performance implications:
+Given elements are unmounted and remounted when the show/hide condition changes, be aware of these performance implications:
 
 - **Re-initialization**: When an element is added to the DOM when the show/hide formula evalutes to truthy, all initializations, API calls and `onLoad` events will run again
 - **DOM updates**: Hiding and showing elements forces the browser to remove and recreate DOM nodes, which can negatively affect page performance for complex components
