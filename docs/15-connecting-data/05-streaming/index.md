@@ -80,11 +80,11 @@ This forces Nordcraft to parse the response using your specified format regardle
 
 A common application for streaming is with AI-powered chatbots:
 
-- User types a question →
-- API request →
-- AI service starts generating a response →
-- Response streams back in chunks →
-- Each chunk appears in the UI as it arrives
+1. User types a question →
+2. API request →
+3. AI service starts generating a response →
+4. Response streams back in chunks →
+5. Each chunk appears in the UI as it arrives
 
 This approach creates a more interactive experience where users do not have to wait for the complete response before seeing any output.
 
