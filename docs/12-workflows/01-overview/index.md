@@ -23,7 +23,7 @@ Check out [working with workflows](/workflows/working-with-workflows) to learn h
 
 ## Difference between formulas and actions
 
-[Formulas](/formulas/overview) in Nordcraft are pure functions. This means that they do not have side effects. Workflows, on the other hand, are designed to have effects. They work in a "when this happens, do that" manner.
+[Formulas](/formulas/overview) in Nordcraft are pure functions. This means that they do not have side effects. Workflows, on the other hand, are designed to have side effects. They work in a "when this happens, do that" manner.
 
 [Actions](/actions/overview) and workflows are similar, but have a few key differences:
 
