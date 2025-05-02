@@ -49,7 +49,7 @@ When using a formula to set the initial value, you can reference attributes but 
 :::
 
 ::: tip
-For API-dependent variables, set an initial value like `null` and update the variable after the API call completes using the [`On success` event](/connecting-data/call-an-api#handling-api-callbacks).
+For API-dependent variables, set an initial value like `null` and update the variable after the API call completes using the [On success event](/connecting-data/call-an-api#handling-api-callbacks).
 :::
 
 ## Updating variables
