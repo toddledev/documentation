@@ -5,14 +5,14 @@ description: Generate dynamic lists, grids and repeating elements from array dat
 
 # Repeat formula
 
-The repeat formula allows you to create multiple instances of an element based on a set of data. This powerful feature enables dynamic lists, grids and other repeating structures that automatically adapt to your data.
+The repeat formula allows you to create multiple instances of an element based on a set of data. This enables dynamic lists, grids and other repeating UI structures.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-repeat-formula.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800
 height: 19rem
 
-Discover how the repeat formula is used to display multiple cards.
+Learn how the repeat formula is used to display multiple cards.
 @@@
 
 The repeat formula:
@@ -22,7 +22,7 @@ The repeat formula:
 - Automatically updates when the data changes
 - Can be applied to any element or component
 
-# Use the repeat formula
+## Using the repeat formula
 
 ![Add a repeat formula|16/9](add-a-repeat-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800}
 
@@ -30,14 +30,14 @@ To create dynamic content with the repeat formula:
 
 1. Select the element you want to repeat
 2. In the [attributes tab](/the-editor/element-panel#attributes-tab), click the [kbd]fx[kbd] button next to **Repeat**
-3. Enter a formula that returns an `Array`. The element will be repeated for each item in the array
-4. Set a [Repeat key](#optimizing-performance-with-repeat-key)
+3. Enter a formula that returns an `Array`; the element will be repeated for each item in the array
+4. Set a [Repeat key](#optimizing-performance-with-the-repeat-key)
 
 ::: info
 The output of your repeat formula must be iterable (an `Array` of items).
 :::
 
-## Accessing data in repeated elements
+### Accessing data in repeated elements
 
 Within repeated elements, you can access:
 
@@ -58,17 +58,17 @@ height: 19rem
 See how you can generate multiple cards using the Range formula.
 @@@
 
-# Optimizing performance with repeat key
+## Optimizing performance with the repeat key
 
-To ensure efficient updates and tracking of repeated elements, add a **repeat key** formula that generates a unique identifier for each item. This key helps Nordcraft track items efficiently, preventing re-renders and improving performance. Use a stable value like a database ID, unique property or composite key for seamless updates when data changes.
+To ensure efficient updates and tracking of repeated elements, add a **repeat key** formula that generates a unique identifier for each item. This key helps Nordcraft track items efficiently, preventing re-renders and improving performance. Use a stable value like a database ID, unique property or composite key (e.g. `list-item-{id}`) for seamless updates when data changes.
 
 ::: warning
 Using the index as a key prevents Nordcraft from making optimizations. Use a unique identifier, like a database ID or content hash. Duplicate keys disable performance optimizations.
 :::
 
-## How repeat key improves performance
+### How the repeat key improves performance
 
-The repeat key formula enhances performance in several ways:
+The repeat key formula improves performance of your application in several ways:
 
 - Enables Nordcraft to track specific items across renders
 - Allows reuse of DOM elements instead of recreating them
@@ -77,7 +77,7 @@ The repeat key formula enhances performance in several ways:
 
 This is especially important when:
 
-- Working with large lists
+- Working with large data sets
 - Implementing drag-and-drop reordering
 - Frequently updating or filtering data
 - Adding or removing items from the middle of a list
