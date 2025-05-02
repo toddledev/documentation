@@ -36,7 +36,7 @@ Global formulas appear in the formula selection dropdown throughout your project
 
 ## Custom code formulas
 
-Custom code formulas extend the capabilities of standard the standard formula editor by allowing you to write JavaScript directly. This enables you to implement functionality that isn't available through the built-in formula components.
+Custom code formulas extend the capabilities of the standard formula editor by allowing you to write JavaScript directly. This enables you to implement functionality that isn't available through the built-in formula components.
 
 ![Custom code formula|16/9](global-custom-code-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/hasValue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
