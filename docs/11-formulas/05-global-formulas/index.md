@@ -1,6 +1,6 @@
 ---
 title: Global formulas
-description: Create project-wide reusable calculations with standard formulas or custom JavaScript code for consistent logic across components and pages.
+description: Create project-wide reusable functions with standard formulas or custom JavaScript code for consistent logic across your components and pages.
 ---
 
 # Global formulas
@@ -19,7 +19,7 @@ Global formulas are ideal for:
 
 Using global formulas ensures consistency in your application and reduces duplication of code.
 
-# Create a global formula
+## Create a global formula
 
 ![Create a global formula|16/9](create-a-global-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/getDefaultTrue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
@@ -30,36 +30,36 @@ To create a global formula:
 3. Optionally add arguments as input parameters
 4. Define your formula logic using either
    **(A)** The formula editor, or
-   **(B)** Custom JavaScript code by clicking the [kbd]Convert to custom code[kbd] button at the bottom
+   **(B)** Custom JavaScript code by clicking the [kbd]Convert to custom code[kbd] button at the bottom left of the screen
 
 Global formulas appear in the formula selection dropdown throughout your project, making them easily accessible from any component or page.
 
-# Custom code formulas
+## Custom code formulas
 
-Custom code formulas extend the capabilities of standard formulas by allowing you to write JavaScript directly. This enables you to implement functionality that isn't available through the built-in formula components.
+Custom code formulas extend the capabilities of standard the standard formula editor by allowing you to write JavaScript directly. This enables you to implement functionality that isn't available through the built-in formula components.
 
 ![Custom code formula|16/9](global-custom-code-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/hasValue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
-## Custom code structure
+### Custom code structure
 
 In the custom code editor, your formula must have an entry function with the same name as your formula. This function receives two parameters:
 
 - `args`: The defined input parameters passed to your formula
 - `ctx`: The context object that provides access to Nordcraft-specific functionality
 
-## Custom code considerations
+### Custom code considerations
 
 When using custom code in global formulas, keep these important points in mind:
 
-- **Pure functions**: Custom formulas should be pure functions without side effects. Given the same inputs, they should always return the same outputs without modifying external state.
-- **Client-side only**: Custom code formulas only execute in the browser and not during server-side rendering. This can cause content shifts during page load and may impact SEO.
-- **Synchronous execution**: Custom formulas must be synchronous. Don't use Promises, Fetch or other asynchronous APIs within global formulas.
-- **Shadow DOM compatibility**: When components are exported as web components, use `ctx.root` instead of `document` to access DOM elements. This ensures compatibility with Shadow DOM encapsulation.
+- **Pure functions**: Custom formulas should be pure functions without side effects; given the same inputs, they should always return the same outputs without modifying external state
+- **Client-side only**: Custom code formulas execute in the browser only and not during server-side rendering; this can cause layout shifts during page load and may impact your page performance scores, and as a result, SEO
+- **Synchronous execution**: Custom formulas must be synchronous; do not use `Promise`, `fetch` or other asynchronous JavaScript APIs in global formulas
+- **Shadow DOM compatibility**: When components are exported as web components, use `ctx.root` instead of `document` to access DOM elements; this ensures compatibility with Shadow DOM encapsulation
 
 ::: warning
 Avoid adding side effects in custom formulas. Side effects can cause unpredictable behavior and should be handled by [actions](/actions/overview) instead.
 :::
 
 ::: danger
-Be cautious when pasting code snippets from external sources into custom formulas. Custom code can execute any JavaScript you add, which may introduce security vulnerabilities if the source is not trusted.
+Be cautious when pasting code snippets from external sources into custom formulas. Custom code can execute any JavaScript you add, which may introduce security vulnerabilities if you do not trust the source.
 :::
