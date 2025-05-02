@@ -43,7 +43,3 @@ This encapsulation provides significant benefits:
 - Enables component reuse without variable conflicts
 
 As your application grows, this scoping simplifies data flow management and ensures components function reliably in any context.
-
-::: tip
-The variable type is automatically inferred when you set the initial variable value (e.g. `String`, `Number`, `Array`, or `Object`).
-:::

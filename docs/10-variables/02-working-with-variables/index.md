@@ -5,9 +5,9 @@ description: Create, initialize, update and bind variables to elements to build 
 
 # Working with variables
 
-Variables enable dynamic and interactive components by managing state throughout your application. This page covers the practical aspects of creating and working with variables in Nordcraft.
+Variables enable you to manage state throughout your application, allowing you to create dynamic and interactive components.
 
-# Creating variables
+## Creating variables
 
 ![Create a variable|16/9](create-a-variable.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-updating?canvas-width=800&rightpanel=style&selection=variables.isCardSelected&canvas-height=800}
 
@@ -18,25 +18,30 @@ To create a variable:
 3. Enter a name for your variable
 4. Set an [initial value](#initial-value) (can be a static value or formula)
 
-## Initial value
+### Initial value
 
-When creating a variable, its default initial value is `null`. You can either keep this default or specify a different initial value:
+When creating a variable, its default initial value is `null`. You can either keep this default value or specify a different initial value:
 
-- **Static values**: You can directly enter text, numbers, booleans, JSON objects etc.
+- **Static values**: You can directly enter text, numbers, booleans, arrays and JSON objects etc.
 - **Formula-based values**: Click the `fx` button to open the formula editor and create a dynamic initial value
 
-The initial value serves several important purposes:
+The initial value serves several purposes:
 
 - Provides a starting state for your component
 - Determines the implicit data type of the variable
 - Ensures the variable has a known value before any user interaction
 
+::: tip
+The variable type is automatically inferred when you set the initial variable value (e.g. `Number`, `String`, `Array`, `Object` or `Boolean`).
+:::
+
 For example, initializing with:
 
 - `0` creates a numeric variable
-- `""` (empty string) creates a text variable
+- `""` (empty string) creates a string (text) variable
 - `[]` creates an array variable
 - `{}` creates an object variable
+- `true` or `false` creates a boolean variable
 - `null` is the default and can be used when the actual value will be set later
 
 ::: info
@@ -44,16 +49,16 @@ When using a formula to set the initial value, you can reference attributes but 
 :::
 
 ::: tip
-For API-dependent variables, set an initial value like `null` and update the variable after the API call completes.
+For API-dependent variables, set an initial value like `null` and update the variable after the API call completes using the [`On success` event](/connecting-data/call-an-api#handling-api-callbacks).
 :::
 
-# Updating variables
+## Updating variables
 
-Variables can be updated through workflows or events:
+You can update variables using workflows or events:
 
 1. In a workflow or event add a new action by clicking the [kbd]+[kbd] button
 2. Select in **Variables** the `Set: variable` action for desired variable
-3. Specify the new value (static or formula)
+3. Specify the new value (static value or via a formula)
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-updating.js
@@ -63,15 +68,15 @@ height: 18rem
 See how clicking the card updates the `isCardSelected` variable.
 @@@
 
-# Binding variables
+## Binding variables
 
-Variables can be connected to element properties through binding, allowing them to dynamically control the appearance and behavior of your components.
+You can connect variables to element properties through binding to dynamically control the appearance and behavior of your components.
 
 To bind a variable:
 
 1. Select the element in the element tree
 2. Find the property you want to bind
-3. Click the `fx` button next to the property
+3. Click the [kbd]fx[kbd] button next to the property
 4. In the formula editor, select your variable from the available options
 5. Add any additional logic if needed (transformations, conditions, etc.)
 
@@ -83,15 +88,15 @@ height: 18rem
 See how to bind the `isCardSelected` variable to a class for the card's conditional styling.
 @@@
 
-Variables can be bound to various aspects of elements:
+You can bind varaibles to various aspects of elements:
 
-- Attribute values (text, src, href, etc.)
+- Attribute values (`text`, `src`, `href`, etc.)
 - Classes (see [conditional styling](/styling/conditional-styles#class-based-styles))
 - [Show/hide functionality](/formulas/show-hide-formula) (with boolean conditions)
 - [Repeat formulas](/formulas/repeat-formula) (using arrays to generate multiple elements)
 - Workflows and actions (as inputs or conditions to control logic)
 
-## Input field binding
+### Input field binding
 
 For `input` elements, Nordcraft provides a convenient shortcut to create two-way binding with variables:
 
