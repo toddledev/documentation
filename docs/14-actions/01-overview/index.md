@@ -12,7 +12,7 @@ Actions serve as a powerful extension mechanism in Nordcraft:
 - You can write actions in JavaScript to access browser APIs
 - In actions, you can import and use external libraries
 - In actions, can perform asynchronous operations
-- Using actcions you can create custom functionality that is not available through built-in Nordcraft features
+- Using actions you can create custom functionality that is not available through built-in Nordcraft features
 - You can access actions globally throughout your project
 
 ::: tip
