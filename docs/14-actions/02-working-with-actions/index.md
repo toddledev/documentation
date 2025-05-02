@@ -84,5 +84,5 @@ This button triggers a confetti animation using a custom action. The action impo
 @@@
 
 ::: danger
-Be cautious when pasting code snippets from external sources into custom formulas. Custom code can execute any JavaScript you add, which may introduce security vulnerabilities if you do not trust the source.
+Be cautious when pasting code snippets from external sources into custom actions. Custom code can execute any JavaScript you add, which may introduce security vulnerabilities if you do not trust the source.
 :::
