@@ -61,7 +61,7 @@ The **URL** and **Parameters** tabs allow you to construct the complete request 
    - parameters with `null` values are skipped
 
 ::: tip
-For a detailed explanation of URL structure, check out the [blog post about URLs](https://blog.nordcraft.com/urls-how-do-they-really-work).
+For a detailed explanation of URL structure, read our blog post about [how URLs really work](https://blog.nordcraft.com/urls-how-do-they-really-work).
 :::
 
 ### Set request headers
