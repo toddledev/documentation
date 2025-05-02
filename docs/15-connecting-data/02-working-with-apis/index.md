@@ -1,13 +1,13 @@
 ---
 title: Working with APIs
-description: Configure API endpoints in Nordcraft by setting methods, URLs, headers, parameters and body content for external data communication.
+description: Configure API endpoints in Nordcraft by setting methods, URLs, headers, parameters and body content to send and receive external data in your Nordcraft application.
 ---
 
 # Working with APIs
 
-APIs are the primary way to connect your Nordcraft application to external data sources. They enable communication between your frontend application and backend services, allowing you to fetch, send and manipulate data.
+APIs are the primary way to connect your Nordcraft application to external data sources. They enable communication between your front-end application and back-end services, allowing you to fetch, send and manipulate data.
 
-# Set up a new API
+## Set up a new API
 
 ![Add a new API|16/9](set-up-an-api.webp)
 
@@ -18,25 +18,25 @@ To create a new API connection in Nordcraft:
 3. You will see the **Add new API** panel with several options:
    **(A)** Enter a URL directly to create a custom API
    **(B)** Choose from connected services to access predefined endpoints (see [Services](/connecting-data/services))
-   **(C)** Select from available templates to quickly set up common APIs
+   **(C)** Select from available templates to set up common APIs
    **(D)** Choose a Demo API
 
 For beginners, the **Demo APIs** provide an excellent starting point to understand how APIs work in Nordcraft.
 
-::: info
-Explore our blog post on [REST APIs](https://toddle.dev/blog/rest-apis-explained) if you're new to working with APIs.
+::: tip
+Read our blog post on [REST APIs](https://blog.nordcraft.com/rest-apis-explained) if you're new to working with APIs.
 :::
 
-# Configure API requests
+## Configure API requests
 
 ![Configure API requests|16/9](configure-api-requests.webp)
 
-After creating an API, you will see the configuration panel with several important sections:
+After creating an API, you will see the configuration panel with the following sections:
 
-1. **Method**: Select the appropriate [HTTP method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) (GET, POST, PUT, DELETE, etc.)
-2. **Name**: Give your API a descriptive name for easy reference
+1. **Method**: Select the appropriate [HTTP method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) (`GET`, `POST`, `PUT`, `DELETE`, etc.)
+2. **Name**: Give your API a descriptive name
 3. **Configuration tabs**:
-   - **Inputs**: Default values used when fetching that can be overwritten when called from workflows
+   - **Inputs**: Default values used when fetching data that can be overwritten when called from workflows
    - **URL**: Configure the base URL and path
    - **Parameters**: Configure query parameters
    - **Headers**: Set request headers for authentication, content type, etc.
@@ -46,7 +46,7 @@ After creating an API, you will see the configuration panel with several importa
 4. **Response section**: View the latest response from the server
 5. **Auto fetch toggle**: Control when the API automatically retrieves data
 
-## Configure the request URL
+### Configure the request URL
 
 Configure the endpoint URL to specify where your request should be sent.
 
@@ -54,21 +54,23 @@ Configure the endpoint URL to specify where your request should be sent.
 
 The **URL** and **Parameters** tabs allow you to construct the complete request URL by configuring:
 
-1. **Base URL**: The domain and protocol (e.g. `https://api.example.com`)
-2. **Path**: The specific endpoint path (e.g. `/users/profile`)
-3. **Query parameters** (in **Parameters** tab): Key-value pairs that appear after `?` in the URL. They refine the response without changing the endpoint path. Parameters with `null` values are skipped.
+1. **Base URL**: the domain and protocol (e.g. `https://api.example.com`)
+2. **Path**: the specific endpoint path (e.g. `/users/profile`)
+3. **Query parameters** (in **Parameters** tab): key-value pairs that appear after `?` in the URL
+   - query parameters refine the response without changing the endpoint path
+   - parameters with `null` values are skipped
 
-::: info
-For a detailed explanation of URL structure, check out the [blog post about URLs](https://toddle.dev/blog/urls-how-do-they-really-work).
+::: tip
+For a detailed explanation of URL structure, read our blog post about [how URLs really work](https://blog.nordcraft.com/urls-how-do-they-really-work).
 :::
 
-## Set request headers
+### Set request headers
 
-[Headers](https://developer.mozilla.org/en-US/docs/Web/API/Request/headers) provide additional information about the request that guide how the server processes the call.
+[HTTP request headers](https://developer.mozilla.org/en-US/docs/Web/API/Request/headers) provide additional information about the request that determine how the back-end server processes the API call.
 
 ![Set a request header|16/9](set-a-request-header.webp)
 
-To add a header:
+To add a request header:
 
 1. In the **Headers** tab, click the [kbd]+[kbd] button
 2. Select or enter the header name:
@@ -81,9 +83,13 @@ To add a header:
    - Type in any value and confirm with [kbd]Enter[kbd] for other headers
 3. Provide a static value or click [kbd]fx[kbd] for dynamic values
 
-## Configure the request body
+::: info
+The documentation for your particular back-end API will provide information on what HTTP request headers it accepts for each URL endpoint.
+:::
 
-Define the data to send in the request [body](https://developer.mozilla.org/en-US/docs/Web/API/Request/body) when the method supports it, such as POST, PUT or PATCH.
+### Configure the request body
+
+Define the data to send in the request [body](https://developer.mozilla.org/en-US/docs/Web/API/Request/body) when the method supports it, such as `POST`, `PUT`, or `PATCH`.
 
 ![Set a request body|16/9](set-a-request-body.webp)
 
@@ -94,10 +100,10 @@ To configure the body:
 3. Use the formula editor to define the data structure
 
 ::: dev
-By default, the body will be encoded as JSON unless you specify a different format using the [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Type) header.
+By default, the request body will be encoded as JSON unless you specify a different format using the [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Type) header.
 :::
 
-## Auto fetch behavior
+### Auto fetch behavior
 
 The auto fetch feature automatically triggers API requests based on certain conditions:
 
@@ -105,26 +111,26 @@ The auto fetch feature automatically triggers API requests based on certain cond
 - The API will automatically refetch when any formula values used in the request change
 - This behavior can be controlled with a formula to create conditional fetching logic
 
-Auto fetch is especially useful for GET requests where you want to display data immediately and keep it updated when related parameters change. Additionally, it enables server-side rendering (SSR) if configured in the **Advanced** tab.
+Auto fetch is especially useful for `HTTP GET` requests where you want to display data immediately and keep it updated when related parameters change. Additionally, it enables server-side rendering (SSR) if configured in the **Advanced** tab.
 
-## Test API requests
+### Test API requests
 
 ![Test an API request|16/9](test-an-api-request.webp)
 
 You can test your API directly in the editor:
 
 1. For APIs with `Auto fetch` disabled, click the [kbd]Play[kbd] button to manually trigger the request
-2. View the response in the **Response** section at the bottom of the panel
-3. Check the status code, headers and body to ensure the API is working as expected
+2. View the response in the **Response** section at the bottom of the API panel
+3. Check the HTTP status code, response headers and body to ensure the API is working as expected
 4. Check the returned data to ensure the API provides the correct information
 
 The response section will display the data returned from the API, including properly formatted JSON if that is the response format.
 
-# Next steps
+## Next steps
 
-After setting up your API, you will want to:
+After setting up your API:
 
 - [Call the API](/connecting-data/call-an-api) in response to user actions
-- [Access the API data](/connecting-data/call-an-api#accessing-api-data) in your components
+- [Access API data](/connecting-data/call-an-api#accessing-api-data) in your components
 - Configure [authentication](/connecting-data/authentication) for secure data access
 - Explore [advanced features](/connecting-data/advanced-api-features) for specialized requirements

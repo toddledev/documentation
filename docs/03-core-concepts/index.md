@@ -90,12 +90,12 @@ When [working with APIs](/connecting-data/working-with-apis), you can [configure
 
 External data is connected through the [API integration system](/connecting-data/overview):
 
-- [Configure endpoints](/connecting-data/working-with-apis) to connect to any backend
+- [Configure endpoints](/connecting-data/working-with-apis) to connect to any back end
 - Handle [authentication](/connecting-data/authentication) securely
 - Transform and use [response data](/connecting-data/call-an-api#accessing-api-data) in your interface
 - Set up real-time data with [streaming connections](/connecting-data/streaming)
 
-The API interface in Nordcraft forms the bridge between your frontend and any backend services. You can also connect to specialized backend providers through [services](/connecting-data/services).
+The API interface in Nordcraft forms the bridge between your front end and any back-end services. You can also connect to specialized back-end providers through [services](/connecting-data/services).
 
 ::: tip
 These core concepts appear throughout the Nordcraft documentation. As you work with the platform, you will develop a deeper understanding of how these concepts interact to create a powerful web development environment.

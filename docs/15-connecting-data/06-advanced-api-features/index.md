@@ -1,19 +1,19 @@
 ---
 title: Advanced API features
-description: Configure advanced API behaviors with custom error definitions, redirects, server-side rendering options, proxying and response parsing.
+description: Configure advanced API behaviors with custom error definitions, redirects, server-side rendering options, proxying, and response parsing.
 ---
 
 # Advanced API features
 
-Nordcraft provides several advanced API features to give you fine-grained control over your API connections. The following features are accessible through the **Advanced** tab in the API configuration panel.
+Nordcraft provides several advanced API features to give you fine-grained control over your API connections. You can configure the following features using the **Advanced** tab in the API configuration panel.
 
-# Error definition
+## Error definition
 
-By default, Nordcraft treats API responses with status codes 400 and above as errors. However, some APIs communicate errors differently, such as [GraphQL APIs](https://graphql.org/learn/serving-over-http#response-format) that return errors in the response body with a 200 status code.
+By default, Nordcraft treats API responses with status codes 400 and above as errors. However, some APIs communicate errors differently, such as [GraphQL APIs](https://graphql.org/learn/serving-over-http#response-format), which return errors in the response body with a 200 (Ok) status code.
 
 ![Configure error definition|16/9](configure-error-definition.webp)
 
-The **Is error** formula allows you to customize what constitutes an error:
+The `Is error` formula allows you to customize what constitutes an error:
 
 1. Click the [kbd]fx[kbd] button to open the formula editor
 2. Create a formula that evaluates to `true` when the response should be treated as an error
@@ -24,9 +24,13 @@ When a response is identified as an error:
 - The `On error` event is triggered instead of `On success`
 - The `data` property is set to `null`
 
-This customization is essential for properly handling errors in APIs that don't follow standard HTTP error conventions.
+This customization is essential for properly handling errors in APIs that do not follow standard HTTP error conventions.
 
-# Redirect rules
+::: tip
+Learn more about [HTTP response status codes on the MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status).
+:::
+
+## Redirect rules
 
 Redirect rules allow your application to automatically navigate users to different pages based on API responses. This is useful in several scenarios:
 
@@ -40,19 +44,19 @@ To configure redirect rules:
 
 1. In the **Redirect rules** section, click the [kbd]+[kbd] button to add a new rule
 2. Name your rule descriptively
-3. Create a formula that evaluates to a URL or path when API response conditions are met. It needs to evaluate to `null` if the conditions are not met.
+3. Create a formula that evaluates to a URL or path when API response conditions are met; it should evaluate to `null` if the conditions are not met
 
 Rules are evaluated in the order they appear, and the first matching rule determines the redirect destination.
 
-## Server-side vs. client-side redirects
+### Server-side vs. client-side redirects
 
 Redirects can happen in two ways:
 
-- **Server-side**: Occurs before any content is sent to the browser, preventing page flashes
-- **Client-side**: Happens after the page has loaded in the browser
+- **Server-side**: occur **before** any content is sent to the browser, preventing page flashes
+- **Client-side**: happen **after** the page has loaded in the browser
 
 ::: info
-Server-side redirects provide a better user experience, but are only available on paid plans.
+Server-side redirects are only available on paid plans. Learn more on [our pricing page](https://nordcraft.com/pricing).
 :::
 
 You can use the `Is Server` formula to create conditional logic based on where the code is executing. This allows different redirect behavior on the server versus in the browser.
@@ -61,9 +65,9 @@ You can use the `Is Server` formula to create conditional logic based on where t
 When testing API responses in the editor, the `debug` section in `response` will show information about redirect behavior.
 :::
 
-# Fetching options
+## Fetching options
 
-## Server-side rendering (SSR)
+### Server-side rendering (SSR)
 
 The **Server-side fetching** toggle controls whether an API request executes during server-side rendering before sending the page to the browser.
 
@@ -84,7 +88,7 @@ SSR-enabled API requests have some requirements:
 If an API takes longer than a few hundred milliseconds to respond, consider disabling SSR for this API to improve initial page load performance.
 :::
 
-## Proxy request
+### Proxy request
 
 The **Proxy request** toggle determines whether API calls are routed through Nordcraft's edge network.
 
@@ -99,12 +103,12 @@ When proxying is enabled (default), your API requests pass through Nordcraft's e
 Proxying is particularly essential for authentication flows and third-party API integrations where direct browser-to-API connections would face security restrictions.
 
 ::: info
-The Nordcraft proxy only processes request/response metadata like headers, never reading or modifying the actual request or response body.
+The Nordcraft proxy only processes request and response metadata such as headers. It does not read or modify the request or response body.
 :::
 
-# Response parsing
+## Response parsing
 
-By default, Nordcraft automatically determines how to parse API responses based on the `Content-Type` header. In some cases, you may need to override this behavior.
+By default, Nordcraft automatically determines how to parse API responses based on the `Content-Type` HTTP response header. In some cases, you may need to override this behavior.
 
 ![Configure response parsing|16/9](configure-response-parsing.webp)
 
@@ -119,9 +123,9 @@ The **Parse as** dropdown allows you to select from several parsing options:
 
 This is particularly useful when working with APIs that return incorrect or missing `Content-Type` headers.
 
-# Performance settings
+## Performance settings
 
-## Debounce
+### Debounce
 
 Debouncing limits how frequently an API can be called, which is useful when API requests are triggered by rapid user actions like typing.
 
@@ -141,7 +145,7 @@ Common use cases include:
 - Real-time form validation
 - Preventing rate limit issues with external APIs
 
-## Timeout
+### Timeout
 
 The timeout setting allows you to specify a maximum wait time for API responses.
 
@@ -152,11 +156,11 @@ To set a timeout:
 1. Go to the **Timeout** field
 2. Enter a value in milliseconds or use a formula
 
-If the API doesn't respond within this time, the request will be canceled and an error will be triggered.
+If the API does not respond within this time, the request will be canceled and an error will be triggered.
 
 This is particularly important for:
 
-- Preventing SSR from hanging on slow API responses
+- Preventing server-side rendering from hanging on slow API responses
 - Improving user experience by failing fast when services are unresponsive
 - Implementing fallback behaviors for unreliable APIs
 
