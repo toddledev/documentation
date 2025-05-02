@@ -46,7 +46,7 @@ componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-c
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-call-an-api?rightpanel=style&canvas-width=800&selection=apis.Weather%2520API&canvas-height=800
 height: 21rem
 
-This weather card displays the current temperature, and the `Update` button triggers a workflow manually refresh the data.
+This weather card displays the current temperature, and the `Update` button triggers a workflow to manually refresh the data.
 @@@
 
 ## API inputs
