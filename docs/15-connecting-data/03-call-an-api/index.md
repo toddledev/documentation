@@ -5,7 +5,7 @@ description: Execute API requests with auto fetch or workflows, configure inputs
 
 # Call an API
 
-After [configuring an API](/connecting-data/working-with-apis), you can to trigger the API call and access the returned data.
+After [configuring an API](/connecting-data/working-with-apis), you can trigger the API call and access the returned data.
 
 There are two ways to trigger API calls:
 
