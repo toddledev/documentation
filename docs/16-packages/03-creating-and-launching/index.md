@@ -23,7 +23,7 @@ Only exported elements will be available to users who install your package:
 - **Actions**: Check [kbd]Export this action[kbd] for global actions
 - **Formulas**: Check [kbd]Export this formula[kbd] for global formulas
 
-Non-exported elements remain internal to your package, useful for organization, documentation, or supporting exported functionality.
+Non-exported elements remain internal to your package, which are useful for organization, documentation, or supporting exported functionality.
 
 ::: info
 A package must have at least one exported component, formula, or action before it can be launched.
