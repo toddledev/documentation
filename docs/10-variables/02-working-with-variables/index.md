@@ -88,7 +88,7 @@ height: 18rem
 See how to bind the `isCardSelected` variable to a class for the card's conditional styling.
 @@@
 
-You can bind varaibles to various aspects of elements:
+You can bind variables to various aspects of elements:
 
 - Attribute values (`text`, `src`, `href`, etc.)
 - Classes (see [conditional styling](/styling/conditional-styles#class-based-styles))
