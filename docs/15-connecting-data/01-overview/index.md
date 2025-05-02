@@ -48,6 +48,6 @@ The following pages in this section cover the specific aspects of working with e
 - [Advanced API features](/connecting-data/advanced-api-features): Additional configuration options
 - [Services](/connecting-data/services): Connecting to specialized back-end providers
 
-::: info
+::: tip
 For more information about the philosophy behind this separation of concerns, check out the blog post [One Size Does Not Fit All](https://blog.nordcraft.com/one-size-does-not-fit-all).
 :::
