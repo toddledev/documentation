@@ -47,7 +47,7 @@ In the formula editor, you can:
 For complex formulas, Nordcraft provides a full-screen view of the formula editor. It offers a larger canvas, better visibility of logic, and easier navigation for formulas with many operations.
 
 ::: tip
-To open the formula editor in full-screen mode, click the four-arrow icon button in the top-right corner of rhe formula editor.
+To open the formula editor in full-screen mode, click the four-arrow icon button in the top-right corner of the formula editor.
 :::
 
 ## Formula foundations
