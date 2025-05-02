@@ -20,10 +20,10 @@ To create a variable:
 
 ### Initial value
 
-When creating a variable, its default initial value is `null`. You can either keep this default value or specify a different initial value:
+When you create a variable, its default initial value is `null`. You can either keep this default value or specify a different initial value:
 
 - **Static values**: You can directly enter text, numbers, booleans, arrays and JSON objects etc.
-- **Formula-based values**: Click the `fx` button to open the formula editor and create a dynamic initial value
+- **Formula-based values**: Click the [kbd]fx[kbd] button to open the formula editor and create a dynamic initial value
 
 The initial value serves several purposes:
 
