@@ -35,7 +35,7 @@ To call an API from a [workflow](/workflows/working-with-workflows):
 1. Create or edit a workflow for an event
 2. Click [kbd]+[kbd] to add an action
 3. Under **APIs**, select your API
-4. (Optional) Specify any input values you want to override, as defined by the API documentation
+4. (Optional) Specify any input values you want to override, as defined by the API's specification
 
 ## API example
 
