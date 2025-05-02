@@ -52,8 +52,8 @@ Rules are evaluated in the order they appear, and the first matching rule determ
 
 Redirects can happen in two ways:
 
-- **Server-side**: occur before any content is sent to the browser, preventing page flashes
-- **Client-side**: happens after the page has loaded in the browser
+- **Server-side**: occur **before** any content is sent to the browser, preventing page flashes
+- **Client-side**: happen **after** the page has loaded in the browser
 
 ::: info
 Server-side redirects are only available on paid plans.
