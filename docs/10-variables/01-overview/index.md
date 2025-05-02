@@ -1,11 +1,11 @@
 ---
 title: Variables overview
-description: Implement state management with variables to store temporary data within components and pages, enabling responsive, interactive applications.
+description: Learn how to implement state management in Nordcraft with variables to store temporary data within components and pages.
 ---
 
 # Variables
 
-Variables provide a way to store temporary data within components and pages. They enable interactive behavior and dynamic content by maintaining state during a user's session while offering fast data access in Nordcraft.
+Variables provide a way to store temporary data within components and pages. They enable interactive behavior and dynamic content by maintaining state during a user's session.
 
 Variables in Nordcraft are containers for temporary data that:
 
@@ -17,7 +17,7 @@ Variables in Nordcraft are containers for temporary data that:
 
 ## Using variables
 
-Variables can be used throughout the component or page:
+Variables can be used throughout a component or page:
 
 - **In formulas**: Reference variables directly by name
 - **In workflows**: Use variables in conditions and actions
@@ -26,8 +26,7 @@ Variables can be used throughout the component or page:
 
 This makes variables ideal for managing temporary states like:
 
-- UI state (expanded/collapsed, selected tabs)
-- Performance-sensitive interactions
+- UI state (expanded/collapsed menus, selected tabs)
 - Form input values
 - Temporary calculation results
 - User preferences for the current session
@@ -44,3 +43,7 @@ This encapsulation provides significant benefits:
 - Enables component reuse without variable conflicts
 
 As your application grows, this scoping simplifies data flow management and ensures components function reliably in any context.
+
+::: tip
+The variable type is automatically inferred when you set the initial variable value (e.g. `String`, `Number`, `Array`, or `Object`).
+:::
