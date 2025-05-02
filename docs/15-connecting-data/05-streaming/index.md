@@ -67,7 +67,7 @@ Nordcraft automatically determines how to parse streamed responses based on the 
 
 ![Parse response|16/9](parse-response.webp)
 
-If your backend service doesn't set the correct header, you can override the default behavior:
+If your back-end service doesn't set the correct header, you can override the default behavior:
 
 1. Go to the **Advanced** tab in your API configuration
 2. Find the **Response parsing** section and select the appropriate option:

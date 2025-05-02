@@ -215,6 +215,11 @@ Keep in mind the following when updating or adding documentation:
 Following these guidelines will help ensure that the Nordcraft documentation remains consistent, clear and helpful for all users.
 :::
 
+### Front-end and front end bs back-end and backend
+
+- Use `front end` and `back end` when referring to a noun e.g. _"View your changes on the front end."_
+- Use `front-end` and `front end` when using those phrases as an adjective e.g. _"Paste the URL of your back-end API into the input field."_
+
 ## Contributing via GitHub
 
 Since the Nordcraft documentation is hosted on [GitHub](https://github.com/nordcraftengine/documentation), you will need to follow standard Git workflows to contribute:

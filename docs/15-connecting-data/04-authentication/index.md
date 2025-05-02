@@ -15,7 +15,7 @@ A typical authentication flow consists of these key steps:
 4. Client includes the token with API requests
 5. Server validates the token and grants access
 
-This approach lets you implement secure authentication while keeping sensitive verification logic on your backend.
+This approach lets you implement secure authentication while keeping sensitive verification logic on your back end.
 
 In Nordcraft, authentication is handled through API connections, allowing you to:
 
@@ -25,7 +25,7 @@ In Nordcraft, authentication is handled through API connections, allowing you to
 - Support various authentication methods
 
 ::: info
-Authentication should always be handled by your backend service. Nordcraft focuses on frontend development and provides secure ways to handle tokens received from authentication providers.
+Authentication should always be handled by your back-end service. Nordcraft focuses on front-end development and provides secure ways to handle tokens received from authentication providers.
 :::
 
 ## Storing access tokens
@@ -109,7 +109,7 @@ Follow these security guidelines when implementing authentication:
 - **Short token lifetimes**: Keep access tokens short-lived (hours, not days)
 - **Use refresh tokens**: Implement refresh tokens for seamless token renewal. Most BaaS providers support this out of the box
 - **Secure token storage**: Store tokens in HTTP-only, secure cookies
-- **Backend token validation**: Ensure backend validates tokens for every request
+- **Back-end token validation**: Ensure back end validates tokens for every request
 - **Proper logout**: Clear tokens on both client and server upon logout
 - **Avoid client-side storage**: Never store sensitive data in `localStorage` or `sessionStorage`
 - **No hardcoded tokens**: Never store sensitive API keys or tokens in Nordcraft. Just store keys that are safe to store in a browser.

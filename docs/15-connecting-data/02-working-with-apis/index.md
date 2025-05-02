@@ -5,7 +5,7 @@ description: Configure API endpoints in Nordcraft by setting methods, URLs, head
 
 # Working with APIs
 
-APIs are the primary way to connect your Nordcraft application to external data sources. They enable communication between your frontend application and backend services, allowing you to fetch, send and manipulate data.
+APIs are the primary way to connect your Nordcraft application to external data sources. They enable communication between your front-end application and back-end services, allowing you to fetch, send and manipulate data.
 
 # Set up a new API
 

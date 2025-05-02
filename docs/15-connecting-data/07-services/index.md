@@ -1,13 +1,13 @@
 ---
 title: Services
-description: Connect to backend providers like Supabase, Xano or OpenAPI-compliant services to automatically configure API endpoints in your Nordcraft project.
+description: Connect to back-end providers like Supabase, Xano or OpenAPI-compliant services to automatically configure API endpoints in your Nordcraft project.
 ---
 
 # Services
 
-Services in Nordcraft simplify working with APIs by automatically retrieving endpoint details from backend providers. When you create a service connection, Nordcraft pre-fills the necessary information for new APIs, reducing setup time and minimizing configuration errors.
+Services in Nordcraft simplify working with APIs by automatically retrieving endpoint details from back-end providers. When you create a service connection, Nordcraft pre-fills the necessary information for new APIs, reducing setup time and minimizing configuration errors.
 
-Nordcraft supports connections to a variety of backend services:
+Nordcraft supports connections to a variety of back-end services:
 
 - **Supabase**: Open-source Postgres database with authentication and real-time capabilities
 - **Xano**: No-code database and API builder
@@ -98,14 +98,14 @@ Nordcraft currently supports [OpenAPI Specification](https://swagger.io/resource
 
 # Use a service in an API
 
-Once your services are configured, they simplify the API creation process by providing pre-defined endpoints from your backend:
+Once your services are configured, they simplify the API creation process by providing pre-defined endpoints from your back end:
 
 1. When creating a new API, you will see your connected services
 2. Choose the endpoint from the available options of your selected service
 3. Nordcraft automatically pre-fills all request details (path, headers, parameters, body)
 4. Adjust specific values as needed for your implementation
 
-This approach streamlines API creation by leveraging the schema information already defined in your backend service.
+This approach streamlines API creation by leveraging the schema information already defined in your back-end service.
 
 # Benefits of services
 
@@ -114,6 +114,6 @@ Connecting to services offers several advantages:
 - **Reduced configuration time**: Automatically populate API endpoints with correct paths and parameters
 - **Consistency**: Ensure proper formatting for requests based on the service's documentation
 - **Discovery**: Easily browse available endpoints without referring to external documentation
-- **Maintainability**: When your backend service changes, updating the connection in one place applies across all related APIs
+- **Maintainability**: When your back-end service changes, updating the connection in one place applies across all related APIs
 
-Services help bridge the gap between frontend and backend development, making it easier to maintain a clean separation of concerns while ensuring proper integration.
+Services help bridge the gap between front-end and back-end development, making it easier to maintain a clean separation of concerns while ensuring proper integration.
