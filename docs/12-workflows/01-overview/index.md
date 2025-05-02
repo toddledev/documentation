@@ -1,6 +1,6 @@
 ---
 title: Workflows overview
-description: Distinguish workflows from formulas and actions in Nordcraft as event-driven sequences that execute operations with side effects in your application.
+description: Learn about workflows in Nordcraft as event-driven sequences that execute operations with side effects in your application.
 ---
 
 # Workflows overview
@@ -11,22 +11,28 @@ A workflow in Nordcraft is a series of actions that are executed on certain even
 The way workflows work in Nordcraft is very similar to functions in JavaScript.
 :::
 
-# When to use workflows
+## When to use workflows
 
-Typically, workflows are used to react to events. For example, when a user clicks on a button, you want to react to the click and do something. "Do something" is the workflow. You can create all kinds of logic to react to the click. Typical examples are setting variables, triggering events, and calling APIs. Check out [working with workflows](/workflows/working-with-workflows) to see how you can create them and how to add logic.
+Use workflows to react to events. For example, when a user clicks on a button, you can respond to a click event and make something happen. "Make something happen" is the workflow. You can create all kinds of logic to respond to the click event. Typical examples include:
 
-# Difference to formulas and actions
+- setting or updating variables
+- triggering events,
+- calling APIs
 
-[Formulas](/formulas/overview) in Nordcraft are pure functions. This means that they don't have side effects. Workflows, on the other hand, are designed to have effects. They work in a "when this happens, do that" manner.
+Check out [working with workflows](/workflows/working-with-workflows) to learn how to create workflows and add logic.
+
+## Difference between formulas and actions
+
+[Formulas](/formulas/overview) in Nordcraft are pure functions. This means that they do not have side effects. Workflows, on the other hand, are designed to have effects. They work in a "when this happens, do that" manner.
 
 [Actions](/actions/overview) and workflows are similar, but have a few key differences:
 
-- **Workflows** are scoped, meaning they belong to a page or a component. They can only be executed in their scope or via a [context](/contexts/overview). Workflow logic is created in Nordcraft's visual environment.
-- **Actions** are global to the project. They can be called from anywhere in your project. Also, actions are written in JavaScript and are typically used to extend Nordcraft's functionality.
+- **Workflows** are scoped, meaning they belong to a page or a component. Workflows can only be executed in their scope or via a [context](/contexts/overview). Workflow logic is created in Nordcraft's visual environment.
+- **Actions** are global to the project. Actions can be called from anywhere in your project. Actions are written in JavaScript and are used to extend Nordcraft's functionality.
 
-## Sequential execution
+### Sequential execution
 
-Workflows execute their nodes sequentially. However, this doesn’t necessarily mean each step waits for the previous one to finish completely, which is what synchronous execution would require.
+Workflows execute their nodes sequentially. However, this does not necessarily mean each step waits for the previous one to finish completely, which is what synchronous execution would require.
 
 ### Sequential and asynchronous execution
 
