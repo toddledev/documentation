@@ -39,7 +39,7 @@ Core technical features:
 
 Nordcraft provides everything you need to build and deploy modern, performant web applications:
 
-- Full API integration for connecting to any backend service
+- Full API integration for connecting to any back-end service
 - Package system for sharing and reusing functionality
 - Pre-built templates for rapid application development and design systems
 - Asset management for handling media

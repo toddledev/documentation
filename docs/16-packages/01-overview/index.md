@@ -1,15 +1,19 @@
 ---
 title: Packages
-description: Discover Nordcraft's package ecosystem to add pre-built components, formulas and actions to your projects while maintaining consistency.
+description: Learn about Nordcraft's package ecosystem to add pre-built components, formulas, and actions to your projects.
 ---
 
 # Packages
 
 Packages extend your Nordcraft projects with reusable components and functionality. They help you save development time and maintain consistency across projects.
 
+::: dev
+Packages in Nordcraft work similar to NPM packages. They can contain pure logic, visual elements or both.
+:::
+
 ![Package overview|16/9](packages.webp)
 
-# Browsing packages
+## Browsing packages
 
 You can find the [kbd]packages[kbd] button in the [left sidebar](/the-editor/overview#left-panel). The packages panel organizes available packages into three tabs:
 
@@ -19,21 +23,21 @@ You can find the [kbd]packages[kbd] button in the [left sidebar](/the-editor/ove
 
 Use the search bar to find specific packages.
 
-# Package details
+## Package details
 
-Click on any package to view its detailed information page, that includes:
+Click on any package to view its detailed information page, which includes:
 
-- Documentation explaining the package's purpose and functionality
-- Live interactive examples demonstrating key features
-- Instructions for using components, actions and formulas
-- Details about available attributes, events and configurations
+- Documentation explaining the purpose and functionality of the package
+- Live interactive examples
+- Instructions for using components, actions, and formulas
+- Details about available attributes, events, and configurations
 - Implementation examples and use cases
 
 You can give a star to packages you find useful by clicking the star icon next to the [kbd]install[kbd] button. Stars contribute to the package's ranking in the Popular tab.
 
 Additionally, you can clone any package by clicking the [kbd]clone[kbd] button, which creates a copy of the package in your account that you can modify.
 
-# Package accessibility
+## Package accessibility
 
 All packages in Nordcraft are public, meaning:
 
@@ -43,10 +47,10 @@ All packages in Nordcraft are public, meaning:
 - Any user can create and publish their own packages
 
 ::: info
-Currently, private packages are not yet available.
+You cannot make a package private at this time.
 :::
 
-# Benefits of packages
+## Benefits of packages
 
 Break down your project into well-defined packages to:
 

@@ -1,16 +1,16 @@
 ---
 title: Call an API
-description: Execute API requests with auto-fetch or workflows, configure inputs, handle response callbacks and access returned data in your components.
+description: Execute API requests with auto fetch or workflows, configure inputs, handle response callbacks, and access returned data in your components.
 ---
 
 # Call an API
 
-After [configuring an API](/connecting-data/working-with-apis), you need to trigger the call and access the returned data.
+After [configuring an API](/connecting-data/working-with-apis), you can trigger the API call and access the returned data.
 
 There are two ways to trigger API calls:
 
-1. [Auto fetch](#using-auto-fetch): Automatically calls the API on load or when dependencies change
-2. [Workflow actions](#using-workflow-actions): Manually trigger the API from workflows
+1. [Auto fetch](#using-auto-fetch): When auto fetch is on, your page or component will call the API on load, or when dependencies change
+2. [Workflow actions](#using-workflow-actions): You can manually trigger the API from workflows
 
 ## Using auto fetch
 
@@ -22,7 +22,7 @@ To enable [auto fetch](/connecting-data/working-with-apis#auto-fetch-behavior):
 
 1. Navigate to your API in the [data panel](/the-editor/data-panel)
 2. Toggle **Auto fetch** on
-3. Optionally use a formula for conditional fetching
+3. Optionally use a formula for conditional data fetching
 
 ## Using workflow actions
 
@@ -35,23 +35,23 @@ To call an API from a [workflow](/workflows/working-with-workflows):
 1. Create or edit a workflow for an event
 2. Click [kbd]+[kbd] to add an action
 3. Under **APIs**, select your API
-4. (Optional) Specify any input values you want to override, as defined in the API
+4. (Optional) Specify any input values you want to override, as defined by the API's specification
 
 ## API example
 
-The following example demonstrates how to implement a weather card that combines both API calling methods. It uses auto fetch to load weather data when the component mounts and provides a update button that manually triggers the API through a workflow action.
+The following example demonstrates how to implement a weather card that combines both API calling methods. The example uses auto fetch to load weather data when the component mounts, and provides an update button that manually triggers the API through a workflow action.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-call-an-api.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-call-an-api?rightpanel=style&canvas-width=800&selection=apis.Weather%2520API&canvas-height=800
 height: 21rem
 
-This weather card displays the current temperature, and the `Update` button allows you to manually refresh it.
+This weather card displays the current temperature, and the `Update` button triggers a workflow to manually refresh the data.
 @@@
 
-# API inputs
+## API inputs
 
-API inputs let you customize parameters each time you call an API, giving you flexibility to reuse the same endpoint with different values depending on the context.
+API inputs allow you to you customize parameters each time you call an API, giving you flexibility to reuse the same endpoint with different values depending on the context.
 
 ![Configure API inputs|16/9](configure-api-inputs.webp)
 
@@ -64,20 +64,20 @@ Define inputs for your API:
 When calling the API through a [workflow action](#using-workflow-actions), all defined inputs become available for overriding.
 
 ::: info
-Unlike test values which are only used during development, input values serve as actual default values when the API is called with auto-fetch enabled.
+Unlike test values which are only used during development, input values serve as actual default values when the API is called with auto fetch enabled.
 :::
 
-# Handling API callbacks
+## Handling API callbacks
 
-Callbacks are events triggered by API responses, letting you execute specific workflows.
+Callbacks are events triggered by API responses, which let you execute specific workflows in response to updated data from an API.
 
 ![Handle API callbacks|16/9](handle-api-callbacks.webp)
 
 Available callbacks:
 
-1. **On success**: Triggered when the API call is successful
-2. **On error**: Triggered when the API call fails
-3. **On message**: Triggered when a message is received
+1. **On success**: triggered when the API call is successful
+2. **On error**: triggered when the API call fails
+3. **On message**: triggered when a message is received
 
 Set up callback handling in the **Events** section of the API or workflow action.
 
@@ -95,9 +95,9 @@ height: 21rem
 When the weather data is successfully updated, a confetti animation is triggered as feedback.
 @@@
 
-# Accessing API data
+## Accessing API data
 
-Once your API call completes, the resulting data is available for use in your application's logic and UI.
+Once your API call completes, the resulting data is available for use in your application logic and UI.
 
 ![Access API data|16/9](access-api-data.webp)
 
@@ -108,14 +108,14 @@ Access API response in the [formula editor](/formulas/overview#the-formula-edito
 
 Available API response data:
 
-- `isLoading`: Indicates if the API call is in progress
-- `data`: Contains the successful API response body
-- `error`: Holds error information if the API call failed
-- `response`: Provides HTTP response details:
+- `isLoading`: indicates if the API call is in progress
+- `data`: contains the successful API response body
+- `error`: holds error information if the API call failed
+- `response`: provides HTTP response details:
   - `status`: HTTP status code
-  - `headers`: Response headers
-  - `performance`: Performance metrics
+  - `headers`: HTTP response headers
+  - `performance`: performance metrics
 
 ::: tip
-Use `isLoading` to manage UI states during data fetching (e.g. showing loading indicators, disabling interactions).
+Use `isLoading` to manage UI states during data fetching (e.g. showing loading indicators or disabling interactions).
 :::

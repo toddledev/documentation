@@ -33,7 +33,7 @@ Nordcraft can be used to build various aspects of e-commerce platforms resulting
 - **Account management**: Build user account areas and order tracking interfaces
 - **Structured data**: Add information about products and services to enable rich results in search engines
 
-Integration with payment providers and e-commerce backends is streamlined in Nordcraft through the API connection system.
+Integration with payment providers and e-commerce back ends is streamlined in Nordcraft through the API connection system.
 
 ## Content-driven sites
 
