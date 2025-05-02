@@ -7,7 +7,7 @@ description: Process progressive data delivery with server-sent events and JSON 
 
 Streaming APIs in Nordcraft allow you to deliver data to users incrementally as it becomes available, reducing wait times and improving the user experience. When you stream data from an API, users see information as it arrives, rather than needing to wait for a complete response.
 
-Streaming is particularly valuable when integrating AI chatbots or other systems that generate content progressively, letting users see responses as they're being created rather than waiting for the entire content to be generated on the back end before it is delivered to the front end.
+Streaming is particularly valuable when integrating AI chatbots or other systems that generate content progressively, letting users see responses as they're being created, rather than waiting for the entire content to be generated on the back end before it is delivered to the front end.
 
 ## Types of streaming
 
