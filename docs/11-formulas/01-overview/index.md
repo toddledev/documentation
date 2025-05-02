@@ -21,7 +21,7 @@ Formulas are [pure functions](https://www.geeksforgeeks.org/pure-functions-in-ja
 - Can be composed together to build more complex logic
 
 ::: info
-A pure function always returns the same result for the same input values and doesn't change anything outside of itself, ensuring predictability and reliability.
+A pure function always returns the same result for the same input values and does not change anything outside of itself, ensuring predictability and reliability.
 :::
 
 ## The formula editor
