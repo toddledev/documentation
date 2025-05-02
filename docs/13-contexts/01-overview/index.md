@@ -1,6 +1,6 @@
 ---
 title: Contexts overview
-description: Optimize component communication with contexts to share data between distant components without passing through intermediaries in Nordcraft.
+description: Optimize component communication with contexts to share data between distant components in Nordcraft.
 ---
 
 # Contexts
@@ -9,10 +9,10 @@ Contexts in Nordcraft provide a way to share data and functionality between comp
 
 In traditional component architecture, data typically flows in two ways:
 
-- **Downward**: From parent to child via attributes
-- **Upward**: From child to parent via events
+- **Downward**: From parent to child via [attributes](/components/interface-and-lifecycle#defining-attributes)
+- **Upward**: From child to parent via [events](/components/interface-and-lifecycle#setting-up-events)
 
-However, this approach becomes cumbersome in complex component trees where data needs to flow through multiple levels. This often leads to "attribute drilling" - passing data through intermediate components that don't need it just to reach components deeper in the tree.
+However, this approach can become unmanageable in complex component trees where data needs to flow through multiple levels. This can lead to "attribute drilling", which is where you pass data through intermediate components that don't need access to it, just to reach components deeper in the tree.
 
 ::: info
 Contexts solve the attribute drilling problem by creating direct communication channels between components regardless of their nesting depth.
@@ -22,26 +22,26 @@ Contexts solve the attribute drilling problem by creating direct communication c
 
 Contexts can share two types of component resources:
 
-- [Formulas](/formulas/overview): Share data and computed values from ancestor components to any descendant component
-- [Workflows](/workflows/overview): Expose functionality that descendant components can trigger directly
+- [Formulas](/formulas/overview): share data and computed values from ancestor components to any descendant component
+- [Workflows](/workflows/overview): expose functionality that descendant components can trigger directly
 
-This flexibility allows for both data sharing and action triggering across your component hierarchy without complex chains of attributes and events.
+This flexibility allows you to share data and trigger actions across your component hierarchy without complex chains of attributes and events.
 
-# Benefits of using contexts
+## Benefits of using contexts
 
 Contexts offer several advantages for component communication:
 
-- **Simplified data flow**: Share data directly without passing through intermediate components
-- **Reduced attribute management**: Eliminate the need to declare and manage attributes at every level
-- **Cleaner component APIs**: Components only expose what they need in their direct interface
-- **Enhanced component hierarchy**: Create logical groupings of components that share common data
-- **Improved maintainability**: Changes to data structure only need to be made in one place
+- **Simplified data flow**: share data directly without passing through intermediate components
+- **Reduced attribute management**: eliminate the need to declare and manage attributes at every level
+- **Cleaner component APIs**: components only expose what they need in their direct interface
+- **Enhanced component hierarchy**: create logical groupings of components that share common data
+- **Improved maintainability**: changes to data structure only need to be made in one place
 
-# When to use contexts
+## When to use contexts
 
 While contexts are powerful, they should be used strategically.
 
-## Typical use cases for contexts
+### Typical use cases for contexts
 
 - Sharing theme data across an application
 - Providing configuration settings to deeply nested components
@@ -49,16 +49,16 @@ While contexts are powerful, they should be used strategically.
 - Creating component collections that work together (like tabs, accordions, etc.)
 - Sharing authentication or user data with protected components
 
-## When to prefer attributes and events
+### When to prefer attributes and events
 
 - For direct parent-child communication
 - When the data flow is simple and linear
 - For explicit, easy-to-follow data paths
 - When creating highly reusable, independent components
 
-# Contexts and reusability
+## Contexts and reusability
 
-Components that rely heavily on contexts are tightly coupled to their context providers. This has important implications:
+Components that rely heavily on contexts are tightly coupled to their context providers. This is important because:
 
 - Components may not work properly if their expected context isn't available
 - Testing becomes more complex as components need their context providers
@@ -76,4 +76,4 @@ Consider using a context provider component with slots to wrap other components.
 
 ## Global state with contexts
 
-Context from a root-level component or page effectively creates global state, as all components in your application must be children. This can be useful for application-wide data, but should be used carefully to avoid creating an unwieldy global state that's difficult to manage.
+Context from a root-level component or page effectively creates global state, as all components in your application must be children. This can be useful for application-wide data, but should be used carefully to avoid creating an unwieldy global state that may become difficult to manage.
