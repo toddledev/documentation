@@ -27,6 +27,7 @@ Variables can be used throughout a component or page:
 This makes variables ideal for managing temporary states like:
 
 - UI state (expanded/collapsed menus, selected tabs)
+- Frequent state updates based on user interactions
 - Form input values
 - Temporary calculation results
 - User preferences for the current session
