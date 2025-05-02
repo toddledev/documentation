@@ -83,7 +83,7 @@ For bearer token authentication:
 4. The value is set by default to output `Bearer {{cookies.access_token}}`, using `Concatenate` and `Get Http-Only Cookie` formulas; the value for the `access_token` will be replaced in the Nordcraft proxy with the actual token
 
 ::: info
-API requests **mus**t be proxied through Nordcraft's edge network for HTTP-only cookies to be included. This is enabled by default in the **Advanced** tab of your API configuration.
+API requests **must** be proxied through Nordcraft's edge network for HTTP-only cookies to be included. This is enabled by default in the **Advanced** tab of your API configuration.
 :::
 
 ## Authentication in the editor environment
