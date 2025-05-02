@@ -218,7 +218,7 @@ Following these guidelines will help ensure that the Nordcraft documentation rem
 ### Front-end and front end bs back-end and backend
 
 - Use `front end` and `back end` when referring to a noun e.g. _"View your changes on the front end."_
-- Use `front-end` and `front end` when using those phrases as an adjective e.g. _"Paste the URL of your back-end API into the input field."_
+- Use `front-end` and `back-end` when using those phrases as an adjective e.g. _"Paste the URL of your back-end API into the input field."_
 
 ## Contributing via GitHub
 
