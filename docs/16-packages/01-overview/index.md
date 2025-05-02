@@ -1,6 +1,6 @@
 ---
 title: Packages
-description: Learn about Nordcraft's package ecosystem to add pre-built components, formulas, and actions to your projects, and to share functionality with the community.
+description: Learn about Nordcraft's package ecosystem to add pre-built components, formulas, and actions to your projects.
 ---
 
 # Packages
