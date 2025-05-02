@@ -16,7 +16,7 @@ The way workflows work in Nordcraft is very similar to functions in JavaScript.
 Use workflows to react to events. For example, when a user clicks on a button, you can respond to a click event and make something happen. "Make something happen" is the workflow. You can create all kinds of logic to respond to the click event. Typical examples include:
 
 - setting or updating variables
-- triggering events,
+- triggering events
 - calling APIs
 
 Check out [working with workflows](/workflows/working-with-workflows) to learn how to create workflows and add logic.
