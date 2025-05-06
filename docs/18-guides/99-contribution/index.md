@@ -195,6 +195,10 @@ Depending on the page type, consider including:
 - **Best practices**: Tips for optimal usage
 - **Common issues**: Troubleshooting guidance
 
+::: info
+The references pages for formulas and actions are special pages, where content below the introduction is generated from a Nordcraft API at build time. If you notice something wrong with the generated content for formulas and actions, please [open an issue on GitHub](https://github.com/nordcraftengine/documentation/issues/new).
+:::
+
 ### Writing style
 
 - **Clear and concise**: Use simple, direct language
