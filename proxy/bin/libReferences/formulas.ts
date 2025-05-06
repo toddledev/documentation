@@ -47,7 +47,7 @@ const getArguments = (args: Array<FormulaArgument>) => {
   if (args.length === 0) {
     return ''
   }
-  let content = '\n\n### Arguments\n'
+  let content = '\n\n### Arguments\n\n'
   content += '| Name | Type | Description |\n'
   content += '| ---- | ---- | ----------- |\n'
   args.forEach((arg) => {
@@ -60,7 +60,7 @@ const getOutput = (output?: FormulaOutput) => {
   if (!output) {
     return ''
   }
-  let content = '\n\n### Output\n'
+  let content = '\n\n### Output\n\n'
   content += '| Type | Description |\n'
   content += '| ---- | ----------- |\n'
   content += `| ${output.type?.type} | ${output.description} |\n`
