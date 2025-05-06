@@ -245,8 +245,9 @@ When submitting a pull request (PR):
 1. **Ensure relevance**: PRs should address an existing issue or have been discussed with the team beforehand
 2. **Provide a clear title**: Summarize what your changes accomplish
 3. **Add a detailed description**: Explain the purpose of your changes
-4. **Reference issues**: If your changes address an existing issue, reference it
-5. **Be responsive**: Watch for comments or requests for changes from reviewers
+4. **Complete the issue template checklists**: Check off items you have completed that are relevant to the PR
+5. **Reference issues**: If your changes address an existing issue, reference it
+6. **Be responsive**: Watch for comments or requests for changes from reviewers
 
 After submitting your pull request, the Nordcraft team will review your contribution. They may suggest changes or improvements before merging your work into the main documentation.
 
