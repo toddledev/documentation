@@ -1,5 +1,7 @@
 import * as fs from 'fs'
 import { getMenuItemsFromRepoItems } from '../src/utils'
+import { includeActions } from './libReferences/actions'
+import { includeFormulas } from './libReferences/formulas'
 
 // Setup
 if (fs.existsSync('./dist/docs')) {
@@ -14,6 +16,16 @@ fs.cpSync('../docs', './dist/docs', {
   recursive: true,
   filter: (src) => !src.endsWith('.webp'),
 })
+// Inject formulas into the formula reference file
+const formulaReferencePath = './dist/docs/19-references/01-formulas/index.md'
+const formulaReferenceContent = fs.readFileSync(formulaReferencePath, 'utf-8')
+const newFormulaContent = await includeFormulas(formulaReferenceContent)
+fs.writeFileSync(formulaReferencePath, newFormulaContent, 'utf-8')
+// Inject actions into the actions reference file
+const actionReferencePath = './dist/docs/19-references/02-actions/index.md'
+const actionReferenceContent = fs.readFileSync(actionReferencePath, 'utf-8')
+const newActionContent = await includeActions(actionReferenceContent)
+fs.writeFileSync(actionReferencePath, newActionContent, 'utf-8')
 // Read all files
 const files = (
   fs.readdirSync('./dist/docs', { recursive: true }) as string[]
