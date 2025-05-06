@@ -65,7 +65,7 @@ Learn more about using [HTTP cookies on the MDN documentation](https://developer
 For OAuth or third-party authentication providers that use redirects (like Supabase, Auth0 or Firebase):
 
 1. Redirect users to the authentication provider to authenticate
-2. Configure the provider to redirect back to your application at `/.nordcraft?access_token=<Your access token>`
+2. Configure the provider to redirect back to your application at `/.toddle?access_token=<Your access token>`
 3. Nordcraft automatically stores this token in a secure HTTP-only cookie
 4. Optionally redirect users to a specific page after authentication using the query parameter `redirect_to=<URL>`
 
