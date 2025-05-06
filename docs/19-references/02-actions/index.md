@@ -1,6 +1,6 @@
 ---
 title: Actions reference
-description: Browse the built-in actions in Nordcraft. Actions in Nordcraft are reusable JavaScript functions that allow you to extend the platform's functionality. 
+description: Browse the built-in actions in Nordcraft. Actions in Nordcraft are reusable JavaScript functions that allow you to extend the platform's functionality.
 ---
 
 # Actions reference
