@@ -18,19 +18,19 @@
     "watch": "tsc --watch --noEmit"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250410.0",
+    "@cloudflare/workers-types": "4.20250506.0",
     "@types/lodash": "4.17.16",
-    "@types/node": "22.15.3",
+    "@types/node": "22.15.12",
     "typescript": "5.8.3",
-    "wrangler": "4.9.1"
+    "wrangler": "4.14.1"
   },
   "dependencies": {
     "@clickhouse/client-web": "1.11.1",
     "cheerio": "1.0.0",
     "front-matter": "4.0.2",
-    "hono": "4.7.6",
+    "hono": "4.7.8",
     "lodash": "4.17.21",
-    "marked": "15.0.8",
+    "marked": "15.0.11",
     "typesense": "2.0.3"
   }
 }
