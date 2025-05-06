@@ -291,7 +291,7 @@ By participating in the Nordcraft documentation project, you agree to abide by t
 
 If you have questions about contributing to the documentation or need assistance with your contributions:
 
-- Open an issue in the documentation repository for discussion
+- [Open a new issue](https://github.com/nordcraftengine/documentation/issues/new) in the Nordcraft documentation repository for discussion
 - Contact the Nordcraft team in the [Nordcraft Discord](https://discord.gg/nordcraft)
 - Ask in the community forums or discussion areas
 
