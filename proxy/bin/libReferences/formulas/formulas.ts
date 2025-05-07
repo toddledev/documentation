@@ -47,7 +47,6 @@ ${formulasJson
       .replace('{{ description }}', formula.formula.description ?? '')
     if (formula.formula.arguments.length > 0) {
       formulaContent += '\n' + argumentsTemplate + '\n'
-      console.log('args for', formula.formula.name, formula.formula.arguments)
       formulaContent += formula.formula.arguments
         .map((arg) => {
           return argumentTemplate
