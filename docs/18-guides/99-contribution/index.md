@@ -243,7 +243,7 @@ Since the Nordcraft documentation is hosted on [GitHub](https://github.com/nordc
 7. **Create a pull request**: Submit your changes from your fork to the main repository and complete the pull request template provided
 
 ::: tip
-If you're new to Git version control, check out the [official Git docuentation](https://git-scm.com/book/ms/v2/Getting-Started-About-Version-Control).
+If you're new to Git version control, check out the [official Git documentation](https://git-scm.com/book/ms/v2/Getting-Started-About-Version-Control).
 :::
 
 ## Pull request process
