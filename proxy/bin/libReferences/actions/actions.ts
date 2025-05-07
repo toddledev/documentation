@@ -5,7 +5,7 @@ interface JsonAction {
   id: string
   action: {
     name: string
-    description: string
+    description?: string
     arguments: Array<ActionArgument>
   }
 }
@@ -37,7 +37,7 @@ ${actionsJson
   .map((action) => {
     let actionContent = actionTemplate
       .replace('{{ name }}', action.action.name)
-      .replace('{{ description }}', action.action.description)
+      .replace('{{ description }}', action.action.description ?? '')
     if (action.action.arguments.length > 0) {
       actionContent += '\n' + argumentsTemplate + '\n'
       actionContent += action.action.arguments

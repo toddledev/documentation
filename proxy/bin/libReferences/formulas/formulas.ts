@@ -5,7 +5,7 @@ interface JsonFormula {
   id: string
   formula: {
     name: string
-    description: string
+    description?: string
     arguments: Array<FormulaArgument>
     output?: FormulaOutput
   }
@@ -44,9 +44,10 @@ ${formulasJson
   .map((formula) => {
     let formulaContent = formulaTemplate
       .replace('{{ name }}', formula.formula.name)
-      .replace('{{ description }}', formula.formula.description)
+      .replace('{{ description }}', formula.formula.description ?? '')
     if (formula.formula.arguments.length > 0) {
       formulaContent += '\n' + argumentsTemplate + '\n'
+      console.log('args for', formula.formula.name, formula.formula.arguments)
       formulaContent += formula.formula.arguments
         .map((arg) => {
           return argumentTemplate
