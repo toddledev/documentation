@@ -18,7 +18,7 @@
     "watch": "tsc --watch --noEmit"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250506.0",
+    "@cloudflare/workers-types": "4.20250507.0",
     "@types/lodash": "4.17.16",
     "@types/node": "22.15.12",
     "typescript": "5.8.3",
