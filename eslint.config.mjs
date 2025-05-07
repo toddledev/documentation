@@ -2,7 +2,7 @@ import markdown from '@eslint/markdown'
 import { defineConfig } from 'eslint/config'
 
 export default defineConfig({
-  files: ['**/*.md'],
+  files: ['docs/**/*.md', 'proxy/bin/**/*.md'],
   plugins: {
     markdown,
   },

@@ -195,6 +195,10 @@ Depending on the page type, consider including:
 - **Best practices**: Tips for optimal usage
 - **Common issues**: Troubleshooting guidance
 
+::: info
+The references pages for formulas and actions are special pages, where content below the introduction is generated from a Nordcraft API at build time. If you notice something wrong with the generated content for formulas and actions, please [open an issue on GitHub](https://github.com/nordcraftengine/documentation/issues/new).
+:::
+
 ### Writing style
 
 - **Clear and concise**: Use simple, direct language
@@ -287,7 +291,7 @@ By participating in the Nordcraft documentation project, you agree to abide by t
 
 If you have questions about contributing to the documentation or need assistance with your contributions:
 
-- Open an issue in the documentation repository for discussion
+- [Open a new issue](https://github.com/nordcraftengine/documentation/issues/new) in the Nordcraft documentation repository for discussion
 - Contact the Nordcraft team in the [Nordcraft Discord](https://discord.gg/nordcraft)
 - Ask in the community forums or discussion areas
 
