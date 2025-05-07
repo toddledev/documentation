@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import { getMenuItemsFromRepoItems } from '../src/utils'
-import { includeActions } from './libReferences/actions'
-import { includeFormulas } from './libReferences/formulas'
+import { includeActions } from './libReferences/actions/actions'
+import { includeFormulas } from './libReferences/formulas/formulas'
 
 // Setup
 if (fs.existsSync('./dist/docs')) {
