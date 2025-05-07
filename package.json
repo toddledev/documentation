@@ -2,8 +2,8 @@
   "name": "documentation",
   "scripts": {
     "lint": "eslint --quiet .",
-    "prettier:write": "prettier --write  './docs/**/*.md' 'proxy/**/*.ts'",
-    "prettier": "prettier --check './docs/**/*.md' 'proxy/**/*.ts'"
+    "prettier:write": "prettier --write  './docs/**/*.md' 'proxy/**/*.ts' 'proxy/**/*.md'",
+    "prettier": "prettier --check './docs/**/*.md' 'proxy/**/*.ts' 'proxy/**/*.md'"
   },
   "devDependencies": {
     "@eslint/js": "9.25.1",
@@ -14,5 +14,8 @@
     "eslint": "9.24.0",
     "prettier-plugin-organize-imports": "4.1.0",
     "prettier": "3.5.3"
-  }
+  },
+  "workspaces": [
+    "proxy"
+  ]
 }
