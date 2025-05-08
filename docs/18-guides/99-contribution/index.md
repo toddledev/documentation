@@ -133,6 +133,10 @@ Image requirements:
 - Place all images in the same folder as the page's `index.md` file
 - If a link is included, ensure that it points to the `main` branch
 
+::: info
+You may see `@@@ image-internal` in places. This tag is for Nordcraft brand images that do not expand into the large view. You should not add internal images unless specifically requested to do so.
+:::
+
 ## Examples
 
 For component examples, use the following format:
