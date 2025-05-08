@@ -1,9 +1,9 @@
 ---
-title: Contributing to Nordcraft Documentation
+title: Contributing
 description: Learn how to create well-structured, consistent documentation pages for Nordcraft, following formatting guidelines and content best practices.
 ---
 
-# Contributing to Nordcraft documentation
+# Contributing
 
 This guide helps you understand how to contribute to the Nordcraft documentation. Whether you're adding a completely new page or updating existing content, following these guidelines ensures consistency across the documentation.
 
