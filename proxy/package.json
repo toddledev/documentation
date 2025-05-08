@@ -22,7 +22,7 @@
     "@types/lodash": "4.17.16",
     "@types/node": "22.15.15",
     "typescript": "5.8.3",
-    "wrangler": "4.14.3"
+    "wrangler": "4.14.4"
   },
   "dependencies": {
     "@clickhouse/client-web": "1.11.1",
