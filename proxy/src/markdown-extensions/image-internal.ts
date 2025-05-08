@@ -22,11 +22,11 @@ export const imageInternalExtension: TokenizerAndRendererExtension = {
 
       const splitText = text.split('|')
 
-      console.log(splitText)
+      const reducedRaw = raw.replace('@@@', '').replace(' image-internal', '')
 
       return {
         type: 'image-internal',
-        raw: raw,
+        raw: reducedRaw,
         text: splitText[0].trim(),
         href: href,
         aspectRatio: splitText[1]?.trim(),
