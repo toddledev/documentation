@@ -1,5 +1,6 @@
 export * from './callout'
 export * from './example'
 export * from './image'
+export * from './image-internal'
 export * from './kbd'
 export * from './youtube'
