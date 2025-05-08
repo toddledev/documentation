@@ -5,13 +5,12 @@ export type ImageInternalToken = {
   raw: string
   href: string
   text: string
-  aspectRatio: string | null
   linkUrl: string | null
 }
 
 export const imageInternalExtension: TokenizerAndRendererExtension = {
   name: 'image-internal',
-  level: 'inline',
+  level: 'block',
 
   tokenizer(src, _tokens): ImageInternalToken | undefined {
     const rule = /^@@@\s*image-internal\s*\n!\[([^\]]+)\]\(([^)]+)\)\s*\n@@@/
@@ -20,16 +19,11 @@ export const imageInternalExtension: TokenizerAndRendererExtension = {
     if (match) {
       const [raw, text, href, linkUrl] = match
 
-      const splitText = text.split('|')
-
-      const reducedRaw = raw.replace('@@@', '').replace(' image-internal', '')
-
       return {
         type: 'image-internal',
-        raw: reducedRaw,
-        text: splitText[0].trim(),
+        raw: raw,
+        text: text.trim(),
         href: href,
-        aspectRatio: splitText[1]?.trim(),
         linkUrl: linkUrl || null,
       }
     }
