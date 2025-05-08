@@ -6,6 +6,7 @@ import {
   calloutExtension,
   exampleExtension,
   imageExtension,
+  imageInternalExtension,
   kbdExtension,
   youtubeExtension,
 } from '../markdown-extensions'
@@ -17,6 +18,7 @@ marked.use({
     exampleExtension,
     kbdExtension,
     imageExtension,
+    imageInternalExtension,
     youtubeExtension,
   ],
 })
