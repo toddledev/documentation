@@ -1,4 +1,4 @@
-#### Arguments
+**Arguments**
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
