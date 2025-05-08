@@ -32,16 +32,6 @@ export const imageInternalExtension: TokenizerAndRendererExtension = {
   },
 
   renderer(token) {
-    let imgHtml
-
-    if (token.aspectRatio) {
-      imgHtml = `<div style="aspect-ratio: ${token.aspectRatio};">
-            <img src="${token.href}" alt="${token.text}" style="width: 100%; height: 100%; object-fit: contain;">
-          </div>`
-    } else {
-      imgHtml = `<img src="${token.href}" alt="${token.text}">`
-    }
-
-    return imgHtml
+    return  `<img src="${token.href}" alt="${token.text}">`
   },
 }
