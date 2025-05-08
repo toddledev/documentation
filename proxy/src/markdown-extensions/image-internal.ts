@@ -10,7 +10,7 @@ export type ImageInternalToken = {
 
 export const imageInternalExtension: TokenizerAndRendererExtension = {
   name: 'image-internal',
-  level: 'block',
+  level: 'inline',
 
   tokenizer(src, _tokens): ImageInternalToken | undefined {
     const rule = /^@@@\s*image-internal\s*\n!\[([^\]]+)\]\(([^)]+)\)\s*\n@@@/
