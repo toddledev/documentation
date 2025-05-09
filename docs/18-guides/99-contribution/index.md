@@ -133,6 +133,10 @@ Image requirements:
 - Place all images in the same folder as the page's `index.md` file
 - If a link is included, ensure that it points to the `main` branch
 
+::: info
+You may see `@@@ image-static` in places. This tag is for Nordcraft brand images that do not expand into the large view. You should only add static images if you need to display images that don't serve as example images that should not be expandable, and do not have an outgoing link.
+:::
+
 ## Examples
 
 For component examples, use the following format:
