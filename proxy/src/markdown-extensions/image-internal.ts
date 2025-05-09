@@ -32,6 +32,6 @@ export const imageInternalExtension: TokenizerAndRendererExtension = {
   },
 
   renderer(token) {
-    return  `<img src="${token.href}" alt="${token.text}">`
+    return `<img src="${token.href}" alt="${token.text}">`
   },
 }
