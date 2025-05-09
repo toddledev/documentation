@@ -4,7 +4,7 @@ description: Welcome to the Nordcraft documentation. Learn how to build powerful
 ---
 
 @@@ image-static
-![Nordcraft](nordcraft.webp)
+![Nordcraft|2/1](nordcraft.webp)
 @@@
 
 # What is Nordcraft?
