@@ -1,4 +1,8 @@
 import { load } from 'cheerio'
+import type {
+  SearchParams,
+  SearchParamsWithPreset,
+} from 'typesense/lib/Typesense/Documents'
 import { getTypesenseClient } from '../search/typesense'
 import type { Search } from '../types'
 import { json } from '../utils'
@@ -9,10 +13,13 @@ export const search = async ({ params: { searchTerm }, ctx }: Search) => {
     host: ctx.env.TYPESENSE_HOST,
   })
 
-  const searchParameters = {
+  const searchParameters: SearchParams | SearchParamsWithPreset = {
     q: searchTerm,
-    query_by: 'title,content',
     limit: 20,
+    query_by: 'title,content',
+    // Allow 1 typo for both title and content
+    // Learn more here https://typesense.org/docs/28.0/api/search.html#typo-tolerance-parameters
+    num_typos: 1,
   }
 
   const { hits } = await client
