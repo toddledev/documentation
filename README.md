@@ -36,10 +36,10 @@ For quick fixes, you can click the "Edit" button on any documentation page, whic
 
 ## Local Development
 
-To preview the documentation locally:
+To preview the documentation from a GitHub branch in the Nordcraft documentation (front-end) project:
 
-1. Visit any page on the Nordcraft documentation site
-2. Add `?mode=preview` to the URL
+1. Visit any page on the [Nordcraft documentation site](https://docs.nordcraft.com)
+2. Add `?mode=preview` [to the URL](https://docs.nordcraft.com?mode=preview)
 3. Use the configuration panel at the bottom to set:
    - Repository owner
    - Repository name
