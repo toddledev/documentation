@@ -5,6 +5,7 @@ export type ImageStaticToken = {
   raw: string
   href: string
   text: string
+  aspectRatio: string
   linkUrl: string | null
 }
 
@@ -19,11 +20,14 @@ export const ImageStaticExtension: TokenizerAndRendererExtension = {
     if (match) {
       const [raw, text, href, linkUrl] = match
 
+      const splitText = text.split('|')
+
       return {
         type: 'image-static',
         raw: raw,
-        text: text.trim(),
+        text: splitText[0].trim(),
         href: href,
+        aspectRatio: splitText[1].trim(),
         linkUrl: linkUrl || null,
       }
     }
