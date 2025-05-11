@@ -16,6 +16,13 @@ The canvas is the central workspace in the Nordcraft editor where you visually b
 - **Deselection**: Press [kbd]Escape[kbd] or click on the background outside the canvas to deselect elements
 - **Hidden elements**: Selecting a hidden element from the element tree makes it visible in the canvas, including any hidden parent elements
 
+## Dragging elements
+
+Elements may be dragged and dropped around the canvas to reorder or move an element to a different container. When dragging, additional hotkeys are enabled.
+
+- Press and hold the [kbd]meta[kbd] key to force insertion mode. Insertion mode is also toggled when dragging outside the element's container. Insertion mode will let you drop elements more precisely, even within sibling elements. Reorder mode is enabled by default, which lets you visually reorder the dragged element between its siblings.
+- Press and hold the [kbd]option[kbd] key to duplicate an element on drop rather than moving it.
+
 ## Navigation and viewing
 
 - **Panning**: Navigate the canvas by scrolling or by holding [kbd]Space[kbd] while dragging
