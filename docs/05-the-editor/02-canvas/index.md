@@ -20,8 +20,8 @@ The canvas is the central workspace in the Nordcraft editor where you visually b
 
 Elements may be dragged and dropped around the canvas to reorder or move an element to a different container. When dragging, additional hotkeys are enabled.
 
-- Press and hold the [kbd]meta[kbd] key to force insertion mode. Insertion mode is also toggled when dragging outside the element's container. Insertion mode will let you drop elements more precisely, even within sibling elements. Reorder mode is enabled by default, which lets you visually reorder the dragged element between its siblings.
-- Press and hold the [kbd]option[kbd] key to duplicate an element on drop rather than moving it.
+- Hold [kbd]Cmd/Ctrl[kbd] to force insertion mode. Insertion mode is also toggled when dragging outside the element's container. Insertion mode will let you drop elements more precisely, even within sibling elements. Reorder mode is enabled by default, which lets you visually reorder the dragged element between its siblings.
+- Hold [kbd]Alt[kbd] to duplicate an element on drop rather than moving it.
 
 ## Navigation and viewing
 
