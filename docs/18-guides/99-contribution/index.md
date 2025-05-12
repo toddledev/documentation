@@ -215,7 +215,8 @@ The references pages for formulas and actions are special pages, where content b
 
 ::: tip
 Use the active voice to provide clear instructions using "you". For example:
-- **Do this**: _Click the `+` button to add a new action._
+
+- **Do this**: You can click the `+` button to add a new action._
 - **Do not do this**: _The `+` button can be clicked to add a new action._
 :::
 
