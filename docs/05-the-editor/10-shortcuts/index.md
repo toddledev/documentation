@@ -26,9 +26,10 @@ When an element or component is selected in the canvas or element tree:
 
 ## Element tree and canvas shortcuts
 
-- Hold [kbd]Alt[kbd] while dropping a dragged element in the element tree - Copy the element instead of moving it
-- Hold [kbd]Alt[kbd] while dragging an element in the canvas - Drag a duplicate of the selected element/component instead of moving the original
-- Hold [kbd]Alt[kbd] while hovering over elements in the canvas - Display distances (in px) between the selected element and other elements or the parent element
+- Hold [kbd]Option/Alt[kbd] while dropping a dragged element in the element tree - Copy the element instead of moving it
+- Hold [kbd]Option/Alt[kbd] while dragging an element in the canvas - Drag a duplicate of the selected element/component instead of moving the original
+- Hold [kbd]Cmd/Ctrl[kbd] while dragging an element in the canvas - Force insertion-mode, which will let you more precisely drop an element, even inside its siblings.
+- Hold [kbd]Option/Alt[kbd] while hovering over elements in the canvas - Display distances (in px) between the selected element and other elements or the parent element
 
 ## Element editing shortcuts
 
