@@ -70,7 +70,6 @@ When writing headings, use sentence case (use a capital letter for the first wor
 - Use **bold** to emphasize important terms
 - Use _italics_ sparingly for emphasis
 - Keep paragraphs short (3-5 sentences maximum)
-- Use present tense and active voice
 - Use American English spellings
 
 ## Code and UI elements
@@ -212,7 +211,15 @@ The references pages for formulas and actions are special pages, where content b
 - **Clear and concise**: Use simple, direct language
 - **Formal but approachable**: Professional but not academic
 - **Action-oriented**: Focus on how to use features
-- **User-focused**: Address the reader directly ("you")
+- **Use present tense and use active voice**: Address the reader directly ("you")
+
+::: tip
+Use the active voice to provide clear instructions using "you" where possible. For example:
+
+- **Do this**: You can click the `+` button to add a new action._
+- **Do not do this**: _The `+` button can be clicked to add a new action._
+:::
+
 
 Keep in mind the following when updating or adding documentation:
 
