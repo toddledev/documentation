@@ -1,6 +1,6 @@
 ---
 title: Working with APIs
-description: Configure API endpoints in Nordcraft by setting methods, URLs, headers, parameters and body content to send and receive external data in your Nordcraft application.
+description: Set up API endpoints in Nordcraft with custom methods, URLs, headers, and payloads to send and receive external data.
 ---
 
 # Working with APIs
