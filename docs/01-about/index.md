@@ -60,3 +60,7 @@ At Nordcraft, we're proud of our growing community where designers and developer
 ::: tip
 Join over 3k members in the [Nordcraft Discord](https://discord.gg/nordcraft) to keep up to date with new feature releases, ask for help, suggest improvements to the Nordcraft experience, and connect with other Nordcraft designers and developers.
 :::
+
+## Open source
+
+The Nordcraft Web Development Engine is open source. [View the nordcraft repository on GitHub](https://github.com/nordcraftengine/nordcraft) and contribute via [open issues](https://github.com/nordcraftengine/nordcraft/issues).
