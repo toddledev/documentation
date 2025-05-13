@@ -1,6 +1,6 @@
 ---
 title: Nordcraft core concepts
-description: Learn the fundamental principles that power the Nordcraft Web Development Engine including component architecture, reactive data flow, and visual development with code.
+description: Explore Nordcraft’s core principles: component architecture, reactive data flow, and visual development with code.
 ---
 
 # Nordcaft core concepts
