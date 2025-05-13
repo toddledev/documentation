@@ -218,7 +218,7 @@ Use the active voice to provide clear instructions using "you" where possible. F
 
 - **Do this**: _You can click the `+` button to add a new action._
 - **Do not do this**: _The `+` button can be clicked to add a new action._
-  :::
+:::
 
 Keep in mind the following when updating or adding documentation:
 
