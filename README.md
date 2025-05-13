@@ -56,3 +56,7 @@ If you find issues or have suggestions for the documentation:
 ## License
 
 The Nordcraft documentation is licensed under [Apache License](LICENSE).
+
+## The Nordcraft Engine
+
+The Nordcraft Web Development Engine is open source. [View the nordcraft repository on GitHub](https://github.com/nordcraftengine/nordcraft) and contribute via [open issues](https://github.com/nordcraftengine/nordcraft/issues).
