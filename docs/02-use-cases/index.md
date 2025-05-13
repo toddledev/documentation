@@ -1,6 +1,6 @@
 ---
 title: What can you build with Nordcraft?
-description: Discover how Nordcraft enables designers and developers to build scalable web applications, e-commerce solutions, content sites, corporate websites, and more. Learn about real-world examples of what you can create with Nordcraft's Web Development Engine.
+description: Build scalable web apps, e-commerce sites, and content-rich websites with Nordcraft’s powerful, flexible Web Development Engine. 
 ---
 
 # What can you build with Nordcraft?
