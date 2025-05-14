@@ -1,6 +1,6 @@
 ---
 title: What can you build with Nordcraft?
-description: Build scalable web apps, e-commerce sites, and content-rich websites with Nordcraft’s powerful, flexible Web Development Engine. 
+description: Build scalable web apps, e-commerce sites, and content-rich websites with Nordcraft’s powerful, flexible Web Development Engine.
 ---
 
 # What can you build with Nordcraft?
