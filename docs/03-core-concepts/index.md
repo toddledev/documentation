@@ -1,4 +1,5 @@
 ---
+title: Nordcraft core concepts
 description: Explore Nordcraft’s core principles: component architecture, reactive data flow, and visual development with code.
 ---
 

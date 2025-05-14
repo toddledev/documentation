@@ -1,5 +1,6 @@
 ---
-description: Nordcraft documentation. Learn to build powerful web applications with Nordcraft through guides and examples. Explore components, styling, APIs, and advanced features.
+title: What is Nordcraft?
+description: Learn to build powerful web applications with Nordcraft through guides and examples. Explore components, styling, APIs, and advanced features.
 ---
 
 @@@ image-static

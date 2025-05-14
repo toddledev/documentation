@@ -1,4 +1,5 @@
 ---
+title: Formulas reference
 description: Use Nordcraft’s built-in formulas to transform data, calculate values, and apply conditional logic across your entire app. 
 ---
 
