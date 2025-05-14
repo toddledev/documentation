@@ -1,5 +1,4 @@
 ---
-title: Issue panel
 description: Nordcraft’s issue panel helps you find and fix problems fast, giving overview of all issues, ensuring code quality and improving project stability.
 ---
 

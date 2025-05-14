@@ -1,5 +1,4 @@
 ---
-title: Working with APIs
 description: Set up API endpoints in Nordcraft with custom methods, URLs, headers, and payloads to send and receive external data.
 ---
 
