@@ -1,6 +1,6 @@
 ---
 title: Formulas reference
-description: Browse the built-in formulas in Nordcraft, which you can use to transform data, perform calculations, and implement conditional logic throughout your application.
+description: Use Nordcraft’s built-in formulas to transform data, calculate values, and apply conditional logic across your entire app.
 ---
 
 # Formulas reference
