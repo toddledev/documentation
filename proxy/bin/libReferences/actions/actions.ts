@@ -1,5 +1,6 @@
 import { readFileSync } from 'fs'
 import * as prettier from 'prettier'
+import { escapeMarkdown } from '../formatting'
 
 interface JsonAction {
   id: string
@@ -36,16 +37,19 @@ ${content.trim()}
 ${actionsJson
   .map((action) => {
     let actionContent = actionTemplate
-      .replace('{{ name }}', action.action.name)
-      .replace('{{ description }}', action.action.description ?? '')
+      .replace('{{ name }}', escapeMarkdown(action.action.name))
+      .replace(
+        '{{ description }}',
+        escapeMarkdown(action.action.description ?? ''),
+      )
     if (action.action.arguments.length > 0) {
       actionContent += '\n' + argumentsTemplate + '\n'
       actionContent += action.action.arguments
         .map((arg) => {
           return argumentTemplate
-            .replace('{{ name }}', arg.name)
-            .replace('{{ type }}', arg.type?.type ?? '')
-            .replace('{{ description }}', arg.description ?? '')
+            .replace('{{ name }}', escapeMarkdown(arg.name))
+            .replace('{{ type }}', escapeMarkdown(arg.type?.type ?? ''))
+            .replace('{{ description }}', escapeMarkdown(arg.description ?? ''))
         })
         .join('\n')
     }

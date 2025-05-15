@@ -1,5 +1,6 @@
 import { readFileSync } from 'fs'
 import * as prettier from 'prettier'
+import { escapeMarkdown } from '../formatting'
 
 interface JsonFormula {
   id: string
@@ -43,16 +44,19 @@ ${content.trim()}
 ${formulasJson
   .map((formula) => {
     let formulaContent = formulaTemplate
-      .replace('{{ name }}', formula.formula.name)
-      .replace('{{ description }}', formula.formula.description ?? '')
+      .replace('{{ name }}', escapeMarkdown(formula.formula.name))
+      .replace(
+        '{{ description }}',
+        escapeMarkdown(formula.formula.description ?? ''),
+      )
     if (formula.formula.arguments.length > 0) {
       formulaContent += '\n' + argumentsTemplate + '\n'
       formulaContent += formula.formula.arguments
         .map((arg) => {
           return argumentTemplate
-            .replace('{{ name }}', arg.name)
-            .replace('{{ type }}', arg.type?.type ?? '')
-            .replace('{{ description }}', arg.description ?? '')
+            .replace('{{ name }}', escapeMarkdown(arg.name))
+            .replace('{{ type }}', escapeMarkdown(arg.type?.type ?? ''))
+            .replace('{{ description }}', escapeMarkdown(arg.description ?? ''))
         })
         .join('\n')
     }
@@ -60,10 +64,13 @@ ${formulasJson
       formulaContent +=
         '\n' +
         outputsTemplate
-          .replace('{{ type }}', formula.formula.output.type.type ?? '')
+          .replace(
+            '{{ type }}',
+            escapeMarkdown(formula.formula.output.type.type ?? ''),
+          )
           .replace(
             '{{ description }}',
-            formula.formula.output.description ?? '',
+            escapeMarkdown(formula.formula.output.description ?? ''),
           )
     }
     return formulaContent
