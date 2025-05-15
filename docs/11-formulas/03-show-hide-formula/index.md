@@ -27,7 +27,7 @@ The truthy concept in Nordcraft is similar to JavaScript but follows a more stre
 
 - Only `false`, `null` and `undefined` are treated as **falsy**
 - All all other values (including empty strings, zero and empty arrays) are considered **truthy**
-  :::
+:::
 
 ## Add a show/hide formula
 
