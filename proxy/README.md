@@ -22,7 +22,6 @@ The proxy works with the Nordcraft documentation site to provide a seamless expe
 - `search.ts`: Provides search functionality across documentation
 - `handleThumbnail.ts`: Proxies video thumbnails without setting cookies
 
-
 ### Build Scripts
 
 - `buildAssets.ts`: Generates static assets for the documentation site (e.g. copies markdown files and generates the menu structure)
@@ -63,4 +62,3 @@ In the `proxy` directory, run `bun run dev` to start the proxy service in develo
    - Builds the initial sitemap
    - Pre-fetches contributor information (if `COMMITS_KEY` is available)
 5. Content can be served directly from the local filesystem for rapid testing
-
