@@ -1,6 +1,8 @@
 # Nordcraft Documentation Proxy
 
-This directory contains the proxy service that powers the Nordcraft documentation site. 
+This directory contains the proxy service that powers the Nordcraft documentation site.
+
+The proxy works with the Nordcraft documentation site to provide a seamless experience for users, while enabling contributors to preview their changes using the `?mode=preview` URL parameter.
 
 ## Key Features
 
@@ -85,7 +87,3 @@ The `bun run build` command prepares the proxy for production deployment:
 After building, the proxy can be deployed to a hosting environment or started locally with `bun run start`.
 
 **You do not need to do a build as part of any pull request. A build command is run when any pull request is merged on GitHub.**
-
-## Integration with Documentation
-
-The proxy works with the Nordcraft documentation site to provide a seamless experience for users, while enabling contributors to preview their changes using the `?mode=preview` URL parameter.
