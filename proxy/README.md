@@ -64,15 +64,3 @@ In the `proxy` directory, run `bun run dev` to start the proxy service in develo
    - Pre-fetches contributor information (if `COMMITS_KEY` is available)
 5. Content can be served directly from the local filesystem for rapid testing
 
-### Building the project
-
-The `bun run build` command prepares the proxy for production deployment:
-
-1. Compiles TypeScript code to optimized JavaScript
-2. Bundles dependencies for improved performance
-3. Creates a production-ready distribution in the `dist` directory
-4. Optimizes for performance and reduces bundle size
-
-After building, the proxy can be deployed to a hosting environment or started locally with `bun run start`.
-
-**You do not need to do a build as part of any pull request. A build command is run when any pull request is merged on GitHub.**
