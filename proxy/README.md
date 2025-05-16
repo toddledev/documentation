@@ -12,7 +12,6 @@ The proxy works with the Nordcraft documentation site to provide a seamless expe
 - **Reference Generation**: Dynamically generates formula and action reference documentation from the [Nordcraft repository](https://github.com/nordcraftengine/nordcraft)
 - **Search Capability**: Provides documentation search functionality
 - **Image Processing**: Handles image thumbnails and optimizations
-- **CORS Management**: Controls cross-origin access to documentation resources
 
 ## Core Components
 
