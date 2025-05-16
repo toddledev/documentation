@@ -54,6 +54,10 @@ This directory contains the proxy service that powers the Nordcraft documentatio
 
 You'll need to install [bun for your operating system](https://bun.sh/docs/installation).
 
+### Install dependencies
+
+In the `proxy` directory, run `bun run install` to install dependencies for local development.
+
 ### `bun run dev`
 
 In the `proxy` directory, run `bun run dev` to start the proxy service in development mode. This does the following:
