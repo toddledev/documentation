@@ -16,12 +16,6 @@ updates:
         patterns:
           - 'prettier'
           - 'prettier-plugin-organize-imports'
-  - package-ecosystem: 'bun'
-    directory: 'proxy/'
-    schedule:
-      interval: 'weekly'
-    open-pull-requests-limit: 5
-    groups:
       cloudflare:
         patterns:
           - '@cloudflare/workers-types'
