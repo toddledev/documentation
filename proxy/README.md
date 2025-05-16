@@ -25,7 +25,7 @@ The proxy works with the Nordcraft documentation site to provide a seamless expe
 
 ### Build Scripts
 
-- `buildAssets.ts`: Generates static assets for the documentation site
+- `buildAssets.ts`: Generates static assets for the documentation site (e.g. copies markdown files and generates the menu structure)
 - `buildContributors.ts`: Retrieves contributor information for all pages
 - `buildSitemap.ts`: Creates a sitemap.xml file for search engines
 - `fetchContributors.ts`: Retrieves contributor data from GitHub API
