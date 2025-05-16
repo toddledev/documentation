@@ -73,41 +73,6 @@ app.get('/contributors/:path{.*}?', async (ctx) => {
   return errorResponse('Contributors not found', { status: 404 })
 })
 
-app.get('/sitemap.xml', async () => {
-  const menuItems = await loadJsonFile<MenuItem[]>('./menuItems.json')
-  if (!menuItems) {
-    return errorResponse('Could not fetch menu items.', { status: 500 })
-  }
-  const sitemapItems: string[] = []
-  const addItems = (items: MenuItem[], parts: string[]) =>
-    items.forEach((item) => {
-      if (item.type === 'folder') {
-        addItems(item.children, [...parts, item.id])
-      } else {
-        sitemapItems.push([...parts, item.id].join('/'))
-      }
-    })
-  addItems(menuItems, [])
-  const content = `\
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${sitemapItems
-    .map((url) => {
-      return `<url>
-          <loc>https://docs.nordcraft.com/${url}</loc>
-        </url>`
-    })
-    .join('')}
-</urlset>
-`
-  return new Response(content, {
-    headers: {
-      'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600',
-    },
-  })
-})
-
 app.post('/search', async (ctx) => {
   const data = (await ctx.req.json()) as { searchTerm?: string }
 

@@ -3,13 +3,16 @@
  * https://developers.cloudflare.com/workers/wrangler/configuration/
  */
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
+  "$schema": "../node_modules/wrangler/config-schema.json",
   "name": "docs-proxy",
   "account_id": "f6203e7ed21fb722943385aaa3daa65a",
   "main": "dist/index.js",
   "compatibility_date": "2025-02-24",
   "observability": {
     "enabled": true,
+  },
+  "assets": {
+    "directory": "./static",
   },
   "rules": [
     // Include all .md files as assets
