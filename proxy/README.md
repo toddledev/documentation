@@ -20,7 +20,7 @@ The proxy works with the Nordcraft documentation site to provide a seamless expe
 - `fetchContent.ts`: Handles retrieving documentation page content
 - `fetchMenu.ts`: Serves the documentation navigation structure
 - `search.ts`: Provides search functionality across documentation
-- `handleThumbnail.ts`: Processes documentation images
+- `handleThumbnail.ts`: Proxies video thumbnails without setting cookies
 
 
 ### Build Scripts
