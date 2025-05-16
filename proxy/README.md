@@ -22,14 +22,6 @@ The proxy works with the Nordcraft documentation site to provide a seamless expe
 - `search.ts`: Provides search functionality across documentation
 - `handleThumbnail.ts`: Processes documentation images
 
-### Utilities
-
-- `fetchMenuItems.ts`: Logic for building menu structure from repository files
-- `fetchPageData.ts`: Retrieves individual page content
-- `helpers.ts`: Common utility functions
-- `cors.ts`: CORS configuration and management
-- `jsonLoader.ts`: Loads and processes JSON data
-- `markdownLoader.ts`: Loads and processes Markdown content
 
 ### Build Scripts
 
