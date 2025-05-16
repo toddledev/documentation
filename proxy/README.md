@@ -55,7 +55,7 @@ In the `proxy` directory, run `bun run install` to install dependencies for loca
 
 In the `proxy` directory, run `bun run dev` to start the proxy service in development mode. This does the following:
 
-1. Launches the server with hot-reloading enabled
+1. Launches the server (after making changes in md/ts files, you will need to restart the server to see your changes)
 2. Watches for file changes in the source code
 3. Automatically rebuilds and restarts the server when changes are detected
 4. Enables detailed logging for debugging purposes
