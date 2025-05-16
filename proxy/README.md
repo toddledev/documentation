@@ -52,8 +52,6 @@ This directory contains the proxy service that powers the Nordcraft documentatio
 
 ## Development Workflow
 
-## Prerequisites
-
 You'll need to install [bun for your operating system](https://bun.sh/docs/installation).
 
 ### `bun run dev`
