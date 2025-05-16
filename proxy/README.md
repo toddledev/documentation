@@ -41,7 +41,7 @@ The proxy works with the Nordcraft documentation site to provide a seamless expe
 - `/menu/:owner/:repository/:branch`: Retrieves navigation structure
 - `/contributors/:path?`: Retrieves contributor information for a page
 - `/search/:owner/:repository/:branch/:query`: Searches across documentation content
-- `/thumbnail/:path`: Serves optimized images
+- `/thumbnail/:path`: Serves proxied images
 
 ## Development Workflow
 
