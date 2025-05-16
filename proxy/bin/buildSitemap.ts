@@ -5,7 +5,6 @@ import { getMenuItemsFromRepoItems } from '../src/utils'
 
 const getCommitDates = (path: string) =>
   execSync(`git log -1 --pretty="format:%ci" .${path}`).toString().trim()
-console.log(getCommitDates)
 
 // Read all files
 const files = (
