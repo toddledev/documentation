@@ -56,15 +56,13 @@ In the `proxy` directory, run `bun run install` to install dependencies for loca
 In the `proxy` directory, run `bun run dev` to start the proxy service in development mode. This does the following:
 
 1. Launches the server (after making changes in md/ts files, you will need to restart the server to see your changes)
-2. Watches for file changes in the source code
-3. Automatically rebuilds and restarts the server when changes are detected
-4. Enables detailed logging for debugging purposes
-5. Uses local environment variables from `.env.local` (if present)
-6. Runs the asset generation scripts:
+2. Uses local environment variables from `.env` (if present) for build scripts
+3. Uses local environment variables from `.dev.vars` (if present) for the wrangler application
+4. Runs the asset generation scripts:
    - Generates static reference documentation
    - Builds the initial sitemap
    - Pre-fetches contributor information (if `COMMITS_KEY` is available)
-7. Content can be served directly from the local filesystem for rapid testing
+5. Content can be served directly from the local filesystem for rapid testing
 
 ### Building the project
 
