@@ -58,7 +58,7 @@ You'll need to install [bun for your operating system](https://bun.sh/docs/insta
 
 In the `proxy` directory, run `bun run install` to install dependencies for local development.
 
-### `bun run dev`
+### Local development
 
 In the `proxy` directory, run `bun run dev` to start the proxy service in development mode. This does the following:
 
@@ -73,7 +73,7 @@ In the `proxy` directory, run `bun run dev` to start the proxy service in develo
    - Pre-fetches contributor information (if `COMMITS_KEY` is available)
 7. Content can be served directly from the local filesystem for rapid testing
 
-### `bun run build`
+### Building the project
 
 The `bun run build` command prepares the proxy for production deployment:
 
@@ -83,6 +83,8 @@ The `bun run build` command prepares the proxy for production deployment:
 4. Optimizes for performance and reduces bundle size
 
 After building, the proxy can be deployed to a hosting environment or started locally with `bun run start`.
+
+**You do not need to do a build as part of any pull request. A build command is run when any pull request is merged on GitHub.**
 
 ## Integration with Documentation
 
