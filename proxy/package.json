@@ -18,11 +18,11 @@
     "watch": "tsc --watch --noEmit"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250509.0",
+    "@cloudflare/workers-types": "4.20250519.0",
     "@types/bun": "1.2.13",
     "@types/lodash": "4.17.16",
     "typescript": "5.8.3",
-    "wrangler": "4.14.4"
+    "wrangler": "4.15.2"
   },
   "dependencies": {
     "@clickhouse/client-web": "1.11.1",
