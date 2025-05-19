@@ -1,4 +1,3 @@
-import frontMatter from 'front-matter'
 import { kebabCase } from 'lodash'
 import type { Token } from 'marked'
 import { marked } from 'marked'
@@ -11,6 +10,7 @@ import {
   youtubeExtension,
 } from '../markdown-extensions'
 import type { FetchPageData, PageData } from '../types'
+import { getFrontMatter } from './frontMatter'
 
 marked.use({
   extensions: [
@@ -46,7 +46,7 @@ export const parseRawContent = ({
   path: string
   title: string
 }) => {
-  const { attributes: metaFromMarkdown, body: markdown } = frontMatter(text)
+  const { attributes: metaFromMarkdown, body: markdown } = getFrontMatter(text)
 
   const tokens = getProcessedTokens(marked.lexer(markdown))
 
