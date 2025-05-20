@@ -13,7 +13,7 @@ These shortcuts work anywhere in the editor:
 
 - [kbd]T[kbd] - Toggle test mode
 - [kbd]I[kbd] - Open the [element catalog](/the-editor/element-tree#element-catalog)
-- [kbd]Cmd/Ctrl + K[kbd] - Open the [project sidebar](/the-editor/project-sidebar)
+- [kbd]Cmd/Ctrl[kbd] + [kbd]K[kbd] - Open the [project sidebar](/the-editor/project-sidebar)
 - [kbd]Escape[kbd] - Deselect the current element or close panels
 
 ## Element panel shortcuts
@@ -49,9 +49,9 @@ When an element or component is selected in the canvas or element tree:
 
 You can use keyboard shortcuts to quickly resize the visible canvas to a variety of different approximate screen sizes. This is useful for testing responsive designs.
 
-- [kbd]1[kbd] - small mobile device screen size
-- [kbd]2[kbd] - tablet screen size
-- [kbd]3[kbd] - small laptop screen size
+- [kbd]1[kbd] - Small mobile device screen size
+- [kbd]2[kbd] - Tablet screen size
+- [kbd]3[kbd] - Small laptop screen size
 - [kbd]4[kbd] - 1080p
 - [kbd]5[kbd] - 1440p
 
