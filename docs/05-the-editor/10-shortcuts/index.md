@@ -38,6 +38,13 @@ When an element or component is selected in the canvas or element tree:
 - [kbd]Cmd/Ctrl[kbd] + [kbd]D[kbd] - Duplicate selected element/component
 - [kbd]Cmd/Ctrl[kbd] + [kbd]X[kbd] - Cut selected element/component
 
+## Style panel shortcuts
+
+When an element or component is selected in the canvas or element tree:
+
+- [kbd]Cmd/Ctrl[kbd] + [kbd]S[kbd] - Search for a CSS property
+- [kbd]Cmd/Ctrl[kbd] + [kbd]↵[kbd] - Submit CSS property and search for a new CSS property
+
 ## Canvas resizing shortcuts
 
 You can use keyboard shortcuts to quickly resize the visible canvas to a variety of different approximate screen sizes. This is useful for testing responsive designs.
