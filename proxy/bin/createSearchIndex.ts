@@ -161,6 +161,7 @@ interface MdToken {
   type: string
   tokens: any[]
   text: string
+  href?: string
   items?: MdToken[]
 }
 
@@ -168,26 +169,33 @@ const getContentFromTokens = (tokens?: MdToken[]) => {
   let content = ''
 
   const allowedTokens = [
-    'paragraph',
-    'codespan',
-    'callout',
-    'link',
-    'strong',
-    'list',
-    'list_item',
     'blockquote',
+    'callout',
+    'codespan',
     'em',
+    'link',
+    'list_item',
+    'list',
+    'paragraph',
+    'strong',
+    'text',
   ]
 
   ;(tokens ?? []).forEach((token) => {
-    if (token.type === 'text') {
+    if (token.type === 'text' && (token.tokens ?? []).length === 0) {
       content += token.text
     } else if (allowedTokens.includes(token.type)) {
-      content += getContentFromTokens(token.tokens ?? [])
-      if (token.type === 'list') {
-        ;(token.items ?? []).forEach((item) => {
-          content += getContentFromTokens(item.tokens ?? [])
-        })
+      if (token.type === 'link') {
+        // To avoid md encoded links in the search index, we split the link
+        // name and href with a space
+        content += `${token.text} ${token.href ?? ''}`.trim()
+      } else {
+        content += getContentFromTokens(token.tokens ?? [])
+        if (token.type === 'list') {
+          ;(token.items ?? []).forEach((item) => {
+            content += getContentFromTokens(item.tokens ?? [])
+          })
+        }
       }
     }
   })
