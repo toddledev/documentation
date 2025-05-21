@@ -1,4 +1,6 @@
 import * as fs from 'fs'
+import { chunk } from 'lodash'
+import { ImportError } from 'typesense/lib/Typesense/Errors'
 import { getTypesenseClient } from '../src/search/typesense'
 import {
   errorResponse,
@@ -99,13 +101,20 @@ const createSearchIndex = async () => {
         .collections('items')
         .documents()
         .delete({ filter_by: 'type:[page, section]' })
-      await client
-        .collections('items')
-        .documents()
-        .import(searchItems, { action: 'create' })
+      const chunks = chunk(searchItems, 100)
+      for (const chunkItems of chunks) {
+        await client
+          .collections('items')
+          .documents()
+          .import(chunkItems, { action: 'create' })
+      }
     } catch (err) {
       // eslint-disable-next-line no-console
       console.log('Error when updating search index', err)
+      if (err instanceof ImportError) {
+        // eslint-disable-next-line no-console
+        console.error(err.importResults)
+      }
     }
 
     return json({ indexedItems: searchItems.length })
@@ -130,43 +139,64 @@ const getSearchItemsFromPages = (pages: ProcessedPage[]) => {
     })
 
     sections.forEach(({ title, id, tokens }) => {
-      items.push({
-        type: 'section',
-        id: 'section_' + path + '#' + id,
-        title,
-        breadcrumbs,
-        path: path + '#' + id,
-        priority: 1,
-        content: getContentFromTokens(tokens),
-      })
+      const content = getContentFromTokens(tokens)
+      if (content.length > 0) {
+        items.push({
+          type: 'section',
+          id: 'section_' + path + '#' + id,
+          title,
+          breadcrumbs,
+          path: path + '#' + id,
+          priority: 1,
+          content: getContentFromTokens(tokens),
+        })
+      }
     })
   })
 
   return items
 }
 
-const getContentFromTokens = (
-  tokens: { type: string; tokens: any[]; text: string }[],
-) => {
+interface MdToken {
+  type: string
+  tokens: any[]
+  text: string
+  href?: string
+  items?: MdToken[]
+}
+
+const getContentFromTokens = (tokens?: MdToken[]) => {
   let content = ''
 
   const allowedTokens = [
-    'paragraph',
-    'codespan',
-    'callout',
-    'link',
-    'strong',
-    'list',
-    'list_item',
     'blockquote',
+    'callout',
+    'codespan',
     'em',
+    'link',
+    'list_item',
+    'list',
+    'paragraph',
+    'strong',
+    'text',
   ]
 
-  tokens.forEach((token) => {
-    if (token.type === 'text') {
+  ;(tokens ?? []).forEach((token) => {
+    if (token.type === 'text' && (token.tokens ?? []).length === 0) {
       content += token.text
-    } else if (allowedTokens.includes(token.type) && token.tokens) {
-      content += getContentFromTokens(token.tokens ?? [])
+    } else if (allowedTokens.includes(token.type)) {
+      if (token.type === 'link') {
+        // To avoid md encoded links in the search index, we split the link
+        // name and href with a space
+        content += `${token.text} ${token.href ?? ''}`.trim()
+      } else {
+        content += getContentFromTokens(token.tokens ?? [])
+        if (token.type === 'list') {
+          ;(token.items ?? []).forEach((item) => {
+            content += getContentFromTokens(item.tokens ?? [])
+          })
+        }
+      }
     }
   })
 
