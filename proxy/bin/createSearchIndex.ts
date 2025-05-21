@@ -186,9 +186,8 @@ const getContentFromTokens = (tokens?: MdToken[]) => {
       content += token.text
     } else if (allowedTokens.includes(token.type)) {
       if (token.type === 'link') {
-        // To avoid md encoded links in the search index, we split the link
-        // name and href with a space
-        content += `${token.text} ${token.href ?? ''}`.trim()
+        // To avoid md encoded links in the search index, we only include the name of the link
+        content += token.text
       } else {
         content += getContentFromTokens(token.tokens ?? [])
         if (token.type === 'list') {
