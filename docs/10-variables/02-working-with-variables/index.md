@@ -107,12 +107,12 @@ For `input` elements, Nordcraft provides a convenient shortcut to create two-way
 This is a shortcut that automatically sets up:
 
 - A binding of the variable to the input's `value` attribute
-- An on-change event handler on the `input` event that updates the variable when the user types
+- A change event handler on the `input` event that updates the variable when the user types
 
 :::tip
 **The `Bind to variable` dropdown is a shortcut for input fields that are not grouped**.
 
-If you're using other form input types such as `radio`, `checkbox`, or `select` inputs, you will need to manually add on-change event handlers to set variable values instead of choosing the `Bind to variable` shortcut.
+If you're using other form input types such as `radio`, `checkbox`, or `select` inputs, you will need to manually add change event handlers to set variable values instead of choosing the `Bind to variable` shortcut.
 
 Additionally, in the Attributes tab you can configure `checked` or `selected` attributes for those input field types using the Formula editor.
 :::
