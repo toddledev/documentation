@@ -101,18 +101,26 @@ You can bind variables to various aspects of elements:
 For `input` elements, Nordcraft provides a convenient shortcut to create two-way binding with variables:
 
 1. Select an input element in the element tree
-2. In the Attributes tab, find the 'Bind to variable` dropdown
+2. In the Attributes tab, find the `Bind to variable` dropdown
 3. Choose an existing variable or create a new one
 
 This is a shortcut that automatically sets up:
 
 - A binding of the variable to the input's `value` attribute
-- An event handler on the `input` event that updates the variable when the user types
+- A change event handler on the `input` event that updates the variable when the user types
+
+:::tip
+**The `Bind to variable` dropdown is a shortcut for input fields that are not grouped**.
+
+If you're using other form input types such as `radio`, `checkbox`, or `select` inputs, you will need to manually add change event handlers to set variable values instead of choosing the `Bind to variable` shortcut.
+
+Additionally, in the Attributes tab you can configure `checked` or `selected` attributes for those input field types using the Formula editor.
+:::
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-input-binding.js
 editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-input-binding?canvas-width=800&mode=design&selection=nodes.Aw-ypNWnj8VwAKTg5h6vf&rightpanel=attributes&canvas-height=800
 height: 5rem
 
-See how to bind a variable to an input field.
+See how to bind a variable to a text input field.
 @@@
