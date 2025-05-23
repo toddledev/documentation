@@ -110,7 +110,7 @@ This is a shortcut that automatically sets up:
 - A change event handler on the `input` event that updates the variable when the user types
 
 :::tip
-**The `Bind to variable` dropdown is a shortcut for input fields that are not grouped**.
+**The `Bind to variable` dropdown is a shortcut for single input fields, not for groups of input fields that share the same `name` attribute.**
 
 If you're using other form input types such as `radio`, `checkbox`, or `select` inputs, you will need to manually add change event handlers to set variable values instead of choosing the `Bind to variable` shortcut.
 
