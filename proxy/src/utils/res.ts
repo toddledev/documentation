@@ -19,7 +19,7 @@ export const errorResponse = (
     status: config?.status ?? 500,
     headers: {
       ...(config?.headers ?? {}),
-      'content-type': 'application/text',
+      'content-type': 'application/json',
     },
   })
 }

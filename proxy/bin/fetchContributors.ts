@@ -1,5 +1,10 @@
 import type { FetchContributors } from '../src/types'
 
+interface CommitAuthor {
+  avatar_url?: string
+  login?: string
+}
+
 const headers: Record<string, string> = {
   Accept: 'application/vnd.github+json',
   'User-Agent': 'CF',
@@ -30,18 +35,29 @@ export const fetchContributors = async ({
       return
     }
 
-    const commits = (await response.json()) as any[]
+    const commits = (await response.json()) as Array<{
+      author?: CommitAuthor | null
+      commit: { committer: { date: string } }
+    }>
 
-    const contributors = commits.map(({ author }) => {
-      return {
-        avatar: author.avatar_url,
-        username: author.login,
+    const contributors: Map<string, string> = new Map()
+    commits.forEach(({ author }) => {
+      if (!author?.avatar_url || !author.login) {
+        return
       }
+      // Only add unique contributors
+      contributors.set(author.login, author.avatar_url)
     })
 
     const lastEditedAt = commits[0].commit.committer.date
 
-    return { contributors, lastEditedAt }
+    return {
+      contributors: Array.from(contributors).map(([username, avatar]) => ({
+        avatar,
+        username,
+      })),
+      lastEditedAt,
+    }
   } catch (err) {
     // eslint-disable-next-line no-console
     console.error(err)
