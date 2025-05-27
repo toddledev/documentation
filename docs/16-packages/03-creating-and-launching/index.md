@@ -26,7 +26,7 @@ Only exported elements will be available to users who install your package:
 Non-exported elements remain internal to your package, which are useful for organization, documentation, or supporting exported functionality.
 
 ::: info
-A package must have at least one exported component, formula, or action before it can be launched.
+You must export at least one component, formula, or action in your package before you can launch it.
 :::
 
 ### Creating package documentation
@@ -76,3 +76,7 @@ Consider these suggestions to create packages that are useful, maintainable and 
 - Create focused packages that solve specific problems
 - Document your package well with examples of how to use the package
 - Maintain backward compatibility when updating
+
+:::tip
+When building a package, it is useful to install it and test it in another Nordcraft project to ensure all functionality works as intended for other users.
+:::
