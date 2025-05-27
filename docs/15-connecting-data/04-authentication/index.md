@@ -94,8 +94,8 @@ Follow these steps to develop authenticated features:
 
 1. **Install browser extension**
 
-   - [Chrome extension](https://chromewebstore.google.com/detail/toddle/hfhgjncckomifajhndceigiaiojhlllp)
-   - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/toddle/)
+   - [Chrome extension](https://chromewebstore.google.com/detail/nordcraft/hfhgjncckomifajhndceigiaiojhlllp)
+   - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/nordcraft/)
 
 2. **Log in through preview page**
 
