@@ -7,7 +7,7 @@ description: Understand the Nordcraft element tree for structural editing, eleme
 
 The element tree provides a structural overview of your project, displaying all elements and componenents in your page or component hierarchically.
 
-![Element tree|16/9](element-tree.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
+![Element tree|16/9](element-tree.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
 
 ## Navigation and selection
 
@@ -28,7 +28,7 @@ Hold the [kbd]Alt[kbd] key while dropping a dragged element to copy it instead o
 
 Right-clicking an element opens a context menu with several actions.
 
-![Element context menu|16/9](element-context-menu.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&selection=nodes.tf08THxvDvD2p9w3y5zhh&rightpanel=style}
+![Element context menu|16/9](element-context-menu.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&selection=nodes.tf08THxvDvD2p9w3y5zhh&rightpanel=style}
 
 1. **Add element**: Opens the element catalog
 2. **Wrap in element**: Place the element inside a new parent element
@@ -47,7 +47,7 @@ Add a new element in one of three ways:
 
 ## Element catalog
 
-![Element catalog|16/9](element-catalog.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&elementCatalog=true}
+![Element catalog|16/9](element-catalog.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&elementCatalog=true}
 
 The element catalog provides a collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
 

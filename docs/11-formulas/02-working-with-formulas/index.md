@@ -9,7 +9,7 @@ Learn how to work with formulas to manipulate data and streamline logic in Nordc
 
 ## Create a formula
 
-![Create a formula|16/9](create-a-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?rightpanel=style&canvas-width=800&selection=formulas.2q0_dN&canvas-height=800}
+![Create a formula|16/9](create-a-formula.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-map-formula?rightpanel=style&canvas-width=800&selection=formulas.2q0_dN&canvas-height=800}
 
 To create a new formula in Nordcraft:
 
@@ -54,7 +54,7 @@ Reusable formulas provide these benefits:
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-reusable-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-reusable-formula?rightpanel=attributes&canvas-width=829&selection=formulas.p1pYpC&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-reusable-formula?rightpanel=attributes&canvas-width=829&selection=formulas.p1pYpC&canvas-height=800
 height: 26rem
 
 Discover how a reusable formula formats the box office value, ensuring consistent formatting throughout the component wherever it is used.
@@ -74,7 +74,7 @@ By breaking down complex operations into smaller, reusable pieces, you can build
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-nested-formulas.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-nested-formulas?canvas-width=800&rightpanel=style&selection=formulas.lJzgnD&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-nested-formulas?canvas-width=800&rightpanel=style&selection=formulas.lJzgnD&canvas-height=800
 height: 26rem
 
 Learn how this nested formula works, combining different formulas to filter 90s movies, calculate the average box office, and format the result.
@@ -90,7 +90,7 @@ The `Map` method returns a new array by applying a function to each element in t
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-map-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?leftpanel=design&canvas-width=800&canvas-height=800&rightpanel=style&selection=formulas.2q0_dN
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-map-formula?leftpanel=design&canvas-width=800&canvas-height=800&rightpanel=style&selection=formulas.2q0_dN
 height: 19rem
 
 Check out how the `Map` formula transforms each item in an array using the `Set` function, with the results displayed in a new array.
@@ -102,7 +102,7 @@ The `Filter` method returns a new array with elements that pass a specific condi
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-filter-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-filter-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-filter-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
 See how the `Filter` formula selects specific items from an array based on a condition, returning a new array with only the matching elements.
@@ -114,7 +114,7 @@ The `Sort by` method arranges array elements in a specific order.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-sort-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-sort-formula?canvas-width=800&rightpanel=style&selection=formulas.2q0_dN.formula&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-sort-formula?canvas-width=800&rightpanel=style&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
 Discover how the `Sort by` formula arranges items in an array based on a specified order, returning a new sorted array.
@@ -126,7 +126,7 @@ The `Reduce` method applies a function to reduce an array to a single value.
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-reduce-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-reduce-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-reduce-formula?rightpanel=attributes&canvas-width=800&selection=formulas.2q0_dN&canvas-height=800
 height: 19rem
 
 See how the `Reduce` formula transforms an array into a single value by applying a function to each element.
@@ -138,7 +138,7 @@ The `Find` formula searches through an array of items, applying a callback formu
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-find-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-find-formula?rightpanel=style&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-find-formula?rightpanel=style&canvas-width=800&selection=formulas.2q0_dN.formula&canvas-height=800
 height: 19rem
 
 The `Find` formula searches an array for the first matching element and returns it.
@@ -150,7 +150,7 @@ The `Get` formula extracts a value from an object, array or string at a specifie
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-get-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-get-formula?canvas-width=800&rightpanel=attributes&selection=formulas.2q0_dN&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-get-formula?canvas-width=800&rightpanel=attributes&selection=formulas.2q0_dN&canvas-height=800
 height: 19rem
 
 Check out how the `Get` formula extracts a value from an object, array or string at a specified path.

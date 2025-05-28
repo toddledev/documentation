@@ -9,7 +9,7 @@ Learn how to define custom JavaScript actions with arguments, events, and cleanu
 
 ## Create an action
 
-![Create an action|16/9](create-an-action.webp){https://toddle.dev/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
+![Create an action|16/9](create-an-action.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
 
 To create an action:
 
@@ -31,7 +31,7 @@ The function can return a cleanup function that will be called when the componen
 
 ## Configure arguments
 
-![Configure arguments|16/9](configure-arguments.webp){https://toddle.dev/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
+![Configure arguments|16/9](configure-arguments.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
 
 To add arguments to your action:
 
@@ -43,7 +43,7 @@ In your code, access these arguments through the `args` parameter, using the nam
 
 ## Set up events
 
-![Set up events|16/9](set-up-events.webp){https://toddle.dev/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
+![Set up events|16/9](set-up-events.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/actions/confetti?rightpanel=style&canvas-width=800&canvas-height=800}
 
 To create events that your action can trigger:
 
@@ -77,7 +77,7 @@ Here is an example of a custom action in Norcraft. It demonstrates how the [canv
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-action.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-action?canvas-width=800&rightpanel=events&selection=nodes.RVOI8hoh4CAD8XqcLfA4o.events.onClick&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-action?canvas-width=800&rightpanel=events&selection=nodes.RVOI8hoh4CAD8XqcLfA4o.events.onClick&canvas-height=800
 height: 4rem
 
 This button triggers a confetti animation using a custom action. The action imports the [canvas-confetti](https://github.com/catdad/canvas-confetti) library and executes it when triggered. [kbd]Shoot Confetti[kbd] to see the action in effect.

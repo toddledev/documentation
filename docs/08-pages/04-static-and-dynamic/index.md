@@ -23,7 +23,7 @@ Dynamic pages display content based on data received from APIs or URL parameters
 - **Path parameters**: Define variable segments in your URL path
 - **Query parameters**: Add optional parameters after the `?` in the URL
 
-![Path parameter|16/9](set-path-parameter.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&selection=route&rightpanel=style}
+![Path parameter|16/9](set-path-parameter.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&selection=route&rightpanel=style}
 
 ### Path parameters
 

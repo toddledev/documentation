@@ -11,7 +11,7 @@ Learn how to create event-triggered and reusable workflows with parameters and s
 
 You can create a workflown on any event in Nordcraft. This can be a standard JavaScript event on an element, a custom [event on a component](/components/interface-and-lifecycle#setting-up-events) or lifecycle events like `On load` or `On attribute change`.
 
-![Create a workflow|16/9](create-workflow-on-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&selection=nodes.root.events.onClick&rightpanel=events&canvas-height=800}
+![Create a workflow|16/9](create-workflow-on-event.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&selection=nodes.root.events.onClick&rightpanel=events&canvas-height=800}
 
 To create a workflow on an event:
 
@@ -22,7 +22,7 @@ To create a workflow on an event:
 
 If you have logic in your component that you need multiple times or if the logic tree is complex, you can create a reusable workflow from the [data panel](/the-editor/data-panel#workflows).
 
-![Create reusable workflow|16/9](create-reusable-workflow.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&rightpanel=events&selection=workflows.g1E2BN&canvas-height=800}
+![Create reusable workflow|16/9](create-reusable-workflow.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&rightpanel=events&selection=workflows.g1E2BN&canvas-height=800}
 
 To create a reusable workflow:
 

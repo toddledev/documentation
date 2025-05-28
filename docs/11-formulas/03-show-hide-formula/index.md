@@ -9,7 +9,7 @@ The show/hide formula allows you to conditionally render elements based on speci
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-show-hide-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-show-hide-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.condition&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-show-hide-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.condition&canvas-height=800
 height: 21rem
 
 See how the show/hide formula controls the visibility of the card based on the toggle button.
@@ -32,7 +32,7 @@ The truthy concept in Nordcraft is similar to JavaScript but follows a more stre
 
 ## Add a show/hide formula
 
-![Add a show formula|16/9](show-hide-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-show-hide-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.condition&canvas-height=800}
+![Add a show formula|16/9](show-hide-formula.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-show-hide-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.condition&canvas-height=800}
 
 To conditionally show or hide an element:
 

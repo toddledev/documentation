@@ -26,7 +26,7 @@ A pure function always returns the same result for the same input values and doe
 
 ## The formula editor
 
-![Formula editor|16/9](the-formula-editor.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-map-formula?canvas-width=800&canvas-height=800&selection=formulas.2q0_dN&rightpanel=style}
+![Formula editor|16/9](the-formula-editor.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-map-formula?canvas-width=800&canvas-height=800&selection=formulas.2q0_dN&rightpanel=style}
 
 The formula editor appears when editing formulas and wherever you see an [kbd]fx[kbd] button in the Nordcraft interface:
 

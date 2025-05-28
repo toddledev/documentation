@@ -9,7 +9,7 @@ The repeat formula allows you to create multiple instances of an element based o
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-repeat-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800
 height: 19rem
 
 Learn how the repeat formula is used to display multiple cards.
@@ -24,7 +24,7 @@ The repeat formula:
 
 ## Using the repeat formula
 
-![Add a repeat formula|16/9](add-a-repeat-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800}
+![Add a repeat formula|16/9](add-a-repeat-formula.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-repeat-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800}
 
 To create dynamic content with the repeat formula:
 
@@ -52,7 +52,7 @@ If you want to repeat an element a specific number of times without dynamic data
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-repeat-range-formula.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-repeat-range-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-repeat-range-formula?canvas-width=800&rightpanel=attributes&selection=nodes.nQgi8KJ7OPxn9l5H0mML-.repeat&canvas-height=800
 height: 19rem
 
 See how you can generate multiple cards using the Range formula.

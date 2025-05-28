@@ -7,7 +7,7 @@ description: Create design systems with Nordcraft's theme tools for managing col
 
 The theme system in Nordcraft provides a centralized way to manage design tokens across your entire project. By defining colors, spacing, typography and other visual elements in one place, you can ensure consistent styling throughout your application.
 
-![Theme|16/9](theme.webp){https://toddle.dev/projects/docs_examples/branches/main/themes/Default?canvas-width=800&canvas-height=800&rightpanel=style}
+![Theme|16/9](theme.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/themes/Default?canvas-width=800&canvas-height=800&rightpanel=style}
 
 ## Colors
 

@@ -7,7 +7,7 @@ description: Nordcraft’s issue panel helps you detect and fix issues quickly, 
 
 The issue panel helps you identify and resolve problems within your Nordcraft project. It provides an overview of all issues, allowing you to maintain code quality and improve project stability.
 
-![Issues panel|16/9](issues-panel.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Problems}
+![Issues panel|16/9](issues-panel.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Problems}
 
 ::: info
 The issue panel is like a code linter for traditionally coded applications, reporting on accessibility, SEO and other issues.

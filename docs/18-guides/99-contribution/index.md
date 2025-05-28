@@ -120,7 +120,7 @@ Include images with an image title and aspect ratio:
 
 For screenshots that link to the Nordcraft editor (allowing readers to see it live in the editor):
 
-`![Image title|16/9](image-name.webp){https://toddle.dev/projects/docs_examples/branches/main/...}`
+`![Image title|16/9](image-name.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/...}`
 
 Image requirements:
 
@@ -146,7 +146,7 @@ For component examples, use the following format:
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-width=800&rightpanel=attributes&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-class-based-style?mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-width=800&rightpanel=attributes&canvas-height=800
 height: 18rem
 
 Click to select and unselect the card.
