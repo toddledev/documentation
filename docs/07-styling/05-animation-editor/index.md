@@ -15,7 +15,7 @@ To create an animation:
 
 1. Select an element in the [element panel](/the-editor/element-panel)
 2. Locate the **Animations** section in the style panel
-3. Click the [kbd]+[kdb] button to open the animation editor
+3. Click the [kbd]+[kbd] button to open the animation editor
 4. Choose from one of the preset animation templates available in the editor or start by adding your own keyframes
 
 ## Keyframes
