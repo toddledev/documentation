@@ -62,11 +62,11 @@ To make this duck move naturally, each section is animated separately, and the l
 @@@
 
 @@@ example
-componentUrl: https://https://docs_examples.toddle.site/.toddle/custom-element/example-like-button.js
+componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-like-button.js
 editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-like-button?canvas-width=800&rightpanel=style&canvas-height=290
 height: 18rem
 
-Click the heart to see different animations based on the component's state.
+Click the heart to see different animations based on the component's state. The like animation composes two animations together on the large heart, and the unlike animation shows a single different animation.
 @@@
 
 @@@ youtube
