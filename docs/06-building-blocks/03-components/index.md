@@ -7,7 +7,7 @@ description: Learn how reusable components encapsulate structure, styling and be
 
 Components in Nordcraft allow you to create reusable and customizable building blocks for your application.
 
-![Component|16/9](component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/card?rightpanel=style&canvas-width=800&canvas-height=800}
+![Component|16/9](component.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/card?rightpanel=style&canvas-width=800&canvas-height=800}
 
 Components in Nordcraft:
 

@@ -12,7 +12,7 @@ There are two ways to create components in Nordcraft:
 
 ## Create from scratch
 
-![Create from scratch|16/9](create-from-scratch.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
+![Create from scratch|16/9](create-from-scratch.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
 
 To create a new component:
 
@@ -23,7 +23,7 @@ To create a new component:
 
 ## Extract existing elements
 
-![Extract as component|16/9](extract-as-component.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-height=800&canvas-width=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&rightpanel=style}
+![Extract as component|16/9](extract-as-component.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-height=800&canvas-width=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&rightpanel=style}
 
 To convert existing elements into a component:
 

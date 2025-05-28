@@ -9,7 +9,7 @@ There are scenarios where you may need to iterate over a list of items and execu
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-recursive-workflows.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-recursive-workflows?rightpanel=style&canvas-width=1211&mode=design&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-recursive-workflows?rightpanel=style&canvas-width=1211&mode=design&canvas-height=800
 height: 10rem
 
 Click on the [kbd]Start[kbd] button to start the timer. It will count down to 0.

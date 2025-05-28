@@ -24,7 +24,7 @@ The interface of a component defines how it communicates with other parts of you
 
 ### Defining attributes
 
-![Define an attribute|16/9](define-an-attribute.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
+![Define an attribute|16/9](define-an-attribute.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
 
 Attributes are the primary way to pass data into a component:
 
@@ -58,7 +58,7 @@ The test value is only used while developing your component in the editor. It ha
 
 ### Setting up events
 
-![Set up an event|16/9](set-up-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=events.0&canvas-height=800}
+![Set up an event|16/9](set-up-an-event.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=events.0&canvas-height=800}
 
 Events allow components to communicate upward to parent elements:
 
@@ -85,7 +85,7 @@ Unlike HTML element events that trigger automatically on user interactions, comp
 
 ### Common steps
 
-![Trigger an event|16/9](trigger-an-event.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&canvas-height=800&selection=nodes.root.events.click&rightpanel=events}
+![Trigger an event|16/9](trigger-an-event.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&canvas-height=800&selection=nodes.root.events.click&rightpanel=events}
 
 1. Click the `+` button to add a new action
 2. In **Events**, select the `Trigger: event` action for desired component event to trigger
@@ -122,7 +122,7 @@ The initialization phase is the right time to:
 - Fetch initial data from APIs
 - Perform one-time setup operations
 
-![Add initialization logic|16/9](add-initialization-logic.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onLoad&canvas-height=800}
+![Add initialization logic|16/9](add-initialization-logic.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onLoad&canvas-height=800}
 
 To add initialization logic:
 
@@ -143,7 +143,7 @@ This phase is useful for:
 - Triggering recalculations or updating data from API calls
 - Updating the component's appearance
 
-![Add logic on attribute change|16/9](add-logic-on-attribute-change.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onAttributeChange&canvas-height=800}
+![Add logic on attribute change|16/9](add-logic-on-attribute-change.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=onAttributeChange&canvas-height=800}
 
 To add attribute change logic:
 

@@ -17,7 +17,7 @@ There are several methods to apply conditional styles in Nordcraft:
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-variants.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-variants?canvas-width=800&rightpanel=style&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-style-variants?canvas-width=800&rightpanel=style&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-height=800
 height: 18rem
 
 Hover or tap the card to see the style change. This is achieved by setting the `:hover` pseudo-class.
@@ -57,7 +57,7 @@ You can add classes to elements using the attributes tab, and then create condit
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-class-based-style.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-class-based-style?mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-width=800&rightpanel=attributes&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-class-based-style?mode=design&selection=nodes.RXXxhmSNTU21VntB7mKuh&canvas-width=800&rightpanel=attributes&canvas-height=800
 height: 18rem
 
 Click to select and unselect the card.
@@ -87,7 +87,7 @@ This approach maintains clean separation and prevents unintended style conflicts
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-variables.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-variables?rightpanel=style&canvas-width=800&selection=nodes.RXXxhmSNTU21VntB7mKuh.style-variables.0.formula&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-style-variables?rightpanel=style&canvas-width=800&selection=nodes.RXXxhmSNTU21VntB7mKuh.style-variables.0.formula&canvas-height=800
 height: 18rem
 
 Style variables create dynamic styles based on state. Click the card to toggle its selected state, which dynamically changes the border, background, and text colors.
@@ -105,7 +105,7 @@ This approach is particularly useful for complex conditional styling that depend
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-style-cascade.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-style-cascade?rightpanel=style&canvas-width=800&selection=nodes.725KDMmepSbJecZCQqInN&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-style-cascade?rightpanel=style&canvas-width=800&selection=nodes.725KDMmepSbJecZCQqInN&canvas-height=800
 height: 19rem
 
 This example demonstrates how style order affects cascade behavior with multiple variants. In the first card, selected class overrides hover effect since selected comes later in the cascade. In the second card, hover effect remains visible when selected because hover comes after selected in the cascade.
@@ -140,7 +140,7 @@ Components can be styled from the outside, allowing for customization of specifi
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-styling.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-styling?rightpanel=style&canvas-width=800&selection=nodes.mkJ0CrlLDvzUaWYSW_B8Q&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-component-styling?rightpanel=style&canvas-width=800&selection=nodes.mkJ0CrlLDvzUaWYSW_B8Q&canvas-height=800
 height: 23rem
 
 Component instances can be styled individually without affecting others. This demonstrates customized background and border colors with a hover state on one card, while the standard version remains unchanged.

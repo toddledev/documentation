@@ -21,7 +21,7 @@ Using global formulas ensures consistency in your application and reduces duplic
 
 ## Create a global formula
 
-![Create a global formula|16/9](create-a-global-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/getDefaultTrue?canvas-height=800&canvas-width=800&rightpanel=attributes}
+![Create a global formula|16/9](create-a-global-formula.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/formulas/getDefaultTrue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
 To create a global formula:
 
@@ -38,7 +38,7 @@ Global formulas appear in the formula selection dropdown throughout your project
 
 Custom code formulas extend the capabilities of the standard formula editor by allowing you to write JavaScript directly. This enables you to implement functionality that isn't available through the built-in formula components.
 
-![Custom code formula|16/9](global-custom-code-formula.webp){https://toddle.dev/projects/docs_examples/branches/main/formulas/hasValue?canvas-height=800&canvas-width=800&rightpanel=attributes}
+![Custom code formula|16/9](global-custom-code-formula.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/formulas/hasValue?canvas-height=800&canvas-width=800&rightpanel=attributes}
 
 ### Custom code structure
 

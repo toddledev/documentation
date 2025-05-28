@@ -5,7 +5,7 @@ description: Follow the steps to add new pages to your Nordcraft project using t
 
 # Create a page
 
-![Create a page|16/9](create-a-page.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
+![Create a page|16/9](create-a-page.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
 
 To create a new page:
 

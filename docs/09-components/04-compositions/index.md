@@ -14,7 +14,7 @@ The primary composition patterns in Nordcraft include:
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-component-compositions.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-component-compositions?canvas-width=800&rightpanel=style&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-component-compositions?canvas-width=800&rightpanel=style&canvas-height=800
 height: 26rem
 
 The left card is built with fixed nested components and the right one with slots. Both create the same visual results but with different component architecture.
@@ -85,7 +85,7 @@ Slots are added to components like any other element using the [element catalog]
 2. Add a slot element from the [element catalog](/the-editor/element-tree#adding-elements)
 3. Optional: add a name attribute (without a name, the slot is named `default`)
 
-![Add a slot element|16/9](add-a-slot-element.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
+![Add a slot element|16/9](add-a-slot-element.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
 
 ### Naming
 
@@ -94,7 +94,7 @@ Slots in Nordcraft work with a naming system:
 - **Default slot**: A slot without a name attribute that receives any unassigned content
 - **Named slot**: A slot with a name attribute that receives content specifically targeted to it
 
-![Assign to a slot|16/9](assign-to-a-slot.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card?canvas-width=800&rightpanel=attributes&selection=nodes.47Ndqw5Wmw5WAwpiV13p8&canvas-height=800}
+![Assign to a slot|16/9](assign-to-a-slot.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card?canvas-width=800&rightpanel=attributes&selection=nodes.47Ndqw5Wmw5WAwpiV13p8&canvas-height=800}
 
 When adding content to a component with slots:
 
@@ -111,7 +111,7 @@ Slots can contain default content that appears when no content is provided. This
 - Gets replaced when matching content is provided
 - Provides visual cues during development
 
-![Placeholder content|16/9](placeholder-content.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=events&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
+![Placeholder content|16/9](placeholder-content.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=events&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
 
 ## Comparing composition approaches
 

@@ -9,7 +9,7 @@ Variables enable you to manage state throughout your application, allowing you t
 
 ## Creating variables
 
-![Create a variable|16/9](create-a-variable.webp){https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-updating?canvas-width=800&rightpanel=style&selection=variables.isCardSelected&canvas-height=800}
+![Create a variable|16/9](create-a-variable.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-variable-updating?canvas-width=800&rightpanel=style&selection=variables.isCardSelected&canvas-height=800}
 
 To create a variable:
 
@@ -62,7 +62,7 @@ You can update variables using workflows or events:
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-updating.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-updating?rightpanel=events&canvas-width=800&selection=nodes.RXXxhmSNTU21VntB7mKuh.events.click.actions.0.data&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-variable-updating?rightpanel=events&canvas-width=800&selection=nodes.RXXxhmSNTU21VntB7mKuh.events.click.actions.0.data&canvas-height=800
 height: 18rem
 
 See how clicking the card updates the `isCardSelected` variable.
@@ -82,7 +82,7 @@ To bind a variable:
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-updating.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-updating?canvas-width=800&rightpanel=attributes&selection=nodes.RXXxhmSNTU21VntB7mKuh.classes.selected.formula&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-variable-updating?canvas-width=800&rightpanel=attributes&selection=nodes.RXXxhmSNTU21VntB7mKuh.classes.selected.formula&canvas-height=800
 height: 18rem
 
 See how to bind the `isCardSelected` variable to a class for the card's conditional styling.
@@ -122,7 +122,7 @@ Additionally, in the Attributes tab you can configure `checked` or `selected` at
 
 @@@ example
 componentUrl: https://docs_examples.toddle.site/.toddle/custom-element/example-variable-input-binding.js
-editorUrl: https://toddle.dev/projects/docs_examples/branches/main/components/example-variable-input-binding?canvas-width=800&mode=design&selection=nodes.Aw-ypNWnj8VwAKTg5h6vf&rightpanel=attributes&canvas-height=800
+editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-variable-input-binding?canvas-width=800&mode=design&selection=nodes.Aw-ypNWnj8VwAKTg5h6vf&rightpanel=attributes&canvas-height=800
 height: 5rem
 
 See how to bind a variable to a text input field.

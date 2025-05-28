@@ -11,7 +11,7 @@ Packages extend your project with reusable components and functionality created 
 Packages in Nordcraft work similar to NPM packages. They can contain pure logic, visual elements or both.
 :::
 
-![Packages|16/9](packages.webp){https://toddle.dev/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Packages}
+![Packages|16/9](packages.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Packages}
 
 ## Finding packages
 
