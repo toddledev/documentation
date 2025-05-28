@@ -22,6 +22,10 @@ To create an animation:
 
 Keyframes define the stages of an animation. Keyframes specify what should change at specific points in time during the animation. To add a keyframe, click the [kbd]♦[kbd] button next to the CSS property in the animation editor timeline, or click the [kbd]♦[kbd] next to the CSS property in the style panel when the animation editor is visible.
 
+:::tip
+Learn more about [CSS keyframes on the official MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes).
+:::
+
 ## Animation properties
 
 In the bottom bar of the animation editor, you can set various properties for your animation. Properties specify how animations behave, while keyframes define what changes. Properties include:
