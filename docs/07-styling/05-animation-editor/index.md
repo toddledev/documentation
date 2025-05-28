@@ -54,6 +54,14 @@ Transforms are one of the most powerful tools in CSS animations, allowing you to
 :::
 
 @@@ example
+componentUrl:
+editorUrl:
+height: 18rem
+
+To make this duck move naturally, each section is animated separately, and the logical hierarchy of the elements is used to make sure that the eyes move together with the head, and the head moves together with the body, etc.
+@@@
+
+@@@ example
 componentUrl: https://https://docs_examples.toddle.site/.toddle/custom-element/example-like-button.js
 editorUrl: https://editor.nordcraft.com/projects/docs_examples/branches/main/components/example-like-button?canvas-width=800&rightpanel=style&canvas-height=290
 height: 18rem
@@ -61,7 +69,6 @@ height: 18rem
 Click the heart to see different animations based on the component's state.
 @@@
 
-:::
 @@@ youtube
 videoId: oO_hNhzLOmM
 title: How to build The Best Like Button™️ on The Internet
