@@ -7,20 +7,20 @@ description: Bring joy and delight to your apps by using the Nordcraft animation
 
 Using the animation editor in Nordcraft, you can create and manage animations for your components. You can define keyframes and set animation properties such as duration, delay, and easing functions.
 
-Animations are rendered to the DOM as pure CSS animations, which means the resulting code is lean, performant, and can be used in any web project without additional dependencies. Your animations created with the Nordcraft animation editor and will run smoothly across all modern browsers.
+Animations are rendered to the DOM as pure CSS animations, which means the resulting code is lean and performant, and can be used in any web project without additional dependencies. Your animations created with the Nordcraft animation editor and will run smoothly across all modern browsers.
 
 ## Creating animations
 
 To create an animation:
 
 1. Select an element in the [element panel](/the-editor/element-panel)
-2. Locate the **Animations** section in the style panel
-3. Click the [kbd]+[kbd] button to open the animation editor
-4. Choose from one of the preset animation templates available in the editor or start by adding your own keyframes
+2. View the style panel, and locate the **Animations** section in the style panel
+3. Click the [kbd]+[kbd] button next to **Animations** to open the animation editor
+4. Choose from one of the preset animation templates available in the editor, or start by adding your own keyframes
 
 ## Keyframes
 
-Keyframes define the stages of an animation. They specify what should change at specific points in time during the animation. To add a keyframe, click the [kbd]♦[kbd] button next to the CSS property in the animation editor timeline, or click the [kbd]♦[kbd] next to the CSS property in the style panel when the animation editor is visible.
+Keyframes define the stages of an animation. Keyframes specify what should change at specific points in time during the animation. To add a keyframe, click the [kbd]♦[kbd] button next to the CSS property in the animation editor timeline, or click the [kbd]♦[kbd] next to the CSS property in the style panel when the animation editor is visible.
 
 ## Animation properties
 
@@ -50,7 +50,7 @@ You can inspect the animation keyframe data by opening the CSS panel in the styl
 You can apply multiple animations to elements in the style panel, and they will play in sequence or simultaneously, depending on their properties. Creating complex animations often involves combining multiple animations and multiple elements within other elements to make one cohesive animation.
 
 :::info
-Transforms are one of the most powerful tools in CSS animations, allowing you to manipulate elements in 2D and 3D space. Transforms can be used to scale, rotate, translate, and skew elements, providing a wide range of creative possibilities. Use transform-offset to make an element rotate or scale around a specific point, rather than its center. In the example above, this is used to make the duck's beak open and close around the point where it connects to the head instead of its center like scissors would.
+Transforms are one of the most powerful tools in CSS animations, allowing you to manipulate elements in 2D and 3D space. Transforms can be used to scale, rotate, translate, and skew elements, providing a wide range of creative possibilities. Use `transform-offset` to make an element rotate or scale around a specific point, rather than its center. In the example below, this is used to make the duck's beak open and close around the point where it connects to the head instead of its center like a pair of scissors would.
 :::
 
 @@@ example
