@@ -44,3 +44,7 @@ Components in Nordcraft follow the naming restrictions of web components:
 - If a component name has only one part (e.g. "item"), Nordcraft will automatically prefix it with `nordcraft` (resulting in `nordcraft-item`)
 - Component names cannot contain any special characters
 - Names are case-sensitive, but best practice is to use lowercase for compatibility
+
+::: tip
+Read more about web components and how they differ from iframes in this [blog post about web components](https://blog.nordcraft.com/built-in-nordcraft-exported-to-webflow).
+:::
