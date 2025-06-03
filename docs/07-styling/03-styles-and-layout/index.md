@@ -72,3 +72,7 @@ When working with text content, Nordcraft defaults to **Text** layout:
 ::: info
 For more information about flow layout, see the [flow layout documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout).
 :::
+
+::: tip
+If you want to know more about how to apply responsive design in Nordcraft, check out the [blog post about responsive design in Nordcraft](https://blog.nordcraft.com/how-toddle-thinks-about-responsive-design).
+:::
