@@ -74,5 +74,5 @@ For more information about flow layout, see the [flow layout documentation on MD
 :::
 
 ::: tip
-If you want to know more about how to apply responsive design in Nordcraft, check out the [blog post about responsive design in Nordcraft](https://blog.nordcraft.com/how-toddle-thinks-about-responsive-design).
+If you want to know more about how to apply responsive design in Nordcraft, check out the [blog post about responsive design in Nordcraft](https://blog.nordcraft.com/how-nordcraft-thinks-about-responsive-design).
 :::
