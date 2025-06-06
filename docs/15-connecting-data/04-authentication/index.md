@@ -49,11 +49,15 @@ There are two approaches for storing access tokens securely in Nordcraft.
 For login flows where users enter credentials (such as a username and password) directly in your application:
 
 1. Create a workflow to call your authentication endpoint
-2. Add the **Set Session Cookies** action to the `On success` callback event to set an HTTP-only cookie
-3. Set the returned access token and expiration time in their respective inputs
+2. Add the **Set Http Only Cookie** action to the `On success` callback event to store the token securely
+3. Configure the following options in the action:
+   - **Cookie name** – e.g., `access_token`
+   - **Cookie value** – the token returned from your auth API
+   - **SameSite**, **path**, **TTL**, and optional domain/subdomain behavior (if needed)
+4. Optionally, add other actions (e.g. redirect to your app) in the `On success` of the **Set Http Only Cookie** action
 
 ::: warning
-If you want to execute actions after the cookies were set (e.g. redirect to your main application), make sure that those actions are executed `On success` of the `Set Sessions Cookie` action to make sure the cookies were set correctly.
+Make sure follow-up actions (like redirects) occur after cookies are set. Attach them to the `On success` event of the **Set Http Only Cookie** action.
 :::
 
 ::: tip
