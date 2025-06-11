@@ -1,11 +1,13 @@
 ---
-title: Redirect
-description: Set up a redirect, that will redirect users from one URL to another.
+title: Configure redirects
+description: Learn how to set up up a redirect in Nordcraft to redirect users from one URL to another.
 ---
 
-# Redirect configuration
+# Configure redirects
 
-To configure a redirect, create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Page** section. The configuration is divided into two main sections:
+Redirecting or forwarding URLs provides a way of redirecting one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a redirect status code as well as a URL to navigate to. When recieving a redirect response, the browser will navigate to the URL provided. Redirects can be permanent, that can seemingly widens a domain by setting up redirects that handle typos or synonyms, or protect against broken links when changing to a completely new domain. They can also be temporary redirects, that can be used to keep links alive during maintenance.
+
+To configure a redirect in Nordcraft, either create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section. A redirect can be created by clicking the [kbd]+[kbd] button in the **Pages** section header. The configuration is divided into two main sections:
 
 ## Source
 
@@ -36,20 +38,24 @@ The redirect section defines the URL that will be the target of the redirect, an
 
 ### Redirect URL
 
-Set the origin of the redirect. Type or paste a complete URL including path, query or hash parameters into the input, and it will arrange it properly given the sections are not already filled.
+Set the origin of the redirect. Type or paste a complete URL including path, query or hash parameters into the input field, and it will arrange it properly given the sections are not already filled.
 
 ### Redirect state
 
-The enabled section is used to conditionally enable or disable the redirect. This makes it possible to target a redirect to only be shown to a specific type of user.
+Using the enabled switch input, you can conditionally enable or disable the redirect. This can be used specify what users should get the redirect.
 
 ### Status code
 
-Set the status code of the redirect. Supported status codes include:
+Set the status code of the redirect. A redirect can be either temporary or permanent, and respond with the proper status code to display that. The supported status codes include:
 
 - 301 Moved permanently
 - 302 Found
 - 307 Temporary redirect
 - 308 Permanent redirect
+
+::: tip
+Check out the [MDN redirections page](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections) for more information about redirection status codes.
+:::
 
 ### Redirect path
 
@@ -65,4 +71,4 @@ Set the status code of the redirect. Supported status codes include:
 
 ### Redirect hash
 
-Set the hash of the redirect.
+Set the hash of the redirect. This can be used to target a specific fragment of the URL, such as a section of the page.

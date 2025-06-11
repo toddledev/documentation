@@ -1,11 +1,11 @@
 ---
-title: Proxy
-description: Set up a proxy, that will map an incoming URL to another.
+title: Configure proxies
+description: Learn how to set up up a proxy in Nordcraft to map one URL to another.
 ---
 
 # Proxy configuration
 
-To configure a proxy, create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Page** section. The configuration is divided into two main sections:
+To configure a proxy in Nordcraft, either create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section. A proxy can be created by clicking the [kbd]+[kbd] button in the **Pages** section header. The configuration is divided into two main sections:
 
 ## Source
 
@@ -36,11 +36,11 @@ The proxy section defines the URL that will be the target of the proxy, and can 
 
 ### Proxy URL
 
-Set the origin of the proxy. Type or paste a complete URL including path, query or hash parameters into the input, and it will arrange it properly given the sections are not already filled.
+Set the origin of the proxy. Type or paste a complete URL including path, query or hash parameters into the input field, and it will arrange it properly given the sections are not already filled.
 
 ### Proxy state
 
-The enabled section is used to conditionally enable or disable the proxy. This makes it possible to target a proxy to only be shown to a specific type of user.
+Using the enabled switch input, you can conditionally enable or disable the proxy. This can be used specify what users should get the proxy.
 
 ### Proxy path
 
