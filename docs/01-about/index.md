@@ -9,20 +9,22 @@ description: Learn to build powerful web applications with Nordcraft through gui
 
 # What is Nordcraft?
 
-Nordcraft is an open-source **Web Development Engine** that combines visual design and full programming capabilities in a single platform. Nordcraft eliminates the traditional handoff between designers and developers, creating a seamless workflow where everyone can collaborate effectively and efficiently **without limits**.
+Nordcraft is an open-source **Web Development Engine** that combines visual design tools, a front-end framework built on web standards, and full programming capabilities in a single platform.
 
-::: info
-Nordcraft is for designers **and** developers, whether you're working on your next big side project, or as part of a professional product team.
-:::
+## Who is Nordcraft for?
+
+Nordcraft is for **web designers** who want to deliver great experiences to their users.
+
+If you’re using Nordcraft in a product team, you get to skip that traditional handover process from design to development. Using Nordcraft as a web designer, you can build web applications as you design the UI, while the engineers in your team can focus on building out the business logic and the back end.
 
 ## Unifying design and development
 
-Nordcraft combines a visual editor for interface design with a powerful technical foundation built on modern web standards, accelerating development of your websites and web applications without sacrificing quality or control.
+Nordcraft combines a visual editor for user interface design with a powerful technical foundation built on modern web standards, accelerating development of your websites and web applications without sacrificing quality or control.
 
 Key features include:
 
 - Visual editing of UI components familiar to designers working in Figma
-- Component-based architecture familiar to React, Vue, and Svelte developers
+- Component-based architecture similar to React, Vue, and Svelte front-end frameworks
 - Visual development environment for implementing interactive behavior and application logic
 - Branch-based environment for parallel feature development and team collaboration
 
@@ -32,6 +34,7 @@ The Nordcraft Web Development Engine is a lightweight 24kb runtime with a reacti
 
 Core technical features:
 
+- Full control over generated HTML, CSS and JavaScript
 - Signals-based reactive programming model
 - Full server-side rendering capabilities
 - Minimal DOM output for optimal performance
