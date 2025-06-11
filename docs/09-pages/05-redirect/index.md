@@ -17,7 +17,7 @@ The source section defines the URL address that will redirect to another page. T
 
 ### Path
 
-- Add path segments by clicking the [kbd]Add path[kbd] button
+- Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
 - Set a test value for development purposes
@@ -25,7 +25,7 @@ The source section defines the URL address that will redirect to another page. T
 
 ### Query
 
-- Add query parameters by clicking the [kbd]Add query[kbd] button
+- Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name
 - Set a test value for development
 - Remove parameters using the [kbd]-[kbd] button
@@ -57,13 +57,13 @@ Set the status code of the redirect. Supported status codes include:
 
 ### Path
 
-- Add path segments by clicking the [kbd]Add path[kbd] button
+- Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Remove paths using the [kbd]-[kbd] button
 
 ### Query
 
-- Add query parameters by clicking the [kbd]Add query[kbd] button
+- Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name and a value
 - Remove parameters using the [kbd]-[kbd] button
 
