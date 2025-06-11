@@ -54,9 +54,7 @@ export const parseRawContent = ({
     ...(metaFromMarkdown as object),
   }
 
-  const formattedTitle = title.includes('nordcraft')
-    ? title.replace('nordcraft', 'Nordcraft')
-    : title
+  const formattedTitle = title.replaceAll('nordcraft', 'Nordcraft')
 
   const meta = {
     title: formattedTitle,
