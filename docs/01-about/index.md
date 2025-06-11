@@ -67,3 +67,8 @@ Join over 3k members in the [Nordcraft Discord](https://discord.gg/nordcraft) to
 ## Open source
 
 The Nordcraft Web Development Engine is open source. [View the nordcraft repository on GitHub](https://github.com/nordcraftengine/nordcraft) and contribute via [open issues](https://github.com/nordcraftengine/nordcraft/issues).
+
+@@@ youtube
+videoId: rbBwuc_M8Vc
+title: What is Nordcraft?
+@@@
