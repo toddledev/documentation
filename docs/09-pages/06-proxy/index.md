@@ -3,7 +3,7 @@ title: Configure proxies
 description: Learn how to set up up a proxy in Nordcraft to map one URL to another.
 ---
 
-# Proxy configuration
+# Configure proxies
 
 To configure a proxy in Nordcraft, either create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section. A proxy can be created by clicking the [kbd]+[kbd] button in the **Pages** section header. The configuration is divided into two main sections:
 
