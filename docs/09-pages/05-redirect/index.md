@@ -5,11 +5,7 @@ description: Set up a redirect, that will redirect users from one URL to another
 
 # Redirect configuration
 
-To configure a redirect, create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Page** section.
-
-In the redirect editor, you are able to configure the redirect.
-
-The configuration is divided into two main sections:
+To configure a redirect, create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Page** section. The configuration is divided into two main sections:
 
 ## Source
 

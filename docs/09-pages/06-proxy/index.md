@@ -5,11 +5,7 @@ description: Set up a proxy, that will map an incoming URL to another.
 
 # Proxy configuration
 
-To configure a proxy, create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Page** section.
-
-In the proxy editor, you are able to configure the proxy.
-
-The configuration is divided into two main sections:
+To configure a proxy, create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Page** section. The configuration is divided into two main sections:
 
 ## Source
 
