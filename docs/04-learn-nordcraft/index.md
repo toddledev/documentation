@@ -16,8 +16,8 @@ View the [supporting materials for the video series on GitHub](https://github.co
 Before we get building, get an overview of what Nordcraft is, who it’s for, and what you can build with Nordcraft.
 
 @@@ youtube
-videoId: ulZJTV3ouHs
-title: Working with the issues panel
+videoId: rbBwuc_M8Vc
+title: What is Nordcraft?
 @@@
 
 ## Lesson 1: Build a Linktree-style personal website
@@ -31,7 +31,9 @@ Learn about:
 - [Applying CSS using the style panel](/styling/styles-and-layout)
 - [Creating pages](/pages/create-a-page)
 
-**Coming soon!**
+:::info
+Lesson 1 coming soon!
+:::
 
 ## Lesson 2: Build a Keanu Whoa! catalogue
 
@@ -44,7 +46,9 @@ Learn about:
 - [Using the repeat formula](/formulas/repeat-formula#repeat-formula)
 - [Formatting dates](/references/formulas#format-date)
 
-**Coming soon!**
+:::info
+Lesson 2 coming soon!
+:::
 
 ## Lesson 3: Build a Pomodoro timer
 
@@ -57,7 +61,9 @@ Learn about:
 - [Workflows](/workflows/overview)
 - [Installing and using Nordcraft packages](/packages/overview)
 
-**Coming soon!**
+:::info
+Lesson 3 coming soon!
+:::
 
 ## Lesson 4: Build an Important Office Productivity Assessment Survey
 
@@ -74,4 +80,6 @@ Learn about:
 - [Working with components](/components/overview)
 - [Show/hide formula](/formulas/show-hide-formula#show-hide-formula)
 
-**Coming soon!**
+:::info
+Lesson 4 coming soon!
+:::
