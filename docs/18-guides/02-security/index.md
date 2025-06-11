@@ -31,9 +31,9 @@ Secrets or sensitive information can include, but are not limited to, the follow
 
 If you believe you have added any sensitive data or API credentials to your Nordcraft projects, remove them as soon as you can, generate new credentials, and delete the old ones.
 
-/:::info
+:::info
 Some API services provide **read-only** API keys to allow you to fetch data in a browser without compromising security. These types of keys are suitable to use in your Nordcraft applications. Always consult the relevant API service documentation to make sure you're using the correct read-only keys in your projects.
-/:::
+:::
 
 
 ## Use a back end to handle sensitive data and processes
