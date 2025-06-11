@@ -46,7 +46,7 @@ Using the enabled switch input, you can conditionally enable or disable the redi
 
 ### Status code
 
-Set the status code of the redirect. A redirect can be either temporary or permanent, and respond with the proper status code to display that. The supported status codes include:
+Set the HTTP status code of the redirect. A redirect can be either temporary or permanent, and respond with the proper status code to display that. The supported status codes include:
 
 - 301 Moved permanently
 - 302 Found
