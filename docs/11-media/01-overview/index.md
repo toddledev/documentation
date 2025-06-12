@@ -37,7 +37,7 @@ To generate a URL for a differently sized image, click the image in the **Media*
 
 Clicking each option will show you a preview of the generated image size. Paste the copied URL into the `src` attribute of an HTML image element to use that generated image size.
 
-`![Media details|16/9](media-details.webp)`
+![Media details|16/9](media-details.webp)
 
 :::info
 The provided size options refer to the **width** of the generated image. You are only able to generate images using the sizes provided in the UI, but these are varied enough to account for most use cases.
