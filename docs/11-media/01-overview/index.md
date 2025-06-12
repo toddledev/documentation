@@ -5,7 +5,7 @@ description: Learn how to upload images for use in your Nordcraft project, and h
 
 # Media management
 
-You can upload images to your Nordcraft projects for use in your applications.
+You can upload images to your Nordcraft projects for use in your applications. Uploaded images are served from Nordcraft's Content Delivery Network (CDN).
 
 ## Upload images
 
@@ -27,17 +27,21 @@ Upload the highest image quality possible. You can customize the size of the ima
 
 You may want to use differently sized images for different parts of your projects. For example when creating responsive designs, you'll want to use larger, higher quality images on wider screens, and smaller, optimized images on smaller screens.
 
-You can access each image uploaded to Nordcraft via a unique URL. The format of each image URL is as follows:
+You can access each image you upload to Nordcraft via a unique URL. The format of each image URL is as follows:
 
 `/cdn-cgi/imagedelivery/{image_id}/{project_name}:{image_name}.{image_type_extension}/{size}`
 
-To generate a URL for a differently sized image, click the image in the **Media** section of the project sidebar. Click the button for the size of the image you would like to generate to copy the unique URL to the clipboard. For example, if you click [kbd]128px[kbd], the following URL will be copied to your clipboard:
+To generate a URL for a differently sized image, click the image in the **Media** section of the project sidebar, which opens the **Media details** view.
+
+![Media details|16/9](media-details.webp)
+
+Click the button for the size of the image you would like to generate to copy the unique URL to the clipboard. For example, if you click [kbd]128px[kbd], the following URL will be copied to your clipboard:
 
 `/cdn-cgi/imagedelivery/{image_id}/{project_name}:{image_name}.{image_type_extension}/128`
 
 Clicking each option will show you a preview of the generated image size. Paste the copied URL into the `src` attribute of an HTML image element to use that generated image size.
 
-![Media details|16/9](media-details.webp)
+
 
 :::info
 The provided size options refer to the **width** of the generated image. You are only able to generate images using the sizes provided in the UI, but these are varied enough to account for most use cases.
