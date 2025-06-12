@@ -41,8 +41,6 @@ Click the button for the size of the image you would like to generate to copy th
 
 Clicking each option will show you a preview of the generated image size. Paste the copied URL into the `src` attribute of an HTML image element to use that generated image size.
 
-
-
 :::info
 The provided size options refer to the **width** of the generated image. You are only able to generate images using the sizes provided in the UI, but these are varied enough to account for most use cases.
 :::
