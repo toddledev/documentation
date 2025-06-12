@@ -15,7 +15,7 @@ Create a redirect by clicking the [kbd]+[kbd] button in the **Pages** section he
 
 The source section defines the URL address that will redirect to another page. In this section you can also configure the URL to include path and query parameters.
 
-### Source path
+### Source: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
@@ -23,7 +23,7 @@ The source section defines the URL address that will redirect to another page. I
   - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
 
-### Source query
+### Source: query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name
@@ -59,13 +59,13 @@ Here is where you define the URL you wish to redirect to. Type or paste a comple
 Check out the [MDN documentation on redirections](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections) for more information about using HTTP status codes with redirects.
 :::
 
-### Redirect path
+### Destination: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Remove paths using the [kbd]-[kbd] button
 
-### Redirect query
+### Destination: query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name and a value

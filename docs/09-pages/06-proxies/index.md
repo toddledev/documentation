@@ -15,7 +15,7 @@ Create a proxy by clicking the [kbd]+[kbd] button in the **Pages** section heade
 
 The source section defines the URL address that will proxy to another page. In this section you can also configure the URL to include path and query parameters.
 
-### Source path
+### Source: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
@@ -23,7 +23,7 @@ The source section defines the URL address that will proxy to another page. In t
   - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
 
-### Source query
+### Source: query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name
@@ -42,13 +42,13 @@ Use the **Proxy to** section to define the URL that will be the target of the pr
 
 Here is where you define the URL you wish to proxy. Type or paste a complete URL including path, query or hash parameters into the input field, and Nordcraft will arrange it properly given the sections are not already filled.
 
-### Proxy path
+### Destination: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Remove paths using the [kbd]-[kbd] button
 
-### Proxy query
+### Destination: query
 
 - Add query parameters by clicking the [kbd]Add query[kbd] button
 - For each query segment, provide a name and a value
