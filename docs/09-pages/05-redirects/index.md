@@ -5,44 +5,42 @@ description: Learn how to set up up a redirect in Nordcraft to redirect users fr
 
 # Configure redirects
 
-Redirecting or forwarding URLs provides a way of redirecting one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a redirect status code as well as a URL to navigate to. When recieving a redirect response, the browser will navigate to the URL provided. Redirects can be permanent, that can seemingly widens a domain by setting up redirects that handle typos or synonyms, or protect against broken links when changing to a completely new domain. They can also be temporary redirects, that can be used to keep links alive during maintenance.
+Redirecting or forwarding URLs provides a way of redirecting one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a redirect HTTP status code as well as a URL to navigate to. When receiving a redirect response, the browser will navigate to the URL provided. 
+Redirects can be permanent or temporary. You may want to use permanent redirects to handle typos or synonyms in URLS, or protect against broken links when moving to a new domain. You may want to use temporary redirects to keep links operational and discoverable during maintenance.
 
-To configure a redirect in Nordcraft, either create or select it in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section. A redirect can be created by clicking the [kbd]+[kbd] button in the **Pages** section header. The configuration is divided into two main sections:
+Redirects are listed in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section.
+Create a redirect by clicking the [kbd]+[kbd] button in the **Pages** section header, and select the **Redirect** tab. You will then see configuration options divided into two main sections:
 
 ## Source
 
-The source section defines the URL address that will redirect to another page. The origin of the source is the current app, and the url can be configured to include path and query parameters.
+The source section defines the URL address that will redirect to another page. In this section you can also configure the URL to include path and query parameters.
 
 ### Source path
 
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
-- Set a test value for development purposes
+    - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
 
 ### Source query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name
-- Set a test value for development
+    - Set a test value for development purposes
 - Remove parameters using the [kbd]-[kbd] button
 
 ::: tip
 If you are not familiar with URL structure, check out the [blog post about URLs](https://blog.nordcraft.com/urls-how-do-they-really-work).
 :::
 
-## Redirect
+## Redirect to
 
-The redirect section defines the URL that will be the target of the redirect, and can be configured just like the source.
+Use the **Redirect to** section to define the URL that will be the target of the redirect, which you can configure using path and query parameters, just like the **Source**. In this section you can also see a preview of the complete redirect URL, as well as get a preview of the content. The type of preview is determined by the content type of the URL - JSON will be shown in a tree structure, whereas HTML is shown in an iframe, if the redirect allows it.
 
-### Redirect URL
+### Enable and disable the redirect rule
 
-Set the origin of the redirect. Type or paste a complete URL including path, query or hash parameters into the input field, and it will arrange it properly given the sections are not already filled.
-
-### Redirect state
-
-Using the enabled switch input, you can conditionally enable or disable the redirect. This can be used specify what users should get the redirect.
+Use the enabled switch input to enable or disable the redirect. You can also conditionally enable or disable the redirect using the [kbd]fx[kbd] button.
 
 ### Status code
 
@@ -53,8 +51,12 @@ Set the HTTP status code of the redirect. A redirect can be either temporary or 
 - 307 Temporary redirect
 - 308 Permanent redirect
 
+### URL
+
+Here is where you define the URL you wish to redirect to. Type or paste a complete URL including path, query or hash parameters into the input field, and Nordcraft will arrange it properly given the sections are not already filled.
+
 ::: tip
-Check out the [MDN redirections page](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections) for more information about redirection status codes.
+Check out the [MDN documentation on redirections](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections) for more information about using HTTP status codes with redirects.
 :::
 
 ### Redirect path
@@ -69,6 +71,10 @@ Check out the [MDN redirections page](https://developer.mozilla.org/en-US/docs/W
 - For each query segment, provide a name and a value
 - Remove parameters using the [kbd]-[kbd] button
 
-### Redirect hash
+### Hash
 
 Set the hash of the redirect. This can be used to target a specific fragment of the URL, such as a section of the page.
+
+::: info
+Redirects are only available on paid plans.
+:::
