@@ -5,7 +5,7 @@ description: Learn how to set up up a redirect in Nordcraft to redirect users fr
 
 # Configure redirects
 
-Redirecting or forwarding URLs provides a way of redirecting one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a redirect HTTP status code as well as a URL to navigate to. When receiving a redirect response, the browser will navigate to the URL provided. 
+Redirecting or forwarding URLs provides a way of redirecting one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a redirect HTTP status code as well as a URL to navigate to. When receiving a redirect response, the browser will navigate to the URL provided.
 Redirects can be permanent or temporary. You may want to use permanent redirects to handle typos or synonyms in URLS, or protect against broken links when moving to a new domain. You may want to use temporary redirects to keep links operational and discoverable during maintenance.
 
 Redirects are listed in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section.
@@ -20,14 +20,14 @@ The source section defines the URL address that will redirect to another page. I
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
-    - Set a test value for development purposes
+  - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
 
 ### Source query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name
-    - Set a test value for development purposes
+  - Set a test value for development purposes
 - Remove parameters using the [kbd]-[kbd] button
 
 ::: tip

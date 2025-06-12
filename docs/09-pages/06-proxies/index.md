@@ -20,14 +20,14 @@ The source section defines the URL address that will proxy to another page. In t
 - Add path segments by clicking the [kbd]+[kbd] button
 - For each path segment, provide a name
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
-    - Set a test value for development purposes
+  - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
 
 ### Source query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
 - For each query segment, provide a name
-    - Set a test value for development purposes
+  - Set a test value for development purposes
 - Remove parameters using the [kbd]-[kbd] button
 
 ::: tip
