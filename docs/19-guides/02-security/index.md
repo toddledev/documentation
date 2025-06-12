@@ -5,7 +5,7 @@ description: Learn how to keep your Nordcraft front-end app secure by being mind
 
 # How to keep your Nordcraft app secure
 
-Nordcraft is a front-end visual framework. As with any front-end application, all logic, configuration, and data, is visible to the user. Any information such as API keys, that should remain hidden from the user, should be stored in the back-end and should not be included in your Nordcraft application.
+Nordcraft is a front-end visual framework. As with any front-end application, all logic, configuration, and data, is visible to the user. Any information such as API keys, that should remain hidden from the user, should be stored in the back end and should not be included in your Nordcraft application.
 
 This guide covers the key things you should know to keep your Nordcraft projects safe and secure, especially when working with APIs or any sensitive information.
 
@@ -27,7 +27,7 @@ Because everything in your Nordcraft apps are visible to users in a browser, you
 Secrets or sensitive information can include, but are not limited to, the following:
 
 - API keys that allow you to write data, such as content management keys provided by a CMS
-- Backend service credentials (like Supabase service roles)
+- Back-end service credentials (like Supabase service roles)
 - Secret tokens such as OAuth or JWTs tokens
 - Private endpoints or anything involving sensitive user data
 
@@ -48,7 +48,6 @@ Back-end applications can more securely:
 - Handle rate-limit usage and protect against abuse
 - Proxy API requests, so that front-end applications do not have access to sensitive data such as API keys
 
-
 ## Security considerations
 
 No matter the type of application you are building in Nordcraft, here are some security best practices to keep in mind:
@@ -66,7 +65,6 @@ If your Nordcraft application has users, logins, or restricted features:
 - Handle sign-ins through your backend
 - Use secure cookies or access tokens (preferably HTTP-only)
 - Make sure every sensitive route checks permissions before you grant access
-
 
 ### 3. Be mindful of API usage
 
