@@ -5,7 +5,7 @@ description: Learn how to keep your Nordcraft front-end app secure by being mind
 
 # How to keep your Nordcraft app secure
 
-Nordcraft is a front-end visual framework. That means everything you add to your application including logic, configuration, or data, is visible to anyone using your app in a browser.
+Nordcraft is a front-end visual framework. As with any front-end application, all logic, configuration, and data, is visible to the user. Any information such as API keys, that should remain hidden from the user, should be stored in the back-end and should not be included in your Nordcraft application.
 
 This guide covers the key things you should know to keep your Nordcraft projects safe and secure, especially when working with APIs or any sensitive information.
 
@@ -13,8 +13,12 @@ This guide covers the key things you should know to keep your Nordcraft projects
 
 Your Nordcraft applications run in the browser. There’s no back end, no secret layer, and nothing hidden from users. In front-end applications:
 
-- Users can see **everything** that makes up your app, including UI logic, network requests, and any data that powers your project, regardless of whether or not that data is shown on the page.
+- Users can **investigate/access most things that make up your app**, including UI logic, network requests, and any data that powers your project, regardless of whether or not that data is shown on the page.
 - As a result of this, you are unable to hide API keys or other sensitive credentials from your users in your Nordcraft apps.
+
+:::info
+For protected pages, users cannot access UI logic, network requests etc. unless they're authenticated. For unauthenticated users, they will instead be redirected by redirect rules from an API that you define in your project.
+:::
 
 ## Do not store sensitive data in your Nordcraft projects
 
