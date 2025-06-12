@@ -59,6 +59,6 @@ The following image width sizes are supported:
 Images cannot be upscaled to be larger than the original file uploaded. For example, if you upload an image that is 400x400px and select the 4k option, the generated image will be 400x400px.
 :::
 
-## Delete media
+## Delete images
 
 To delete media, right click the image in the **Media** section of the project sidebar and select delete.
