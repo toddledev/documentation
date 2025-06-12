@@ -1,6 +1,6 @@
 ---
 title: Manage packages
-description: Install, update, and remove packages from your Nordcraft project.
+description: Learn how to install, update, and remove packages from your Nordcraft project using the built-in package manager.
 ---
 
 # Manage packages
