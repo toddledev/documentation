@@ -54,8 +54,10 @@ export const parseRawContent = ({
     ...(metaFromMarkdown as object),
   }
 
+  const formattedTitle = title.replaceAll('nordcraft', 'Nordcraft')
+
   const meta = {
-    title,
+    title: formattedTitle,
     folder: path.replace('index.md', ''),
   }
 

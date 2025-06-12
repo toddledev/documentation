@@ -9,7 +9,7 @@ export const getFilename = (fileName: string) => {
 export const getNameFromFilename = (fileName: string) => {
   const fileNameWithoutExtension = fileName.split('.')[0]
   const lowerCase = toLower(startCase(getFilename(fileNameWithoutExtension)))
-  return upperFirst(lowerCase)
+  return upperFirst(lowerCase).replaceAll('nordcraft', 'Nordcraft')
 }
 
 export const getSlugFromFilename = (fileName: string) => {
