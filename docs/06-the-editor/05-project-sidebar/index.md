@@ -32,7 +32,7 @@ Each section can be expanded or collapsed and includes a [kbd]+[kbd] button to c
 - [Services](/connecting-data/services): Configure API connections to external services with an OpenAPI specification
 - [Actions](/actions/overview): Create and manage global actions that can be used throughout your entire project
 - [Formulas](/formulas/global-formulas): Define global formulas for calculations and logic that can be accessed from any page or component
-- **Media**: Upload and manage images and other media files for your project
+- [Media](/media/overview) Upload and manage image files for your project
 - [Themes](/styling/theme): Configure design tokens including colors, spacing, and typography
 - **Settings**: Manage project configurations like favicon, robots.txt, sitemap, app manifest and service worker
 
