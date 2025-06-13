@@ -9,6 +9,7 @@ You can use redirects to redirect or forward one URL to another. When a URL that
 Redirects can be permanent or temporary. You may want to use permanent redirects to handle typos or synonyms in URLS, or to protect against broken links when moving to a new domain. You may want to use temporary redirects to keep links operational and discoverable during site maintenance.
 
 Redirects are listed in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section.
+
 Create a redirect by clicking the [kbd]+[kbd] button in the **Pages** section header, and select the **Redirect** tab. You will then see configuration options divided into two main sections:
 
 ## Source
@@ -31,16 +32,16 @@ The source section defines the URL address that will redirect to another page. I
 - Remove parameters using the [kbd]-[kbd] button
 
 ::: tip
-If you are not familiar with URL structure, check out the [blog post about URLs](https://blog.nordcraft.com/urls-how-do-they-really-work).
+For more information about URL structure, check out the [blog post about URLs](https://blog.nordcraft.com/urls-how-do-they-really-work).
 :::
 
 ## Redirect to
 
-Use the **Redirect to** section to define the URL that will be the target of the redirect, which you can configure using path and query parameters, just like the **Source**. In this section you can also see a preview of the complete redirect URL, as well as get a preview of the content. The type of preview is determined by the content type of the URL - JSON will be shown in a tree structure, whereas HTML is shown in an iframe, if the redirect allows it.
+Use the **Redirect to** section to define the URL that will be the target of the redirect, which you can configure using path and query parameters. In this section you can also see a live preview of the content served by the redirect URL. The type of preview is determined by the content type of the URL. JSON content is displayed in a tree structure, and HTML content is displayed in an iframe.
 
 ### Enable and disable the redirect rule
 
-Use the enabled switch input to enable or disable the redirect. You can also conditionally enable or disable the redirect using the [kbd]fx[kbd] button. There are multiple possible use cases for this:
+Use the **Enabled** toggle to enable or disable the redirect. You can also conditionally enable or disable the redirect using the [kbd]fx[kbd] button.
 
 - You could plan redirects to be enabled after a given date, or during a certain campaign period
 - You could make sure that redirects are only active if a user has a certain language setting or a cookie present
@@ -48,20 +49,20 @@ Use the enabled switch input to enable or disable the redirect. You can also con
 
 ### Status code
 
-Set the HTTP status code of the redirect. A redirect can be either temporary or permanent, and respond with the proper status code to display that. The supported status codes include:
+Set the HTTP status code of the redirect. A redirect can be either temporary or permanent, and respond with the appropriate HTTP status code. The supported status codes include:
 
 - 301 Moved permanently
 - 302 Found
 - 307 Temporary redirect
 - 308 Permanent redirect
 
-### URL
-
-Here is where you define the URL you wish to redirect to. Type or paste a complete URL including path, query or hash parameters into the input field, and Nordcraft will arrange it properly given the sections are not already filled.
-
 ::: tip
 Check out the [MDN documentation on redirections](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections) for more information about using HTTP status codes with redirects.
 :::
+
+### URL
+
+Here is where you define the URL you wish to redirect to. Type or paste a complete URL including path, query or hash parameters into the input field, and Nordcraft will arrange it properly given the sections are not already filled.
 
 ### Destination: path
 
