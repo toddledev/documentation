@@ -10,10 +10,10 @@ If you enjoy testing beta features in software, you may like to try out some of 
 To enable experimental features:
 
 1. Sign in to your Nordcraft account
-1. Navigate to the [feature flags](https://editor.nordcraft.com/flags) page
-1. Accept the disclaimer
-1. Toggle any features you would like to enable or disable
-1. Refresh the Nordcraft editor in your browser to apply any changes
+2. Navigate to the [feature flags](https://app.nordcraft.com/flags) page
+3. Accept the disclaimer
+4. Toggle any features you would like to enable or disable
+5. Refresh the Nordcraft editor in your browser to apply any changes
 
 ## Warning
 
