@@ -15,6 +15,8 @@ To enable experimental features:
 1. Toggle any features you would like to enable or disable
 1. Refresh the Nordcraft editor in your browser to apply any changes
 
+## Warning
+
 :::danger
 **Do not enable flags on your projects that are live in production.**
 
