@@ -1,6 +1,6 @@
 ---
 title: Feature flags
-description: Learn how to enable feature flags to test new and experimental features in Nordcraft. Be aware that using these features may break your Nordcraft experience: use with caution.
+description: Learn how to enable feature flags to test new and experimental features in Nordcraft. Be aware that using these features may break your Nordcraft experience.
 ---
 
 # Feature flags
