@@ -18,7 +18,7 @@ The source section defines the URL address that will proxy to another page. In t
 ### Source: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
-- For each path segment, provide a name
+- Provide a name for each path segment
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
   - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
@@ -26,7 +26,7 @@ The source section defines the URL address that will proxy to another page. In t
 ### Source: query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
-- For each query segment, provide a name
+- Provide a name for each query segment
   - Set a test value for development purposes
 - Remove parameters using the [kbd]-[kbd] button
 
@@ -34,24 +34,24 @@ The source section defines the URL address that will proxy to another page. In t
 If you are not familiar with URL structure, check out the [blog post about URLs](https://blog.nordcraft.com/urls-how-do-they-really-work).
 :::
 
-## Proxy to
+## Proxy
 
-Use the **Proxy to** section to define the URL that will be the target of the proxy, which you can configure using path and query parameters, just like the **Source**. In this section you can also see a preview of the complete proxy URL, as well as get a preview of the content. The type of preview is determined by the content type of the URL - JSON will be shown in a tree structure, whereas HTML is shown in an iframe, if the proxy allows it.
+Use the **Proxy** section to define the URL that will be the target of the proxy, which you can configure using path and query parameters. In this section you can also see a live preview of the content served by the redirect URL. The type of preview is determined by the content type of the URL. JSON content is displayed in a tree structure, and HTML content is displayed in an iframe.
 
 ### URL
 
-Here is where you define the URL you wish to proxy. Type or paste a complete URL including path, query or hash parameters into the input field, and Nordcraft will arrange it properly given the sections are not already filled.
+Define the URL you wish to proxy. Type or paste a complete URL including path, query, or hash parameters into the input field, and Nordcraft will arrange it properly given the sections are not already filled.
 
 ### Destination: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
-- For each path segment, provide a name
+- Provide a name for each path segment
 - Remove paths using the [kbd]-[kbd] button
 
 ### Destination: query
 
 - Add query parameters by clicking the [kbd]Add query[kbd] button
-- For each query segment, provide a name and a value
+- Provide a name and a value for each query segment
 - Remove parameters using the [kbd]-[kbd] button
 
 ::: info

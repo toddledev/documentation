@@ -5,8 +5,8 @@ description: Learn how to set up up a redirect in Nordcraft to redirect users fr
 
 # Configure redirects
 
-Redirecting or forwarding URLs provides a way of redirecting one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a redirect HTTP status code as well as a URL to navigate to. When receiving a redirect response, the browser will navigate to the URL provided.
-Redirects can be permanent or temporary. You may want to use permanent redirects to handle typos or synonyms in URLS, or protect against broken links when moving to a new domain. You may want to use temporary redirects to keep links operational and discoverable during maintenance.
+You can use redirects to redirect or forward one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a specific redirect HTTP status code as well as a URL to navigate to. When a browser receives a redirect response, it will navigate to the URL provided.
+Redirects can be permanent or temporary. You may want to use permanent redirects to handle typos or synonyms in URLS, or to protect against broken links when moving to a new domain. You may want to use temporary redirects to keep links operational and discoverable during site maintenance.
 
 Redirects are listed in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section.
 Create a redirect by clicking the [kbd]+[kbd] button in the **Pages** section header, and select the **Redirect** tab. You will then see configuration options divided into two main sections:
@@ -18,7 +18,7 @@ The source section defines the URL address that will redirect to another page. I
 ### Source: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
-- For each path segment, provide a name
+- Provide a name for each path segment
 - Enable the [kbd]Param[kbd] checkbox to make a path dynamic
   - Set a test value for development purposes
 - Remove paths using the [kbd]-[kbd] button
@@ -26,7 +26,7 @@ The source section defines the URL address that will redirect to another page. I
 ### Source: query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
-- For each query segment, provide a name
+- Provide a name for each query segment
   - Set a test value for development purposes
 - Remove parameters using the [kbd]-[kbd] button
 
@@ -40,7 +40,11 @@ Use the **Redirect to** section to define the URL that will be the target of the
 
 ### Enable and disable the redirect rule
 
-Use the enabled switch input to enable or disable the redirect. You can also conditionally enable or disable the redirect using the [kbd]fx[kbd] button.
+Use the enabled switch input to enable or disable the redirect. You can also conditionally enable or disable the redirect using the [kbd]fx[kbd] button. There are multiple possible use cases for this:
+
+- You could plan redirects to be enabled after a given date, or during a certain campaign period
+- You could make sure that redirects are only active if a user has a certain language setting or a cookie present
+- You could serve a fallback page for the same source url if a redirect was not enabled for a given request
 
 ### Status code
 
@@ -62,13 +66,13 @@ Check out the [MDN documentation on redirections](https://developer.mozilla.org/
 ### Destination: path
 
 - Add path segments by clicking the [kbd]+[kbd] button
-- For each path segment, provide a name
+- Provide a name for each path segment
 - Remove paths using the [kbd]-[kbd] button
 
 ### Destination: query
 
 - Add query parameters by clicking the [kbd]+[kbd] button
-- For each query segment, provide a name and a value
+- Provide a name and a value for each query segment
 - Remove parameters using the [kbd]-[kbd] button
 
 ### Hash
