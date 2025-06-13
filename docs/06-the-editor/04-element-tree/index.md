@@ -5,7 +5,7 @@ description: Understand the Nordcraft element tree for structural editing, eleme
 
 # Element tree
 
-The element tree provides a structural overview of your project, displaying all elements and componenents in your page or component hierarchically.
+The element tree provides a structural overview of your project, displaying all HTML elements and Nordcraft components in your page or component hierarchically.
 
 ![Element tree|16/9](element-tree.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
 
@@ -49,14 +49,15 @@ Add a new element in one of three ways:
 
 ![Element catalog|16/9](element-catalog.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&selection=nodes.m6MApQ1ZZSiZ5iH6kAUWE&elementCatalog=true}
 
-The element catalog provides a collection of HTML elements and components organized by category. This makes it easy to find exactly what you need for your project. The catalog allows you to:
+The element catalog contains all HTML elements for you to add to your project, including existing components defined in your project. Use the element catalog to:
 
-- Browse different element types grouped by functionality
-- Search for specific elements and components
+- Browse different HTML element types grouped by category
+- Search for specific HTML elements by tag name and aliases (for example, you can search for `link` to find the HTML `a` tag)
+- Search for project components by name
 - View components from installed packages
 
 Select an element to add it to your project. The element will be added as a child of the currently selected element or as the first child of the root element if no element is selected.
 
 ::: tip
-The Nordcraft element catalog contains the most commonly used HTML elements. To add an element that is not listed in the catalog, add any element, and edit its `Tag` under `Attributes` in the Right panel.
+If you need to change the tag name of an HTML element, edit its `Tag` under `Attributes` in the right panel. This saves you having to delete and re-add elements.
 :::
