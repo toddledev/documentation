@@ -7,7 +7,7 @@ description: Learn how to enable feature flags to test new and experimental feat
 
 If you enjoy testing beta features in software, you may like to try out some of Nordcraft's experimental features and provide feedback to the team about your experience in the [Nordcraft Discord](https://discord.gg/nordcraft).
 
-To view a list of experimental features available to test:
+To enable experimental features:
 
 1. Sign in to your Nordcraft account
 1. Navigate to the [feature flags](https://editor.nordcraft.com/flags) page
