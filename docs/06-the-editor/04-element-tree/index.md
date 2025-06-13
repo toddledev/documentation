@@ -5,7 +5,7 @@ description: Understand the Nordcraft element tree for structural editing, eleme
 
 # Element tree
 
-The element tree provides a structural overview of your project, displaying all HTML elements and Nordcraft componenents in your page or component hierarchically.
+The element tree provides a structural overview of your project, displaying all HTML elements and Nordcraft components in your page or component hierarchically.
 
 ![Element tree|16/9](element-tree.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800}
 
