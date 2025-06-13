@@ -18,7 +18,7 @@ To enable experimental features:
 :::danger
 **Do not enable flags on your projects that are live in production.**
 
-Experimental features are not fully developed, and enabling these features via the feature flags page is for testing purposes only. Enabling feature flags may cause data loss or Nordcraft editor issues.
+Experimental features are not fully developed, and enabling these features via the feature flags page is for testing purposes only. Enabling feature flags may cause data loss or Nordcraft editor issues. If you experience any issues when enabling feature flags, turn them off to continue working.
 
 **Proceed with caution.**
 :::
