@@ -5,7 +5,7 @@ description: Learn how to build with Nordcraft in a hands-on video series. Build
 
 # Learn Nordcraft
 
-In the Learn Nordcraft video series, you'll build along in real-time with our Head of Developer Education, [Salma Alam-Naylor](https://whitep4nth3r.com), to explore and learn how to use Nordcraft. All lessons are all self-contained, and are aimed at helping you explore more advanced features and concepts as the series progresses.
+In the Learn Nordcraft video series, you'll build along in real-time with Nordcraft's Head of Developer Education, [Salma Alam-Naylor](https://whitep4nth3r.com), to explore and learn how to use Nordcraft. All lessons are all self-contained, and are aimed at helping you explore more advanced features and concepts as the series progresses.
 
 :::tip
 View the [supporting materials for the video series on GitHub](https://github.com/nordcraftengine/learn-nordcraft).
