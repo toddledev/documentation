@@ -133,7 +133,7 @@ Tag filter buttons are repeated based on the tags fetched in the second API call
 The layout consists of two repeated elements. You could also create components for the blog card, but for smaller projects where elements are not reused, this may not be necessary. In typical development, however, building these as components is common practice.
 
 ::: tip
-Useful resources: 
+Useful resources:
 - [Repeating elements](formulas/repeat-formula)
 - [Understanding when to use components](guides/component-creation)
 :::
@@ -192,7 +192,7 @@ Now, examine the **dato-block** component, which is a recursive component iterat
 
 ### Recursive Content Component
 
-Recursion is when a process calls itself to solve smaller or "nested" versions of the same problem until an end or **base case** is reached. It is useful for things like tree traversals or, in our case, going through the content array and its nested arrays to display it as a blog article.
+Recursion is when a process calls itself to solve smaller or "nested" versions of the same problem until an end or **base case** is reached. It is useful for things like tree traversals or, in this case, going through the content array and its nested arrays to display it as a blog article.
 
 Recursive components cans sometimes be challenging to conceptualize so here is a breakdown of its structure and functionality.
 
