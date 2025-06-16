@@ -31,9 +31,10 @@ Learn about:
 - [Applying CSS using the style panel](/styling/styles-and-layout)
 - [Creating pages](/pages/create-a-page)
 
-:::info
-Lesson 1 coming soon!
-:::
+@@@ youtube
+videoId: 3U0UVetAQNc
+title: Build a Linktree-style personal website for Rick Astley
+@@@
 
 ## Lesson 2: Build a Keanu Whoa! catalogue
 
