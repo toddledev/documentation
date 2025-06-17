@@ -80,6 +80,10 @@ Here is where you define the URL you wish to redirect to. Type or paste a comple
 
 Set the hash of the redirect. This can be used to target a specific fragment of the URL, such as a section of the page.
 
+## Testing
+
+In order to verify that your redirect works as intended, click the "Preview page in new tab", or navigate to the URL that you have set up in the source section. If the redirect is configured correctly, you should be redirected to the desired location.
+
 ::: info
 Redirects are only available on paid plans.
 :::

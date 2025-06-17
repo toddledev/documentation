@@ -55,6 +55,10 @@ Define the URL you wish to proxy. Type or paste a complete URL including path, q
 - Provide a name and a value for each query segment
 - Remove parameters using the [kbd]-[kbd] button
 
+## Testing
+
+In order to verify that your proxy works as intended, click the "Preview page in new tab", or navigate to the URL that you have set up in the source section. If the proxy is configured correctly, you should see to the desired location.
+
 ::: info
 Proxies are only available on paid plans.
 :::
