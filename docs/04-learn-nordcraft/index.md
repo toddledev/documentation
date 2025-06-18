@@ -45,11 +45,13 @@ Learn about:
 - [Getting data from APIs](/connecting-data/working-with-apis)
 - [Creating dynamic pages using data from an API](/pages/static-and-dynamic#dynamic-pages)
 - [Using the repeat formula](/formulas/repeat-formula#repeat-formula)
+- [Concatenating data](/references/formulas#concatenate)
 - [Formatting dates](/references/formulas#format-date)
 
-:::info
-Lesson 2 coming soon!
-:::
+@@@ youtube
+videoId: ZhlM7Pw5Njg
+title: Build a Keanu Whoa! catalog
+@@@
 
 ## Lesson 3: Build a Pomodoro timer
 
