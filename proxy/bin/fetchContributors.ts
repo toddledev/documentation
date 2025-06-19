@@ -1,9 +1,7 @@
-import type { FetchContributors } from '../src/types'
+import { exec } from 'node:child_process'
+import { promisify } from 'node:util'
 
-interface CommitAuthor {
-  avatar_url?: string
-  login?: string
-}
+const execPromise = promisify(exec)
 
 const headers: Record<string, string> = {
   Accept: 'application/vnd.github+json',
@@ -15,51 +13,46 @@ if (process.env.COMMITS_KEY) {
 }
 
 export const fetchContributors = async ({
-  owner,
-  repository,
+  allContributors,
   path,
-}: FetchContributors) => {
-  try {
-    const response = await fetch(
-      `https://api.github.com/repos/${owner}/${repository}/commits?path=${path}`,
-      { headers },
-    )
-
-    if (!response.ok) {
-      // eslint-disable-next-line no-console
-      console.error(
-        'Could not fetch contributors for url',
-        `https://api.github.com/repos/${owner}/${repository}/commits?path=${path}`,
-        response.status,
-      )
-      return
-    }
-
-    const commits = (await response.json()) as Array<{
-      author?: CommitAuthor | null
-      commit: { committer: { date: string } }
-    }>
-
-    const contributors: Map<string, string> = new Map()
-    commits.forEach(({ author }) => {
-      if (!author?.avatar_url || !author.login) {
-        return
-      }
-      // Only add unique contributors
-      contributors.set(author.login, author.avatar_url)
+}: {
+  allContributors: Array<{ email: string; username: string; avatar?: string }>
+  path: string
+}) => {
+  const { stdout: rawContributors } = await execPromise(
+    // List all contributors to the file, sorted by email
+    // Count the number of commits per email
+    // Use --follow to track commits across file renames
+    `git log --format="<%ae>" --follow ../${path} | sort | uniq -c`,
+  )
+  const fileContributors = rawContributors
+    .split('\n')
+    .filter((line) => typeof line === 'string' && line.length > 0)
+    .map((line) => {
+      const [, count, email] = line.trim().match(/(\d+)\s+<(.+)>/) ?? []
+      return { count: Number(count), email }
     })
-
-    const lastEditedAt = commits[0].commit.committer.date
-
-    return {
-      contributors: Array.from(contributors).map(([username, avatar]) => ({
-        avatar,
-        username,
-      })),
-      lastEditedAt,
-    }
-  } catch (err) {
-    // eslint-disable-next-line no-console
-    console.error(err)
+    .filter((c) => typeof c.email === 'string' && c.email.length > 0)
+    .sort((a, b) => b.count - a.count)
+  const { stdout: lastEditedAt } = await execPromise(
+    // Get the last edited date of the file in ISO format
+    `git log -1 --format="%ad" --date=iso ../${path}`,
+  )
+  const matchContributor = (email: string) => {
+    return allContributors.find((c) => c.email === email)
+  }
+  return {
+    contributors: fileContributors
+      .map(({ email }) => {
+        const contributor = matchContributor(email)
+        if (contributor) {
+          return {
+            username: contributor.username,
+            avatar: contributor.avatar,
+          }
+        }
+      })
+      .filter(Boolean),
+    lastEditedAt: lastEditedAt.trim(),
   }
 }

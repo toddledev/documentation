@@ -2,6 +2,11 @@ import * as fs from 'fs'
 import { chunk } from 'lodash'
 import { fetchContributors } from './fetchContributors'
 
+interface CommitAuthor {
+  avatar_url?: string
+  login?: string
+}
+
 if (!fs.existsSync('./dist')) {
   fs.mkdirSync('./dist')
 }
@@ -23,13 +28,53 @@ const files = (
 const chunks = chunk(files, 10)
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
+const contributorMapFile = fs.readFileSync('./contributors.json', 'utf-8')
+const contributorMap = JSON.parse(contributorMapFile) as Array<{
+  email: string
+  username: string
+}>
+const getGitHubUser = async (username: string) => {
+  const headers: Record<string, string> = {
+    Accept: 'application/vnd.github+json',
+    'User-Agent': 'CF',
+  }
+  if (process.env.COMMITS_KEY) {
+    headers.Authorization = `Bearer ${process.env.COMMITS_KEY}`
+  }
+  const response = await fetch(`https://api.github.com/users/${username}`, {
+    headers,
+  })
+  if (!response.ok) {
+    throw new Error(`Failed to fetch GitHub user: ${response.statusText}`)
+  }
+  return response.json() as Promise<CommitAuthor>
+}
+const allContributors = await Promise.all(
+  contributorMap.map(async (contributor) => {
+    try {
+      const user = await getGitHubUser(contributor.username)
+      if (user.avatar_url) {
+        return {
+          ...contributor,
+          avatar: user.avatar_url,
+        }
+      }
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error(
+        `Failed to fetch GitHub user for ${contributor.username}:`,
+        error,
+      )
+    }
+    return contributor
+  }),
+)
 for (const c of chunks) {
   await Promise.all(
     c.map(async (path) => {
       const fileContributors = await fetchContributors({
-        owner: 'nordcraftengine',
-        repository: 'documentation',
         path: `docs/${path}`,
+        allContributors,
       })
       if (fileContributors) {
         fs.writeFileSync(
