@@ -6,6 +6,7 @@ description: Learn how to set up up a redirect in Nordcraft to redirect users fr
 # Configure redirects
 
 You can use redirects to redirect or forward one URL to another. When a URL that is targeted for redirection is requested, the server will respond with a redirect response, which includes a specific redirect HTTP status code as well as a URL to navigate to. When a browser receives a redirect response, it will navigate to the URL provided.
+
 Redirects can be permanent or temporary. You may want to use permanent redirects to handle typos or synonyms in URLS, or to protect against broken links when moving to a new domain. You may want to use temporary redirects to keep links operational and discoverable during site maintenance.
 
 Redirects are listed in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section.

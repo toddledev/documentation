@@ -6,6 +6,7 @@ description: Learn how to set up up a proxy in Nordcraft to map one URL to anoth
 # Configure proxies
 
 You can use proxies to map one URL to another URL. Using a proxy hides the path of the destination on the server, so that it appears that the location does not change.
+
 You may want to use proxies to serve content from domains that are no longer in use, but where the content is still relevant. You may also want to use proxies to serve utility content like sitemap.xml files, robot.txt files, and ads.txt files.
 
 Proxies are listed in the [project sidebar](/the-editor/project-sidebar) in the **Pages** section.
