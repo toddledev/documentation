@@ -25,10 +25,6 @@ export const fetchContributors = async ({
     // Use --follow to track commits across file renames
     `git log --format="<%ae>" --follow ../${path} | sort | uniq -c`,
   )
-  // eslint-disable-next-line no-console
-  console.log(
-    `Raw contributors for ${path}:\n${JSON.stringify(rawContributors)}`,
-  )
   const fileContributors = rawContributors
     .split('\n')
     .filter((line) => typeof line === 'string' && line.length > 0)
