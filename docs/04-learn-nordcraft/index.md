@@ -8,7 +8,7 @@ description: Learn how to build with Nordcraft in a hands-on video series. Build
 In the Learn Nordcraft video series, you'll build along in real-time with Nordcraft's Head of Developer Education, [Salma Alam-Naylor](https://whitep4nth3r.com), to explore and learn how to use Nordcraft. All lessons are all self-contained, and are aimed at helping you explore more advanced features and concepts as the series progresses.
 
 :::tip
-View the [supporting materials for the video series on GitHub](https://github.com/nordcraftengine/learn-nordcraft).
+View the [supporting materials for the video series on GitHub.](https://github.com/nordcraftengine/learn-nordcraft)
 :::
 
 ## Lesson 0: What is Nordcraft?
@@ -45,11 +45,13 @@ Learn about:
 - [Getting data from APIs](/connecting-data/working-with-apis)
 - [Creating dynamic pages using data from an API](/pages/static-and-dynamic#dynamic-pages)
 - [Using the repeat formula](/formulas/repeat-formula#repeat-formula)
+- [Concatenating data](/references/formulas#concatenate)
 - [Formatting dates](/references/formulas#format-date)
 
-:::info
-Lesson 2 coming soon!
-:::
+@@@ youtube
+videoId: ZhlM7Pw5Njg
+title: Build a Keanu Whoa! catalog
+@@@
 
 ## Lesson 3: Build a Pomodoro timer
 
