@@ -93,17 +93,14 @@ Working with authenticated features in the Nordcraft editor requires a specific 
 Follow these steps to develop authenticated features:
 
 1. **Install browser extension**
-
    - [Chrome extension](https://chromewebstore.google.com/detail/nordcraft/hfhgjncckomifajhndceigiaiojhlllp)
    - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/nordcraft/)
 
 2. **Log in through preview page**
-
    - Authentication must first occur in the preview environment; you can open the preview through the [Bottom Bar](/the-editor/bottom-bar)
    - With the extension installed, your authentication cookies are securely copied to the editor
 
 3. **Develop in the editor**
-
    - Once authenticated, you can build and test protected features directly in the editor
    - There is no need to log in separately for the editor environment
 
