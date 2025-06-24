@@ -64,9 +64,10 @@ Learn about:
 - [Workflows](/workflows/overview)
 - [Installing and using Nordcraft packages](/packages/overview)
 
-:::info
-Lesson 3 coming soon!
-:::
+@@@ youtube
+videoId: YhECT8QWk60
+title: Build a Pomodoro Timer
+@@@
 
 ## Lesson 4: Build an Important Office Productivity Assessment Survey
 
