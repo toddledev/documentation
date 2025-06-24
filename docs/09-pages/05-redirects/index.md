@@ -85,7 +85,7 @@ Set the hash of the redirect. This can be used to target a specific fragment of 
 
 In order to verify that your redirect works as intended, click the "Preview page in new tab", or navigate to the URL that you have set up in the source section. If the redirect is configured correctly, you should be redirected to the desired location.
 
-To make it easier to test redirects, you can see the name of the redirect that caused the redirect in the response headers. Look for the [`X-Nordcraft-Redirect-Name` header](https://github.com/nordcraftengine/nordcraft/blob/main/packages/ssr/src/utils/headers.ts#L20) in the response. This can help you identify which redirect rule was triggered in situations where you have multiple redirects set up.
+To make it easier to test redirects, you can see the name of the redirect that caused the redirect in the response headers. Look for the [`X-Nordcraft-Redirect-Name` header](https://github.com/nordcraftengine/nordcraft/blob/main/packages/ssr/src/utils/headers.ts#L20) in the response section of your browser's network tab (under developer tools). This can help you identify which redirect rule was triggered in situations where you have multiple redirects set up.
 
 ::: info
 Redirects are only available on paid plans.
