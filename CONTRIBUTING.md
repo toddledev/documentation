@@ -2,13 +2,17 @@
 
 We're thrilled that you're interested in contributing to Nordcraft's documentation!
 
-For complete contribution guidelines, please refer to our [Contribution Guide](/docs/18-guides/99-contribution-guide/index.md).
+For complete contribution guidelines, please refer to our [Contribution Guide](/docs/20-guides/99-contribution/index.md).
 
 This guide contains all the information you need about:
 
 - formatting requirements
 - content standards
 - the contribution workflow process
+
+## List of Contributors
+
+In order to be listed as a contributor, please add your email/username to the [contributors.json](/proxy/contributors.json) file.
 
 ## Code of Conduct
 
