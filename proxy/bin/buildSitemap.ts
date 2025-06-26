@@ -37,13 +37,20 @@ const addItems = (items: MenuItem[], parts: string[]) =>
       addItems(item.children, [...parts, item.id])
     } else {
       const lastModified = getCommitDates(item.localPath)
+
+      // We use the docs.nordcraft.com/ as the canonical URL for '/about'
+      // So the sitemap should also reflect that
+      const itemId = item.id === 'about' ? '' : item.id
+
       sitemapItems.push({
-        url: [...parts, item.id].join('/'),
+        url: [...parts, itemId].join('/'),
         lastModified: new Date(lastModified),
       })
     }
   })
+
 addItems(menuItems, [])
+
 const content = `\
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
