@@ -22,7 +22,7 @@ To create a workflow on an event:
 
 If you have logic in your component that you need multiple times or if the logic tree is complex, you can create a reusable workflow from the [data panel](/the-editor/data-panel#workflows).
 
-![Create reusable workflow|16/9](create-reusable-workflow.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-height=800&canvas-width=800&mode=design&selection=workflows.Zpfk7v&rightpanel=events0}
+![Create reusable workflow|16/9](create-reusable-workflow.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-workflows?canvas-width=800&canvas-height=800&selection=workflows.Zpfk7v&rightpanel=events}
 
 To create a reusable workflow:
 
