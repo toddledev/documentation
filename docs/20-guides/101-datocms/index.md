@@ -5,11 +5,11 @@ description: Learn how to create a data model in DatoCMS and integrate it with N
 
 # DatoCMS Integration Guide
 
-DatoCMS is a headless Content Management System (CMS) that lets you store and manage content, and retrieve that content via a GraphQL API for use in your front-end applications. This guide outlines the process of establishing a data model within DatoCMS and integrating it with Nordcraft.
+DatoCMS is a headless Content Management System (CMS) that lets you store and manage content, and retrieve that content via a GraphQL API for use in your front-end applications. This guide outlines the process of creating a data model within DatoCMS and integrating it with Nordcraft.
 
 ### Source Projects
 
-Clone the projects referenced in this guide to your DatoCMS and Nordcraft accounts to follow along:
+Clone the projects below to your DatoCMS and Nordcraft accounts to follow along with this guide:
 
 *   [DatoCMS Sample Project](https://dashboard.datocms.com/clone?projectId=161783&name=Nordcraft%20Sample)
 *   [Nordcraft Sample Project](https://editor.nordcraft.com/projects/datocms_starter/branches/main)
@@ -24,7 +24,9 @@ Clone the projects referenced in this guide to your DatoCMS and Nordcraft accoun
 
 In DatoCMS, **Models** and **Blocks** are the core of all content.
 
-**Models** function similarly to database tables. They consist of **Fields**, which are analogous to columns, and collectively define the structure of content. Each Model provides a blueprint for creating **Records**, which are the actual content entities, such as pages, blog posts, or product listings. Models can also establish relationships by referencing other models.
+In DatoCMS, **Models** and **Blocks** are the core of all content. 
+
+**Models** function similarly to database tables. They consist of **Fields**, which correspond to database columns, and collectively define the structure of content. Each Model provides a blueprint for creating **Records**, which are the actual content entities, such as pages, blog posts, or product listings. Models can also establish relationships by referencing other models.
 
 **Blocks** represent dynamic and flexible components designed for embedding within Records or Models. For example, an **Image Block** or a **Call-to-Action Block** can be inserted into specific fields of a blog post Record, allowing you to create rich and modular content.
 
@@ -44,7 +46,7 @@ When you have cloned the provided sample project into a DatoCMS account, you can
 
 All posts are located under the “Content” tab within the “Blog” content category, alongside the “tags” model. These tags will be used to implement a simple filter in the Nordcraft project.
 
-Under the “Schema” tab, you can view the Models and Blocks for the project can be examined to understand their Field configurations.
+Under the “Schema” tab, you can view the Models and Blocks for the project to understand their Field configurations.
 
 Note the “Blog Post” model and note its Model ID: “posts”. This ID will be referenced later for data fetching.
 
@@ -54,7 +56,7 @@ You can access the “CDA Playground” from the top right of the navigation bar
 
 You can familiarize yourself with DatoCMS API naming conventions and data structure by exploring the “GraphQL Explorer” (1) in DatoCMS.
 
-To begin, construct a simple query to fetch a list of blogs. You can use the GraphQL Explorer to view the available data types. Note the three Models in the explorer’s category list (2):
+To begin, construct a query to fetch a list of blogs. You can use the GraphQL Explorer to view the available data types. Note the three Models in the explorer’s category list (2):
 
 ![Dato API Playground|16/9](dato-api-playground.webp)
 
@@ -64,7 +66,7 @@ Next, build a query to fetch data for a list of blog posts, which will be displa
 
 For the blog card that will be displayed in the grid, you only need a subset of these data points. Use the following GraphQL query:
 
-```
+```graphql
 {
   allPosts(orderBy: _createdAt_DESC) {
     title
@@ -84,7 +86,7 @@ For the blog card that will be displayed in the grid, you only need a subset of 
 
 This query sorts data by creation date (descending) and retrieves titles, URL slugs, associated tags, and featured images, which will be used to create a basic blog card.
 
-To test this in a Nordcraft project, first obtain your API credentials.
+To test this in a Nordcraft project, you need to find your DatoCMS API credentials.
 
 From the DatoCMS dashboard, navigate to "Project Settings" in the top-right corner. Within this modal, select the "API Tokens" tab and then access the "Read-Only API Token". This token will be used for secure data retrieval in Nordcraft.
 
@@ -92,31 +94,31 @@ From the DatoCMS dashboard, navigate to "Project Settings" in the top-right corn
 This read-only API token is safe to use in your Nordcraft project and will not compromise the security of your application. For more information on secure apps, check out the [Security Guide](/guides/security).
 :::
 
-Open your Nordcraft project in a separate tab. The recommended method for setting these credentials is through global formulas, which allows for centralized updates.
+Open your Nordcraft project in a separate browser tab or window. It is recommended you set these credentials is through global formulas in Nordcraft, which allows you to update these values centrally, should they change in the future.
 
 ::: tip
 Refer to the documentation on [Global Formulas](/formulas/global-formulas) for additional information.
 :::
 
-Create a global formula for the DatoCMS Read-only API key and another for the URL, which is "**https://graphql.datocms.com/**".
+Create a global formula for the DatoCMS Read-only API key and another for the URL, which is `https://graphql.datocms.com/`.
 
 ![Dato API Token|16/9](dato-api-token.webp)
 
-### Creating our API call in Nordcraft
+### Creating an API call in Nordcraft
 
 With the credentials configured, you can create your first API call.
 
-On the blog page in your Nordcraft project, add a JSON API and integrate the global formulas set in the previous step. The API key should be sent as an Bearer Authorization header.
+On the blog page in your Nordcraft project, add a new API and use the global formulas set in the previous step for the read-only API key and the URL. Send the API key as a `Bearer Authorization` HTTP header.
 
 ::: info
-Currently, the Nordcraft team is developing an enhanced UI for GraphQL API calls. For now, you can fetch data from a GraphQL API by adding the query string as an object. The key is "query" and the value is the query string. Look at the Nordcraft project's API calls for examples.
+Currently, the Nordcraft team is developing an enhanced UI for GraphQL API calls. For now, you can fetch data from a GraphQL API by adding the query string as an object. The key is "query" and the value is the query string. Look at the Nordcraft example project's API calls in this guide for examples.
 
 Keep up to date with the [Nordcraft GraphQL explorer release on GitHub](https://github.com/nordcraftengine/nordcraft/issues/308).
 :::
 
 Create a second GraphQL API call for the tag filter functionality. The query for this call is:
 
-```
+```graphql
 {
   allTags {
     tag
@@ -148,7 +150,7 @@ The blog post’s slug, which serves as a unique identifier for each article, wi
 
 The final query should be structured as follows:
 
-```
+```graphql
 {
   allPosts(filter: {slug: {eq: "nextgen-image-formats-webp-and-avif"}}) {
     title
@@ -192,9 +194,9 @@ Now, examine the **dato-block** component, which is a recursive component iterat
 
 ### Recursive Content Component
 
-Recursion is when a process calls itself to solve smaller or "nested" versions of the same problem until an end or **base case** is reached. It is useful for things like tree traversals or, in this case, going through the content array and its nested arrays to display it as a blog article.
+Recursion is when a process calls itself to solve smaller or "nested" versions of the same problem until an end or **base case** is reached. It is useful for things like tree traversals or, in this case, looping through the content array and its nested arrays to display the data as a blog article.
 
-Recursive components cans sometimes be challenging to conceptualize so here is a breakdown of its structure and functionality.
+Recursive components cans sometimes be challenging to conceptualize so here is a breakdown of the functionality.
 
 To understand its setup, first review the content data:
 
@@ -202,7 +204,7 @@ To understand its setup, first review the content data:
 
 The initial “children” array is the target for repeating the **dato-block** component. Note that its first index item also contains its own “children” array.
 
-This structure is typical for headless CMS systems, with minor variations across platforms. The purpose of this nesting is to separate inline elements such as bold text or links as seen in the paragraph example.
+This structure is typical for headless CMS systems, with minor variations across platforms. The purpose of this nesting is to separate and format inline elements such as bold text or links, as shown in the paragraph example.
 
 ::: info
 Some CMS platforms return regular HTML, but JSON is seen more often. JSON is much easier to work with on the front end, as it allows you to fully customise the HTML structure of your application.
@@ -220,7 +222,7 @@ In summary, the "parent" **dato-block** component on the "Blog Article" page ite
 
 ![Output Paragraph|16/9](output-paragraph.webp)
 
-Given the predictable data structure from DatoCMS, a component can be configured for each element type (e.g., h1, h2, h3, p).
+Given the predictable data structure from DatoCMS, a component can be configured for each element type (for example `h1`, `h2`, `h3`, `p`).
 
 Once this structure is in place, the appropriate show/hide conditions are set for each block (e.g., node type equals paragraph).
 
@@ -234,7 +236,7 @@ Finally, here is how to handle "Blocks" and blog post reference links within the
 
 Examine this segment of the article API query:
 
-```
+```graphql
 content {
       blocks {
         id
