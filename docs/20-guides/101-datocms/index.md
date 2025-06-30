@@ -24,8 +24,6 @@ Clone the projects below to your DatoCMS and Nordcraft accounts to follow along 
 
 In DatoCMS, **Models** and **Blocks** are the core of all content.
 
-In DatoCMS, **Models** and **Blocks** are the core of all content. 
-
 **Models** function similarly to database tables. They consist of **Fields**, which correspond to database columns, and collectively define the structure of content. Each Model provides a blueprint for creating **Records**, which are the actual content entities, such as pages, blog posts, or product listings. Models can also establish relationships by referencing other models.
 
 **Blocks** represent dynamic and flexible components designed for embedding within Records or Models. For example, an **Image Block** or a **Call-to-Action Block** can be inserted into specific fields of a blog post Record, allowing you to create rich and modular content.
