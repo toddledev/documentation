@@ -36,22 +36,22 @@ Core technical features:
 
 - Full control over generated HTML, CSS and JavaScript
 - Signals-based reactive programming model
-- Full server-side rendering capabilities
+- [Full server-side rendering capabilities](/core-concepts#server-and-client-rendering)
 - Minimal DOM output for optimal performance
-- Animation engine for creating dynamic interfaces
-- Integrated version control with preview environments
+- [Animation engine for creating dynamic interfaces](/styling/animation-editor)
+- [Integrated version control](/core-concepts#branches-and-version-control)
 - [Add your own custom code to your Nordcraft apps](/actions/overview)
 
 ## The Nordcraft ecosystem
 
 Nordcraft provides everything you need to build and deploy modern, performant web applications:
 
-- Full API integration for connecting to any back-end service
-- Package system for sharing and reusing functionality
+- [Full API integration for connecting to any back-end service](/connecting-data/overview#api-layer)
+- [Package system for sharing and reusing functionality](/packages/overview)
 - Pre-built templates for rapid application development and design systems
-- Asset management for handling media
-- SEO and meta tag configuration tools
-- Live branch preview environments
+- [Asset management for handling media](/media/overview)
+- [SEO and meta tag configuration tools](/pages/page-configuration#metadata)
+- [Live branch preview environments](/get-started/branches-and-publishing#preview-a-branch)
 - Deploy directly to Nordcraft's infrastructure or self-host your applications
 
 The Nordcraft Web Development Engine gives you the freedom to fully customize and extend the system to meet your specific needs without limitations.
