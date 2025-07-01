@@ -77,7 +77,6 @@ Learn about:
 
 - [Adding services](/connecting-data/services)
 - [Configuring APIs to post data](/connecting-data/working-with-apis#configure-api-requests)
-- [Workflows](/workflows/overview)
 - [Using variables to manage application state](/variables/overview)
 - [Saving to session storage](/references/actions#save-to-session-storage)
 - [Reading from session storage](/references/formulas#get-from-session-storage)
