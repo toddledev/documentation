@@ -11,14 +11,14 @@ DatoCMS is a headless Content Management System (CMS) that lets you store and ma
 
 Clone the projects below to your DatoCMS and Nordcraft accounts to follow along with this guide:
 
-*   [DatoCMS Sample Project](https://dashboard.datocms.com/clone?projectId=161783&name=Nordcraft%20Sample)
-*   [Nordcraft Sample Project](https://editor.nordcraft.com/projects/datocms_starter/branches/main)
+-   [DatoCMS Sample Project](https://dashboard.datocms.com/clone?projectId=161783&name=Nordcraft%20Sample)
+-   [Nordcraft Sample Project](https://editor.nordcraft.com/projects/datocms_starter/branches/main)
 
 ### What is covered
 
-* Models and Blocks in DatoCMS
-* Creating our API queries and calls
-* Iterating over the data and displaying the content
+- Models and Blocks in DatoCMS
+- Creating our API queries and calls
+- Iterating over the data and displaying the content
 
 ## Setting up DatoCMS
 
