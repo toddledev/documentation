@@ -84,6 +84,7 @@ Learn about:
 - [Working with components](/components/overview)
 - [Show/hide formula](/formulas/show-hide-formula#show-hide-formula)
 
-:::info
-Lesson 4 coming soon!
-:::
+@@@ youtube
+videoId: YVF6eBY0RNE
+title: Build an Important Office Productivity Assessment Survey
+@@@
