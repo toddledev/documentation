@@ -92,7 +92,7 @@ From the DatoCMS dashboard, navigate to "Project Settings" in the top-right corn
 This read-only API token is safe to use in your Nordcraft project and will not compromise the security of your application. For more information on secure apps, check out the [Security Guide](/guides/security).
 :::
 
-Open your Nordcraft project in a separate browser tab or window. It is recommended you set these credentials is through global formulas in Nordcraft, which allows you to update these values centrally, should they change in the future.
+Open your Nordcraft project in a separate browser tab or window. It is recommended you set these credentials through global formulas in Nordcraft, which allows you to update these values centrally, should they change in the future.
 
 ::: tip
 Refer to the documentation on [Global Formulas](/formulas/global-formulas) for additional information.
