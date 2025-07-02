@@ -84,6 +84,6 @@ Learn about:
 - [Show/hide formula](/formulas/show-hide-formula#show-hide-formula)
 
 @@@ youtube
-videoId: 0DS2xurcSdw
+videoId: 5gWonN_51A4
 title: Build a multi-step form
 @@@
