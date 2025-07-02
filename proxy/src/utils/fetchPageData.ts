@@ -73,6 +73,12 @@ const getProcessedTokens = (tokens: any[]) => {
       processedToken.aspectRatio = token.text.split('|')[1]
     }
 
+    if (token.type === 'image' || token.type === 'image-static') {
+      const parts = token.href.split(' ')
+      processedToken.href = parts[0] || ''
+      processedToken.title = parts[1].replaceAll('"', '') || ''
+    }
+
     if (token.tokens) {
       processedToken.tokens = getProcessedTokens(token.tokens)
     }
