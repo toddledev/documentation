@@ -42,7 +42,7 @@ For detailed information on working with branches, see the [Branches and publish
 
 When selecting a project from your Nordcraft dashboard, you can view all active branches, with details about who created them and when.
 
-![Branch actions|16/9](branch-actions.webp)
+![The project details page is annotated with a rectangle around a branch in the list, showing an edit button and three dot context menu.|16/9](branch-actions.webp "Branch actions")
 
 The following actions are available for each branch:
 
@@ -58,7 +58,7 @@ The Version History section provides an overview of all commits (or "publishes")
 
 The commit labeled `Live version` represents the current deployed version of your project. It corresponds to the main branch.
 
-![Version history|16/9](version-history.webp)
+![The version history section of the project details page is annotated, showing the currently live branch labelled as live version, and buttons to rollback to previously published updates.|16/9](version-history.webp "Version history")
 
 ## Members
 

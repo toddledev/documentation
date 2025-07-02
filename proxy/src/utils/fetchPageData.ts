@@ -75,8 +75,8 @@ const getProcessedTokens = (tokens: any[]) => {
 
     if (token.type === 'image' || token.type === 'image-static') {
       const parts = token.href.split(' ')
-      processedToken.href = parts[0] || ''
-      processedToken.title = parts[1].replaceAll('"', '') || ''
+      processedToken.href = parts[0]
+      processedToken.title = parts[1].replaceAll('"', '')
     }
 
     if (token.tokens) {
