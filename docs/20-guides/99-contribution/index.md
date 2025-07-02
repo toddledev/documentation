@@ -119,7 +119,7 @@ Include images with descriptive alt text, an image title and aspect ratio:
 
 For screenshots that link to the Nordcraft editor (allowing readers to see it live in the editor):
 
-`![Image alt text|16/9](image-name.webp "Image title"){https://editor.nordcraft.com/projects/docs_examples/branches/main/...}`
+`![Image alt text|16/9](image-name.webp 'Image title'){https://editor.nordcraft.com/projects/docs_examples/branches/main/...}`
 
 Image requirements:
 

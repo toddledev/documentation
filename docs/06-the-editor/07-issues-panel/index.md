@@ -7,7 +7,7 @@ description: Nordcraft’s issues panel helps you detect and fix issues quickly,
 
 The issues panel helps you identify and resolve problems within your Nordcraft project. It provides an overview of all issues, allowing you to maintain code quality and improve project stability.
 
-![The issues panel is expanded in the Nordcraft editor, showing a warning for an unused component which says component is never used by any page or component, consider removing it.|16/9](issues-panel.webp "Issues panel"){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Problems}
+![The issues panel is expanded in the Nordcraft editor, showing a warning for an unused component which says component is never used by any page or component, consider removing it.|16/9](issues-panel.webp 'Issues panel'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?rightpanel=style&canvas-width=800&canvas-height=800&leftpanel=Problems}
 
 ::: info
 The issues panel is like a code linter for traditionally coded applications, reporting on accessibility, SEO and other issues.
