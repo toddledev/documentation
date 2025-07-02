@@ -81,7 +81,6 @@ Learn about:
 - [Using variables to manage application state](/variables/overview)
 - [Saving to session storage](/references/actions#save-to-session-storage)
 - [Reading from session storage](/references/formulas#get-from-session-storage)
-- [Working with components](/components/overview)
 - [Show/hide formula](/formulas/show-hide-formula#show-hide-formula)
 
 @@@ youtube
