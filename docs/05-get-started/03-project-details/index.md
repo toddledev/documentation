@@ -11,7 +11,7 @@ The project details page provides information about your app or package. Here yo
 
 The project settings section allows you to manage your project configuration.
 
-![Project settings|16/9](project-settings.webp)
+![View project settings including the live URL, a preview of the app, visibility, name and description. View the active branches and version history below.|16/9](project-settings.webp "Project settings")
 
 1. **Add domain**: Customize the domain for your project (available on paid plans)
 2. **Live preview**: Access the live preview of your project
