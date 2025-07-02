@@ -69,21 +69,21 @@ videoId: YhECT8QWk60
 title: Build a Pomodoro Timer
 @@@
 
-## Lesson 4: Build an Important Office Productivity Assessment Survey
+## Lesson 4: Build a multi-step form
 
-In this lesson, you'll build a multi-step form with validation, save form data to session storage, and POST it to an API when the form is complete.
+In this lesson, you'll build a multi-step form with validation, save form data to session storage, and POST it to an API when the form is complete. You'll also learn about using Supabase with Nordcraft.
 
 Learn about:
 
 - [Adding services](/connecting-data/services)
+- [Nordcraft Supabase service](/connecting-data/services#supabase)
 - [Configuring APIs to post data](/connecting-data/working-with-apis#configure-api-requests)
-- [Workflows](/workflows/overview)
 - [Using variables to manage application state](/variables/overview)
 - [Saving to session storage](/references/actions#save-to-session-storage)
 - [Reading from session storage](/references/formulas#get-from-session-storage)
-- [Working with components](/components/overview)
 - [Show/hide formula](/formulas/show-hide-formula#show-hide-formula)
 
-:::info
-Lesson 4 coming soon!
-:::
+@@@ youtube
+videoId: 0DS2xurcSdw
+title: Build a multi-step form
+@@@
