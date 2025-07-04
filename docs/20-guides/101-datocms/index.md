@@ -17,7 +17,8 @@ Clone the projects below to your DatoCMS and Nordcraft accounts to follow along 
 ### What is covered
 
 - Models and Blocks in DatoCMS
-- Creating our API queries and calls
+- Building GraphQL queries 
+- Creating API calls
 - Iterating over the data and displaying the content
 
 ## Setting up DatoCMS
@@ -26,7 +27,7 @@ In DatoCMS, **Models** and **Blocks** are the core of all content.
 
 **Models** function similarly to database tables. They consist of **Fields**, which correspond to database columns, and collectively define the structure of content. Each Model provides a blueprint for creating **Records**, which are the actual content entities, such as pages, blog posts, or product listings. Models can also establish relationships by referencing other models.
 
-**Blocks** represent dynamic and flexible components designed for embedding within Records or Models. For example, an **Image Block** or a **Call-to-Action Block** can be inserted into specific fields of a blog post Record, allowing you to create rich and modular content.
+**Blocks** represent dynamic and flexible components designed for embedding within Records or Models. For example, you can insert an **Image Block** or a **Call-to-Action Block** into specific fields of a blog post Record, allowing you to create rich and modular content.
 
 Consider a “Blog Post” record. Its structure might include:
 
@@ -38,7 +39,7 @@ Consider a “Blog Post” record. Its structure might include:
 For more detailed information, check out the [DatoCMS Documentation on General Concepts](https://www.datocms.com/docs/general-concepts/data-modelling).
 :::
 
-## Pulling data into Nordcraft
+## Getting data from DatoCMS in Nordcraft
 
 When you have cloned the provided sample project into a DatoCMS account, you can access the project dashboard to review the data.
 
@@ -60,7 +61,7 @@ To begin, construct a query to fetch a list of blogs. You can use the GraphQL Ex
 
 The data types are derived from the Model IDs mentioned previously. Adopting clean and consistent naming conventions is advised to ensure API usability.
 
-Next, build a query to fetch data for a list of blog posts, which will be displayed in a grid. Click on ‘allPosts’ to reveal a list of available data points for posts. A key advantage of a GraphQL API is that it lets you precisely define the data you want to fetch.
+Next, build a GraphQL query to fetch data for a list of blog posts, which will be displayed in a grid. Click on ‘allPosts’ to reveal a list of available data points for posts. A key advantage of a GraphQL API is that it lets you precisely define the data you want to fetch.
 
 For the blog card that will be displayed in the grid, you only need a subset of these data points. Use the following GraphQL query:
 
@@ -92,7 +93,7 @@ From the DatoCMS dashboard, navigate to "Project Settings" in the top-right corn
 This read-only API token is safe to use in your Nordcraft project and will not compromise the security of your application. For more information on secure apps, check out the [Security Guide](/guides/security).
 :::
 
-Open your Nordcraft project in a separate browser tab or window. It is recommended you set these credentials through global formulas in Nordcraft, which allows you to update these values centrally, should they change in the future.
+Open your Nordcraft project in a separate browser tab or window. It is recommended you set your DatoCMS credentials through global formulas in Nordcraft, which allows you to update these values centrally, should they change in the future.
 
 ::: tip
 Refer to the documentation on [Global Formulas](/formulas/global-formulas) for additional information.
@@ -104,12 +105,10 @@ Create a global formula for the DatoCMS Read-only API key and another for the UR
 
 ### Creating the API call in Nordcraft
 
-With the credentials configured, you can create your first API call.
-
-On the blog page in your Nordcraft project, add a new API and use the global formulas set in the previous step for the read-only API key and the URL. Send the API key as a `Bearer Authorization` HTTP header.
+On the blog page in your Nordcraft project, [add a new API](/connecting-data/working-with-apis#set-up-a-new-api) and use the global formulas set in the previous step for the read-only API key and the URL. Send the API key as a `Bearer Authorization` HTTP header.
 
 ::: info
-Currently, the Nordcraft team is developing an enhanced UI for GraphQL API calls. For now, you can fetch data from a GraphQL API by adding the query string as an object. The key is "query" and the value is the query string. Look at the Nordcraft example project's API calls in this guide for examples.
+Currently, the Nordcraft team is developing an enhanced UI for GraphQL API calls. For now, you can fetch data from a GraphQL API by adding the query string as an object. The key is `query` and the value is the query string. Look at the Nordcraft example project's API calls in this guide for examples.
 
 Keep up to date with the [Nordcraft GraphQL explorer release on GitHub](https://github.com/nordcraftengine/nordcraft/issues/308).
 :::
@@ -142,7 +141,7 @@ Useful resources:
 
 The article page requires two primary configurations: fetching the complete blog post data and setting up the repeating block component.
 
-On the article page in Nordcraft, create a page parameter named **slug**.
+On the article page in Nordcraft, [create a page parameter](/pages/static-and-dynamic#dynamic-pages) named **slug**.
 
 The blog post’s slug, which serves as a unique identifier for each article, will be used to format the query.
 
@@ -196,7 +195,7 @@ Recursion is when a process calls itself to solve smaller or "nested" versions o
 
 Recursive components cans sometimes be challenging to conceptualize so here is a breakdown of the functionality.
 
-To understand its setup, first review the content data:
+To understand the setup, first review the content data:
 
 ![Nested Children|16/9](nested-children.webp)
 
