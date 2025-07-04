@@ -24,7 +24,7 @@ The interface of a component defines how it communicates with other parts of you
 
 ### Defining attributes
 
-![You are viewing a component in the Nordcraft editor. An attribute named image-alt in the right sidebar is selected, which has opened the edit attribute dialog. Here you can define the name, test value and type of the attribute, and view the current value.|16/9](define-an-attribute.webp 'Define an attribute'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
+![A component is being edited. An attribute named image-alt in the right sidebar is selected, which has opened the edit attribute dialog. Here you can define the name, test value and type of the attribute, and view the current value.|16/9](define-an-attribute.webp 'Define an attribute'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=style&selection=attributes.image-alt&canvas-height=800}
 
 Attributes are the primary way to pass data into a component:
 

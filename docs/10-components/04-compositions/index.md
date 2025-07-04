@@ -85,7 +85,7 @@ Slots are added to components like any other element using the [element catalog]
 2. Add a slot element from the [element catalog](/the-editor/element-tree#adding-elements)
 3. Optional: add a name attribute (without a name, the slot is named `default`)
 
-![Add a slot element|16/9](add-a-slot-element.webp){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
+![A component is being edited, a slot element is highlighted in the HTML element tree. In the right panel the name for the slot is defined as content.|16/9](add-a-slot-element.webp 'Add a slot element'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-card-container?canvas-width=800&rightpanel=attributes&selection=nodes.Iry7BeAO7AjcLcJEL-sPT&canvas-height=800}
 
 ### Naming
 

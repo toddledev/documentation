@@ -7,7 +7,7 @@ description: Customize element styling, attributes and events to control appeara
 
 The element panel appears in the right side of the editor when an element is selected. It provides detailed controls for the appearance, attributes and interactivity of the selected element.
 
-![The element panel is open in the Nordcraft editor, showing options to switch between the style, attributes, and events view as annotations, relating to the list items below.|16/9](element-panel.webp 'Element panel'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
+![The element panel is visible, showing options to switch between the style, attributes, and events view as annotations, relating to the list items below.|16/9](element-panel.webp 'Element panel'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/card?selection=nodes.root&rightpanel=style&canvas-width=800&canvas-height=800}
 
 When you select an element in the canvas or element tree, the element panel displays configuration options for that specific element. The panel has three tabs:
 

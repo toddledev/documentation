@@ -12,7 +12,7 @@ There are two ways to create components in Nordcraft:
 
 ## Create from scratch
 
-![The Nordcraft editor is showing the create component dialog open where you can choose a name for your component. The image is annotated corresponding to the list items below, showing the context menu that appears when click the plus button at the top of the project sidebar.|16/9](create-from-scratch.webp 'Create from scratch'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
+![The create component dialog is open where you can choose a name for your component. The image is annotated corresponding to the list items below, showing the context menu that appears when click the plus button at the top of the project sidebar.|16/9](create-from-scratch.webp 'Create from scratch'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/screenshot-page?canvas-width=800&canvas-height=800&rightpanel=style&leftpanel=Files}
 
 To create a new component:
 
