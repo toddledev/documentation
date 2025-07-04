@@ -1,13 +1,13 @@
 ---
-title: DatoCMS Integration Guide
+title: DatoCMS integration guide
 description: Learn how to create a data model in DatoCMS and integrate it with Nordcraft.
 ---
 
-# DatoCMS Integration Guide
+# DatoCMS integration guide
 
 DatoCMS is a headless Content Management System (CMS) that lets you store and manage content, and retrieve that content via a GraphQL API for use in your front-end applications. This guide outlines the process of creating a data model within DatoCMS and integrating it with Nordcraft.
 
-### Source Projects
+### Source projects
 
 Clone the projects below to your DatoCMS and Nordcraft accounts to follow along with this guide:
 
@@ -38,7 +38,7 @@ Consider a “Blog Post” record. Its structure might include:
 For more detailed information, check out the [DatoCMS Documentation on General Concepts](https://www.datocms.com/docs/general-concepts/data-modelling).
 :::
 
-## Pulling Data Into Nordcraft
+## Pulling data into Nordcraft
 
 When you have cloned the provided sample project into a DatoCMS account, you can access the project dashboard to review the data.
 
@@ -102,7 +102,7 @@ Create a global formula for the DatoCMS Read-only API key and another for the UR
 
 ![Dato API Token|16/9](dato-api-token.webp)
 
-### Creating an API call in Nordcraft
+### Creating the API call in Nordcraft
 
 With the credentials configured, you can create your first API call.
 
@@ -138,7 +138,7 @@ Useful resources:
 - [Understanding when to use components](guides/component-creation)
 :::
 
-## Creating the Article Page
+## Creating the article page
 
 The article page requires two primary configurations: fetching the complete blog post data and setting up the repeating block component.
 
@@ -190,7 +190,7 @@ This query retrieves the article's title, main image, author profile, and conten
 
 Now, examine the **dato-block** component, which is a recursive component iterating over the article's content.
 
-### Recursive Content Component
+### Recursive content component
 
 Recursion is when a process calls itself to solve smaller or "nested" versions of the same problem until an end or **base case** is reached. It is useful for things like tree traversals or, in this case, looping through the content array and its nested arrays to display the data as a blog article.
 
@@ -225,8 +225,6 @@ Given the predictable data structure from DatoCMS, a component can be configured
 Once this structure is in place, the appropriate show/hide conditions are set for each block (e.g., node type equals paragraph).
 
 Since the root of this component is a `<slot>`, the resulting HTML output remains clean, avoiding excessive nested `div` elements.
-
-![Clean Article DOM|16/9](clean-article-dom.webp)
 
 ## Blocks
 
