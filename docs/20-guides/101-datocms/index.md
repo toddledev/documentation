@@ -204,7 +204,7 @@ The initial “children” array is the target for repeating the **dato-block** 
 This structure is typical for headless CMS systems, with minor variations across platforms. The purpose of this nesting is to separate and format inline elements such as bold text or links, as shown in the paragraph example.
 
 ::: info
-Some CMS platforms return regular HTML, but JSON is seen more often. JSON is much easier to work with on the front end, as it allows you to fully customise the HTML structure of your application.
+Some CMS platforms return regular HTML, but JSON is seen more often. JSON is much easier to work with on the front end, as it allows you to fully customise the HTML structure of your application. Consider this when choosing your CMS.
 :::
 
 In the example above, the content includes regular text, bold text, another segment of regular text, and italics. These inline elements form the complete paragraph, and it is these nested children elements that the component iterates over (2). This is the "nested" problem that we are solving, a chain of arrays (elements) with their own child arrays (inline elements).
