@@ -28,7 +28,7 @@ Hold the [kbd]Alt[kbd] key while dropping a dragged element to copy it instead o
 
 Right-clicking an element opens a context menu with several actions.
 
-![An annotated image of a context menu that appears when you right click an element. The annotations correspond to the list items below.|16/9](element-context-menu.webp 'Element context menu'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&selection=nodes.tf08THxvDvD2p9w3y5zhh&rightpanel=style}
+![An annotated image of a context menu that appears when you right-click an element. The annotations correspond to the list items below.|16/9](element-context-menu.webp 'Element context menu'){https://editor.nordcraft.com/projects/docs_examples/branches/main/components/card?canvas-width=800&canvas-height=800&selection=nodes.tf08THxvDvD2p9w3y5zhh&rightpanel=style}
 
 1. **Add element**: Opens the element catalog
 2. **Wrap in element**: Place the element inside a new parent element
