@@ -16,8 +16,10 @@ The interface of a component defines how it communicates with other parts of you
 - [Contexts](#data-flow-with-contexts): Data flow between parent and any descendant components
 
 ::: tip
+
 - Attributes pass data from parent to child
 - Events pass data from child to parent
+
 :::
 
 ### Defining attributes
